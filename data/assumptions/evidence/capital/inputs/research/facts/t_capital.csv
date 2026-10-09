@@ -1,0 +1,725 @@
+date,metric,value,unit,source
+2022-12-31,basel_at1_sub_loans_bn,45.913,млрд руб.,primary/FY2023_ifrs_fs.pdf с.281-282
+2023-12-31,basel_at1_sub_loans_bn,58.538,млрд руб.,"primary/FY2023_ifrs_fs.pdf с.282; 2024Q2_ifrs_fs.pdf с.54 (минимум 8,007 %; в FY2023 указано 9 %)"
+2024-03-31,basel_at1_sub_loans_bn,60.707,млрд руб.,primary/2024Q1_ifrs_fs.pdf с.44-45
+2024-06-30,basel_at1_sub_loans_bn,56.655,млрд руб.,primary/2024Q2_ifrs_fs.pdf с.54-55
+2024-09-30,basel_at1_sub_loans_bn,75.869,млрд руб.,primary/2024Q3_ifrs_fs.pdf с.63-64
+2024-12-31,basel_at1_sub_loans_bn,84.401,млрд руб.,primary/FY2024_ifrs_fs.pdf с.131-132
+2025-03-31,basel_at1_sub_loans_bn,69.166,млрд руб.,primary/2025Q1_ifrs_fs.pdf с.51-52
+2025-06-30,basel_at1_sub_loans_bn,65.151,млрд руб.,primary/2025Q2_ifrs_fs.pdf с.74
+2025-09-30,basel_at1_sub_loans_bn,69.129,млрд руб.,primary/2025Q3_ifrs_fs.pdf с.81
+2025-12-31,basel_at1_sub_loans_bn,65.56,млрд руб.,primary/FY2025_ifrs_fs.pdf с.117
+2018-12-31,basel_cet1_bn,38.027,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2019-03-31,basel_cet1_bn,42.466,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2019-06-30,basel_cet1_bn,49.473,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2019-09-30,basel_cet1_bn,78.447,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2019-12-31,basel_cet1_bn,90.647,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2020-03-31,basel_cet1_bn,90.878,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2020-06-30,basel_cet1_bn,102.144,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2020-09-30,basel_cet1_bn,110.417,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2020-12-31,basel_cet1_bn,119.934,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2021-03-31,basel_cet1_bn,125.004,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2021-06-30,basel_cet1_bn,135.402,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2021-09-30,basel_cet1_bn,149.797,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2021-12-31,basel_cet1_bn,161.212,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2022-03-31,basel_cet1_bn,166.776,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2022-06-30,basel_cet1_bn,172.01,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2022-09-30,basel_cet1_bn,172.234,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2022-12-31,basel_cet1_bn,181.816,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2023-03-31,basel_cet1_bn,194.263,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2023-06-30,basel_cet1_bn,212.795,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2023-09-30,basel_cet1_bn,230.32,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2023-12-31,basel_cet1_bn,247.524,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2024-03-31,basel_cet1_bn,237.0,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2024-06-30,basel_cet1_bn,247.0,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2024-09-30,basel_cet1_bn,428.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2024-12-31,basel_cet1_bn,445.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2025-03-31,basel_cet1_bn,485.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2025-06-30,basel_cet1_bn,641,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2025-09-30,basel_cet1_bn,658.3,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2025-12-31,basel_cet1_bn,674.501,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2026-03-31,basel_cet1_bn,703.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2026-06-30,basel_cet1_bn,701.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 54
+2018-12-31,basel_cet1_ratio,0.096683,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2019-03-31,basel_cet1_ratio,0.096837,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2019-06-30,basel_cet1_ratio,0.103403,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2019-09-30,basel_cet1_ratio,0.161775,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2019-12-31,basel_cet1_ratio,0.158967,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2020-03-31,basel_cet1_ratio,0.15542,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2020-06-30,basel_cet1_ratio,0.162139,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2020-09-30,basel_cet1_ratio,0.164052,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2020-12-31,basel_cet1_ratio,0.152431,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2021-03-31,basel_cet1_ratio,0.153963,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2021-06-30,basel_cet1_ratio,0.157439,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2021-09-30,basel_cet1_ratio,0.166124,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2021-12-31,basel_cet1_ratio,0.1481,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2022-03-31,basel_cet1_ratio,0.155741,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2022-06-30,basel_cet1_ratio,0.156213,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2022-09-30,basel_cet1_ratio,0.156417,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2022-12-31,basel_cet1_ratio,0.135062,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2023-03-31,basel_cet1_ratio,0.143373,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2023-06-30,basel_cet1_ratio,0.145612,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2023-09-30,basel_cet1_ratio,0.140805,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2023-12-31,basel_cet1_ratio,0.136378,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2024-03-31,basel_cet1_ratio,0.121078,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2024-06-30,basel_cet1_ratio,0.116297,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2024-09-30,basel_cet1_ratio,0.111397,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2024-12-31,basel_cet1_ratio,0.107694,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2025-03-31,basel_cet1_ratio,0.11481,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2025-06-30,basel_cet1_ratio,0.126675,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2025-09-30,basel_cet1_ratio,0.126281,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2025-12-31,basel_cet1_ratio,0.118724,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2026-03-31,basel_cet1_ratio,0.12292,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2026-06-30,basel_cet1_ratio,0.117638,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 58
+2022-12-31,basel_intangibles_deducted_bn,24.097,млрд руб.,primary/FY2023_ifrs_fs.pdf с.281-282
+2023-12-31,basel_intangibles_deducted_bn,36.391,млрд руб.,"primary/FY2023_ifrs_fs.pdf с.282; 2024Q2_ifrs_fs.pdf с.54 (минимум 8,007 %; в FY2023 указано 9 %)"
+2024-03-31,basel_intangibles_deducted_bn,41.911,млрд руб.,primary/2024Q1_ifrs_fs.pdf с.44-45
+2024-06-30,basel_intangibles_deducted_bn,48.762,млрд руб.,primary/2024Q2_ifrs_fs.pdf с.54-55
+2024-09-30,basel_intangibles_deducted_bn,74.452,млрд руб.,primary/2024Q3_ifrs_fs.pdf с.63-64
+2024-12-31,basel_intangibles_deducted_bn,76.173,млрд руб.,primary/FY2024_ifrs_fs.pdf с.131-132
+2025-03-31,basel_intangibles_deducted_bn,81.996,млрд руб.,primary/2025Q1_ifrs_fs.pdf с.51-52
+2025-06-30,basel_intangibles_deducted_bn,84.778,млрд руб.,primary/2025Q2_ifrs_fs.pdf с.74
+2025-09-30,basel_intangibles_deducted_bn,88.359,млрд руб.,primary/2025Q3_ifrs_fs.pdf с.81
+2025-12-31,basel_intangibles_deducted_bn,93.851,млрд руб.,primary/FY2025_ifrs_fs.pdf с.117
+2022-12-31,basel_nci_in_cet1_bn,-0.056,млрд руб.,primary/FY2023_ifrs_fs.pdf с.281-282
+2023-12-31,basel_nci_in_cet1_bn,0.172,млрд руб.,"primary/FY2023_ifrs_fs.pdf с.282; 2024Q2_ifrs_fs.pdf с.54 (минимум 8,007 %; в FY2023 указано 9 %)"
+2024-03-31,basel_nci_in_cet1_bn,0.154,млрд руб.,primary/2024Q1_ifrs_fs.pdf с.44-45
+2024-06-30,basel_nci_in_cet1_bn,0.138,млрд руб.,primary/2024Q2_ifrs_fs.pdf с.54-55
+2024-09-30,basel_nci_in_cet1_bn,2.299,млрд руб.,primary/2024Q3_ifrs_fs.pdf с.63-64
+2024-12-31,basel_nci_in_cet1_bn,1.576,млрд руб.,primary/FY2024_ifrs_fs.pdf с.131-132
+2025-03-31,basel_nci_in_cet1_bn,2.01,млрд руб.,primary/2025Q1_ifrs_fs.pdf с.51-52
+2025-06-30,basel_nci_in_cet1_bn,113.136,млрд руб.,primary/2025Q2_ifrs_fs.pdf с.74
+2025-09-30,basel_nci_in_cet1_bn,112.911,млрд руб.,primary/2025Q3_ifrs_fs.pdf с.81
+2025-12-31,basel_nci_in_cet1_bn,84.741,млрд руб.,primary/FY2025_ifrs_fs.pdf с.117
+2022-12-31,basel_rwa_bn,1299.288,млрд руб.,primary/FY2023_ifrs_fs.pdf с.282
+2023-12-31,basel_rwa_bn,1814.636,млрд руб.,primary/FY2023_ifrs_fs.pdf с.282
+2024-03-31,basel_rwa_bn,1956.451718,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2024-06-30,basel_rwa_bn,2122.980944,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2024-09-30,basel_rwa_bn,3847.241,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2024-12-31,basel_rwa_bn,4133.379,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2025-03-31,basel_rwa_bn,4231.351,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2025-06-30,basel_rwa_bn,5060.188,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2025-09-30,basel_rwa_bn,5212.989,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2025-12-31,basel_rwa_bn,5681.27,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2026-03-31,basel_rwa_bn,5720.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2026-06-30,basel_rwa_bn,5959.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 57
+2022-12-31,basel_rwa_credit_bn,927.17,млрд руб.,primary/FY2023_ifrs_fs.pdf с.281-282
+2023-12-31,basel_rwa_credit_bn,1324.997,млрд руб.,"primary/FY2023_ifrs_fs.pdf с.282; 2024Q2_ifrs_fs.pdf с.54 (минимум 8,007 %; в FY2023 указано 9 %)"
+2024-03-31,basel_rwa_credit_bn,1474.051,млрд руб.,primary/2024Q1_ifrs_fs.pdf с.44-45
+2024-06-30,basel_rwa_credit_bn,1646.602,млрд руб.,primary/2024Q2_ifrs_fs.pdf с.54-55
+2024-09-30,basel_rwa_credit_bn,3194.21,млрд руб.,primary/2024Q3_ifrs_fs.pdf с.63-64
+2024-12-31,basel_rwa_credit_bn,3195.018,млрд руб.,primary/FY2024_ifrs_fs.pdf с.131-132
+2025-03-31,basel_rwa_credit_bn,3293.054,млрд руб.,primary/2025Q1_ifrs_fs.pdf с.51-52
+2025-06-30,basel_rwa_credit_bn,3799.324,млрд руб.,primary/2025Q2_ifrs_fs.pdf с.74
+2025-09-30,basel_rwa_credit_bn,3958.304,млрд руб.,primary/2025Q3_ifrs_fs.pdf с.81
+2025-12-31,basel_rwa_credit_bn,4187.079,млрд руб.,primary/FY2025_ifrs_fs.pdf с.117
+2026-03-31,basel_rwa_credit_bn,4255.3,млрд руб.,primary/2026Q1_ifrs_fs.pdf с.60
+2026-06-30,basel_rwa_credit_bn,4501.2,млрд руб.,primary/2026Q2_ifrs_fs.pdf с.80
+2022-12-31,basel_rwa_market_bn,32.072,млрд руб.,primary/FY2023_ifrs_fs.pdf с.281-282
+2023-12-31,basel_rwa_market_bn,39.103,млрд руб.,"primary/FY2023_ifrs_fs.pdf с.282; 2024Q2_ifrs_fs.pdf с.54 (минимум 8,007 %; в FY2023 указано 9 %)"
+2024-03-31,basel_rwa_market_bn,31.865,млрд руб.,primary/2024Q1_ifrs_fs.pdf с.44-45
+2024-06-30,basel_rwa_market_bn,25.843,млрд руб.,primary/2024Q2_ifrs_fs.pdf с.54-55
+2024-09-30,basel_rwa_market_bn,88.257,млрд руб.,primary/2024Q3_ifrs_fs.pdf с.63-64
+2024-12-31,basel_rwa_market_bn,158.051,млрд руб.,primary/FY2024_ifrs_fs.pdf с.131-132
+2025-03-31,basel_rwa_market_bn,173.508,млрд руб.,primary/2025Q1_ifrs_fs.pdf с.51-52
+2025-06-30,basel_rwa_market_bn,496.075,млрд руб.,primary/2025Q2_ifrs_fs.pdf с.74
+2025-09-30,basel_rwa_market_bn,489.896,млрд руб.,primary/2025Q3_ifrs_fs.pdf с.81
+2025-12-31,basel_rwa_market_bn,505.605,млрд руб.,primary/FY2025_ifrs_fs.pdf с.117
+2026-03-31,basel_rwa_market_bn,476.7,млрд руб.,primary/2026Q1_ifrs_fs.pdf с.60
+2026-06-30,basel_rwa_market_bn,469.7,млрд руб.,primary/2026Q2_ifrs_fs.pdf с.80
+2022-12-31,basel_rwa_operational_bn,340.046,млрд руб.,primary/FY2023_ifrs_fs.pdf с.281-282
+2023-12-31,basel_rwa_operational_bn,450.536,млрд руб.,"primary/FY2023_ifrs_fs.pdf с.282; 2024Q2_ifrs_fs.pdf с.54 (минимум 8,007 %; в FY2023 указано 9 %)"
+2024-03-31,basel_rwa_operational_bn,450.536,млрд руб.,primary/2024Q1_ifrs_fs.pdf с.44-45
+2024-06-30,basel_rwa_operational_bn,450.536,млрд руб.,primary/2024Q2_ifrs_fs.pdf с.54-55
+2024-09-30,basel_rwa_operational_bn,564.774,млрд руб.,primary/2024Q3_ifrs_fs.pdf с.63-64
+2024-12-31,basel_rwa_operational_bn,780.31,млрд руб.,primary/FY2024_ifrs_fs.pdf с.131-132
+2025-03-31,basel_rwa_operational_bn,764.789,млрд руб.,primary/2025Q1_ifrs_fs.pdf с.51-52
+2025-06-30,basel_rwa_operational_bn,764.789,млрд руб.,primary/2025Q2_ifrs_fs.pdf с.74
+2025-09-30,basel_rwa_operational_bn,764.789,млрд руб.,primary/2025Q3_ifrs_fs.pdf с.81
+2025-12-31,basel_rwa_operational_bn,988.586,млрд руб.,primary/FY2025_ifrs_fs.pdf с.117
+2026-03-31,basel_rwa_operational_bn,988.6,млрд руб.,primary/2026Q1_ifrs_fs.pdf с.60
+2026-06-30,basel_rwa_operational_bn,988.6,млрд руб.,primary/2026Q2_ifrs_fs.pdf с.80
+2022-12-31,basel_tier1_bn,227.729,млрд руб.,primary/FY2023_ifrs_fs.pdf с.282
+2023-12-31,basel_tier1_bn,306.062,млрд руб.,primary/FY2023_ifrs_fs.pdf с.282
+2024-03-31,basel_tier1_bn,297.644,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2024-06-30,basel_tier1_bn,504.596,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2024-09-30,basel_tier1_bn,504.596,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2024-12-31,basel_tier1_bn,529.665,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2025-03-31,basel_tier1_bn,554.847,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2025-06-30,basel_tier1_bn,706.091,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2025-09-30,basel_tier1_bn,727.38,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2025-12-31,basel_tier1_bn,740.081,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2026-03-31,basel_tier1_bn,771.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2026-06-30,basel_tier1_bn,766.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 55
+2018-12-31,basel_tier1_ratio,0.1486,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2019-03-31,basel_tier1_ratio,0.1403,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2019-06-30,basel_tier1_ratio,0.142363,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2019-09-30,basel_tier1_ratio,0.201079,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2019-12-31,basel_tier1_ratio,0.191208,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2020-03-31,basel_tier1_ratio,0.191387,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2020-06-30,basel_tier1_ratio,0.192362,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2020-09-30,basel_tier1_ratio,0.19711,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2020-12-31,basel_tier1_ratio,0.1788,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2021-03-31,basel_tier1_ratio,0.179582,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2021-06-30,basel_tier1_ratio,0.180431,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2021-09-30,basel_tier1_ratio,0.235946,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2021-12-31,basel_tier1_ratio,0.202431,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2022-03-31,basel_tier1_ratio,0.218701,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2022-06-30,basel_tier1_ratio,0.19151,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2022-09-30,basel_tier1_ratio,0.181556,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2022-12-31,basel_tier1_ratio,0.169108,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2023-03-31,basel_tier1_ratio,0.180441,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2023-06-30,basel_tier1_ratio,0.184461,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2023-09-30,basel_tier1_ratio,0.179914,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2023-12-31,basel_tier1_ratio,0.168746,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2024-03-31,basel_tier1_ratio,0.152135,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2024-06-30,basel_tier1_ratio,0.143016,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2024-09-30,basel_tier1_ratio,0.131158,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2024-12-31,basel_tier1_ratio,0.128143,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2025-03-31,basel_tier1_ratio,0.131128,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2025-06-30,basel_tier1_ratio,0.139538,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2025-09-30,basel_tier1_ratio,0.139532,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2025-12-31,basel_tier1_ratio,0.130267,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2026-03-31,basel_tier1_ratio,0.134874,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2026-06-30,basel_tier1_ratio,0.12866,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 60
+2024-01-01,buffer_ccyb_pct,0.0,"п.п. (в 2025: 0,25 с 01.02 и 0,5 с 01.07)",research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2025-01-01,buffer_ccyb_pct,0.5,"п.п. (в 2025: 0,25 с 01.02 и 0,5 с 01.07)",research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2026-01-01,buffer_ccyb_pct,0.5,"п.п. (в 2025: 0,25 с 01.02 и 0,5 с 01.07)",research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2027-01-01,buffer_ccyb_pct,0.5,"п.п. (в 2025: 0,25 с 01.02 и 0,5 с 01.07)",research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2028-01-01,buffer_ccyb_pct,0.5,"п.п. (в 2025: 0,25 с 01.02 и 0,5 с 01.07)",research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2024-01-01,buffer_conservation_pct,0.25,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2025-01-01,buffer_conservation_pct,0.5,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2026-01-01,buffer_conservation_pct,1.0,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2027-01-01,buffer_conservation_pct,1.5,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2028-01-01,buffer_conservation_pct,2.5,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2024-01-01,buffer_sifi_pct,0.0,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2025-01-01,buffer_sifi_pct,0.25,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2026-01-01,buffer_sifi_pct,0.5,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2027-01-01,buffer_sifi_pct,0.75,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2028-01-01,buffer_sifi_pct,1.0,п.п.,research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)
+2018-12-31,bvps_issued_shares_rub,23.003871,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2019-03-31,bvps_issued_shares_rub,25.573423,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2019-06-30,bvps_issued_shares_rub,29.751067,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2019-09-30,bvps_issued_shares_rub,41.755999,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2019-12-31,bvps_issued_shares_rub,48.156726,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2020-03-31,bvps_issued_shares_rub,48.412615,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2020-06-30,bvps_issued_shares_rub,54.164087,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2020-09-30,bvps_issued_shares_rub,58.387754,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2020-12-31,bvps_issued_shares_rub,63.684647,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2021-03-31,bvps_issued_shares_rub,66.308258,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2021-06-30,bvps_issued_shares_rub,73.495215,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2021-09-30,bvps_issued_shares_rub,81.468402,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2021-12-31,bvps_issued_shares_rub,88.284572,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2022-03-31,bvps_issued_shares_rub,92.179096,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2022-06-30,bvps_issued_shares_rub,95.836295,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2022-09-30,bvps_issued_shares_rub,97.037466,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2022-12-31,bvps_issued_shares_rub,103.343364,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2023-03-31,bvps_issued_shares_rub,110.085777,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2023-06-30,bvps_issued_shares_rub,120.046366,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2023-09-30,bvps_issued_shares_rub,130.648683,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2023-12-31,bvps_issued_shares_rub,142.365871,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2024-03-31,bvps_issued_shares_rub,139.835585,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2024-06-30,bvps_issued_shares_rub,148.365204,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2024-09-30,bvps_issued_shares_rub,186.748821,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2024-12-31,bvps_issued_shares_rub,193.756561,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2025-03-31,bvps_issued_shares_rub,210.97771,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2025-06-30,bvps_issued_shares_rub,228.459785,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2025-09-30,bvps_issued_shares_rub,236.250305,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2025-12-31,bvps_issued_shares_rub,254.813361,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2026-03-31,bvps_issued_shares_rub,268.269714,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2026-06-30,bvps_issued_shares_rub,282.098818,руб. (после дробления),primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 67
+2018-12-31,equity_adj_nci_yandex_bn,42.014,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2019-03-31,equity_adj_nci_yandex_bn,46.707,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2019-06-30,equity_adj_nci_yandex_bn,54.337,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2019-09-30,equity_adj_nci_yandex_bn,83.222,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2019-12-31,equity_adj_nci_yandex_bn,95.979,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2020-03-31,equity_adj_nci_yandex_bn,96.489,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2020-06-30,equity_adj_nci_yandex_bn,107.952,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2020-09-30,equity_adj_nci_yandex_bn,116.37,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2020-12-31,equity_adj_nci_yandex_bn,126.927,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2021-03-31,equity_adj_nci_yandex_bn,132.156,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2021-06-30,equity_adj_nci_yandex_bn,146.48,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2021-09-30,equity_adj_nci_yandex_bn,162.371,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2021-12-31,equity_adj_nci_yandex_bn,175.956,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2022-03-31,equity_adj_nci_yandex_bn,183.718,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2022-06-30,equity_adj_nci_yandex_bn,191.007,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2022-09-30,equity_adj_nci_yandex_bn,193.401,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2022-12-31,equity_adj_nci_yandex_bn,205.969,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2023-03-31,equity_adj_nci_yandex_bn,219.407,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2023-06-30,equity_adj_nci_yandex_bn,239.259,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2023-09-30,equity_adj_nci_yandex_bn,260.39,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2023-12-31,equity_adj_nci_yandex_bn,283.743,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2024-03-31,equity_adj_nci_yandex_bn,278.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2024-06-30,equity_adj_nci_yandex_bn,295.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2024-09-30,equity_adj_nci_yandex_bn,501.0,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2024-12-31,equity_adj_nci_yandex_bn,519.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2025-03-31,equity_adj_nci_yandex_bn,566,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2025-06-30,equity_adj_nci_yandex_bn,606.386701,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2025-09-30,equity_adj_nci_yandex_bn,632.36722,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2025-12-31,equity_adj_nci_yandex_bn,675.365713,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2026-03-31,equity_adj_nci_yandex_bn,719.200032,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2026-06-30,equity_adj_nci_yandex_bn,764.055202,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 47
+2018-12-31,equity_shareholders_bn,42.014,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2019-03-31,equity_shareholders_bn,46.707,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2019-06-30,equity_shareholders_bn,54.337,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2019-09-30,equity_shareholders_bn,83.222,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2019-12-31,equity_shareholders_bn,95.979,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2020-03-31,equity_shareholders_bn,96.489,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2020-06-30,equity_shareholders_bn,107.952,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2020-09-30,equity_shareholders_bn,116.37,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2020-12-31,equity_shareholders_bn,126.927,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2021-03-31,equity_shareholders_bn,132.156,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2021-06-30,equity_shareholders_bn,146.48,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2021-09-30,equity_shareholders_bn,162.371,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2021-12-31,equity_shareholders_bn,175.956,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2022-03-31,equity_shareholders_bn,183.718,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2022-06-30,equity_shareholders_bn,191.007,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2022-09-30,equity_shareholders_bn,193.401,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2022-12-31,equity_shareholders_bn,205.969,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2023-03-31,equity_shareholders_bn,219.407,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2023-06-30,equity_shareholders_bn,239.259,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2023-09-30,equity_shareholders_bn,260.39,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2023-12-31,equity_shareholders_bn,283.743,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2024-03-31,equity_shareholders_bn,278.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2024-06-30,equity_shareholders_bn,295.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2024-09-30,equity_shareholders_bn,501.0,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2024-12-31,equity_shareholders_bn,519.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2025-03-31,equity_shareholders_bn,566,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2025-06-30,equity_shareholders_bn,612.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2025-09-30,equity_shareholders_bn,633.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2025-12-31,equity_shareholders_bn,683.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2026-03-31,equity_shareholders_bn,719.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2026-06-30,equity_shareholders_bn,756.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 44
+2018-12-31,equity_total_bn,42.25,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2019-03-31,equity_total_bn,46.944,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2019-06-30,equity_total_bn,54.501,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2019-09-30,equity_total_bn,83.39,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2019-12-31,equity_total_bn,96.082,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2020-03-31,equity_total_bn,96.595,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2020-06-30,equity_total_bn,108.063,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2020-09-30,equity_total_bn,116.487,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2020-12-31,equity_total_bn,127.016,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2021-03-31,equity_total_bn,132.252,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2021-06-30,equity_total_bn,147.155,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2021-09-30,equity_total_bn,162.808,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2021-12-31,equity_total_bn,176.281,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2022-03-31,equity_total_bn,183.933,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2022-06-30,equity_total_bn,191.256,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2022-09-30,equity_total_bn,193.657,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2022-12-31,equity_total_bn,205.913,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2023-03-31,equity_total_bn,219.464,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2023-06-30,equity_total_bn,239.317,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2023-09-30,equity_total_bn,260.482,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2023-12-31,equity_total_bn,283.915,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2024-03-31,equity_total_bn,278.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2024-06-30,equity_total_bn,295.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2024-09-30,equity_total_bn,503.3,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2024-12-31,equity_total_bn,521.4,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2025-03-31,equity_total_bn,567.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2025-06-30,equity_total_bn,725.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2025-09-30,equity_total_bn,746.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2025-12-31,equity_total_bn,805.4,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2026-03-31,equity_total_bn,837.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2026-06-30,equity_total_bn,869.4,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 46
+2018-12-31,intangibles_bn,4.223,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2019-03-31,intangibles_bn,4.478,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2019-06-30,intangibles_bn,5.028,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2019-09-30,intangibles_bn,4.943,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2019-12-31,intangibles_bn,5.435,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2020-03-31,intangibles_bn,5.717,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2020-06-30,intangibles_bn,5.919,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2020-09-30,intangibles_bn,6.07,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2020-12-31,intangibles_bn,7.082,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2021-03-31,intangibles_bn,7.248,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2021-06-30,intangibles_bn,11.753,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2021-09-30,intangibles_bn,13.011,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2021-12-31,intangibles_bn,15.069,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2022-03-31,intangibles_bn,17.157,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2022-06-30,intangibles_bn,19.246,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2022-09-30,intangibles_bn,21.423,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2022-12-31,intangibles_bn,24.097,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2023-03-31,intangibles_bn,25.201,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2023-06-30,intangibles_bn,26.522,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2023-09-30,intangibles_bn,30.162,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2023-12-31,intangibles_bn,36.391,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2024-03-31,intangibles_bn,41.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2024-06-30,intangibles_bn,48.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2024-09-30,intangibles_bn,74.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2024-12-31,intangibles_bn,76.3,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2025-03-31,intangibles_bn,82,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2025-06-30,intangibles_bn,84.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2025-09-30,intangibles_bn,88.4,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2025-12-31,intangibles_bn,93.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2026-03-31,intangibles_bn,96.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2026-06-30,intangibles_bn,135.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 18
+2024-01-01,min_n1_0_with_buffers_pct,8.25,%,"расчет: 8,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2025-01-01,min_n1_0_with_buffers_pct,9.25,%,"расчет: 8,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2026-01-01,min_n1_0_with_buffers_pct,10.0,%,"расчет: 8,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2027-01-01,min_n1_0_with_buffers_pct,10.75,%,"расчет: 8,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2028-01-01,min_n1_0_with_buffers_pct,12.0,%,"расчет: 8,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2024-01-01,min_n1_1_with_buffers_pct,4.75,%,"расчет: 4,5 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2025-01-01,min_n1_1_with_buffers_pct,5.75,%,"расчет: 4,5 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2026-01-01,min_n1_1_with_buffers_pct,6.5,%,"расчет: 4,5 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2027-01-01,min_n1_1_with_buffers_pct,7.25,%,"расчет: 4,5 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2028-01-01,min_n1_1_with_buffers_pct,8.5,%,"расчет: 4,5 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2024-01-01,min_n1_2_with_buffers_pct,6.25,%,"расчет: 6,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2025-01-01,min_n1_2_with_buffers_pct,7.25,%,"расчет: 6,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2026-01-01,min_n1_2_with_buffers_pct,8.0,%,"расчет: 6,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2027-01-01,min_n1_2_with_buffers_pct,8.75,%,"расчет: 6,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2028-01-01,min_n1_2_with_buffers_pct,10.0,%,"расчет: 6,0 + надбавки; research/regulation-macro.md разд.1.A (ЦБ: ОФС май 2026 с.63; «Банковский сектор. II кв. 2026» с.18; Интерфакс 1118194)"
+2022-12-31,min_total_ratio_with_buffers_pct,9.0,"% (Н1.0, как заявлено в МСФО)",primary/FY2023_ifrs_fs.pdf с.281-282
+2023-12-31,min_total_ratio_with_buffers_pct,8.007,"% (Н1.0, как заявлено в МСФО)","primary/FY2023_ifrs_fs.pdf с.282; 2024Q2_ifrs_fs.pdf с.54 (минимум 8,007 %; в FY2023 указано 9 %)"
+2024-03-31,min_total_ratio_with_buffers_pct,9.0,"% (Н1.0, как заявлено в МСФО)",primary/2024Q1_ifrs_fs.pdf с.44-45
+2024-06-30,min_total_ratio_with_buffers_pct,8.253,"% (Н1.0, как заявлено в МСФО)",primary/2024Q2_ifrs_fs.pdf с.54-55
+2024-09-30,min_total_ratio_with_buffers_pct,8.254,"% (Н1.0, как заявлено в МСФО)",primary/2024Q3_ifrs_fs.pdf с.63-64
+2024-12-31,min_total_ratio_with_buffers_pct,8.254,"% (Н1.0, как заявлено в МСФО)",primary/FY2024_ifrs_fs.pdf с.131-132
+2025-03-31,min_total_ratio_with_buffers_pct,9.0,"% (Н1.0, как заявлено в МСФО)",primary/2025Q1_ifrs_fs.pdf с.51-52
+2025-06-30,min_total_ratio_with_buffers_pct,8.998,"% (Н1.0, как заявлено в МСФО)",primary/2025Q2_ifrs_fs.pdf с.74
+2025-09-30,min_total_ratio_with_buffers_pct,9.248,"% (Н1.0, как заявлено в МСФО)",primary/2025Q3_ifrs_fs.pdf с.81
+2025-12-31,min_total_ratio_with_buffers_pct,9.247,"% (Н20.0, как заявлено в МСФО)",primary/FY2025_ifrs_fs.pdf с.117
+2026-03-31,min_total_ratio_with_buffers_pct,9.998,"% (Н20.0, как заявлено в МСФО)",primary/2026Q1_ifrs_fs.pdf с.60
+2026-06-30,min_total_ratio_with_buffers_pct,9.999,"% (Н20.0, как заявлено в МСФО)",primary/2026Q2_ifrs_fs.pdf с.80
+2018-12-31,n1_0_tbank,0.13915,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2019-03-31,n1_0_tbank,0.129679,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2019-06-30,n1_0_tbank,0.11146,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2019-09-30,n1_0_tbank,0.118676,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2019-12-31,n1_0_tbank,0.1212,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2020-03-31,n1_0_tbank,0.1275,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2020-06-30,n1_0_tbank,0.12446,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2020-09-30,n1_0_tbank,0.1392,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2020-12-31,n1_0_tbank,0.13073,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2021-03-31,n1_0_tbank,0.1243,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2021-06-30,n1_0_tbank,0.12205,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2021-09-30,n1_0_tbank,0.11527,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2021-12-31,n1_0_tbank,0.1527,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2022-06-30,n1_0_tbank,0.192094,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2022-09-30,n1_0_tbank,0.17821,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2022-12-31,n1_0_tbank,0.1662,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2023-03-31,n1_0_tbank,0.1677,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2023-06-30,n1_0_tbank,0.154073,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2023-09-30,n1_0_tbank,0.157024,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2023-12-31,n1_0_tbank,0.12838,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2024-03-31,n1_0_tbank,0.11137,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2024-06-30,n1_0_tbank,0.10226,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2024-09-30,n1_0_tbank,0.10724,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2024-12-31,n1_0_tbank,0.09754,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2025-03-31,n1_0_tbank,0.11524,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2025-06-30,n1_0_tbank,0.11353,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2025-09-30,n1_0_tbank,0.11441,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2025-12-31,n1_0_tbank,0.12413,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2026-03-31,n1_0_tbank,0.12666,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2026-06-30,n1_0_tbank,0.12547,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 51
+2018-12-31,n1_1_tbank,0.09409,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2019-03-31,n1_1_tbank,0.095139,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2019-06-30,n1_1_tbank,0.07717,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2019-09-30,n1_1_tbank,0.084425,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2019-12-31,n1_1_tbank,0.0948,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2020-03-31,n1_1_tbank,0.0873,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2020-06-30,n1_1_tbank,0.10075,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2020-09-30,n1_1_tbank,0.1083,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2020-12-31,n1_1_tbank,0.10195,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2021-03-31,n1_1_tbank,0.0984,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2021-06-30,n1_1_tbank,0.1003,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2021-09-30,n1_1_tbank,0.09982,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2021-12-31,n1_1_tbank,0.09518,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2022-03-31,n1_1_tbank,0.2027,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2022-06-30,n1_1_tbank,0.134192,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2022-09-30,n1_1_tbank,0.1188,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2022-12-31,n1_1_tbank,0.1005,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2023-03-31,n1_1_tbank,0.1172,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2023-06-30,n1_1_tbank,0.102984,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2023-09-30,n1_1_tbank,0.108922,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2023-12-31,n1_1_tbank,0.0851,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2024-03-31,n1_1_tbank,0.07578,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2024-06-30,n1_1_tbank,0.0779,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2024-09-30,n1_1_tbank,0.07434,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2024-12-31,n1_1_tbank,0.06398,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2025-03-31,n1_1_tbank,0.08858,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2025-06-30,n1_1_tbank,0.08707,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2025-09-30,n1_1_tbank,0.08196,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2025-12-31,n1_1_tbank,0.09083,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2026-03-31,n1_1_tbank,0.09493,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2026-06-30,n1_1_tbank,0.09094,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 52
+2018-12-31,n1_2_tbank,0.13211,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2019-03-31,n1_2_tbank,0.127216,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2019-06-30,n1_2_tbank,0.10415,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2019-09-30,n1_2_tbank,0.109411,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2019-12-31,n1_2_tbank,0.11736,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2020-03-31,n1_2_tbank,0.1115,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2020-06-30,n1_2_tbank,0.12077,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2020-09-30,n1_2_tbank,0.1335,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2020-12-31,n1_2_tbank,0.12435,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2021-03-31,n1_2_tbank,0.1194,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2021-06-30,n1_2_tbank,0.11928,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2021-09-30,n1_2_tbank,0.11497,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2021-12-31,n1_2_tbank,0.13998,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2022-03-31,n1_2_tbank,0.2206,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2022-06-30,n1_2_tbank,0.173535,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2022-09-30,n1_2_tbank,0.1556,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2022-12-31,n1_2_tbank,0.1384,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2023-03-31,n1_2_tbank,0.1568,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2023-06-30,n1_2_tbank,0.143417,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2023-09-30,n1_2_tbank,0.151667,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2023-12-31,n1_2_tbank,0.11598,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2024-03-31,n1_2_tbank,0.10266,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2024-06-30,n1_2_tbank,0.10069,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2024-09-30,n1_2_tbank,0.10171,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2024-12-31,n1_2_tbank,0.0957,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2025-03-31,n1_2_tbank,0.11138,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2025-06-30,n1_2_tbank,0.10792,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2025-09-30,n1_2_tbank,0.10246,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2025-12-31,n1_2_tbank,0.11447,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2026-03-31,n1_2_tbank,0.1183,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2026-06-30,n1_2_tbank,0.113,доля,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 53
+2018-12-31,nci_bn,0.236,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2019-03-31,nci_bn,0.237,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2019-06-30,nci_bn,0.164,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2019-09-30,nci_bn,0.168,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2019-12-31,nci_bn,0.103,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2020-03-31,nci_bn,0.106,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2020-06-30,nci_bn,0.111,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2020-09-30,nci_bn,0.117,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2020-12-31,nci_bn,0.089,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2021-03-31,nci_bn,0.096,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2021-06-30,nci_bn,0.675,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2021-09-30,nci_bn,0.437,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2021-12-31,nci_bn,0.325,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2022-03-31,nci_bn,0.215,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2022-06-30,nci_bn,0.249,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2022-09-30,nci_bn,0.256,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2022-12-31,nci_bn,-0.056,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2023-03-31,nci_bn,0.057,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2023-06-30,nci_bn,0.058,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2023-09-30,nci_bn,0.092,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2023-12-31,nci_bn,0.172,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2024-03-31,nci_bn,0.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2024-06-30,nci_bn,0.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2024-09-30,nci_bn,2.3,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2024-12-31,nci_bn,1.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2025-03-31,nci_bn,1.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2025-06-30,nci_bn,112.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2025-09-30,nci_bn,112.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2025-12-31,nci_bn,121.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2026-03-31,nci_bn,117.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2026-06-30,nci_bn,112.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 45
+2018-12-31,net_loans_bn,198.489,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2019-03-31,net_loans_bn,241.125,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2019-06-30,net_loans_bn,290.298,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2019-09-30,net_loans_bn,319.884,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2019-12-31,net_loans_bn,329.175,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2020-03-31,net_loans_bn,335.839,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2020-06-30,net_loans_bn,324.226,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2020-09-30,net_loans_bn,346.313,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2020-12-31,net_loans_bn,376.521,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2021-03-31,net_loans_bn,430.964,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2021-06-30,net_loans_bn,507.374,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2021-09-30,net_loans_bn,556.278,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2021-12-31,net_loans_bn,606.308,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2022-03-31,net_loans_bn,616.21416,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2022-06-30,net_loans_bn,583.956207,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2022-09-30,net_loans_bn,583.735,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2022-12-31,net_loans_bn,606.455,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2023-03-31,net_loans_bn,682.774,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2023-06-30,net_loans_bn,784.132,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2023-09-30,net_loans_bn,887.656,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2023-12-31,net_loans_bn,972.412,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2024-03-31,net_loans_bn,1089.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2024-06-30,net_loans_bn,1192.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2024-09-30,net_loans_bn,2598,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2024-12-31,net_loans_bn,2538.3,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2025-03-31,net_loans_bn,2534.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2025-06-30,net_loans_bn,2775.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2025-09-30,net_loans_bn,2940.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2025-12-31,net_loans_bn,3170.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2026-03-31,net_loans_bn,3240.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2026-06-30,net_loans_bn,3459.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 10
+2026-06-30,reg_at1_instruments_gross_bn,142.141595,млрд руб. (Т-Банк; все классифицированы как обязательства),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409808 стр.30-32
+2026-06-30,reg_at1_net_bn,123.182473,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409808 стр.44
+2025-06-30,reg_capital_base_bn,396.411039,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-09-30,reg_capital_base_bn,393.726003,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-12-31,reg_capital_base_bn,447.27191,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-03-31,reg_capital_base_bn,480.390837,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-06-30,reg_capital_base_bn,478.458108,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-06-30,reg_capital_tier1_bn,498.169597,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-09-30,reg_capital_tier1_bn,499.030962,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-12-31,reg_capital_tier1_bn,570.835538,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-03-31,reg_capital_tier1_bn,606.428424,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-06-30,reg_capital_tier1_bn,601.640581,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-06-30,reg_capital_total_bn,524.174677,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-09-30,reg_capital_total_bn,557.329545,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-12-31,reg_capital_total_bn,606.11522,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-03-31,reg_capital_total_bn,649.413802,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-06-30,reg_capital_total_bn,668.153101,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-06-30,reg_intangibles_deducted_bn,73.894362,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409808 стр.9
+2024-06-30,reg_rwa_credit_bn,1327,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_credit_bn,1449,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_credit_bn,1791,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_credit_bn,2820,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_credit_bn,2967,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_credit_bn,3172,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_credit_bn,3206,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_credit_bn,3302,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_credit_bn,3430,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2024-06-30,reg_rwa_density_credit_market_to_assets_pct,53,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_density_credit_market_to_assets_pct,50,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_density_credit_market_to_assets_pct,49,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_density_credit_market_to_assets_pct,64,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_density_credit_market_to_assets_pct,67,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_density_credit_market_to_assets_pct,63,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_density_credit_market_to_assets_pct,62,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_density_credit_market_to_assets_pct,65,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_density_credit_market_to_assets_pct,64,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2024-06-30,reg_rwa_density_retail_loans_pct,164,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_density_retail_loans_pct,167,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_density_retail_loans_pct,160,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_density_retail_loans_pct,144,%,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_density_retail_loans_pct,148,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_density_retail_loans_pct,148,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_density_retail_loans_pct,142,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_density_retail_loans_pct,145,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_density_retail_loans_pct,145,%,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2024-06-30,reg_rwa_macro_addons_bn,701,млрд руб. (в источнике: «Риск надбавка»),primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_macro_addons_bn,750,млрд руб. (в источнике: «Риск надбавка»),primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_macro_addons_bn,920,млрд руб. (в источнике: «Риск надбавка»),primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_macro_addons_bn,880,млрд руб. (в источнике: «Риск надбавка»),primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_macro_addons_bn,996,млрд руб. (в источнике: «Риск надбавка»),primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_macro_addons_bn,1053,млрд руб. (в источнике: «Риск надбавка»),primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_macro_addons_bn,931,млрд руб. (в источнике: «Риск надбавка»),primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_macro_addons_bn,964,млрд руб. (в источнике: «Риск надбавка»),primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_macro_addons_bn,1026,млрд руб. (в источнике: «Риск надбавка»),primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2024-06-30,reg_rwa_macro_addons_share,0.2833,доля,расчет по primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_macro_addons_share,0.2919,доля,расчет по primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_macro_addons_share,0.289,доля,расчет по primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_macro_addons_share,0.2005,доля,расчет по primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_macro_addons_share,0.2157,доля,расчет по primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_macro_addons_share,0.2162,доля,расчет по primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_macro_addons_share,0.1866,доля,расчет по primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_macro_addons_share,0.188,доля,расчет по primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_macro_addons_share,0.1927,доля,расчет по primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2024-06-30,reg_rwa_market_bn,137,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_market_bn,64,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_market_bn,66,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_market_bn,156,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_market_bn,123,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_market_bn,115,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_market_bn,162,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_market_bn,163,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_market_bn,172,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_n1_1_bn,5261.340595,млрд руб.,primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409808 стр.60.1
+2024-06-30,reg_rwa_operational_bn,309,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_operational_bn,307,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_operational_bn,405,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_operational_bn,531,млрд руб.,primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_operational_bn,531,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_operational_bn,531,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_operational_bn,690,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_operational_bn,698,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_operational_bn,698,млрд руб.,primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2024-06-30,reg_rwa_total_bn,2474,"млрд руб. (Т-Банк, для Н1.0)",primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-09-30,reg_rwa_total_bn,2569,"млрд руб. (Т-Банк, для Н1.0)",primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2024-12-31,reg_rwa_total_bn,3183,"млрд руб. (Т-Банк, для Н1.0)",primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-03-31,reg_rwa_total_bn,4388,"млрд руб. (Т-Банк, для Н1.0)",primary/2025Q2_ifrs_presentation.pdf с.18 (без текстового слоя; рендер research/shots/tcap/2025Q2_ifrs_presentation_p18.png)
+2025-06-30,reg_rwa_total_bn,4617,"млрд руб. (Т-Банк, для Н1.0)",primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-09-30,reg_rwa_total_bn,4871,"млрд руб. (Т-Банк, для Н1.0)",primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-12-31,reg_rwa_total_bn,4988,"млрд руб. (Т-Банк, для Н1.0)",primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-03-31,reg_rwa_total_bn,5127,"млрд руб. (Т-Банк, для Н1.0)",primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2026-06-30,reg_rwa_total_bn,5325,"млрд руб. (Т-Банк, для Н1.0)",primary/2026Q2_ifrs_presentation.pdf с.20 (без текстового слоя; рендер research/shots/t-business/2026Q2_ifrs_presentation/p20.jpg)
+2025-06-30,reg_rwa_total_exact_bn,4616.9233,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-09-30,reg_rwa_total_exact_bn,4871.292264,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2025-12-31,reg_rwa_total_exact_bn,4993.816795,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-03-31,reg_rwa_total_exact_bn,5127.159843,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-06-30,reg_rwa_total_exact_bn,5325.048413,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409813 разд.1 (с.18-19)
+2026-06-30,reg_tier2_bn,66.51252,млрд руб. (Т-Банк),primary/tbank-reg/tbank_published_forms_2026H1.pdf ф.0409808 стр.58
+2018-12-31,sub_loans_bn,20.644,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2019-03-31,sub_loans_bn,19.287,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2019-06-30,sub_loans_bn,18.804,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2019-09-30,sub_loans_bn,19.22,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2019-12-31,sub_loans_bn,18.487,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2020-03-31,sub_loans_bn,21.137,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2020-06-30,sub_loans_bn,19.151,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2020-09-30,sub_loans_bn,22.367,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2020-12-31,sub_loans_bn,20.755,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2021-03-31,sub_loans_bn,20.937,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2021-06-30,sub_loans_bn,20.412,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2021-09-30,sub_loans_bn,62.088,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2021-12-31,sub_loans_bn,59.657,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2022-03-31,sub_loans_bn,67.535,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2022-06-30,sub_loans_bn,39.071,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2022-09-30,sub_loans_bn,38.524,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2022-12-31,sub_loans_bn,45.913,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2023-03-31,sub_loans_bn,50.242,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2023-06-30,sub_loans_bn,56.774,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2023-09-30,sub_loans_bn,64.018,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2023-12-31,sub_loans_bn,58.538,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2024-03-31,sub_loans_bn,60.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2024-06-30,sub_loans_bn,56.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2024-09-30,sub_loans_bn,75.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2024-12-31,sub_loans_bn,84.3,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2025-03-31,sub_loans_bn,69.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2025-06-30,sub_loans_bn,65.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2025-09-30,sub_loans_bn,69.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2025-12-31,sub_loans_bn,65.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2026-03-31,sub_loans_bn,68.4,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2026-06-30,sub_loans_bn,65.7,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 31
+2018-12-31,total_assets_bn,375.499,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2019-03-31,total_assets_bn,408.893,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2019-06-30,total_assets_bn,452.063,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2019-09-30,total_assets_bn,507.631,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2019-12-31,total_assets_bn,580.025,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2020-03-31,total_assets_bn,607.842926,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2020-06-30,total_assets_bn,670.12457,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2020-09-30,total_assets_bn,726.890486,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2020-12-31,total_assets_bn,859.294,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2021-03-31,total_assets_bn,873.506,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2021-06-30,total_assets_bn,966.004,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2021-09-30,total_assets_bn,1100.272,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2021-12-31,total_assets_bn,1316.703,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2022-03-31,total_assets_bn,1305.86516,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2022-06-30,total_assets_bn,1331.032207,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2022-09-30,total_assets_bn,1315.336,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2022-12-31,total_assets_bn,1596.875,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2023-03-31,total_assets_bn,1675.574,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2023-06-30,total_assets_bn,1752.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2023-09-30,total_assets_bn,1917.467,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2023-12-31,total_assets_bn,2269.799,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2024-03-31,total_assets_bn,2439.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2024-06-30,total_assets_bn,2885.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2024-09-30,total_assets_bn,4968.9,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2024-12-31,total_assets_bn,5119.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2025-03-31,total_assets_bn,4733.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2025-06-30,total_assets_bn,5329.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2025-09-30,total_assets_bn,5703.0,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2025-12-31,total_assets_bn,6085.5,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2026-03-31,total_assets_bn,5933.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2026-06-30,total_assets_bn,6272.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 21
+2018-12-31,treasury_shares_bn,-3.67,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2019-03-31,treasury_shares_bn,-3.164,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2019-06-30,treasury_shares_bn,-3.164,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2019-09-30,treasury_shares_bn,-3.164,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2019-12-31,treasury_shares_bn,-3.164,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2020-03-31,treasury_shares_bn,-3.238,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2020-06-30,treasury_shares_bn,-3.238,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2020-09-30,treasury_shares_bn,-3.238,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2020-12-31,treasury_shares_bn,-3.238,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2021-03-31,treasury_shares_bn,-1.834,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2021-06-30,treasury_shares_bn,-3.711,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2021-09-30,treasury_shares_bn,-2.665,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2021-12-31,treasury_shares_bn,-2.567,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2022-03-31,treasury_shares_bn,-2.313,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2022-06-30,treasury_shares_bn,-1.885,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2022-09-30,treasury_shares_bn,-1.885,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2022-12-31,treasury_shares_bn,-1.885,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2023-03-31,treasury_shares_bn,-1.885,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2023-06-30,treasury_shares_bn,-1.885,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2023-09-30,treasury_shares_bn,-1.885,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2023-12-31,treasury_shares_bn,-1.885,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2024-03-31,treasury_shares_bn,-30.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2024-06-30,treasury_shares_bn,-32.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2024-09-30,treasury_shares_bn,-36.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2024-12-31,treasury_shares_bn,-36.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2025-03-31,treasury_shares_bn,-36.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2025-06-30,treasury_shares_bn,-36.6,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2025-09-30,treasury_shares_bn,-29.2,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2025-12-31,treasury_shares_bn,-33.1,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2026-03-31,treasury_shares_bn,-39.4,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39
+2026-06-30,treasury_shares_bn,-40.8,млрд руб.,primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx лист BS строка 39

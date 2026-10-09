@@ -1,0 +1,133 @@
+{
+ "lags": [
+  {
+   "period": "2024Q1-Q3",
+   "h": 3,
+   "dps": 9.25,
+   "decision": 1,
+   "record": 1,
+   "payment": 1,
+   "decided": "2024-11-14",
+   "record_date": "2024-11-25"
+  },
+  {
+   "period": "2024Q4",
+   "h": 4,
+   "dps": 3.2,
+   "decision": 2,
+   "record": 2,
+   "payment": 2,
+   "decided": "2025-05-05",
+   "record_date": "2025-05-16"
+  },
+  {
+   "period": "2025Q1",
+   "h": 1,
+   "dps": 3.3,
+   "decision": 1,
+   "record": 2,
+   "payment": 2,
+   "decided": "2025-06-30",
+   "record_date": "2025-07-17"
+  },
+  {
+   "period": "2025Q2",
+   "h": 2,
+   "dps": 3.5,
+   "decision": 1,
+   "record": 2,
+   "payment": 2,
+   "decided": "2025-09-25",
+   "record_date": "2025-10-06"
+  },
+  {
+   "period": "2025Q3",
+   "h": 3,
+   "dps": 3.6,
+   "decision": 1,
+   "record": 2,
+   "payment": 2,
+   "decided": "2025-12-25",
+   "record_date": "2026-01-08"
+  },
+  {
+   "period": "2025Q4",
+   "h": 4,
+   "dps": 4.5,
+   "decision": 2,
+   "record": 2,
+   "payment": 2,
+   "decided": "2026-05-14",
+   "record_date": "2026-05-25"
+  },
+  {
+   "period": "2026Q1",
+   "h": 1,
+   "dps": 4.6,
+   "decision": 2,
+   "record": 2,
+   "payment": 2,
+   "decided": "2026-07-30",
+   "record_date": "2026-08-10"
+  },
+  {
+   "period": "2026Q2",
+   "h": 2,
+   "dps": 4.7,
+   "decision": 2,
+   "record": 2,
+   "payment": 2,
+   "decided": "2026-10-01",
+   "record_date": "2026-10-12"
+  }
+ ],
+ "calendar_book": {
+  "decision_lag_quarters": {
+   "1": 2,
+   "2": 2,
+   "3": 1,
+   "4": 2
+  },
+  "reg_deduction_lag_quarters": 2,
+  "payment_lag_quarters": 2
+ },
+ "payout_to_avg4": {
+  "2025Q1": 0.2655,
+  "2025Q2": 0.2478,
+  "2025Q3": 0.2436,
+  "2025Q4": 0.2768,
+  "2026Q1": 0.263,
+  "2026Q2": 0.2545
+ },
+ "payout_mean": 0.2586,
+ "payout_book": 0.26,
+ "cap_check": {
+  "2024": {
+   "pool_bn": 33.4,
+   "reported_profit_bn": 122.397,
+   "share": 0.2729
+  },
+  "2025": {
+   "pool_bn": 39.973,
+   "reported_profit_bn": 177.018,
+   "share": 0.2258
+  }
+ },
+ "dps_2025": 14.9,
+ "dps_guidance_threshold": 17.88,
+ "shares": {
+  "issued_mln": 2682.74786,
+  "treasury_mln": 132.8,
+  "outstanding_mln": 2549.94786,
+  "outstanding_to_issued": 0.950499,
+  "exdate_jump_for_declared": -4.467,
+  "declared_dps": 4.7,
+  "record_date": "2026-10-12"
+ },
+ "loan_premium_rule": {
+  "corporate": 0.2,
+  "mortgage": 0.0185,
+  "retail_other": 0.1315
+ },
+ "book_mismatches": []
+}

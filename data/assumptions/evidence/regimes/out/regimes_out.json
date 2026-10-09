@@ -1,0 +1,106 @@
+{
+ "cor_weighted": {
+  "2026": 0.0508,
+  "2027": 0.06185,
+  "2028": 0.0565,
+  "2029": 0.0549,
+  "LT": 0.05605,
+  "avg_2027_2029": 0.05775
+ },
+ "cor_levels": {
+  "soft": {
+   "history_state": 0.0378,
+   "history_range": [
+    0.0292,
+    0.0437
+   ],
+   "book_peak_year": 0.046,
+   "book_lt": 0.048
+  },
+  "norm": {
+   "history_state": 0.0546,
+   "history_range": [
+    0.0435,
+    0.0658
+   ],
+   "book_peak_year": 0.054,
+   "book_lt": 0.055
+  },
+  "downturn": {
+   "history_state": 0.0696,
+   "history_range": [
+    0.0635,
+    0.0787
+   ],
+   "book_peak_year": 0.069,
+   "book_lt": 0.059
+  },
+  "crisis": {
+   "history_state": 0.1072,
+   "history_range": [
+    0.0946,
+    0.12359999999999999
+   ],
+   "book_peak_year": 0.1,
+   "book_lt": 0.061
+  }
+ },
+ "frequencies": {
+  "years": 12,
+  "history": {
+   "soft": 0.333,
+   "norm": 0.333,
+   "downturn": 0.167,
+   "crisis": 0.167
+  },
+  "book": {
+   "soft": 0.15,
+   "norm": 0.4,
+   "downturn": 0.3,
+   "crisis": 0.15
+  }
+ },
+ "nim_shift_weighted": {
+  "LT": -0.0003,
+  "2027": -0.0012
+ },
+ "observables": {
+  "cor": {
+   "sigma_pp": 0.0085,
+   "rho_q": 0.25
+  },
+  "nim": {
+   "sigma_pp": 0.0035,
+   "rho_q": 0.3
+  },
+  "sheet_sd_cor": [
+   0.00581,
+   0.0116
+  ],
+  "sheet_sd_nim": [
+   0.00247,
+   0.0049
+  ]
+ },
+ "kappa": {
+  "book": 0.1,
+  "no_shock_positive": [
+   0.072,
+   0.184
+  ],
+  "reference_world": "M",
+  "real_rate_lt": {
+   "N": 0.0385,
+   "H": 0.0474,
+   "M": 0.0656
+  },
+  "stationary_addition": {
+   "N": -0.00271,
+   "H": -0.00182,
+   "M": 0.0
+  },
+  "cor_lt_expected_over_worlds": 0.05428
+ },
+ "shock_year": 2027,
+ "book_mismatches": []
+}

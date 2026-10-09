@@ -1,0 +1,23 @@
+# Числа решений ведущего и листа режимов, которые читает calib_pnl.py (каждое — с адресом в тексте).
+source: "stage1/LEAD-DECISIONS-2.md (07.10.2026); stage1/regimes/REGIMES-PROPOSAL.md"
+targets:                       # LEAD-2 §9 п. 1
+  nim_mgmt_lt: 0.1075
+  nim_lt_year: 2030            # LEAD-2 §9 п. 3: сход к цели линейно к 2030 году
+  cir_mgmt_lt: 0.47            # LEAD-2 §4, §9 п. 1
+  cir_axis: [0.44, 0.50]
+premium_pp:                    # LEAD-2 §6 п. 2: 12 / 3 / 20 п.п. в 2026–2027, линейно к 0 к 2032
+  retail_other: {2026: 12, 2027: 12, 2032: 0}
+  mortgage:     {2026: 3,  2027: 3,  2032: 0}
+  corporate:    {2026: 20, 2027: 20, 2032: 0}
+funds_premium_pp: {2026: 5, 2027: 5, 2028: 6, 2029: 5, 2030: 3, 2031: 2, 2032: 0}   # stage1/worlds/bank_overlay_draft.yaml, funds.start_premium_pp (черновик; LEAD-2 §6 п. 3 — значения из калибровки)
+volumes_lt_from: 2033          # LEAD-2 §6 п. 4
+terminal_real_growth: 0.015    # LEAD-1 B12
+regimes:                       # LEAD-2 §8 пп. 1–2 (CoR — упр. базис, доли; 2026 = второе полугодие)
+  soft:     {cor: {2026: 0.046, 2027: 0.041, 2028: 0.040, 2029: 0.044, LT: 0.048}, nim_shift: {2027: 0.001, LT: 0.0020}, growth_adj: {2027: 0.02, 2028: 0.02}}
+  norm:     {cor: {2026: 0.049, 2027: 0.050, 2028: 0.052, 2029: 0.054, LT: 0.055}, nim_shift: {LT: 0.0}, growth_adj: {}}
+  downturn: {cor: {2026: 0.054, 2027: 0.069, 2028: 0.063, 2029: 0.059, LT: 0.059}, nim_shift: {2027: -0.002, 2028: -0.002, LT: -0.0010}, growth_adj: {2027: -0.03, 2028: -0.03}}
+  crisis:   {cor: {2026: 0.054, 2027: 0.100, 2028: 0.072, 2029: 0.060, LT: 0.061}, nim_shift: {2027: -0.005, LT: -0.0020}, growth_override: {2027: 0.03, 2028: 0.06}, one_off: {period: 2027Q1, amount: -40.0}}
+regime_prob: {soft: 0.15, norm: 0.40, downturn: 0.30, crisis: 0.15}        # LEAD-2 §8 п. 3
+dividends: {payout: 0.25, axis: [0.20, 0.30], base_window_quarters: 4}     # LEAD-2 §3 п. 2
+noncore_axis_after_tax_sh: 4.0                                             # LEAD-2 §1 п. 2: ±4 млрд ₽ в год в доле акционеров после налога
+catalytic_group_share: 0.5001                                              # МСФО 6М2026, прим. 4 (с. 18): доля Группы 50,01 % (лист ifrs_notes: bc_catalytic_stake_pct)

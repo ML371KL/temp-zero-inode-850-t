@@ -1,0 +1,8 @@
+metric,period,value,unit,basis,doc,page,sha256,note
+retail_financing_pbt,6M2026,94.8,RUB bn,IFRS,primary/2026Q2_ifrs_fs.pdf,24,fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7,прим. 6: сегмент «Розничное финансирование» — прибыль до налогообложения за шесть месяцев; редакция 6M2026
+retail_financing_pbt,6M2025,51.8,RUB bn,IFRS,primary/2026Q2_ifrs_fs.pdf,26,fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7,прим. 6: сегмент «Розничное финансирование» — прибыль до налогообложения за шесть месяцев 2025 года; редакция 6M2026
+retail_financing_capital,2026-06-30,414.0,RUB bn,IFRS,primary/2026Q2_ifrs_fs.pdf,23,fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7,прим. 6: сегмент «Розничное финансирование» — потребляемый капитал; редакция 6M2026
+retail_financing_capital,2025-12-31,370.3,RUB bn,IFRS,primary/2026Q2_ifrs_fs.pdf,23,fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7,прим. 6: сегмент «Розничное финансирование» — потребляемый капитал; редакция 6M2026
+retail_financing_transfer_cost,6M2026,138.1,RUB bn,IFRS,primary/2026Q2_ifrs_fs.pdf,24,fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7,прим. 6: сегмент «Розничное финансирование» — расходы по трансфертному ценообразованию; редакция 6M2026
+daily_services_pbt,6M2026,-4.2,RUB bn,IFRS,primary/2026Q2_ifrs_fs.pdf,24,fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7,прим. 6: сегмент «Повседневные сервисы» — убыток до налогообложения; редакция 6M2026
+new_services_pbt,6M2026,-7.0,RUB bn,IFRS,primary/2026Q2_ifrs_fs.pdf,24,fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7,прим. 6: сегмент «Новые услуги» — убыток до налогообложения; редакция 6M2026

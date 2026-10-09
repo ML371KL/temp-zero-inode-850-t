@@ -1,0 +1,353 @@
+{
+ "anchor": {
+  "c_ref": 0.34139,
+  "key_ref": 0.146181,
+  "wholesale_to_funds": 0.15617,
+  "securities_share_of_liquid": 0.40994,
+  "loans": 3813.1,
+  "funds": 4298.5,
+  "dia_rate": 0.00543,
+  "iea": 5632.4
+ },
+ "nii_identity": {
+  "interest_assets": 278.8,
+  "interest_liabilities": 119.3,
+  "dia": 4.6,
+  "other_interest_net": 2.7,
+  "nii": 157.6,
+  "nii_fact": 157.6
+ },
+ "near_spreads": {
+  "cards": {
+   "rate_anchor": 0.31969,
+   "ref_first_quarter": 0.14,
+   "rule": {
+    "2026": 0.17969,
+    "2027": 0.1859
+   }
+  },
+  "cash_loans": {
+   "rate_anchor": 0.2768,
+   "ref_first_quarter": 0.1596,
+   "rule": {
+    "2026": 0.1172,
+    "2027": 0.12519
+   }
+  },
+  "auto": {
+   "rate_anchor": 0.19235,
+   "ref_first_quarter": 0.1596,
+   "rule": {
+    "2026": 0.03275,
+    "2027": 0.03717
+   }
+  },
+  "mortgage": {
+   "rate_anchor": 0.17256,
+   "ref_first_quarter": 0.1596,
+   "rule": {
+    "2026": 0.01296,
+    "2027": 0.0147
+   }
+  },
+  "sme_loans": {
+   "rate_anchor": 0.40964,
+   "ref_first_quarter": 0.1396,
+   "rule": {
+    "2026": 0.27004,
+    "2027": 0.26599
+   }
+  },
+  "corp_loans": {
+   "rate_anchor": 0.14929,
+   "ref_first_quarter": 0.14,
+   "rule": {
+    "2026": 0.00929,
+    "2027": 0.00992
+   }
+  },
+  "securities": {
+   "rate_anchor": 0.11606,
+   "ref_first_quarter": 0.1396,
+   "rule": {
+    "2026": -0.02354,
+    "2027": -0.01937
+   }
+  },
+  "liquidity": {
+   "rate_anchor": 0.1342,
+   "ref_first_quarter": 0.14,
+   "rule": {
+    "2026": -0.0058,
+    "2027": -0.0105
+   }
+  },
+  "wholesale": {
+   "rate_anchor": 0.10801,
+   "ref_first_quarter": 0.14,
+   "rule": {
+    "2026": -0.03199,
+    "2027": -0.01739
+   }
+  }
+ },
+ "nim_target": {
+  "rule": {
+   "window": [
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1",
+    "2026Q2"
+   ],
+   "nim_by_quarter": {
+    "2024Q4": 0.106052,
+    "2025Q1": 0.100234,
+    "2025Q2": 0.106037,
+    "2025Q3": 0.104953,
+    "2025Q4": 0.110245,
+    "2026Q1": 0.109111,
+    "2026Q2": 0.11588
+   },
+   "window_mean_mgmt": 0.1075,
+   "window_best_quarter": 0.11588,
+   "loan_share_ends": {
+    "2024Q3": 0.6235,
+    "2024Q4": 0.6026,
+    "2025Q1": 0.6456,
+    "2025Q2": 0.6449,
+    "2025Q3": 0.6415,
+    "2025Q4": 0.6515,
+    "2026Q1": 0.6793,
+    "2026Q2": 0.679
+   },
+   "loan_share_window": 0.6452,
+   "loan_share_anchor": 0.679,
+   "yield_loans_anchor": 0.24156,
+   "yield_liquid_anchor": 0.12704,
+   "composition_slope_pp_per_point": 0.1145,
+   "rule": 0.11136,
+   "last_four": {
+    "mean_mgmt": 0.11005,
+    "loan_share": 0.6586,
+    "at_anchor_composition": 0.11238
+   }
+  },
+  "world": "M",
+  "key_book": 0.111,
+  "stationary_on_engine": 0.111,
+  "stationary_by_world": {
+   "N": 0.1056,
+   "H": 0.11131,
+   "M": 0.111
+  },
+  "reference_world": "H",
+  "reference_level_on_engine": 0.111307,
+  "sigma0_assets": -0.01329,
+  "axis": [
+   0.103,
+   0.116
+  ],
+  "reference_level_at_axis_ends": [
+   0.10331,
+   0.11631
+  ],
+  "window_nim": [
+   0.10023,
+   0.11588
+  ],
+  "window_mean_nim": 0.1075,
+  "derived_on_engine": false
+ },
+ "wholesale_spread": {
+  "term_minus_liquid_by_quarter": {
+   "2024Q4": 0.00967,
+   "2025Q1": 0.00268,
+   "2025Q2": 0.00828,
+   "2025Q3": 0.01652,
+   "2025Q4": 0.01664,
+   "2026Q1": 0.00459,
+   "2026Q2": -0.00287
+  },
+  "premium": 0.0079,
+  "liquidity_lt_spread": -0.01069,
+  "rule": -0.00279,
+  "book": {
+   "2026": -0.03199,
+   "2027": -0.01739,
+   "LT": -0.00279,
+   "LT_from": 2028
+  },
+  "axis": [
+   -0.015,
+   0.015
+  ]
+ },
+ "funds_cost_to_key": {
+  "by_quarter": {
+   "2024Q4": {
+    "cost": 0.11983,
+    "key": 0.20413,
+    "ratio": 0.587
+   },
+   "2025Q1": {
+    "cost": 0.14381,
+    "key": 0.21,
+    "ratio": 0.6848
+   },
+   "2025Q2": {
+    "cost": 0.13703,
+    "key": 0.207582,
+    "ratio": 0.6601
+   },
+   "2025Q3": {
+    "cost": 0.13006,
+    "key": 0.18413,
+    "ratio": 0.7063
+   },
+   "2025Q4": {
+    "cost": 0.11253,
+    "key": 0.16587,
+    "ratio": 0.6784
+   },
+   "2026Q1": {
+    "cost": 0.10599,
+    "key": 0.157056,
+    "ratio": 0.6749
+   },
+   "2026Q2": {
+    "cost": 0.09814,
+    "key": 0.146181,
+    "ratio": 0.6714
+   }
+  },
+  "max": 0.7063,
+  "max_quarter": "2025Q3",
+  "min": 0.587,
+  "book_max": 0.706
+ },
+ "transmission": {
+  "target": 0.06,
+  "axis": [
+   0.0,
+   0.12
+  ],
+  "level_world": "M",
+  "level_world_fixed_on_axis": true,
+  "phi": 0.6957,
+  "pairs": {
+   "N_H": 0.2283,
+   "H_M": -0.0047
+  },
+  "phi_at_axis_ends": [
+   0.8871,
+   0.5043
+  ]
+ },
+ "splits": {
+  "sigma0_split": 1.0,
+  "sigma0_limit": 1.0,
+  "phi_split": 0.7,
+  "phi_by_history": 0.7099,
+  "phi_limit": 1.0,
+  "phi_limit_at": [],
+  "history_compression": 0.4939
+ },
+ "transmission_sheet": {
+  "target": 0.0,
+  "phi": 0.8871,
+  "sigma0_assets": -0.03051,
+  "pairs": {
+   "N_H": 0.1588,
+   "H_M": -0.0611
+  },
+  "bridge_used_by_sheet": -0.00155
+ },
+ "near_nim_shift": {
+  "trial_pass_first_quarters_mgmt": [
+   0.1153,
+   0.1148,
+   0.1142,
+   0.1136,
+   0.1131,
+   0.1125,
+   0.112,
+   0.1114
+  ],
+  "gate_tolerance": 0.003,
+  "trial_pass_keys": {
+   "2026Q3": -0.00316,
+   "2026Q4": -0.00585,
+   "2027Q1": -0.00456,
+   "2027Q2": -0.00502,
+   "2027Q3": -0.0046,
+   "2027Q4": -0.00448,
+   "2028Q1": -0.00336,
+   "2028Q2": -0.00433,
+   "2028Q3": -0.00478,
+   "2028Q4": -0.00534,
+   "2029Q1": -0.00626,
+   "2029Q2": -0.00685,
+   "2029Q3": -0.0073,
+   "2029Q4": -0.00785
+  },
+  "book_keys": {
+   "2026Q3": -0.0064,
+   "2026Q4": -0.01359,
+   "2027Q1": -0.01315,
+   "2027Q2": -0.01355,
+   "2027Q3": -0.0121,
+   "2027Q4": -0.01118,
+   "2028Q1": -0.00831,
+   "2028Q2": -0.00793,
+   "2028Q3": -0.00679,
+   "2028Q4": -0.00583,
+   "2029Q1": -0.00545,
+   "2029Q2": -0.00438,
+   "2029Q3": -0.00275,
+   "2029Q4": -0.00116
+  },
+  "shift_removed_at_2030Q1": 0.00116,
+  "derived_on_engine": true
+ },
+ "lt_spread_floor": {
+  "cards": {
+   "cor_mean": 0.0977,
+   "spread_lag_min": 0.1494,
+   "rule": 0.095
+  },
+  "cash_loans": {
+   "cor_mean": 0.0798,
+   "spread_lag_min": 0.0874,
+   "rule": 0.075
+  },
+  "auto": {
+   "cor_mean": 0.0253,
+   "spread_lag_min": 0.0366,
+   "rule": 0.025
+  },
+  "mortgage": {
+   "cor_mean": 0.0053,
+   "spread_lag_min": 0.0172,
+   "rule": 0.005
+  },
+  "sme_loans": {
+   "cor_mean": 0.1561,
+   "spread_lag_min": 0.2387,
+   "rule": 0.155
+  },
+  "corp_loans": {
+   "cor_mean": 0.0122,
+   "spread_lag_min": 0.0,
+   "rule": 0.0
+  }
+ },
+ "floor_headroom_min": {
+  "gap": 0.01054,
+  "book": "corp_loans",
+  "world": "H"
+ },
+ "book_mismatches": []
+}

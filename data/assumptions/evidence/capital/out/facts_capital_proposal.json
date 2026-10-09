@@ -1,0 +1,609 @@
+{
+ "basis": "mixed",
+ "as_of": "2026-06-30",
+ "note": "у каждого блока свой basis: банковская группа по ЦБ (ф. 0409805), РСБУ банка (ф. 0409135 / 0409123 / 0409808), МСФО группы, Базель группы (примечание МСФО), рынок",
+ "at1": {
+  "basis": "IFRS",
+  "amount": {
+   "v": 0.0,
+   "calc": "в капитале МСФО бессрочных инструментов нет: займы 65,7 млрд руб. - в обязательствах (primary/2026Q2_ifrs_fs.pdf, с. 6, sha256 fd08eacf4ed7e57c); регуляторные инструменты - узел t2_recognized"
+  },
+  "coupon_annual": {
+   "v": 0.0,
+   "calc": "проценты по бессрочным займам - в процентных расходах МСФО; купона из капитала нет"
+  },
+  "coupon_quarter": {
+   "v": 4,
+   "calc": "формальное значение: купон равен 0"
+  }
+ },
+ "t2_recognized": {
+  "v": 123.182,
+  "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 105",
+  "calc": "регуляторные инструменты группы без прибыли = добавочный капитал; дополнительный капитал 69,495 - неаудированная прибыль (в BV)",
+  "basis": "банковская группа по ЦБ"
+ },
+ "basel": {
+  "basis": "банковская группа по ЦБ (слоты ядра; Базель МСФО - узел basel_ifrs)",
+  "as_of": "2026-06-30",
+  "cet1": {
+   "v": 560.466,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 102 + 203",
+   "calc": "базовый с прибылью периода: 490,971 + 69,495; BV - этот узел = вычет якоря без поправки фонда FVOCI"
+  },
+  "rwa": {
+   "v": 5287.3,
+   "calc": "вменённые RWA группы: капитал 683,648 / Н20.0 12,93 %; к ним калиброваны плотности"
+  },
+  "cet1_ratio": {
+   "v": 0.106,
+   "calc": "basel.cet1 / basel.rwa"
+  },
+  "total_ratio": {
+   "v": 0.1293,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e"
+  }
+ },
+ "basel_ifrs": {
+  "basis": "Basel (группа МСФО; примечание «Управление капиталом»)",
+  "as_of": "2026-06-30",
+  "cet1": {
+   "v": 701.1,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 80"
+  },
+  "t1": {
+   "v": 766.8,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 80"
+  },
+  "rwa": {
+   "v": 5959.5,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 80"
+  },
+  "rwa_credit": {
+   "v": 4501.2,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 80"
+  },
+  "rwa_market": {
+   "v": 469.7,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 80"
+  },
+  "rwa_operational": {
+   "v": 988.6,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 80"
+  },
+  "note": "ядро не читает: периметр МСФО, НДУ в базовом капитале, пакет Яндекса в рыночном риске"
+ },
+ "n20_0": {
+  "basis": "банковская группа по ЦБ (Н20.0)",
+  "value": {
+   "v": 0.1293,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e"
+  },
+  "as_of": "2026-06-30",
+  "estimated": false,
+  "pre_dividend": false,
+  "pre_dividend_note": "дивиденд холдинга из капитала банковской группы на отсечке не вычитается; объявленных и не вычтенных на 30.06.2026 нет",
+  "min_with_buffers": {
+   "v": 0.09999,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 80"
+  }
+ },
+ "n1_1_bank": {
+  "basis": "банковская группа по ЦБ (Н20.1; слот ядра n1_1_bank - LEAD-2 §7 п. 1)",
+  "value": {
+   "v": 0.094,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e"
+  },
+  "as_of": "2026-06-30",
+  "estimated": false
+ },
+ "n20_2": {
+  "v": 0.1162,
+  "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e",
+  "basis": "банковская группа по ЦБ"
+ },
+ "bank_base_capital": {
+  "v": 490.971,
+  "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 102",
+  "calc": "базовый капитал ГРУППЫ (слот ядра для сверки Ded11_0)",
+  "basis": "банковская группа по ЦБ"
+ },
+ "group_capital": {
+  "basis": "банковская группа по ЦБ",
+  "total": {
+   "v": 683.648,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 000"
+  },
+  "base": {
+   "v": 490.971,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 102"
+  },
+  "additional": {
+   "v": 123.182,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 105"
+  },
+  "tier2": {
+   "v": 69.495,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 203"
+  }
+ },
+ "bank_solo": {
+  "basis": "RAS",
+  "as_of": "2026-07-01",
+  "n1_0": {
+   "v": 0.12547,
+   "src": "stage1/ras/cbr_f135_wide.csv, ф. 0409135 на 2026-07-01, sha256 02e95158e7af6a71"
+  },
+  "n1_1": {
+   "v": 0.09094,
+   "src": "то же"
+  },
+  "n1_2": {
+   "v": 0.113,
+   "src": "то же"
+  },
+  "rwa_n1_0": {
+   "v": 5325.048,
+   "src": "stage1/ras/cbr_f808_bank.csv, ф. 0409808 на 2026-07-01, стр. 60.3"
+  },
+  "rwa_n1_1": {
+   "v": 5261.341,
+   "src": "там же, стр. 60.1"
+  },
+  "rwa_by_risk": {
+   "credit": {
+    "v": 3430.0,
+    "src": "primary/2026Q2_ifrs_presentation.pdf, с. 20 (слайд-картинка; research/facts/t_capital.csv)"
+   },
+   "market": {
+    "v": 172.0,
+    "src": "то же"
+   },
+   "operational": {
+    "v": 698.0,
+    "src": "то же"
+   },
+   "macro_addons": {
+    "v": 1026.0,
+    "src": "то же"
+   },
+   "retail_density": {
+    "v": 1.45,
+    "src": "то же"
+   }
+  }
+ },
+ "n20_minus_n1": {
+  "basis": "банковская группа по ЦБ минус РСБУ банка",
+  "as_of": "2026-06-30",
+  "n20_0": {
+   "v": 0.00383,
+   "calc": "Н20.0 - Н1.0 на последнюю общую дату (правило оценки до выхода ф. 0409805)"
+  },
+  "n20_1": {
+   "v": 0.00306,
+   "calc": "Н20.1 - Н1.1 на последнюю общую дату"
+  }
+ },
+ "instruments": {
+  "basis": "mixed",
+  "group_additional": {
+   "v": 123.182,
+   "src": "ЦБ, ф. 0409805 на 01.07.2026 (cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606), sha256 56dce7f18a7b0c3e, стр. 105"
+  },
+  "bank_instruments_gross": {
+   "v": 142.142,
+   "src": "stage1/ras/cbr_f808_bank.csv, стр. 30"
+  },
+  "bank_deductions": {
+   "v": 18.959,
+   "src": "там же, стр. 43"
+  },
+  "ifrs_perpetual_loans": {
+   "v": 65.7,
+   "src": "primary/2026Q2_ifrs_fs.pdf, с. 6, sha256 fd08eacf4ed7e57c",
+   "basis": "IFRS (в обязательствах, в долларах США)"
+  },
+  "intragroup": {
+   "v": 76.4,
+   "calc": "инструменты банка до вычетов - бессрочные займы МСФО: оценка внутригрупповых; прямого раскрытия нет"
+  },
+  "calls": [
+   {
+    "instrument": "бессрочные облигации 600 млн долл., купон 6,00 %",
+    "call_from": "2026-12-20",
+    "src": "primary/FY2025_ifrs_fs.pdf, с. 78"
+   },
+   {
+    "instrument": "бессрочные облигации 300 млн долл., купон 11,26 %",
+    "call_from": "2027-09-15",
+    "src": "primary/FY2025_ifrs_fs.pdf, с. 78"
+   }
+  ]
+ },
+ "fvoci_reserve": {
+  "v": -4.6,
+  "src": "primary/2026Q2_ifrs_fs.pdf (stage1/ifrs/ifrs_history.csv: orf_fvoci)",
+  "calc": "после налога; = balance.equity.fvoci_reserve",
+  "basis": "IFRS"
+ },
+ "ac_securities_hidden_loss": {
+  "v": 31.5,
+  "src": "primary/2026Q2_ifrs_fs.pdf, с. 37 и 85",
+  "calc": "балансовая 377,8 - справедливая 346,3; в капитал и нормативы не входит; ядро не читает",
+  "basis": "IFRS"
+ },
+ "ofz_curve_anchor": {
+  "basis": "market",
+  "as_of": "2026-06-30",
+  "convention": "бескупонная доходность ОФЗ (КБД MOEX), годовое начисление, доли",
+  "1": {
+   "v": 0.134125,
+   "src": "MOEX ISS zcyc 2026-06-30 18:49:58, yearyields, sha256 90b297f62e10f888"
+  },
+  "3": {
+   "v": 0.144687,
+   "src": "MOEX ISS zcyc 2026-06-30 18:49:58, yearyields, sha256 90b297f62e10f888"
+  },
+  "5": {
+   "v": 0.154188,
+   "src": "MOEX ISS zcyc 2026-06-30 18:49:58, yearyields, sha256 90b297f62e10f888"
+  },
+  "10": {
+   "v": 0.16377,
+   "src": "MOEX ISS zcyc 2026-06-30 18:49:58, yearyields, sha256 90b297f62e10f888"
+  }
+ },
+ "history": [
+  {
+   "period": "2024Q4",
+   "date": "2024-12-31",
+   "estimated": false,
+   "n20_0": {
+    "v": 0.1005,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412, sha256 2b2666cd635c7b66",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_1": {
+    "v": 0.0676,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412, sha256 2b2666cd635c7b66",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_2": {
+    "v": 0.09910000000000001,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412, sha256 2b2666cd635c7b66",
+    "basis": "банковская группа по ЦБ"
+   },
+   "capital_total": {
+    "v": 321.103,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412, sha256 2b2666cd635c7b66"
+   },
+   "base": {
+    "v": 211.35,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412, sha256 2b2666cd635c7b66"
+   },
+   "additional": {
+    "v": 105.219,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412, sha256 2b2666cd635c7b66"
+   },
+   "tier2": {
+    "v": 4.535,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412, sha256 2b2666cd635c7b66"
+   },
+   "rwa": {
+    "v": 3195.1,
+    "calc": "вменённые: капитал / Н20.0 (точность +-0,04 %)",
+    "basis": "банковская группа по ЦБ"
+   },
+   "min_n20_0_with_buffers": {
+    "v": 0.08254,
+    "src": "МСФО, прим. «Управление капиталом» (stage1/regulation/schedule.yaml, check_ifrs)"
+   },
+   "bv_shareholders": {
+    "v": 519.861,
+    "src": "stage1/ifrs/ifrs_history.csv: eq_shareholders",
+    "basis": "IFRS"
+   }
+  },
+  {
+   "period": "2025Q1",
+   "date": "2025-03-31",
+   "estimated": false,
+   "n20_0": {
+    "v": 0.1215,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503, sha256 8c89ba4203ba7b89",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_1": {
+    "v": 0.0928,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503, sha256 8c89ba4203ba7b89",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_2": {
+    "v": 0.11560000000000001,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503, sha256 8c89ba4203ba7b89",
+    "basis": "банковская группа по ЦБ"
+   },
+   "capital_total": {
+    "v": 532.087,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503, sha256 8c89ba4203ba7b89"
+   },
+   "base": {
+    "v": 400.352,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503, sha256 8c89ba4203ba7b89"
+   },
+   "additional": {
+    "v": 105.961,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503, sha256 8c89ba4203ba7b89"
+   },
+   "tier2": {
+    "v": 25.774,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503, sha256 8c89ba4203ba7b89"
+   },
+   "rwa": {
+    "v": 4379.3,
+    "calc": "вменённые: капитал / Н20.0 (точность +-0,04 %)",
+    "basis": "банковская группа по ЦБ"
+   },
+   "min_n20_0_with_buffers": {
+    "v": 0.09,
+    "src": "МСФО, прим. «Управление капиталом» (stage1/regulation/schedule.yaml, check_ifrs)"
+   },
+   "bv_shareholders": {
+    "v": 565.667,
+    "src": "stage1/ifrs/ifrs_history.csv: eq_shareholders",
+    "basis": "IFRS"
+   }
+  },
+  {
+   "period": "2025Q2",
+   "date": "2025-06-30",
+   "estimated": false,
+   "n20_0": {
+    "v": 0.1165,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506, sha256 6e1a74ca8892dd15",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_1": {
+    "v": 0.0895,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506, sha256 6e1a74ca8892dd15",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_2": {
+    "v": 0.1103,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506, sha256 6e1a74ca8892dd15",
+    "basis": "банковская группа по ЦБ"
+   },
+   "capital_total": {
+    "v": 537.313,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506, sha256 6e1a74ca8892dd15"
+   },
+   "base": {
+    "v": 407.195,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506, sha256 6e1a74ca8892dd15"
+   },
+   "additional": {
+    "v": 101.759,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506, sha256 6e1a74ca8892dd15"
+   },
+   "tier2": {
+    "v": 28.36,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506, sha256 6e1a74ca8892dd15"
+   },
+   "rwa": {
+    "v": 4612.1,
+    "calc": "вменённые: капитал / Н20.0 (точность +-0,04 %)",
+    "basis": "банковская группа по ЦБ"
+   },
+   "min_n20_0_with_buffers": {
+    "v": 0.08997999999999999,
+    "src": "МСФО, прим. «Управление капиталом» (stage1/regulation/schedule.yaml, check_ifrs)"
+   },
+   "bv_shareholders": {
+    "v": 612.582,
+    "src": "stage1/ifrs/ifrs_history.csv: eq_shareholders",
+    "basis": "IFRS"
+   }
+  },
+  {
+   "period": "2025Q3",
+   "date": "2025-09-30",
+   "estimated": false,
+   "n20_0": {
+    "v": 0.11810000000000001,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509, sha256 df6d17cb8ad4feb1",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_1": {
+    "v": 0.08449999999999999,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509, sha256 df6d17cb8ad4feb1",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_2": {
+    "v": 0.105,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509, sha256 df6d17cb8ad4feb1",
+    "basis": "банковская группа по ЦБ"
+   },
+   "capital_total": {
+    "v": 573.581,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509, sha256 df6d17cb8ad4feb1"
+   },
+   "base": {
+    "v": 404.51,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509, sha256 df6d17cb8ad4feb1"
+   },
+   "additional": {
+    "v": 105.305,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509, sha256 df6d17cb8ad4feb1"
+   },
+   "tier2": {
+    "v": 63.766,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509, sha256 df6d17cb8ad4feb1"
+   },
+   "rwa": {
+    "v": 4856.7,
+    "calc": "вменённые: капитал / Н20.0 (точность +-0,04 %)",
+    "basis": "банковская группа по ЦБ"
+   },
+   "min_n20_0_with_buffers": {
+    "v": 0.09247999999999999,
+    "src": "МСФО, прим. «Управление капиталом» (stage1/regulation/schedule.yaml, check_ifrs)"
+   },
+   "bv_shareholders": {
+    "v": 633.699,
+    "src": "stage1/ifrs/ifrs_history.csv: eq_shareholders",
+    "basis": "IFRS"
+   }
+  },
+  {
+   "period": "2025Q4",
+   "date": "2025-12-31",
+   "estimated": false,
+   "n20_0": {
+    "v": 0.1246,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512, sha256 b0f7f6a4efc144ac",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_1": {
+    "v": 0.094,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512, sha256 b0f7f6a4efc144ac",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_2": {
+    "v": 0.11779999999999999,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512, sha256 b0f7f6a4efc144ac",
+    "basis": "банковская группа по ЦБ"
+   },
+   "capital_total": {
+    "v": 617.338,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512, sha256 b0f7f6a4efc144ac"
+   },
+   "base": {
+    "v": 459.673,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512, sha256 b0f7f6a4efc144ac"
+   },
+   "additional": {
+    "v": 123.564,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512, sha256 b0f7f6a4efc144ac"
+   },
+   "tier2": {
+    "v": 34.102,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512, sha256 b0f7f6a4efc144ac"
+   },
+   "rwa": {
+    "v": 4954.6,
+    "calc": "вменённые: капитал / Н20.0 (точность +-0,04 %)",
+    "basis": "банковская группа по ЦБ"
+   },
+   "min_n20_0_with_buffers": {
+    "v": 0.09247,
+    "src": "МСФО, прим. «Управление капиталом» (stage1/regulation/schedule.yaml, check_ifrs)"
+   },
+   "bv_shareholders": {
+    "v": 683.631,
+    "src": "stage1/ifrs/ifrs_history.csv: eq_shareholders",
+    "basis": "IFRS"
+   }
+  },
+  {
+   "period": "2026Q1",
+   "date": "2026-03-31",
+   "estimated": false,
+   "n20_0": {
+    "v": 0.12990000000000002,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603, sha256 a3e89022a3c2b568",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_1": {
+    "v": 0.09699999999999999,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603, sha256 a3e89022a3c2b568",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_2": {
+    "v": 0.12050000000000001,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603, sha256 a3e89022a3c2b568",
+    "basis": "банковская группа по ЦБ"
+   },
+   "capital_total": {
+    "v": 662.253,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603, sha256 a3e89022a3c2b568"
+   },
+   "base": {
+    "v": 488.102,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603, sha256 a3e89022a3c2b568"
+   },
+   "additional": {
+    "v": 126.038,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603, sha256 a3e89022a3c2b568"
+   },
+   "tier2": {
+    "v": 48.113,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603, sha256 a3e89022a3c2b568"
+   },
+   "rwa": {
+    "v": 5098.2,
+    "calc": "вменённые: капитал / Н20.0 (точность +-0,04 %)",
+    "basis": "банковская группа по ЦБ"
+   },
+   "min_n20_0_with_buffers": {
+    "v": 0.09998,
+    "src": "МСФО, прим. «Управление капиталом» (stage1/regulation/schedule.yaml, check_ifrs)"
+   },
+   "bv_shareholders": {
+    "v": 719.7,
+    "src": "stage1/ifrs/ifrs_history.csv: eq_shareholders",
+    "basis": "IFRS"
+   }
+  },
+  {
+   "period": "2026Q2",
+   "date": "2026-06-30",
+   "estimated": false,
+   "n20_0": {
+    "v": 0.1293,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606, sha256 56dce7f18a7b0c3e",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_1": {
+    "v": 0.094,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606, sha256 56dce7f18a7b0c3e",
+    "basis": "банковская группа по ЦБ"
+   },
+   "n20_2": {
+    "v": 0.1162,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606, sha256 56dce7f18a7b0c3e",
+    "basis": "банковская группа по ЦБ"
+   },
+   "capital_total": {
+    "v": 683.648,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606, sha256 56dce7f18a7b0c3e"
+   },
+   "base": {
+    "v": 490.971,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606, sha256 56dce7f18a7b0c3e"
+   },
+   "additional": {
+    "v": 123.182,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606, sha256 56dce7f18a7b0c3e"
+   },
+   "tier2": {
+    "v": 69.495,
+    "src": "ЦБ, ф. 0409805, https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606, sha256 56dce7f18a7b0c3e"
+   },
+   "rwa": {
+    "v": 5287.3,
+    "calc": "вменённые: капитал / Н20.0 (точность +-0,04 %)",
+    "basis": "банковская группа по ЦБ"
+   },
+   "min_n20_0_with_buffers": {
+    "v": 0.09999000000000001,
+    "src": "МСФО, прим. «Управление капиталом» (stage1/regulation/schedule.yaml, check_ifrs)"
+   },
+   "bv_shareholders": {
+    "v": 756.8,
+    "src": "stage1/ifrs/ifrs_history.csv: eq_shareholders",
+    "basis": "IFRS"
+   }
+  }
+ ]
+}

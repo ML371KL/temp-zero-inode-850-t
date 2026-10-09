@@ -1,0 +1,740 @@
+period,period_end,metric,label_ru,value,unit,basis,methodology,source,sheet_row
+2014Q1,2014-03-31,bs.cash,Денежные средства и их эквиваленты,17.548935,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2014Q2,2014-06-30,bs.cash,Денежные средства и их эквиваленты,9.79867,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2014Q3,2014-09-30,bs.cash,Денежные средства и их эквиваленты,6.411397,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2014Q4,2014-12-31,bs.cash,Денежные средства и их эквиваленты,10.699577,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2015Q1,2015-03-31,bs.cash,Денежные средства и их эквиваленты,16.9115,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2015Q2,2015-06-30,bs.cash,Денежные средства и их эквиваленты,15.959588,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2015Q3,2015-09-30,bs.cash,Денежные средства и их эквиваленты,4.68649,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2015Q4,2015-12-31,bs.cash,Денежные средства и их эквиваленты,13.689044,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2016Q1,2016-03-31,bs.cash,Денежные средства и их эквиваленты,15.433796,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2016Q2,2016-06-30,bs.cash,Денежные средства и их эквиваленты,14.242,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2016Q3,2016-09-30,bs.cash,Денежные средства и их эквиваленты,13.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2016Q4,2016-12-31,bs.cash,Денежные средства и их эквиваленты,16.197,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2017Q1,2017-03-31,bs.cash,Денежные средства и их эквиваленты,12.987,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2017Q2,2017-06-30,bs.cash,Денежные средства и их эквиваленты,27.014,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2017Q3,2017-09-30,bs.cash,Денежные средства и их эквиваленты,18.998,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2017Q4,2017-12-31,bs.cash,Денежные средства и их эквиваленты,23.85,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2018Q1,2018-03-31,bs.cash,Денежные средства и их эквиваленты,12.379,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2018Q2,2018-06-30,bs.cash,Денежные средства и их эквиваленты,18.996,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2018Q3,2018-09-30,bs.cash,Денежные средства и их эквиваленты,23.961,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2018Q4,2018-12-31,bs.cash,Денежные средства и их эквиваленты,33.802,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2019Q1,2019-03-31,bs.cash,Денежные средства и их эквиваленты,31.217,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2019Q2,2019-06-30,bs.cash,Денежные средства и их эквиваленты,23.771,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2019Q3,2019-09-30,bs.cash,Денежные средства и их эквиваленты,42.356,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2019Q4,2019-12-31,bs.cash,Денежные средства и их эквиваленты,55.564,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2020Q1,2020-03-31,bs.cash,Денежные средства и их эквиваленты,59.867306825,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2020Q2,2020-06-30,bs.cash,Денежные средства и их эквиваленты,57.681876711,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2020Q3,2020-09-30,bs.cash,Денежные средства и их эквиваленты,56.923665702,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2020Q4,2020-12-31,bs.cash,Денежные средства и их эквиваленты,136.351,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2021Q1,2021-03-31,bs.cash,Денежные средства и их эквиваленты,73.72,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2021Q2,2021-06-30,bs.cash,Денежные средства и их эквиваленты,108.48,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2021Q3,2021-09-30,bs.cash,Денежные средства и их эквиваленты,192.831,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2021Q4,2021-12-31,bs.cash,Денежные средства и их эквиваленты,316.476,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2022Q1,2022-03-31,bs.cash,Денежные средства и их эквиваленты,338.049,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2022Q2,2022-06-30,bs.cash,Денежные средства и их эквиваленты,412.976,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2022Q3,2022-09-30,bs.cash,Денежные средства и их эквиваленты,348.236,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2022Q4,2022-12-31,bs.cash,Денежные средства и их эквиваленты,511.561,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2023Q1,2023-03-31,bs.cash,Денежные средства и их эквиваленты,514.548,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2023Q2,2023-06-30,bs.cash,Денежные средства и их эквиваленты,445.505,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2023Q3,2023-09-30,bs.cash,Денежные средства и их эквиваленты,464.626,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2023Q4,2023-12-31,bs.cash,Денежные средства и их эквиваленты,724.154,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2024Q1,2024-03-31,bs.cash,Денежные средства и их эквиваленты,672.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2024Q2,2024-06-30,bs.cash,Денежные средства и их эквиваленты,924.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2024Q3,2024-09-30,bs.cash,Денежные средства и их эквиваленты,1267.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2024Q4,2024-12-31,bs.cash,Денежные средства и их эквиваленты,1426.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2025Q1,2025-03-31,bs.cash,Денежные средства и их эквиваленты,1000.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2025Q2,2025-06-30,bs.cash,Денежные средства и их эквиваленты,975.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2025Q3,2025-09-30,bs.cash,Денежные средства и их эквиваленты,1190.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2025Q4,2025-12-31,bs.cash,Денежные средства и их эквиваленты,1235.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2026Q1,2026-03-31,bs.cash,Денежные средства и их эквиваленты,803.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2026Q2,2026-06-30,bs.cash,Денежные средства и их эквиваленты,921.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!5
+2014Q1,2014-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.810261,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2014Q2,2014-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.694707,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2014Q3,2014-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.681278,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2014Q4,2014-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.68551,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2015Q1,2015-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.747985,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2015Q2,2015-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.907408,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2015Q3,2015-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.668082,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2015Q4,2015-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.674717,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2016Q1,2016-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.812811,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2016Q2,2016-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,0.872,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2016Q3,2016-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.123,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2016Q4,2016-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.218,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2017Q1,2017-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.311,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2017Q2,2017-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.464,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2017Q3,2017-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.624,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2017Q4,2017-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.675,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2018Q1,2018-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.793,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2018Q2,2018-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.95,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2018Q3,2018-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,2.187,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2018Q4,2018-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,2.435,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2019Q1,2019-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,2.616,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2019Q2,2019-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,2.721,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2019Q3,2019-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,3.255,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2019Q4,2019-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,3.448,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2020Q1,2020-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,3.773,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2020Q2,2020-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,4.211,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2020Q3,2020-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,4.793,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2020Q4,2020-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,5.379,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2021Q1,2021-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,6.106,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2021Q2,2021-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,6.642,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2021Q3,2021-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,7.387,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2021Q4,2021-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,8.589,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2022Q1,2022-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.64,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2022Q2,2022-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.69,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2022Q3,2022-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.69,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2022Q4,2022-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,1.69,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2023Q1,2023-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,3.189,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2023Q2,2023-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,3.189,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2023Q3,2023-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,3.189,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2023Q4,2023-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,3.189,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2024Q1,2024-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,6.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2024Q2,2024-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,6.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2024Q3,2024-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,13.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2024Q4,2024-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,13.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2025Q1,2025-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,15.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2025Q2,2025-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,15.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2025Q3,2025-09-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,15.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2025Q4,2025-12-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,15.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2026Q1,2026-03-31,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,15.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2026Q2,2026-06-30,bs.mandatory_reserves_cbr,Обязательные резервы на счетах в ЦБ РФ,15.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!6
+2014Q1,2014-03-31,bs.due_from_banks,Средства в других банках,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2014Q2,2014-06-30,bs.due_from_banks,Средства в других банках,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2014Q3,2014-09-30,bs.due_from_banks,Средства в других банках,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2014Q4,2014-12-31,bs.due_from_banks,Средства в других банках,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2015Q1,2015-03-31,bs.due_from_banks,Средства в других банках,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2015Q2,2015-06-30,bs.due_from_banks,Средства в других банках,0.356951,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2015Q3,2015-09-30,bs.due_from_banks,Средства в других банках,0.367868,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2015Q4,2015-12-31,bs.due_from_banks,Средства в других банках,0.726209,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2016Q1,2016-03-31,bs.due_from_banks,Средства в других банках,0.57643,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2016Q2,2016-06-30,bs.due_from_banks,Средства в других банках,0.597,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2016Q3,2016-09-30,bs.due_from_banks,Средства в других банках,0.445,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2016Q4,2016-12-31,bs.due_from_banks,Средства в других банках,0.347,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2017Q1,2017-03-31,bs.due_from_banks,Средства в других банках,0.699,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2017Q2,2017-06-30,bs.due_from_banks,Средства в других банках,0.358,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2017Q3,2017-09-30,bs.due_from_banks,Средства в других банках,0.687,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2017Q4,2017-12-31,bs.due_from_banks,Средства в других банках,0.777,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2018Q1,2018-03-31,bs.due_from_banks,Средства в других банках,1.289,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2018Q2,2018-06-30,bs.due_from_banks,Средства в других банках,0.548,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2018Q3,2018-09-30,bs.due_from_banks,Средства в других банках,0.565,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2018Q4,2018-12-31,bs.due_from_banks,Средства в других банках,0.776,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2019Q1,2019-03-31,bs.due_from_banks,Средства в других банках,0.571,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2019Q2,2019-06-30,bs.due_from_banks,Средства в других банках,1.395,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2019Q3,2019-09-30,bs.due_from_banks,Средства в других банках,1.851,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2019Q4,2019-12-31,bs.due_from_banks,Средства в других банках,2.084,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2020Q1,2020-03-31,bs.due_from_banks,Средства в других банках,1.86,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2020Q2,2020-06-30,bs.due_from_banks,Средства в других банках,1.868,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2020Q3,2020-09-30,bs.due_from_banks,Средства в других банках,1.882,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2020Q4,2020-12-31,bs.due_from_banks,Средства в других банках,1.887,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2021Q1,2021-03-31,bs.due_from_banks,Средства в других банках,1.892,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2021Q2,2021-06-30,bs.due_from_banks,Средства в других банках,1.097,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2021Q3,2021-09-30,bs.due_from_banks,Средства в других банках,0.538,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2021Q4,2021-12-31,bs.due_from_banks,Средства в других банках,0.542,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2022Q1,2022-03-31,bs.due_from_banks,Средства в других банках,0.572,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2022Q2,2022-06-30,bs.due_from_banks,Средства в других банках,8.357,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2022Q3,2022-09-30,bs.due_from_banks,Средства в других банках,2.915,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2022Q4,2022-12-31,bs.due_from_banks,Средства в других банках,0.45,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2023Q1,2023-03-31,bs.due_from_banks,Средства в других банках,0.487,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2023Q2,2023-06-30,bs.due_from_banks,Средства в других банках,5.647,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2023Q3,2023-09-30,bs.due_from_banks,Средства в других банках,5.496,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2023Q4,2023-12-31,bs.due_from_banks,Средства в других банках,5.312,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2024Q1,2024-03-31,bs.due_from_banks,Средства в других банках,52.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2024Q2,2024-06-30,bs.due_from_banks,Средства в других банках,123.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2024Q3,2024-09-30,bs.due_from_banks,Средства в других банках,94.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2024Q4,2024-12-31,bs.due_from_banks,Средства в других банках,48.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2025Q1,2025-03-31,bs.due_from_banks,Средства в других банках,57.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2025Q2,2025-06-30,bs.due_from_banks,Средства в других банках,179.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2025Q3,2025-09-30,bs.due_from_banks,Средства в других банках,171.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2025Q4,2025-12-31,bs.due_from_banks,Средства в других банках,194.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2026Q1,2026-03-31,bs.due_from_banks,Средства в других банках,259.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2026Q2,2026-06-30,bs.due_from_banks,Средства в других банках,136.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!7
+2014Q1,2014-03-31,bs.securities,Инвестиции в ценные бумаги,1.389448,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2014Q2,2014-06-30,bs.securities,Инвестиции в ценные бумаги,2.608019,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2014Q3,2014-09-30,bs.securities,Инвестиции в ценные бумаги,5.782951,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2014Q4,2014-12-31,bs.securities,Инвестиции в ценные бумаги,0.216535,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2015Q1,2015-03-31,bs.securities,Инвестиции в ценные бумаги,7.25714,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2015Q2,2015-06-30,bs.securities,Инвестиции в ценные бумаги,11.844984,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2015Q3,2015-09-30,bs.securities,Инвестиции в ценные бумаги,13.106004,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2015Q4,2015-12-31,bs.securities,Инвестиции в ценные бумаги,15.935866,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2016Q1,2016-03-31,bs.securities,Инвестиции в ценные бумаги,19.632522,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2016Q2,2016-06-30,bs.securities,Инвестиции в ценные бумаги,27.795,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2016Q3,2016-09-30,bs.securities,Инвестиции в ценные бумаги,33.597,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2016Q4,2016-12-31,bs.securities,Инвестиции в ценные бумаги,33.286,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2017Q1,2017-03-31,bs.securities,Инвестиции в ценные бумаги,32.44,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2017Q2,2017-06-30,bs.securities,Инвестиции в ценные бумаги,45.973,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2017Q3,2017-09-30,bs.securities,Инвестиции в ценные бумаги,57.866,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2017Q4,2017-12-31,bs.securities,Инвестиции в ценные бумаги,71.676,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2018Q1,2018-03-31,bs.securities,Инвестиции в ценные бумаги,83.661,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2018Q2,2018-06-30,bs.securities,Инвестиции в ценные бумаги,85.946,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2018Q3,2018-09-30,bs.securities,Инвестиции в ценные бумаги,95.348,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2018Q4,2018-12-31,bs.securities,Инвестиции в ценные бумаги,100.14,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2019Q1,2019-03-31,bs.securities,Инвестиции в ценные бумаги,70.374,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2019Q2,2019-06-30,bs.securities,Инвестиции в ценные бумаги,79.276,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2019Q3,2019-09-30,bs.securities,Инвестиции в ценные бумаги,96.996,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2019Q4,2019-12-31,bs.securities,Инвестиции в ценные бумаги,135.178,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2020Q1,2020-03-31,bs.securities,Инвестиции в ценные бумаги,148.043,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2020Q2,2020-06-30,bs.securities,Инвестиции в ценные бумаги,217.06,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2020Q3,2020-09-30,bs.securities,Инвестиции в ценные бумаги,238.139,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2020Q4,2020-12-31,bs.securities,Инвестиции в ценные бумаги,238.454,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2021Q1,2021-03-31,bs.securities,Инвестиции в ценные бумаги,246.257,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2021Q2,2021-06-30,bs.securities,Инвестиции в ценные бумаги,223.645,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2021Q3,2021-09-30,bs.securities,Инвестиции в ценные бумаги,222.356,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2021Q4,2021-12-31,bs.securities,Инвестиции в ценные бумаги,215.311,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2022Q1,2022-03-31,bs.securities,Инвестиции в ценные бумаги,211.08,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2022Q2,2022-06-30,bs.securities,Инвестиции в ценные бумаги,211.222,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2022Q3,2022-09-30,bs.securities,Инвестиции в ценные бумаги,257.351,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2022Q4,2022-12-31,bs.securities,Инвестиции в ценные бумаги,325.802,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2023Q1,2023-03-31,bs.securities,Инвестиции в ценные бумаги,330.667,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2023Q2,2023-06-30,bs.securities,Инвестиции в ценные бумаги,330.903,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2023Q3,2023-09-30,bs.securities,Инвестиции в ценные бумаги,297.531,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2023Q4,2023-12-31,bs.securities,Инвестиции в ценные бумаги,332.923,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2024Q1,2024-03-31,bs.securities,Инвестиции в ценные бумаги,242.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2024Q2,2024-06-30,bs.securities,Инвестиции в ценные бумаги,223.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2024Q3,2024-09-30,bs.securities,Инвестиции в ценные бумаги,514.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2024Q4,2024-12-31,bs.securities,Инвестиции в ценные бумаги,430.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2025Q1,2025-03-31,bs.securities,Инвестиции в ценные бумаги,430.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2025Q2,2025-06-30,bs.securities,Инвестиции в ценные бумаги,609.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2025Q3,2025-09-30,bs.securities,Инвестиции в ценные бумаги,551.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2025Q4,2025-12-31,bs.securities,Инвестиции в ценные бумаги,700.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2026Q1,2026-03-31,bs.securities,Инвестиции в ценные бумаги,831.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2026Q2,2026-06-30,bs.securities,Инвестиции в ценные бумаги,924.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!8
+2024Q1,2024-03-31,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,0.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2024Q2,2024-06-30,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,0.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2024Q3,2024-09-30,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,0.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2024Q4,2024-12-31,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,2.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2025Q1,2025-03-31,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,4.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2025Q2,2025-06-30,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,49.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2025Q3,2025-09-30,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,49.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2025Q4,2025-12-31,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,66.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2026Q1,2026-03-31,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,66.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2026Q2,2026-06-30,bs.associates_jv,Инвестиции в ассоциированные компании и совместные предприятия,62.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!13
+2014Q1,2014-03-31,bs.total_assets,ИТОГО АКТИВЫ,101.20069,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2014Q2,2014-06-30,bs.total_assets,ИТОГО АКТИВЫ,94.913853,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2014Q3,2014-09-30,bs.total_assets,ИТОГО АКТИВЫ,96.490616,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2014Q4,2014-12-31,bs.total_assets,ИТОГО АКТИВЫ,108.806274,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2015Q1,2015-03-31,bs.total_assets,ИТОГО АКТИВЫ,114.08703,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2015Q2,2015-06-30,bs.total_assets,ИТОГО АКТИВЫ,122.24152,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2015Q3,2015-09-30,bs.total_assets,ИТОГО АКТИВЫ,115.997697,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2015Q4,2015-12-31,bs.total_assets,ИТОГО АКТИВЫ,139.651983,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2016Q1,2016-03-31,bs.total_assets,ИТОГО АКТИВЫ,146.770456,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2016Q2,2016-06-30,bs.total_assets,ИТОГО АКТИВЫ,152.691,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2016Q3,2016-09-30,bs.total_assets,ИТОГО АКТИВЫ,164.177,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2016Q4,2016-12-31,bs.total_assets,ИТОГО АКТИВЫ,175.207,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2017Q1,2017-03-31,bs.total_assets,ИТОГО АКТИВЫ,176.824,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2017Q2,2017-06-30,bs.total_assets,ИТОГО АКТИВЫ,215.323,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2017Q3,2017-09-30,bs.total_assets,ИТОГО АКТИВЫ,235.991,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2017Q4,2017-12-31,bs.total_assets,ИТОГО АКТИВЫ,268.828,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2018Q1,2018-03-31,bs.total_assets,ИТОГО АКТИВЫ,265.828,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2018Q2,2018-06-30,bs.total_assets,ИТОГО АКТИВЫ,287.172,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2018Q3,2018-09-30,bs.total_assets,ИТОГО АКТИВЫ,321.979,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2018Q4,2018-12-31,bs.total_assets,ИТОГО АКТИВЫ,375.499,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2019Q1,2019-03-31,bs.total_assets,ИТОГО АКТИВЫ,408.893,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2019Q2,2019-06-30,bs.total_assets,ИТОГО АКТИВЫ,452.063,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2019Q3,2019-09-30,bs.total_assets,ИТОГО АКТИВЫ,507.631,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2019Q4,2019-12-31,bs.total_assets,ИТОГО АКТИВЫ,580.025,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2020Q1,2020-03-31,bs.total_assets,ИТОГО АКТИВЫ,607.842926467,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2020Q2,2020-06-30,bs.total_assets,ИТОГО АКТИВЫ,670.124569647,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2020Q3,2020-09-30,bs.total_assets,ИТОГО АКТИВЫ,726.890486437,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2020Q4,2020-12-31,bs.total_assets,ИТОГО АКТИВЫ,859.294,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2021Q1,2021-03-31,bs.total_assets,ИТОГО АКТИВЫ,873.506,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2021Q2,2021-06-30,bs.total_assets,ИТОГО АКТИВЫ,966.004,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2021Q3,2021-09-30,bs.total_assets,ИТОГО АКТИВЫ,1100.272,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2021Q4,2021-12-31,bs.total_assets,ИТОГО АКТИВЫ,1316.703,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2022Q1,2022-03-31,bs.total_assets,ИТОГО АКТИВЫ,1305.865160359,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2022Q2,2022-06-30,bs.total_assets,ИТОГО АКТИВЫ,1331.032206728,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2022Q3,2022-09-30,bs.total_assets,ИТОГО АКТИВЫ,1315.336,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2022Q4,2022-12-31,bs.total_assets,ИТОГО АКТИВЫ,1596.875,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2023Q1,2023-03-31,bs.total_assets,ИТОГО АКТИВЫ,1675.574,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2023Q2,2023-06-30,bs.total_assets,ИТОГО АКТИВЫ,1752.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2023Q3,2023-09-30,bs.total_assets,ИТОГО АКТИВЫ,1917.467,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2023Q4,2023-12-31,bs.total_assets,ИТОГО АКТИВЫ,2269.799,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2024Q1,2024-03-31,bs.total_assets,ИТОГО АКТИВЫ,2439.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2024Q2,2024-06-30,bs.total_assets,ИТОГО АКТИВЫ,2885.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2024Q3,2024-09-30,bs.total_assets,ИТОГО АКТИВЫ,4968.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2024Q4,2024-12-31,bs.total_assets,ИТОГО АКТИВЫ,5119.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2025Q1,2025-03-31,bs.total_assets,ИТОГО АКТИВЫ,4733.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2025Q2,2025-06-30,bs.total_assets,ИТОГО АКТИВЫ,5329.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2025Q3,2025-09-30,bs.total_assets,ИТОГО АКТИВЫ,5703.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2025Q4,2025-12-31,bs.total_assets,ИТОГО АКТИВЫ,6085.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2026Q1,2026-03-31,bs.total_assets,ИТОГО АКТИВЫ,5933.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2026Q2,2026-06-30,bs.total_assets,ИТОГО АКТИВЫ,6272.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!21
+2014Q1,2014-03-31,bs.customer_accounts,Средства клиентов,43.133398,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2014Q2,2014-06-30,bs.customer_accounts,Средства клиентов,42.088597,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2014Q3,2014-09-30,bs.customer_accounts,Средства клиентов,41.273107,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2014Q4,2014-12-31,bs.customer_accounts,Средства клиентов,43.366434,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2015Q1,2015-03-31,bs.customer_accounts,Средства клиентов,55.162287,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2015Q2,2015-06-30,bs.customer_accounts,Средства клиентов,71.700219,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2015Q3,2015-09-30,bs.customer_accounts,Средства клиентов,74.681785,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2015Q4,2015-12-31,bs.customer_accounts,Средства клиентов,89.342642,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2016Q1,2016-03-31,bs.customer_accounts,Средства клиентов,95.96996,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2016Q2,2016-06-30,bs.customer_accounts,Средства клиентов,101.695,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2016Q3,2016-09-30,bs.customer_accounts,Средства клиентов,110.598,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2016Q4,2016-12-31,bs.customer_accounts,Средства клиентов,124.556,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2017Q1,2017-03-31,bs.customer_accounts,Средства клиентов,123.267,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2017Q2,2017-06-30,bs.customer_accounts,Средства клиентов,140.192,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2017Q3,2017-09-30,bs.customer_accounts,Средства клиентов,155.659,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2017Q4,2017-12-31,bs.customer_accounts,Средства клиентов,179.045,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2018Q1,2018-03-31,bs.customer_accounts,Средства клиентов,182.348,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2018Q2,2018-06-30,bs.customer_accounts,Средства клиентов,207.675,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2018Q3,2018-09-30,bs.customer_accounts,Средства клиентов,233.543,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2018Q4,2018-12-31,bs.customer_accounts,Средства клиентов,280.916,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2019Q1,2019-03-31,bs.customer_accounts,Средства клиентов,281.762,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2019Q2,2019-06-30,bs.customer_accounts,Средства клиентов,315.024,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2019Q3,2019-09-30,bs.customer_accounts,Средства клиентов,346.665,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2019Q4,2019-12-31,bs.customer_accounts,Средства клиентов,411.614,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2020Q1,2020-03-31,bs.customer_accounts,Средства клиентов,419.611,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2020Q2,2020-06-30,bs.customer_accounts,Средства клиентов,473.923,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2020Q3,2020-09-30,bs.customer_accounts,Средства клиентов,513.426,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2020Q4,2020-12-31,bs.customer_accounts,Средства клиентов,626.837,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2021Q1,2021-03-31,bs.customer_accounts,Средства клиентов,631.288,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2021Q2,2021-06-30,bs.customer_accounts,Средства клиентов,706.729,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2021Q3,2021-09-30,bs.customer_accounts,Средства клиентов,776.985,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2021Q4,2021-12-31,bs.customer_accounts,Средства клиентов,945.723,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2022Q1,2022-03-31,bs.customer_accounts,Средства клиентов,921.659,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2022Q2,2022-06-30,bs.customer_accounts,Средства клиентов,983.358,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2022Q3,2022-09-30,bs.customer_accounts,Средства клиентов,961.229,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2022Q4,2022-12-31,bs.customer_accounts,Средства клиентов,1191.986,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2023Q1,2023-03-31,bs.customer_accounts,Средства клиентов,1274.996,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2023Q2,2023-06-30,bs.customer_accounts,Средства клиентов,1313.31,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2023Q3,2023-09-30,bs.customer_accounts,Средства клиентов,1380.854,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2023Q4,2023-12-31,bs.customer_accounts,Средства клиентов,1713.272,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2024Q1,2024-03-31,bs.customer_accounts,Средства клиентов,1859.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2024Q2,2024-06-30,bs.customer_accounts,Средства клиентов,2291.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2024Q3,2024-09-30,bs.customer_accounts,Средства клиентов,3903.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2024Q4,2024-12-31,bs.customer_accounts,Средства клиентов,4009.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2025Q1,2025-03-31,bs.customer_accounts,Средства клиентов,3682.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2025Q2,2025-06-30,bs.customer_accounts,Средства клиентов,3934.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2025Q3,2025-09-30,bs.customer_accounts,Средства клиентов,4184.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2025Q4,2025-12-31,bs.customer_accounts,Средства клиентов,4348.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2026Q1,2026-03-31,bs.customer_accounts,Средства клиентов,4176.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2026Q2,2026-06-30,bs.customer_accounts,Средства клиентов,4369.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!24
+2014Q1,2014-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,80.280638,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2014Q2,2014-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,72.671316,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2014Q3,2014-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,73.148547,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2014Q4,2014-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,87.837206,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2015Q1,2015-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,93.216436,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2015Q2,2015-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,101.117269,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2015Q3,2015-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,94.134815,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2015Q4,2015-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,116.705512,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2016Q1,2016-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,122.884135,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2016Q2,2016-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,127.714,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2016Q3,2016-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,136.028,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2016Q4,2016-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,145.853,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2017Q1,2017-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,143.35,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2017Q2,2017-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,179.415,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2017Q3,2017-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,196.857,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2017Q4,2017-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,226.883,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2018Q1,2018-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,231.027,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2018Q2,2018-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,252.436,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2018Q3,2018-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,284.393,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2018Q4,2018-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,333.249,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2019Q1,2019-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,361.949,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2019Q2,2019-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,397.562,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2019Q3,2019-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,424.241,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2019Q4,2019-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,483.943,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2020Q1,2020-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,511.247926467,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2020Q2,2020-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,562.061569647,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2020Q3,2020-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,610.403486437,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2020Q4,2020-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,732.278,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2021Q1,2021-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,741.254,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2021Q2,2021-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,818.849,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2021Q3,2021-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,937.464,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2021Q4,2021-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1140.422,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2022Q1,2022-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1121.932,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2022Q2,2022-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1139.776,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2022Q3,2022-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1121.679,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2022Q4,2022-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1390.962,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2023Q1,2023-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1456.11,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2023Q2,2023-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1513.583,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2023Q3,2023-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1656.985,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2023Q4,2023-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,1985.884,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2024Q1,2024-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,2161.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2024Q2,2024-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,2589.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2024Q3,2024-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,4465.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2024Q4,2024-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,4598.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2025Q1,2025-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,4165.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2025Q2,2025-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,4603.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2025Q3,2025-09-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,4956.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2025Q4,2025-12-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,5280.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2026Q1,2026-03-31,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,5096.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2026Q2,2026-06-30,bs.total_liabilities,ИТОГО ОБЯЗАТЕЛЬСТВА,5402.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!35
+2014Q1,2014-03-31,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2014Q2,2014-06-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2014Q3,2014-09-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2014Q4,2014-12-31,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2015Q1,2015-03-31,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2015Q2,2015-06-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2015Q3,2015-09-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2015Q4,2015-12-31,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2016Q1,2016-03-31,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2016Q2,2016-06-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2016Q3,2016-09-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2016Q4,2016-12-31,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2017Q1,2017-03-31,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2017Q2,2017-06-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2017Q3,2017-09-30,bs.nci,Неконтролирующая доля участия,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2017Q4,2017-12-31,bs.nci,Неконтролирующая доля участия,0.202,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2018Q1,2018-03-31,bs.nci,Неконтролирующая доля участия,0.198,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2018Q2,2018-06-30,bs.nci,Неконтролирующая доля участия,0.237,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2018Q3,2018-09-30,bs.nci,Неконтролирующая доля участия,0.221,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2018Q4,2018-12-31,bs.nci,Неконтролирующая доля участия,0.236,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2019Q1,2019-03-31,bs.nci,Неконтролирующая доля участия,0.237,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2019Q2,2019-06-30,bs.nci,Неконтролирующая доля участия,0.164,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2019Q3,2019-09-30,bs.nci,Неконтролирующая доля участия,0.168,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2019Q4,2019-12-31,bs.nci,Неконтролирующая доля участия,0.103,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2020Q1,2020-03-31,bs.nci,Неконтролирующая доля участия,0.106,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2020Q2,2020-06-30,bs.nci,Неконтролирующая доля участия,0.111,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2020Q3,2020-09-30,bs.nci,Неконтролирующая доля участия,0.117,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2020Q4,2020-12-31,bs.nci,Неконтролирующая доля участия,0.089,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2021Q1,2021-03-31,bs.nci,Неконтролирующая доля участия,0.096,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2021Q2,2021-06-30,bs.nci,Неконтролирующая доля участия,0.675,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2021Q3,2021-09-30,bs.nci,Неконтролирующая доля участия,0.437,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2021Q4,2021-12-31,bs.nci,Неконтролирующая доля участия,0.325,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2022Q1,2022-03-31,bs.nci,Неконтролирующая доля участия,0.215,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2022Q2,2022-06-30,bs.nci,Неконтролирующая доля участия,0.249,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2022Q3,2022-09-30,bs.nci,Неконтролирующая доля участия,0.256,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2022Q4,2022-12-31,bs.nci,Неконтролирующая доля участия,-0.056,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2023Q1,2023-03-31,bs.nci,Неконтролирующая доля участия,0.057,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2023Q2,2023-06-30,bs.nci,Неконтролирующая доля участия,0.058,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2023Q3,2023-09-30,bs.nci,Неконтролирующая доля участия,0.092,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2023Q4,2023-12-31,bs.nci,Неконтролирующая доля участия,0.172,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2024Q1,2024-03-31,bs.nci,Неконтролирующая доля участия,0.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2024Q2,2024-06-30,bs.nci,Неконтролирующая доля участия,0.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2024Q3,2024-09-30,bs.nci,Неконтролирующая доля участия,2.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2024Q4,2024-12-31,bs.nci,Неконтролирующая доля участия,1.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2025Q1,2025-03-31,bs.nci,Неконтролирующая доля участия,1.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2025Q2,2025-06-30,bs.nci,Неконтролирующая доля участия,112.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2025Q3,2025-09-30,bs.nci,Неконтролирующая доля участия,112.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2025Q4,2025-12-31,bs.nci,Неконтролирующая доля участия,121.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2026Q1,2026-03-31,bs.nci,Неконтролирующая доля участия,117.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2026Q2,2026-06-30,bs.nci,Неконтролирующая доля участия,112.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,BS!45
+2014Q1,2014-03-31,loans.gross.total,Валовая балансовая стоимость,87.487,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2014Q2,2014-06-30,loans.gross.total,Валовая балансовая стоимость,91.292,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2014Q3,2014-09-30,loans.gross.total,Валовая балансовая стоимость,93.691,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2014Q4,2014-12-31,loans.gross.total,Валовая балансовая стоимость,93.907,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2015Q1,2015-03-31,loans.gross.total,Валовая балансовая стоимость,91.337,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2015Q2,2015-06-30,loans.gross.total,Валовая балансовая стоимость,95.084,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2015Q3,2015-09-30,loans.gross.total,Валовая балансовая стоимость,98.011,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2015Q4,2015-12-31,loans.gross.total,Валовая балансовая стоимость,101.081,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2016Q1,2016-03-31,loans.gross.total,Валовая балансовая стоимость,104.917,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2016Q2,2016-06-30,loans.gross.total,Валовая балансовая стоимость,111.464,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2016Q3,2016-09-30,loans.gross.total,Валовая балансовая стоимость,116.794,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2016Q4,2016-12-31,loans.gross.total,Валовая балансовая стоимость,120.435,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2017Q1,2017-03-31,loans.gross.total,Валовая балансовая стоимость,129.374,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2017Q2,2017-06-30,loans.gross.total,Валовая балансовая стоимость,139.485,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2017Q3,2017-09-30,loans.gross.total,Валовая балансовая стоимость,153.404,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2017Q4,2017-12-31,loans.gross.total,Валовая балансовая стоимость,157.781,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2018Q1,2018-03-31,loans.gross.total,Валовая балансовая стоимость,176.423,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2018Q2,2018-06-30,loans.gross.total,Валовая балансовая стоимость,189.477,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2018Q3,2018-09-30,loans.gross.total,Валовая балансовая стоимость,205.436,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2018Q4,2018-12-31,loans.gross.total,Валовая балансовая стоимость,234.71,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2019Q1,2019-03-31,loans.gross.total,Валовая балансовая стоимость,279.727,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2019Q2,2019-06-30,loans.gross.total,Валовая балансовая стоимость,333.049,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2019Q3,2019-09-30,loans.gross.total,Валовая балансовая стоимость,368.958,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2019Q4,2019-12-31,loans.gross.total,Валовая балансовая стоимость,383.912,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2020Q1,2020-03-31,loans.gross.total,Валовая балансовая стоимость,399.878,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2020Q2,2020-06-30,loans.gross.total,Валовая балансовая стоимость,394.992,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2020Q3,2020-09-30,loans.gross.total,Валовая балансовая стоимость,416.687,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2020Q4,2020-12-31,loans.gross.total,Валовая балансовая стоимость,447.421,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2021Q1,2021-03-31,loans.gross.total,Валовая балансовая стоимость,502.924,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2021Q2,2021-06-30,loans.gross.total,Валовая балансовая стоимость,579.899,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2021Q3,2021-09-30,loans.gross.total,Валовая балансовая стоимость,631.143,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2021Q4,2021-12-31,loans.gross.total,Валовая балансовая стоимость,684.123,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2022Q1,2022-03-31,loans.gross.total,Валовая балансовая стоимость,709.509,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2022Q2,2022-06-30,loans.gross.total,Валовая балансовая стоимость,686.959,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2022Q3,2022-09-30,loans.gross.total,Валовая балансовая стоимость,699.716,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2022Q4,2022-12-31,loans.gross.total,Валовая балансовая стоимость,732.185,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2023Q1,2023-03-31,loans.gross.total,Валовая балансовая стоимость,813.827,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2023Q2,2023-06-30,loans.gross.total,Валовая балансовая стоимость,919.857,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2023Q3,2023-09-30,loans.gross.total,Валовая балансовая стоимость,1030.63,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2023Q4,2023-12-31,loans.gross.total,Валовая балансовая стоимость,1121.435,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2024Q1,2024-03-31,loans.gross.total,Валовая балансовая стоимость,1251.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2024Q2,2024-06-30,loans.gross.total,Валовая балансовая стоимость,1370.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2024Q3,2024-09-30,loans.gross.total,Валовая балансовая стоимость,2807.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2024Q4,2024-12-31,loans.gross.total,Валовая балансовая стоимость,2763.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2025Q1,2025-03-31,loans.gross.total,Валовая балансовая стоимость,2779.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2025Q2,2025-06-30,loans.gross.total,Валовая балансовая стоимость,3042.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2025Q3,2025-09-30,loans.gross.total,Валовая балансовая стоимость,3237.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2025Q4,2025-12-31,loans.gross.total,Валовая балансовая стоимость,3482.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2026Q1,2026-03-31,loans.gross.total,Валовая балансовая стоимость,3576.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2026Q2,2026-06-30,loans.gross.total,Валовая балансовая стоимость,3813.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!6
+2016Q4,2016-12-31,loans.gross.credit_cards,Кредитные карты,110.44,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2017Q1,2017-03-31,loans.gross.credit_cards,Кредитные карты,118.163,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2017Q2,2017-06-30,loans.gross.credit_cards,Кредитные карты,126.874,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2017Q3,2017-09-30,loans.gross.credit_cards,Кредитные карты,138.25,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2017Q4,2017-12-31,loans.gross.credit_cards,Кредитные карты,140.19,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2018Q1,2018-03-31,loans.gross.credit_cards,Кредитные карты,160.568,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2018Q2,2018-06-30,loans.gross.credit_cards,Кредитные карты,165.336,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2018Q3,2018-09-30,loans.gross.credit_cards,Кредитные карты,170.163,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2018Q4,2018-12-31,loans.gross.credit_cards,Кредитные карты,178.396,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2019Q1,2019-03-31,loans.gross.credit_cards,Кредитные карты,199.259,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2019Q2,2019-06-30,loans.gross.credit_cards,Кредитные карты,222.619,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2019Q3,2019-09-30,loans.gross.credit_cards,Кредитные карты,238.591,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2019Q4,2019-12-31,loans.gross.credit_cards,Кредитные карты,244.937,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2020Q1,2020-03-31,loans.gross.credit_cards,Кредитные карты,253.307,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2020Q2,2020-06-30,loans.gross.credit_cards,Кредитные карты,253.801,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2020Q3,2020-09-30,loans.gross.credit_cards,Кредитные карты,262.228,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2020Q4,2020-12-31,loans.gross.credit_cards,Кредитные карты,267.586,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2021Q1,2021-03-31,loans.gross.credit_cards,Кредитные карты,284.276,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2021Q2,2021-06-30,loans.gross.credit_cards,Кредитные карты,302.977,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2021Q3,2021-09-30,loans.gross.credit_cards,Кредитные карты,314.961,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2021Q4,2021-12-31,loans.gross.credit_cards,Кредитные карты,333.894,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2022Q1,2022-03-31,loans.gross.credit_cards,Кредитные карты,358.747,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2022Q2,2022-06-30,loans.gross.credit_cards,Кредитные карты,379.221,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2022Q3,2022-09-30,loans.gross.credit_cards,Кредитные карты,388.895,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2022Q4,2022-12-31,loans.gross.credit_cards,Кредитные карты,399.196,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2023Q1,2023-03-31,loans.gross.credit_cards,Кредитные карты,432.179,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2023Q2,2023-06-30,loans.gross.credit_cards,Кредитные карты,460.102,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2023Q3,2023-09-30,loans.gross.credit_cards,Кредитные карты,504.929,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2023Q4,2023-12-31,loans.gross.credit_cards,Кредитные карты,548.062,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2024Q1,2024-03-31,loans.gross.credit_cards,Кредитные карты,622.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2024Q2,2024-06-30,loans.gross.credit_cards,Кредитные карты,672.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2024Q3,2024-09-30,loans.gross.credit_cards,Кредитные карты,744.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2024Q4,2024-12-31,loans.gross.credit_cards,Кредитные карты,764.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2025Q1,2025-03-31,loans.gross.credit_cards,Кредитные карты,811.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2025Q2,2025-06-30,loans.gross.credit_cards,Кредитные карты,859.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2025Q3,2025-09-30,loans.gross.credit_cards,Кредитные карты,896.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2025Q4,2025-12-31,loans.gross.credit_cards,Кредитные карты,882.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2026Q1,2026-03-31,loans.gross.credit_cards,Кредитные карты,918.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2026Q2,2026-06-30,loans.gross.credit_cards,Кредитные карты,943.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!7
+2016Q4,2016-12-31,loans.gross.mortgage,Ипотечное кредитование,6.554,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2017Q1,2017-03-31,loans.gross.mortgage,Ипотечное кредитование,6.349,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2017Q2,2017-06-30,loans.gross.mortgage,Ипотечное кредитование,6.051,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2017Q3,2017-09-30,loans.gross.mortgage,Ипотечное кредитование,6.003,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2017Q4,2017-12-31,loans.gross.mortgage,Ипотечное кредитование,5.907,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2018Q1,2018-03-31,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2018Q2,2018-06-30,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2018Q3,2018-09-30,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2018Q4,2018-12-31,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2019Q1,2019-03-31,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2019Q2,2019-06-30,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2019Q3,2019-09-30,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2019Q4,2019-12-31,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2020Q1,2020-03-31,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2020Q2,2020-06-30,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2020Q3,2020-09-30,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2020Q4,2020-12-31,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2021Q1,2021-03-31,loans.gross.mortgage,Ипотечное кредитование,0.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2021Q2,2021-06-30,loans.gross.mortgage,Ипотечное кредитование,0.217055057,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2021Q3,2021-09-30,loans.gross.mortgage,Ипотечное кредитование,0.663863826,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2021Q4,2021-12-31,loans.gross.mortgage,Ипотечное кредитование,1.053232336,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2022Q1,2022-03-31,loans.gross.mortgage,Ипотечное кредитование,1.807415417,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2022Q2,2022-06-30,loans.gross.mortgage,Ипотечное кредитование,2.112180077,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2022Q3,2022-09-30,loans.gross.mortgage,Ипотечное кредитование,3.099578259,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2022Q4,2022-12-31,loans.gross.mortgage,Ипотечное кредитование,4.435675571,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2023Q1,2023-03-31,loans.gross.mortgage,Ипотечное кредитование,7.716858819,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2023Q2,2023-06-30,loans.gross.mortgage,Ипотечное кредитование,11.025160447,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2023Q3,2023-09-30,loans.gross.mortgage,Ипотечное кредитование,14.128086982,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2023Q4,2023-12-31,loans.gross.mortgage,Ипотечное кредитование,15.022405216,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2024Q1,2024-03-31,loans.gross.mortgage,Ипотечное кредитование,15.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2024Q2,2024-06-30,loans.gross.mortgage,Ипотечное кредитование,16.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2024Q3,2024-09-30,loans.gross.mortgage,Ипотечное кредитование,365.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2024Q4,2024-12-31,loans.gross.mortgage,Ипотечное кредитование,361.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2025Q1,2025-03-31,loans.gross.mortgage,Ипотечное кредитование,356.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2025Q2,2025-06-30,loans.gross.mortgage,Ипотечное кредитование,345.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2025Q3,2025-09-30,loans.gross.mortgage,Ипотечное кредитование,344.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2025Q4,2025-12-31,loans.gross.mortgage,Ипотечное кредитование,354.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2026Q1,2026-03-31,loans.gross.mortgage,Ипотечное кредитование,365.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2026Q2,2026-06-30,loans.gross.mortgage,Ипотечное кредитование,377.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!8
+2016Q4,2016-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,3.441,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2017Q1,2017-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,4.862,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2017Q2,2017-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,6.56,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2017Q3,2017-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,9.151,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2017Q4,2017-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,11.684,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2018Q1,2018-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,15.855,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2018Q2,2018-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,23.763,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2018Q3,2018-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,33.996,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2018Q4,2018-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,53.113,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2019Q1,2019-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,74.029,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2019Q2,2019-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,97.97,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2019Q3,2019-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,111.981,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2019Q4,2019-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,117.806,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2020Q1,2020-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,123.06,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2020Q2,2020-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,116.148,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2020Q3,2020-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,121.99,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2020Q4,2020-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,141.053,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2021Q1,2021-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,169.028,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2021Q2,2021-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,211.423944943,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2021Q3,2021-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,237.253136174,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2021Q4,2021-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,257.632767664,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2022Q1,2022-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,255.785584583,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2022Q2,2022-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,223.123819924,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2022Q3,2022-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,226.644421741,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2022Q4,2022-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,240.331324429,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2023Q1,2023-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,271.364141181,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2023Q2,2023-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,324.298839553,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2023Q3,2023-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,359.147913018,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2023Q4,2023-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,376.663594784,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2024Q1,2024-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,401.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2024Q2,2024-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,440.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2024Q3,2024-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,528.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2024Q4,2024-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,495.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2025Q1,2025-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,501.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2025Q2,2025-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,540.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2025Q3,2025-09-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,567.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2025Q4,2025-12-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,548.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2026Q1,2026-03-31,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,576.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2026Q2,2026-06-30,loans.gross.cash_and_other,Кредиты наличными и прочие кредиты,632.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!9
+2018Q2,2018-06-30,loans.gross.auto,Автокредиты,0.378,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2018Q3,2018-09-30,loans.gross.auto,Автокредиты,1.277,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2018Q4,2018-12-31,loans.gross.auto,Автокредиты,2.838,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2019Q1,2019-03-31,loans.gross.auto,Автокредиты,5.947,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2019Q2,2019-06-30,loans.gross.auto,Автокредиты,11.776,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2019Q3,2019-09-30,loans.gross.auto,Автокредиты,17.641,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2019Q4,2019-12-31,loans.gross.auto,Автокредиты,20.156,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2020Q1,2020-03-31,loans.gross.auto,Автокредиты,22.272,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2020Q2,2020-06-30,loans.gross.auto,Автокредиты,23.166,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2020Q3,2020-09-30,loans.gross.auto,Автокредиты,28.963,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2020Q4,2020-12-31,loans.gross.auto,Автокредиты,33.991,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2021Q1,2021-03-31,loans.gross.auto,Автокредиты,42.16,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2021Q2,2021-06-30,loans.gross.auto,Автокредиты,56.177,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2021Q3,2021-09-30,loans.gross.auto,Автокредиты,68.222,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2021Q4,2021-12-31,loans.gross.auto,Автокредиты,77.882,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2022Q1,2022-03-31,loans.gross.auto,Автокредиты,80.865,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2022Q2,2022-06-30,loans.gross.auto,Автокредиты,74.369,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2022Q3,2022-09-30,loans.gross.auto,Автокредиты,72.91,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2022Q4,2022-12-31,loans.gross.auto,Автокредиты,79.177,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2023Q1,2023-03-31,loans.gross.auto,Автокредиты,91.373,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2023Q2,2023-06-30,loans.gross.auto,Автокредиты,106.793,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2023Q3,2023-09-30,loans.gross.auto,Автокредиты,128.254,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2023Q4,2023-12-31,loans.gross.auto,Автокредиты,147.205,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2024Q1,2024-03-31,loans.gross.auto,Автокредиты,173.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2024Q2,2024-06-30,loans.gross.auto,Автокредиты,185.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2024Q3,2024-09-30,loans.gross.auto,Автокредиты,514.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2024Q4,2024-12-31,loans.gross.auto,Автокредиты,534.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2025Q1,2025-03-31,loans.gross.auto,Автокредиты,535.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2025Q2,2025-06-30,loans.gross.auto,Автокредиты,586.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2025Q3,2025-09-30,loans.gross.auto,Автокредиты,691.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2025Q4,2025-12-31,loans.gross.auto,Автокредиты,755.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2026Q1,2026-03-31,loans.gross.auto,Автокредиты,769.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2026Q2,2026-06-30,loans.gross.auto,Автокредиты,790.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!10
+2018Q4,2018-12-31,loans.gross.sme,Кредиты для ИП и МСБ,0.363,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2019Q1,2019-03-31,loans.gross.sme,Кредиты для ИП и МСБ,0.492,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2019Q2,2019-06-30,loans.gross.sme,Кредиты для ИП и МСБ,0.684,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2019Q3,2019-09-30,loans.gross.sme,Кредиты для ИП и МСБ,0.745,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2019Q4,2019-12-31,loans.gross.sme,Кредиты для ИП и МСБ,1.013,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2020Q1,2020-03-31,loans.gross.sme,Кредиты для ИП и МСБ,1.239,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2020Q2,2020-06-30,loans.gross.sme,Кредиты для ИП и МСБ,1.877,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2020Q3,2020-09-30,loans.gross.sme,Кредиты для ИП и МСБ,2.072,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2020Q4,2020-12-31,loans.gross.sme,Кредиты для ИП и МСБ,2.899,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2021Q1,2021-03-31,loans.gross.sme,Кредиты для ИП и МСБ,4.072,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2021Q2,2021-06-30,loans.gross.sme,Кредиты для ИП и МСБ,5.818,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2021Q3,2021-09-30,loans.gross.sme,Кредиты для ИП и МСБ,6.794,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2021Q4,2021-12-31,loans.gross.sme,Кредиты для ИП и МСБ,9.69,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2022Q1,2022-03-31,loans.gross.sme,Кредиты для ИП и МСБ,9.403,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2022Q2,2022-06-30,loans.gross.sme,Кредиты для ИП и МСБ,6.446,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2022Q3,2022-09-30,loans.gross.sme,Кредиты для ИП и МСБ,7.74,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2022Q4,2022-12-31,loans.gross.sme,Кредиты для ИП и МСБ,8.462,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2023Q1,2023-03-31,loans.gross.sme,Кредиты для ИП и МСБ,10.549,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2023Q2,2023-06-30,loans.gross.sme,Кредиты для ИП и МСБ,17.492,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2023Q3,2023-09-30,loans.gross.sme,Кредиты для ИП и МСБ,24.012,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2023Q4,2023-12-31,loans.gross.sme,Кредиты для ИП и МСБ,34.185,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2024Q1,2024-03-31,loans.gross.sme,Кредиты для ИП и МСБ,39.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2024Q2,2024-06-30,loans.gross.sme,Кредиты для ИП и МСБ,53.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2024Q3,2024-09-30,loans.gross.sme,Кредиты для ИП и МСБ,84.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2024Q4,2024-12-31,loans.gross.sme,Кредиты для ИП и МСБ,108.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2025Q1,2025-03-31,loans.gross.sme,Кредиты для ИП и МСБ,123.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2025Q2,2025-06-30,loans.gross.sme,Кредиты для ИП и МСБ,145.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2025Q3,2025-09-30,loans.gross.sme,Кредиты для ИП и МСБ,175.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2025Q4,2025-12-31,loans.gross.sme,Кредиты для ИП и МСБ,212.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2026Q1,2026-03-31,loans.gross.sme,Кредиты для ИП и МСБ,231.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2026Q2,2026-06-30,loans.gross.sme,Кредиты для ИП и МСБ,252.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!11
+2024Q3,2024-09-30,loans.gross.corporate,Кредиты корпоративному бизнесу,507.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2024Q4,2024-12-31,loans.gross.corporate,Кредиты корпоративному бизнесу,426.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2025Q1,2025-03-31,loans.gross.corporate,Кредиты корпоративному бизнесу,379.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2025Q2,2025-06-30,loans.gross.corporate,Кредиты корпоративному бизнесу,493.4,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2025Q3,2025-09-30,loans.gross.corporate,Кредиты корпоративному бизнесу,490.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2025Q4,2025-12-31,loans.gross.corporate,Кредиты корпоративному бизнесу,650.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2026Q1,2026-03-31,loans.gross.corporate,Кредиты корпоративному бизнесу,636.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2026Q2,2026-06-30,loans.gross.corporate,Кредиты корпоративному бизнесу,732.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!12
+2024Q3,2024-09-30,loans.gross.leasing,Чистые инвестиции в лизинг,62.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2024Q4,2024-12-31,loans.gross.leasing,Чистые инвестиции в лизинг,67.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2025Q1,2025-03-31,loans.gross.leasing,Чистые инвестиции в лизинг,67.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2025Q2,2025-06-30,loans.gross.leasing,Чистые инвестиции в лизинг,65.9,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2025Q3,2025-09-30,loans.gross.leasing,Чистые инвестиции в лизинг,67.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2025Q4,2025-12-31,loans.gross.leasing,Чистые инвестиции в лизинг,73.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2026Q1,2026-03-31,loans.gross.leasing,Чистые инвестиции в лизинг,73.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2026Q2,2026-06-30,loans.gross.leasing,Чистые инвестиции в лизинг,77.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!13
+2020Q3,2020-09-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),1.434,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2020Q4,2020-12-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),1.892,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2021Q1,2021-03-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),3.388,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2021Q2,2021-06-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),3.286,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2021Q3,2021-09-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),3.249,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2021Q4,2021-12-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),3.971,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2022Q1,2022-03-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),2.901,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2022Q2,2022-06-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),1.687,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2022Q3,2022-09-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),0.427,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2022Q4,2022-12-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),0.583,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2023Q1,2023-03-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),0.645,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2023Q2,2023-06-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),0.146,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2023Q3,2023-09-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),0.159,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2023Q4,2023-12-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),0.297,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2024Q1,2024-03-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),0.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2024Q2,2024-06-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),1.8,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2024Q3,2024-09-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),1.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2024Q4,2024-12-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),4.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2025Q1,2025-03-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),4.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2025Q2,2025-06-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),4.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2025Q3,2025-09-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),4.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2025Q4,2025-12-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),5.1,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2026Q1,2026-03-31,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),5.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2026Q2,2026-06-30,loans.gross.fvtpl,Кредиты и авансы клиентам (FVTPL),5.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!14
+2014Q1,2014-03-31,loans.net.total,Чистая стоимость кредитов,75.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2014Q2,2014-06-30,loans.net.total,Чистая стоимость кредитов,74.633,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2014Q3,2014-09-30,loans.net.total,Чистая стоимость кредитов,74.74,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2014Q4,2014-12-31,loans.net.total,Чистая стоимость кредитов,74.579,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2015Q1,2015-03-31,loans.net.total,Чистая стоимость кредитов,72.14,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2015Q2,2015-06-30,loans.net.total,Чистая стоимость кредитов,75.57,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2015Q3,2015-09-30,loans.net.total,Чистая стоимость кредитов,78.224,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2015Q4,2015-12-31,loans.net.total,Чистая стоимость кредитов,82.066,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2016Q1,2016-03-31,loans.net.total,Чистая стоимость кредитов,87.006,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2016Q2,2016-06-30,loans.net.total,Чистая стоимость кредитов,93.609,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2016Q3,2016-09-30,loans.net.total,Чистая стоимость кредитов,98.855,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2016Q4,2016-12-31,loans.net.total,Чистая стоимость кредитов,102.912,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2017Q1,2017-03-31,loans.net.total,Чистая стоимость кредитов,111.452,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2017Q2,2017-06-30,loans.net.total,Чистая стоимость кредитов,121.163,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2017Q3,2017-09-30,loans.net.total,Чистая стоимость кредитов,134.076,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2017Q4,2017-12-31,loans.net.total,Чистая стоимость кредитов,140.245,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2018Q1,2018-03-31,loans.net.total,Чистая стоимость кредитов,139.763,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2018Q2,2018-06-30,loans.net.total,Чистая стоимость кредитов,152.191,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2018Q3,2018-09-30,loans.net.total,Чистая стоимость кредитов,168.67,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2018Q4,2018-12-31,loans.net.total,Чистая стоимость кредитов,198.489,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2019Q1,2019-03-31,loans.net.total,Чистая стоимость кредитов,241.125,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2019Q2,2019-06-30,loans.net.total,Чистая стоимость кредитов,290.298,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2019Q3,2019-09-30,loans.net.total,Чистая стоимость кредитов,319.884,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2019Q4,2019-12-31,loans.net.total,Чистая стоимость кредитов,329.175,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2020Q1,2020-03-31,loans.net.total,Чистая стоимость кредитов,335.839,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2020Q2,2020-06-30,loans.net.total,Чистая стоимость кредитов,324.226,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2020Q3,2020-09-30,loans.net.total,Чистая стоимость кредитов,346.313,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2020Q4,2020-12-31,loans.net.total,Чистая стоимость кредитов,376.521,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2021Q1,2021-03-31,loans.net.total,Чистая стоимость кредитов,430.964,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2021Q2,2021-06-30,loans.net.total,Чистая стоимость кредитов,507.374,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2021Q3,2021-09-30,loans.net.total,Чистая стоимость кредитов,556.278,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2021Q4,2021-12-31,loans.net.total,Чистая стоимость кредитов,606.308,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2022Q1,2022-03-31,loans.net.total,Чистая стоимость кредитов,616.214160359,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2022Q2,2022-06-30,loans.net.total,Чистая стоимость кредитов,583.956206728,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2022Q3,2022-09-30,loans.net.total,Чистая стоимость кредитов,583.735,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2022Q4,2022-12-31,loans.net.total,Чистая стоимость кредитов,606.455,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2023Q1,2023-03-31,loans.net.total,Чистая стоимость кредитов,682.774,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2023Q2,2023-06-30,loans.net.total,Чистая стоимость кредитов,784.132,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2023Q3,2023-09-30,loans.net.total,Чистая стоимость кредитов,887.656,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2023Q4,2023-12-31,loans.net.total,Чистая стоимость кредитов,972.412,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2024Q1,2024-03-31,loans.net.total,Чистая стоимость кредитов,1089.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2024Q2,2024-06-30,loans.net.total,Чистая стоимость кредитов,1192.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2024Q3,2024-09-30,loans.net.total,Чистая стоимость кредитов,2598.0,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2024Q4,2024-12-31,loans.net.total,Чистая стоимость кредитов,2538.3,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2025Q1,2025-03-31,loans.net.total,Чистая стоимость кредитов,2534.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2025Q2,2025-06-30,loans.net.total,Чистая стоимость кредитов,2775.5,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2025Q3,2025-09-30,loans.net.total,Чистая стоимость кредитов,2940.2,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2025Q4,2025-12-31,loans.net.total,Чистая стоимость кредитов,3170.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2026Q1,2026-03-31,loans.net.total,Чистая стоимость кредитов,3240.6,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2026Q2,2026-06-30,loans.net.total,Чистая стоимость кредитов,3459.7,bn_rub,pit,new,t-databook-key-financial-ratios_pub2026-09-09.xlsx,Credit!32
+2013Q4,2013-12-31,bs.total_assets,годовой баланс (сравнительные данные отчётности за 2014 г.),98.993935,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8
+2013Q4,2013-12-31,bs.customer_accounts,годовой баланс (сравнительные данные отчётности за 2014 г.),43.206628,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8
+2013Q4,2013-12-31,bs.cash,годовой баланс (сравнительные данные отчётности за 2014 г.),18.82597,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8
+2013Q4,2013-12-31,bs.total_liabilities,годовой баланс (сравнительные данные отчётности за 2014 г.),78.442928,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8
+2012Q4,2012-12-31,bs.total_assets,годовой баланс (сравнительные данные отчётности за 2014 г.),66.014183,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8
+2012Q4,2012-12-31,bs.customer_accounts,годовой баланс (сравнительные данные отчётности за 2014 г.),26.671665,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8
+2012Q4,2012-12-31,bs.cash,годовой баланс (сравнительные данные отчётности за 2014 г.),13.891926,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8
+2012Q4,2012-12-31,bs.total_liabilities,годовой баланс (сравнительные данные отчётности за 2014 г.),56.954981,bn_rub,pit,ext,en_2014Q4_ifrs_fs.pdf,p.8

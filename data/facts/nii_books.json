@@ -1,0 +1,333 @@
+{
+ "basis": "IFRS",
+ "as_of": "2026-06-30",
+ "period": "2026Q2",
+ "days": {
+  "v": 91,
+  "calc": "дней в квартале 2К2026 (act/365)"
+ },
+ "unit": "остатки и проценты — млрд ₽; ставки — доли, годовые, act/365",
+ "rates_carry_residual": false,
+ "books": {
+  "cards": {
+   "balance_open": {
+    "v": 918.1,
+    "src": "2026Q1_ifrs_fs.pdf, с. 34, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 943.8,
+    "calc": "остаток книги на 30.06.2026 (balance.books.cards)"
+   },
+   "balance_avg": {
+    "v": 930.95,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 74.2,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c"
+   },
+   "rate_anchor": {
+    "v": 0.31969,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "cash_loans": {
+   "balance_open": {
+    "v": 576.0,
+    "src": "2026Q1_ifrs_fs.pdf, с. 34, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 632.5,
+    "calc": "остаток книги на 30.06.2026 (balance.books.cash_loans)"
+   },
+   "balance_avg": {
+    "v": 604.25,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 41.7,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c"
+   },
+   "rate_anchor": {
+    "v": 0.276803,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "auto": {
+   "balance_open": {
+    "v": 769.6,
+    "src": "2026Q1_ifrs_fs.pdf, с. 34, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 790.2,
+    "calc": "остаток книги на 30.06.2026 (balance.books.auto)"
+   },
+   "balance_avg": {
+    "v": 779.9,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 37.4,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c"
+   },
+   "rate_anchor": {
+    "v": 0.192346,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "mortgage": {
+   "balance_open": {
+    "v": 365.9,
+    "src": "2026Q1_ifrs_fs.pdf, с. 34, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 377.9,
+    "calc": "остаток книги на 30.06.2026 (balance.books.mortgage)"
+   },
+   "balance_avg": {
+    "v": 371.9,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 16.0,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c"
+   },
+   "rate_anchor": {
+    "v": 0.172562,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "sme_loans": {
+   "balance_open": {
+    "v": 231.0,
+    "src": "2026Q1_ifrs_fs.pdf, с. 34, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 252.7,
+    "calc": "остаток книги на 30.06.2026 (balance.books.sme_loans)"
+   },
+   "balance_avg": {
+    "v": 241.85,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 24.7,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c"
+   },
+   "rate_anchor": {
+    "v": 0.40964,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "corp_loans": {
+   "balance_open": {
+    "v": 715.4,
+    "src": "2026Q1_ifrs_fs.pdf, с. 34, sha256 6ac85944afbf4e9f; 2026Q1_ifrs_fs.pdf, с. 33, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 816.0,
+    "calc": "остаток книги на 30.06.2026 (balance.books.corp_loans)"
+   },
+   "balance_avg": {
+    "v": 765.7,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 28.5,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c",
+    "calc": "проценты: кредиты корпоративному бизнесу 24,6 + проценты по чистым инвестициям в лизинг 3,9"
+   },
+   "rate_anchor": {
+    "v": 0.149292,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "securities": {
+   "balance_open": {
+    "v": 657.3,
+    "src": "2026Q1_ifrs_fs.pdf, с. 31, sha256 6ac85944afbf4e9f; 2026Q1_ifrs_fs.pdf, с. 32, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 745.8,
+    "calc": "остаток книги на 30.06.2026 (balance.books.securities)"
+   },
+   "balance_avg": {
+    "v": 701.55,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 20.3,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c",
+    "calc": "проценты: бумаги FVOCI (включая заложенные по репо) 11,8 + проценты: бумаги по амортизированной стоимости (включая заложенные по репо) 8,0 + проценты: финансовые активы по справедливой стоимости через прибыль или убыток 0,5"
+   },
+   "rate_anchor": {
+    "v": 0.116062,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "liquidity": {
+   "balance_open": {
+    "v": 1078.4,
+    "src": "2026Q1_ifrs_fs.pdf, с. 6, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 1073.5,
+    "calc": "остаток книги на 30.06.2026 (balance.books.liquidity)"
+   },
+   "balance_avg": {
+    "v": 1075.95,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 36.0,
+    "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c"
+   },
+   "rate_anchor": {
+    "v": 0.134203,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "retail_current": {
+   "balance_open": {
+    "v": 1153.1,
+    "src": "2026Q1_ifrs_fs.pdf, с. 56, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 1189.5,
+    "calc": "остаток книги на 30.06.2026 (balance.books.retail_current)"
+   },
+   "balance_avg": {
+    "v": 1171.3,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 16.6,
+    "src": "2026Q2_ifrs_fs.pdf, с. 31, sha256 fd08eacf4ed7e57c",
+    "calc": "величиной (в отчёте — со знаком минус)"
+   },
+   "rate_anchor": {
+    "v": 0.056845,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "retail_term": {
+   "balance_open": {
+    "v": 2164.0,
+    "src": "2026Q1_ifrs_fs.pdf, с. 56, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 2294.8,
+    "calc": "остаток книги на 30.06.2026 (balance.books.retail_term)"
+   },
+   "balance_avg": {
+    "v": 2229.4,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 73.0,
+    "src": "2026Q2_ifrs_fs.pdf, с. 31, sha256 fd08eacf4ed7e57c",
+    "calc": "величиной (в отчёте — со знаком минус)"
+   },
+   "rate_anchor": {
+    "v": 0.131337,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "corp_funds": {
+   "balance_open": {
+    "v": 778.9,
+    "src": "2026Q1_ifrs_fs.pdf, с. 56, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 814.2,
+    "calc": "остаток книги на 30.06.2026 (balance.books.corp_funds)"
+   },
+   "balance_avg": {
+    "v": 796.55,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 13.1,
+    "src": "2026Q2_ifrs_fs.pdf, с. 31, sha256 fd08eacf4ed7e57c",
+    "calc": "процентные расходы: корпоративный бизнес −8,3 + процентные расходы: ИП и МСБ −4,8; величиной (в отчёте — со знаком минус)"
+   },
+   "rate_anchor": {
+    "v": 0.065964,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  },
+  "wholesale": {
+   "balance_open": {
+    "v": 561.6,
+    "src": "2026Q1_ifrs_fs.pdf, с. 6, sha256 6ac85944afbf4e9f",
+    "calc": "остаток книги на 31.03.2026"
+   },
+   "balance_close": {
+    "v": 671.3,
+    "calc": "остаток книги на 30.06.2026 (balance.books.wholesale)"
+   },
+   "balance_avg": {
+    "v": 616.45,
+    "calc": "(balance_open + balance_close) / 2"
+   },
+   "interest_q": {
+    "v": 16.6,
+    "src": "2026Q2_ifrs_fs.pdf, с. 31, sha256 fd08eacf4ed7e57c",
+    "calc": "процентные расходы: средства других банков −1,8 + процентные расходы: секьюритизированные облигации −3,4 + процентные расходы: облигации финансовых компаний −1,6 + процентные расходы: субординированные займы −1,3 + процентные расходы: ЦФА финансовых компаний −0,1 + процентные расходы: финансовые обязательства по справедливой стоимости −1,5 + процентные расходы нефинансовых компаний: векселя −2,7 + процентные расходы нефинансовых компаний: облигации −2,6 + процентные расходы нефинансовых компаний: срочные займы и кредиты −1,5 + процентные расходы нефинансовых компаний: ЦФА −0,1; величиной (в отчёте — со знаком минус)"
+   },
+   "rate_anchor": {
+    "v": 0.108009,
+    "calc": "interest_q / balance_avg × 365/91 (доля, act/365)"
+   }
+  }
+ },
+ "interest_assets_q": {
+  "v": 278.8,
+  "calc": "Σ interest_q книг активов"
+ },
+ "interest_liabilities_q": {
+  "v": 119.3,
+  "calc": "Σ interest_q книг пассивов (величиной)"
+ },
+ "other_interest_net_q": {
+  "v": 2.7,
+  "src": "2026Q2_ifrs_fs.pdf, с. 29, sha256 fd08eacf4ed7e57c; 2026Q2_ifrs_fs.pdf, с. 31, sha256 fd08eacf4ed7e57c",
+  "calc": "проценты вне книг (остаются в ЧПД, в ставки книг не входят): брокерские операции 3,8; аренда −1,1"
+ },
+ "dia_q": {
+  "v": 4.6,
+  "src": "2026Q2_ifrs_fs.pdf, с. 4, sha256 fd08eacf4ed7e57c",
+  "calc": "расходы на страхование вкладов за квартал, величиной"
+ },
+ "nii_q": {
+  "v": 157.6,
+  "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ118, sha256 11386cbbb9ffb0bc"
+ },
+ "iea_avg": {
+  "v": 5472.05,
+  "calc": "Σ balance_avg книг активов (кредитные книги, долговые бумаги, ликвидность)"
+ },
+ "nim_eng_q": {
+  "v": 0.11552,
+  "calc": "nii_q × 365/91 / iea_avg (ЧПМ базиса движка)"
+ },
+ "current_share_anchor": {
+  "v": 0.341389,
+  "calc": "текущие счета физлиц / (текущие счета + срочные вклады физлиц) на якоре"
+ },
+ "key_avg_anchor_q": {
+  "v": 0.146181,
+  "src": "stage1/market/cbr_key_rate_quarterly.csv, средняя ключевая ставка Банка России за квартал по календарным дням, sha256 c671c2d5c6b75ac7"
+ }
+}

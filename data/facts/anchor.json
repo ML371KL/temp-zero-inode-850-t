@@ -1,0 +1,344 @@
+{
+ "basis": "IFRS",
+ "as_of": "2026-06-30",
+ "period": "2026Q2",
+ "note": "якорь — последний отчётный квартал МСФО группы (отчётность за 6М2026); documents — реестр всех документов, на которые ссылаются узлы фактов (sha256 полностью; в src — первые 16 знаков); file — путь в папке передачи (BANK_HANDOFF_DIR); источник строки — страница документа или адрес «Лист!Ячейка» справочника аналитика эмитента",
+ "documents": [
+  {
+   "key": "2024Q3_ifrs_press",
+   "file": "primary/2024Q3_ifrs_press.pdf",
+   "sha256": "9d074adbda8ba19d197844ec830ec2b9134dc51727d5581ce7fba7db6acc62ab",
+   "url": "https://cdn.tbank.ru/static/documents/b21d4edd-b991-4330-a975-0de4710fc61e.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 3-й квартал 2024 года"
+  },
+  {
+   "key": "2024Q4_ifrs_press",
+   "file": "primary/2024Q4_ifrs_press.pdf",
+   "sha256": "2c865279632abb132cde8ce94644851928fca23de1a2828e9694e9d357cdd49d",
+   "url": "https://cdn.tbank.ru/static/documents/6b26ebde-458d-4bd0-b5fc-18c65b0819cb.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 4-й квартал 2024 года"
+  },
+  {
+   "key": "2025Q1_ifrs_fs",
+   "file": "primary/2025Q1_ifrs_fs.pdf",
+   "sha256": "4d3d0aa57bae2832f70944e59c3814cb9fc3b90b40289ffbbca3cac3ee616a89",
+   "url": "https://cdn.tbank.ru/static/documents/584d5217-b120-4698-8422-588d7fec1815.pdf",
+   "title": "Т-Технологии: промежуточная сокращённая консолидированная отчётность по МСФО за три месяца 2025 года (обзорная проверка)"
+  },
+  {
+   "key": "2025Q1_ifrs_press",
+   "file": "primary/2025Q1_ifrs_press.pdf",
+   "sha256": "c322ffdbf18334f50f119bd7d620f9c2350d4e3e21089cf633117786ab64629a",
+   "url": "https://cdn.tbank.ru/static/documents/0b18d9c1-30b9-493b-bd2d-d3fa008ef202.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 1-й квартал 2025 года"
+  },
+  {
+   "key": "2025Q2_ifrs_fs",
+   "file": "primary/2025Q2_ifrs_fs.pdf",
+   "sha256": "3ee9d08203db787516f65bc287cba237dfd600fa270ebbbc092e9765361d0f13",
+   "url": "https://cdn.tbank.ru/static/documents/76376f58-13fa-4d88-8d08-46d31583178f.pdf",
+   "title": "Т-Технологии: промежуточная сокращённая консолидированная отчётность по МСФО за шесть месяцев 2025 года (обзорная проверка)"
+  },
+  {
+   "key": "2025Q2_ifrs_press",
+   "file": "primary/2025Q2_ifrs_press.pdf",
+   "sha256": "ebf2113605fdf9d3554d5f9e3b9e335bc515636fd18c594c3dc829a3aa43c89f",
+   "url": "https://cdn.tbank.ru/static/documents/16711914-0fca-4ca8-b772-341b7eadf1cb.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 2-й квартал 2025 года"
+  },
+  {
+   "key": "2025Q3_ifrs_fs",
+   "file": "primary/2025Q3_ifrs_fs.pdf",
+   "sha256": "28fe9a46ebe9f101c572624f0a264e1d5c0a659d441b9abac47fa10643d1a4eb",
+   "url": "https://cdn.tbank.ru/static/documents/573fa786-0f2c-4a22-96f8-f70b9fa21353.pdf",
+   "title": "Т-Технологии: промежуточная сокращённая консолидированная отчётность по МСФО за девять месяцев 2025 года (обзорная проверка)"
+  },
+  {
+   "key": "2025Q3_ifrs_press",
+   "file": "primary/2025Q3_ifrs_press.pdf",
+   "sha256": "1ebe1c7f6c8109cbf390d9a1b6b3bc17c79bf02d59ff10563898b956f22684b6",
+   "url": "https://cdn.tbank.ru/static/documents/12fc2c22-59ed-477d-a700-0b0a78b7cc29.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 3-й квартал 2025 года"
+  },
+  {
+   "key": "2025Q4_ifrs_press",
+   "file": "primary/2025Q4_ifrs_press.pdf",
+   "sha256": "85a4dbc6c02d9264909b0f1a827b785f2e5f39f6ad10533012cfb380492f53d9",
+   "url": "https://cdn.tbank-online.com/static/documents/28c2366b-4e68-43f2-a18d-68ef1ba68b2b.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 4-й квартал 2025 года"
+  },
+  {
+   "key": "2026Q1_ifrs_fs",
+   "file": "primary/2026Q1_ifrs_fs.pdf",
+   "sha256": "6ac85944afbf4e9f2462fc4c17756069904a06f80675cbbef47ded5c5d30d18d",
+   "url": "https://cdn.tbank.ru/static/documents/65b9ca35-e2e0-47c2-8e94-0b53229567c4.pdf",
+   "title": "Т-Технологии: промежуточная сокращённая консолидированная отчётность по МСФО за три месяца 2026 года (обзорная проверка)"
+  },
+  {
+   "key": "2026Q1_ifrs_presentation",
+   "file": "primary/2026Q1_ifrs_presentation.pdf",
+   "sha256": "4b5ac03106075df0e42a582234e05b2973411c4fae9fd5bd41f2af04b378f27c",
+   "url": "https://cdn.tbank.ru/static/documents/3b32fba6-22ef-47c8-a9f5-a714184cd4d0.pdf",
+   "title": "Т-Технологии: презентация финансовых результатов по МСФО за 1-й квартал 2026 года"
+  },
+  {
+   "key": "2026Q1_ifrs_press",
+   "file": "primary/2026Q1_ifrs_press.pdf",
+   "sha256": "b21014e98f91cc5d03428a46b9081a71b8952be551b15d612c3617f8d63cca52",
+   "url": "https://cdn.tbank.ru/static/documents/8268ed24-6654-4f23-9fd1-154a67b55c7d.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 1-й квартал 2026 года"
+  },
+  {
+   "key": "2026Q2_ifrs_fs",
+   "file": "primary/2026Q2_ifrs_fs.pdf",
+   "sha256": "fd08eacf4ed7e57c4c2f7bec258218fb030ebfe92415561a839d9d6247f4f5e7",
+   "url": "https://cdn.tbank.ru/static/documents/995dfadf-197b-4a67-ab3e-daf1d15d9ee4.pdf",
+   "title": "Т-Технологии: промежуточная сокращённая консолидированная отчётность по МСФО за шесть месяцев 2026 года (обзорная проверка)"
+  },
+  {
+   "key": "2026Q2_ifrs_presentation",
+   "file": "primary/2026Q2_ifrs_presentation.pdf",
+   "sha256": "153245fdef3c4e8bf8899fb1ad724201a2a739158b9907ce9a54ab131d207011",
+   "url": "https://cdn.tbank.ru/static/documents/ea8a2e21-6493-4323-ae88-9a93b1e48676.pdf",
+   "title": "Т-Технологии: презентация финансовых результатов по МСФО за 2-й квартал 2026 года"
+  },
+  {
+   "key": "2026Q2_ifrs_press",
+   "file": "primary/2026Q2_ifrs_press.pdf",
+   "sha256": "529eb43fb73641df9773a68a4190c498f6066b2fe9159efb2485f7301ac24d9d",
+   "url": "https://cdn.tbank-online.com/static/documents/724f5d58-cb93-443b-a7eb-72da6d42fe74.pdf",
+   "title": "Т-Технологии: пресс-релиз о финансовых результатах по МСФО за 2-й квартал 2026 года"
+  },
+  {
+   "key": "FY2025_ifrs_fs",
+   "file": "primary/FY2025_ifrs_fs.pdf",
+   "sha256": "b7f5081af385b43d2ec9ab5d37ea9769464a680fe04a6e814bcb9cf59951009d",
+   "url": "https://cdn.tbank.ru/static/documents/fd10c537-d3d5-4764-923c-36afcff667f5.pdf",
+   "title": "Т-Технологии: консолидированная финансовая отчётность по МСФО за 2025 год (аудит)"
+  },
+  {
+   "key": "GM_2024-11-14_dividend_recommendation",
+   "file": "primary/GM_2024-11-14_dividend_recommendation.pdf",
+   "sha256": "3028c7c6a6472131998f8703b88107c5c1593201b70e87e74de51c0bea483f48",
+   "url": "https://cdn.tbank.ru/static/documents/rekomendacii-soveta-direktorov-po-razmeru-dividenda-po-akciyam-obshestva-i-poryadku-ego-vyplaty.pdf",
+   "title": "ВОСА 14.11.2024: рекомендация СД по дивиденду"
+  },
+  {
+   "key": "GM_2025-05-05_agm_dividend_recommendation",
+   "file": "primary/GM_2025-05-05_agm_dividend_recommendation.pdf",
+   "sha256": "b18d569ed10e4a4572fd83ea49e110c90c2b74a20137926df9205913a864c633",
+   "url": "https://cdn.tbank.ru/static/documents/73b14bd7-680f-4678-84a3-e89b588b13d6.pdf",
+   "title": "ГОСА 05.05.2025: рекомендация СД по дивиденду за 2024"
+  },
+  {
+   "key": "GM_2025-06-27_dividend_recommendation",
+   "file": "primary/GM_2025-06-27_dividend_recommendation.pdf",
+   "sha256": "f887f2a4d88b6f9220f25105fcb1072d740c06f4dd02402b15b72e0f17244959",
+   "url": "https://cdn.tbank.ru/static/documents/18d46bca-4957-4a5a-87ef-aa4bcfa87e8a.pdf",
+   "title": "ВОСА 27.06.2025: рекомендация СД по дивиденду"
+  },
+  {
+   "key": "GM_2025-09-25_dividend_recommendation",
+   "file": "primary/GM_2025-09-25_dividend_recommendation.pdf",
+   "sha256": "22ab71c3a20d2579721ad5a7ba9b40066659b504ad3f08d37b72266b92667451",
+   "url": "https://cdn.tbank.ru/static/documents/2f2f934c-b4e5-4b49-8800-ff922d5ecfa5.pdf",
+   "title": "ВОСА 25.09.2025: рекомендация СД по дивиденду"
+  },
+  {
+   "key": "GM_2025-12-25_dividend_recommendation",
+   "file": "primary/GM_2025-12-25_dividend_recommendation.pdf",
+   "sha256": "ba0afcf91033d17ba56e6296779c654855d13cb4681b8aa198c0e991cd6a47f2",
+   "url": "https://cdn.tbank.ru/static/documents/fbef6dd4-ff33-4972-967c-6589166653de.pdf",
+   "title": "ВОСА 25.12.2025: рекомендация СД по дивиденду"
+  },
+  {
+   "key": "GM_2026-03-10_minutes11",
+   "file": "primary/GM_2026-03-10_minutes11.pdf",
+   "sha256": "82dd35586cde3ebc3e8b07690fee4eb5c4f9fbae72543f821ac35f6707e8c81c",
+   "url": "https://cdn.tbank.ru/static/documents/d6ecf691-3ed2-4db6-9aa6-30076fd3cccc.pdf",
+   "title": "ВОСА 10.03.2026: протокол № 11 от 11.03.2026"
+  },
+  {
+   "key": "GM_2026-05-14_agm_minutes12",
+   "file": "primary/GM_2026-05-14_agm_minutes12.pdf",
+   "sha256": "4e4e7911e6bc39d6954ca3e56af8f568e2781e28af84e32dc872a3371864a99c",
+   "url": "https://cdn.tbank.ru/static/documents/ff096a0a-4f65-46eb-80d0-2d087642af0c.pdf",
+   "title": "ГОСА 14.05.2026: протокол № 12"
+  },
+  {
+   "key": "GM_2026-07-30_minutes13",
+   "file": "primary/GM_2026-07-30_minutes13.pdf",
+   "sha256": "a80a96c0967135494799ee607d5ca07d316d7803f46ed9170949a44daa57edd7",
+   "url": "https://cdn.tbank.ru/static/documents/53063196-5525-4c4e-bbc9-d6fce54e71d9.pdf",
+   "title": "ВОСА 30.07.2026: протокол № 13 от 31.07.2026"
+  },
+  {
+   "key": "GM_2026-09-18_minutes15",
+   "file": "primary/GM_2026-09-18_minutes15.pdf",
+   "sha256": "867e0058ac5c6d41e1bfcdbe2253d0f2c4db2bf34feb74e8d99b088efc57da7d",
+   "url": "https://cdn.tbank.ru/static/documents/b52dd641-b009-4ab5-bc50-d70a26921771.pdf",
+   "title": "ВОСА 18.09.2026: протокол № 15 от 21.09.2026"
+  },
+  {
+   "key": "GM_2026-10-01_dividend_recommendation",
+   "file": "primary/GM_2026-10-01_dividend_recommendation.pdf",
+   "sha256": "c2713453957c4bf631acb5bfb42a74a2d0e0aa7c61981e094168182bf048ce9f",
+   "url": "https://cdn.tbank.ru/static/documents/fbacda0c-fe56-4af6-9c6c-0692668c72f0.pdf",
+   "title": "ВОСА 01.10.2026: рекомендация СД по дивиденду"
+  },
+  {
+   "key": "GM_2026-10-01_minutes16",
+   "file": "primary/GM_2026-10-01_minutes16.pdf",
+   "sha256": "4c50d645edddcbf4673f4df6c6762ea3eef96be665373e9e9281b234a418e190",
+   "url": "https://cdn.tbank.ru/static/documents/7173060f-2d3d-46e6-9743-5b89570cac19.pdf",
+   "title": "ВОСА 01.10.2026: протокол № 16 от 02.10.2026"
+  },
+  {
+   "key": "PR_2024-05-08_egm_rosbank_vote",
+   "file": "primary/PR_2024-05-08_egm_rosbank_vote.pdf",
+   "sha256": "896e6849a22d04f5c23ea54266fd3bc462bc117fb9b931978ea44f0f32b96591",
+   "url": "https://cdn.tbank.ru/static/documents/97e3d4ab-375d-4f14-b45f-e893cc4e620c.pdf",
+   "title": "Пресс-релиз 08.05.2024: итоги ВОСА по интеграции Росбанка"
+  },
+  {
+   "key": "PR_2024-11-14_ticker_T",
+   "file": "primary/PR_2024-11-14_ticker_T.pdf",
+   "sha256": "1da1344e0756de39050a375772c71765d7cdba256aaaa5716335f0a25c10b3c1",
+   "url": "https://cdn.tbank.ru/static/documents/e95d88aa-ed13-4672-a532-1381384a1199.pdf",
+   "title": "Пресс-релиз 14.11.2024: однобуквенный тикер T"
+  },
+  {
+   "key": "PR_2026-10-01_tochka_terms",
+   "file": "primary/PR_2026-10-01_tochka_terms.pdf",
+   "sha256": "a9a03b367e27a9cb65b8320140a654b91db9da1d99cdaf93df4b2b8c7575d2f3",
+   "url": "https://cdn.tbank.ru/static/documents/0d765044-5a4c-4e54-85f0-890eba01261b.pdf",
+   "title": "Пресс-релиз 01.10.2026: СД утвердил параметры сделки по консолидации АО «Точка»"
+  },
+  {
+   "key": "calib_capital_keys",
+   "file": "stage1/calib/capital/book_keys_capital_proposal.yaml",
+   "sha256": "89be0d8c46f358d4328938f48f7b213195e76d19e8172bb957fd7dc16d56ecae",
+   "url": null,
+   "title": "Предложение ключей книги по капиталу (лист калибровки капитала)"
+  },
+  {
+   "key": "cbr_f805_group_reg2673_202412_20261007",
+   "file": "primary/critic-cbr-group/cbr_f805_group_reg2673_202412_20261007.html",
+   "sha256": "2b2666cd635c7b66bc58bd519ed34312dc8ba206e117de16e27cb0dd6f7879e7",
+   "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202412",
+   "title": "форма 0409805 «Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы» (головная КО — АО «ТБанк»): капитал группы по уровням и фактические Н20.0/Н20.1/Н20.2, отчётный период 2024-12"
+  },
+  {
+   "key": "cbr_f805_group_reg2673_202503_20261007",
+   "file": "primary/critic-cbr-group/cbr_f805_group_reg2673_202503_20261007.html",
+   "sha256": "8c89ba4203ba7b89a27b6df1c67a71279f56f20138e223ef12418f0bc17d9c12",
+   "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202503",
+   "title": "форма 0409805 «Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы» (головная КО — АО «ТБанк»): капитал группы по уровням и фактические Н20.0/Н20.1/Н20.2, отчётный период 2025-03"
+  },
+  {
+   "key": "cbr_f805_group_reg2673_202506_20261007",
+   "file": "primary/critic-cbr-group/cbr_f805_group_reg2673_202506_20261007.html",
+   "sha256": "6e1a74ca8892dd15dceeb1e0781d73b18c06f04d10b90205a39f601853afc708",
+   "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202506",
+   "title": "форма 0409805 «Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы» (головная КО — АО «ТБанк»): капитал группы по уровням и фактические Н20.0/Н20.1/Н20.2, отчётный период 2025-06"
+  },
+  {
+   "key": "cbr_f805_group_reg2673_202509_20261007",
+   "file": "primary/critic-cbr-group/cbr_f805_group_reg2673_202509_20261007.html",
+   "sha256": "df6d17cb8ad4feb1805690ab7b769f75b7e2e0a8d4ed3cedf56db043d21e9b6c",
+   "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202509",
+   "title": "форма 0409805 «Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы» (головная КО — АО «ТБанк»): капитал группы по уровням и фактические Н20.0/Н20.1/Н20.2, отчётный период 2025-09"
+  },
+  {
+   "key": "cbr_f805_group_reg2673_202512_20261007",
+   "file": "primary/critic-cbr-group/cbr_f805_group_reg2673_202512_20261007.html",
+   "sha256": "b0f7f6a4efc144ac65557b325433064609ce86b8b025c9bb896359680d6d441a",
+   "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202512",
+   "title": "форма 0409805 «Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы» (головная КО — АО «ТБанк»): капитал группы по уровням и фактические Н20.0/Н20.1/Н20.2, отчётный период 2025-12"
+  },
+  {
+   "key": "cbr_f805_group_reg2673_202603_20261007",
+   "file": "primary/critic-cbr-group/cbr_f805_group_reg2673_202603_20261007.html",
+   "sha256": "a3e89022a3c2b5681727d9a6690c48cd542b20a5679c5aa6316fa87693d31c4c",
+   "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202603",
+   "title": "форма 0409805 «Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы» (головная КО — АО «ТБанк»): капитал группы по уровням и фактические Н20.0/Н20.1/Н20.2, отчётный период 2026-03"
+  },
+  {
+   "key": "cbr_f805_group_reg2673_202606_20261007",
+   "file": "primary/critic-cbr-group/cbr_f805_group_reg2673_202606_20261007.html",
+   "sha256": "56dce7f18a7b0c3e135f83ee060ad1550c71cc690693995184cb673b9a80a267",
+   "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f805?regnum=2673&dt=202606",
+   "title": "форма 0409805 «Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы» (головная КО — АО «ТБанк»): капитал группы по уровням и фактические Н20.0/Н20.1/Н20.2, отчётный период 2026-06"
+  },
+  {
+   "key": "cbr_key_rate_quarterly",
+   "file": "stage1/market/cbr_key_rate_quarterly.csv",
+   "sha256": "c671c2d5c6b75ac72129f95f8c6560cd6119253bbf6e73f639b253e6d609fc2f",
+   "url": null,
+   "title": "Ключевая ставка Банка России по кварталам (средняя по календарным дням и на конец квартала; веб-сервис Банка России)"
+  },
+  {
+   "key": "dividend_history",
+   "file": "primary/dividend_history.pdf",
+   "sha256": "ab9a8f91a1c69fccb9dc28675d4dfe8a5a2360c25cfb84ad82e299e9e39e120a",
+   "url": "https://cdn.tbank.ru/static/documents/49c48ea7-a40e-4289-851d-162fa6fd1b80.pdf",
+   "title": "История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента)"
+  },
+  {
+   "key": "dividend_policy_red1",
+   "file": "primary/dividend_policy_red1.pdf",
+   "sha256": "d0cfc69bb0bed6b6a819e1926cbceda5f71e9002c98c02fdf3ff82ad33337f1d",
+   "url": "https://cdn.tbank.ru/static/documents/mkpao-tks-holdingdividendnaya-politika-red-1.pdf",
+   "title": "Дивидендная политика МКПАО «Т-Технологии» (редакция 2, утверждена советом директоров 20.03.2025)"
+  },
+  {
+   "key": "dividends_public",
+   "file": "stage1/market/dividends_public.csv",
+   "sha256": "b70511331291ac8111f1f497e3f0203816aa18ba7f8078cfb417dc94daeca7fc",
+   "url": null,
+   "title": "Решения собраний акционеров о дивидендах после редомициляции — документы эмитента («История дивидендных выплат», рекомендации совета директоров, протоколы) и новости о решениях"
+  },
+  {
+   "key": "en_2019Q4_ifrs_fs",
+   "file": "primary/en_2019Q4_ifrs_fs.pdf",
+   "sha256": "f7f92fdff471dacec9ea63811adc55a19a8a7e64cfa1a3cdc23592bd6584d62a",
+   "url": "https://cdn.tbank.ru/static/documents/0a10969e-abaf-463c-badd-afcbcdf49cdf.pdf",
+   "title": "EN-архив IR: 2019 / Q4 — TCS Group Audited Consolidated IFRS Results for FY2019 (publishedAt 2026-09-09)"
+  },
+  {
+   "key": "en_2020Q4_ifrs_fs",
+   "file": "primary/en_2020Q4_ifrs_fs.pdf",
+   "sha256": "611674374d450045c583392d302738b389e925bdb107be7bcf14dc2c6701a491",
+   "url": "https://cdn.tbank.ru/static/documents/788b62c6-64e0-405b-ad4f-e2e6fbe202dd.pdf",
+   "title": "EN-архив IR: 2020 / Q4 — TCS Group Audited Consolidated IFRS Results for FY2020 (publishedAt 2026-09-09)"
+  },
+  {
+   "key": "ras_pnl_quarterly",
+   "file": "stage1/ras/pnl_ifrs_vs_group_vs_bank_quarterly.csv",
+   "sha256": "9bb9d64916b1d067262cca94214e34cd0cadca6f6409345bfb2fdddec4ec9ab0",
+   "url": null,
+   "title": "ЧПД, прибыль и резервы по кварталам в трёх базисах — МСФО группы, банковская группа (форма 0409803) и банк (форма 0409102, головная организация группы)"
+  },
+  {
+   "key": "strategy_shareholder_value",
+   "file": "primary/strategy_shareholder_value.pdf",
+   "sha256": "14849dd94cccc399c0448ee5d89067298be358db176afdbb5ae2fd791452c0af",
+   "url": "https://cdn.tbank.ru/static/documents/44ea3a87-d349-4b83-a5e6-80a1e5126255.pdf",
+   "title": "Стратегия повышения акционерной стоимости (СД 21.07.2026)"
+  },
+  {
+   "key": "t-databook-key-financial-ratios_pub2026-09-09",
+   "file": "primary/t-databook-key-financial-ratios_pub2026-09-09.xlsx",
+   "sha256": "11386cbbb9ffb0bc472e24cbae1464ad283acf267143e104d05767bd0bc284c8",
+   "url": "https://cdn.tbank.ru/static/documents/c4ade295-d683-431f-a7ac-4f88c685d548.xlsx",
+   "title": "Т-Технологии: справочник аналитика «Ключевые финансовые показатели» (Databook, XLSX), опубликован 09.09.2026"
+  },
+  {
+   "key": "zcyc_quarter_ends",
+   "file": "stage1/calib/capital/inputs/zcyc_quarter_ends_2024_2026.csv",
+   "sha256": "0eaf8fbc7e536b56b27a2d201af45d2d98408c322e84faeee850c6b3d5277444",
+   "url": null,
+   "title": "Кривая бескупонной доходности ОФЗ Московской биржи на концы кварталов (узлы 1, 2, 3, 5, 10 лет)"
+  }
+ ]
+}

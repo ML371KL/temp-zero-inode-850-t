@@ -1,0 +1,151 @@
+{
+ "anchor_quarter": {
+  "ni_shareholders": 52.055,
+  "issuer_op_np": 52.055,
+  "noncore_net": 2.2652,
+  "tax": -19.5562,
+  "nci": 1.2538
+ },
+ "sums": {
+  "op_np_2025": 174.433,
+  "op_np_1h2026": 98.59
+ },
+ "interest_returned": {
+  "2Q2025": {
+   "returned_pretax": 1.675,
+   "nonfin_interest_total": 3.4
+  },
+  "3Q2025": {
+   "returned_pretax": 3.543,
+   "nonfin_interest_total": 4.9
+  },
+  "4Q2025": {
+   "returned_pretax": 3.617,
+   "nonfin_interest_total": 5.9
+  },
+  "1Q2026": {
+   "returned_pretax": 3.615,
+   "nonfin_interest_total": 6.5
+  },
+  "2Q2026": {
+   "returned_pretax": 2.265,
+   "nonfin_interest_total": 6.9
+  }
+ },
+ "nci_share": {
+  "h1_2026": 0.0245,
+  "last4": 0.0309,
+  "book": 0.024
+ },
+ "tax": {
+  "etr_6q": 0.244,
+  "gap_book": -0.006
+ },
+ "links": {
+  "book": {
+   "opex.volume_link": 0.5,
+   "fees.volume_link": 0.6
+  },
+  "implied_three_clean_quarters": {
+   "opex.volume_link": [
+    0.44,
+    0.6
+   ],
+   "fees.volume_link": [
+    0.54,
+    0.67
+   ]
+  },
+  "axis_ends": {
+   "low": {
+    "opex.volume_link": 0.3,
+    "fees.volume_link": 0.4
+   },
+   "high": {
+    "opex.volume_link": 0.7,
+    "fees.volume_link": 0.8
+   }
+  }
+ },
+ "misc": {
+  "median_q": 5.15,
+  "level": 21.0,
+  "book_first_year": 20.83,
+  "book_lt": 16.82,
+  "instrument_cost_nominal": {
+   "2026": 0.087,
+   "2027": 0.677,
+   "2028": 1.288,
+   "2029": 2.043,
+   "2030": 2.992,
+   "2031": 3.885,
+   "2032": 4.634,
+   "2033": 5.251,
+   "2034": 5.891,
+   "2035": 6.576,
+   "2036": 7.365
+  },
+  "h1_2026_annualised": 20.6
+ },
+ "fees_spread": {
+  "book": {
+   "2026": -0.012,
+   "2027": 0.0,
+   "2028": 0.0,
+   "2029": 0.0,
+   "2030": 0.0,
+   "LT": 0.0,
+   "LT_from": 2031
+  },
+  "goal": {
+   "last_quarter": 0.15423,
+   "reported_part_of_year": 0.17655,
+   "goal": 0.16539
+  },
+  "growth_by_quarter": {
+   "2026Q3": 0.17257,
+   "2026Q4": 0.15821
+  },
+  "without_spread": 0.17741
+ },
+ "payout": {
+  "to_avg4": [
+   0.2655,
+   0.2478,
+   0.2436,
+   0.2768,
+   0.263,
+   0.2545
+  ],
+  "mean": 0.2586,
+  "book": 0.26
+ },
+ "opex_roots": {
+  "sheet_anchor_year": 0.015,
+  "book_anchor_year": -0.0115,
+  "sheet_2027_2030": -0.004,
+  "book_2027_2030": 0.0075,
+  "sheet_2031_2032": 0.006,
+  "book_2031_2032": 0.0156,
+  "sheet_lt": -0.0008,
+  "book_lt": -0.0007,
+  "sheet_link": 0.7,
+  "book_link": 0.5,
+  "derived_on_engine": true
+ },
+ "bridges": {
+  "cor": -0.002449,
+  "nim_anchor_composition": -0.001219,
+  "nim_window_mean": -0.002819,
+  "cir": 0.015672,
+  "thresholds_2_5_sigma": {
+   "cor": 0.0019,
+   "nim": 0.0026
+  },
+  "book_gates": {
+   "cor": 0.002,
+   "nim": 0.003
+  }
+ },
+ "book_mismatches": []
+}

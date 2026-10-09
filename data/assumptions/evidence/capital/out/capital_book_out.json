@@ -1,0 +1,183 @@
+{
+ "anchor": {
+  "bv": 756.8,
+  "fvoci_reserve": -4.6,
+  "bvreg": 758.456,
+  "e_unaudited": 98.589,
+  "group_capital": 683.648325,
+  "cet1": 490.971127,
+  "instruments": 123.182473,
+  "tier2": 69.494725,
+  "rwa_implied": 5287.3,
+  "ded20": 197.99,
+  "ded11": 168.895,
+  "n20_model": 0.1293,
+  "n11_model": 0.094,
+  "ded20_share_of_rwa": 0.0374
+ },
+ "rwa_from_densities": {
+  "model": 5287.3,
+  "implied": 5287.3,
+  "other_assets": 993.1,
+  "other_assets_growing": 787.6
+ },
+ "instruments_to_rwa": {
+  "2025-03-31": 0.0242,
+  "2025-06-30": 0.0221,
+  "2025-09-30": 0.0217,
+  "2025-12-31": 0.0249,
+  "2026-03-31": 0.0247,
+  "2026-06-30": 0.0233
+ },
+ "t2_trajectory": {
+  "first_key": "2026Q2",
+  "first": 123.182,
+  "last": 363.7,
+  "derived_on_engine": true
+ },
+ "instrument_spread": {
+  "margin_to_key": 0.0638,
+  "wholesale_lt_spread": -0.00279,
+  "to_wholesale": 0.0666,
+  "instruments": {
+   "rows": [
+    {
+     "name": "бессрочные субординированные облигации 2021 года, 600 млн долл.",
+     "carrying": 35.615,
+     "coupon": 0.06,
+     "key": 0.0025,
+     "margin": 0.0575,
+     "note": "купон фиксирован при размещении в сентябре 2021 года; право отзыва с 20.12.2026"
+    },
+    {
+     "name": "бессрочные субординированные облигации 2017 года, 300 млн долл.",
+     "carrying": 18.211,
+     "coupon": 0.1126,
+     "key": 0.045,
+     "margin": 0.0676,
+     "note": "купон установлен 15.09.2025; право отзыва с 15.09.2027"
+    },
+    {
+     "name": "бессрочный субординированный заём акционера (пришёл с Росбанком)",
+     "carrying": 11.734,
+     "coupon": 0.1146,
+     "key": 0.0375,
+     "margin": 0.0771,
+     "note": "ставка на 31.12.2025; годом раньше 12,3 % при ключевой 4,50 %"
+    }
+   ],
+   "carrying_total": 65.56,
+   "weighted": 0.0638,
+   "simple": 0.0674,
+   "range": [
+    0.0575,
+    0.0771
+   ]
+  },
+  "estimate": true,
+  "external_share": {
+   "as_of": "2026-06-30",
+   "external": 65.7,
+   "bank_instruments_gross": 142.142,
+   "intragroup": 76.442,
+   "share": 0.4622,
+   "estimate": true
+  },
+  "spread_on_increment": 0.030783,
+  "cost_nominal_by_year": {
+   "2026": 0.087,
+   "2027": 0.677,
+   "2028": 1.288,
+   "2029": 2.043,
+   "2030": 2.992,
+   "2031": 3.885,
+   "2032": 4.634,
+   "2033": 5.251,
+   "2034": 5.891,
+   "2035": 6.576,
+   "2036": 7.365
+  },
+  "increment_year_end": {
+   "2026": 11.6,
+   "2027": 31.1,
+   "2028": 54.3,
+   "2029": 82.0,
+   "2030": 112.9,
+   "2031": 139.9,
+   "2032": 160.6,
+   "2033": 180.7,
+   "2034": 202.2,
+   "2035": 225.2,
+   "2036": 240.5
+  }
+ },
+ "buffer_readings": {
+  "2025-03-31": {
+   "n20_0": 0.1215,
+   "over_current_minimum": 0.0315,
+   "over_minimum_2028": 0.0015,
+   "over_glide_requirement": {
+    "schedule": 0.0315,
+    "mid": 0.0315
+   }
+  },
+  "2025-06-30": {
+   "n20_0": 0.1165,
+   "over_current_minimum": 0.0265,
+   "over_minimum_2028": -0.0035,
+   "over_glide_requirement": {
+    "schedule": 0.024,
+    "mid": 0.024
+   }
+  },
+  "2025-09-30": {
+   "n20_0": 0.1181,
+   "over_current_minimum": 0.0256,
+   "over_minimum_2028": -0.0019,
+   "over_glide_requirement": {
+    "schedule": 0.0231,
+    "mid": 0.0231
+   }
+  },
+  "2025-12-31": {
+   "n20_0": 0.1246,
+   "over_current_minimum": 0.0321,
+   "over_minimum_2028": 0.0046,
+   "over_glide_requirement": {
+    "schedule": 0.0271,
+    "mid": 0.0271
+   }
+  },
+  "2026-03-31": {
+   "n20_0": 0.1299,
+   "over_current_minimum": 0.0299,
+   "over_minimum_2028": 0.0099,
+   "over_glide_requirement": {
+    "schedule": 0.0299,
+    "mid": 0.0249
+   }
+  },
+  "2026-06-30": {
+   "n20_0": 0.1293,
+   "over_current_minimum": 0.0293,
+   "over_minimum_2028": 0.0093,
+   "over_glide_requirement": {
+    "schedule": 0.0268,
+    "mid": 0.0218
+   }
+  }
+ },
+ "buffer": {
+  "book": 0.015,
+  "axis": [
+   0.005,
+   0.025
+  ],
+  "third_reading_min": 0.0218,
+  "max_without_breach_2026Q3": {
+   "schedule": 0.0243,
+   "mid": 0.0193
+  }
+ },
+ "book_mismatches": []
+}

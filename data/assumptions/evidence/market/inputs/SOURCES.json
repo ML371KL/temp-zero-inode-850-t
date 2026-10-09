@@ -1,0 +1,110 @@
+{
+ "area": "market",
+ "root": "$BANK_HANDOFF_DIR",
+ "files": [
+  {
+   "path": "stage1/market/beta/inputs/prices_T.csv",
+   "sha256_full": "def55f5f1d40a40302b81481937e0190a1742f446aa12c5c81685e320521b969",
+   "sha256_input": "def55f5f1d40a40302b81481937e0190a1742f446aa12c5c81685e320521b969",
+   "filter": "весь лист",
+   "rows_kept": 472,
+   "rows_total": 472
+  },
+  {
+   "path": "stage1/market/beta/inputs/prices_TCSG.csv",
+   "sha256_full": "3772c33596f86b9316b86f1c2841601a44b42a2d4774d4be3cc20a9d5d3f43ce",
+   "sha256_input": "3772c33596f86b9316b86f1c2841601a44b42a2d4774d4be3cc20a9d5d3f43ce",
+   "filter": "весь лист",
+   "rows_kept": 1289,
+   "rows_total": 1289
+  },
+  {
+   "path": "stage1/market/beta/inputs/prices_MCFTR.csv",
+   "sha256_full": "9e48837bcd863559ab0b24c9125a89fcdfd456e9ae97edc72d79a31cfd5cb13a",
+   "sha256_input": "9e48837bcd863559ab0b24c9125a89fcdfd456e9ae97edc72d79a31cfd5cb13a",
+   "filter": "весь лист",
+   "rows_kept": 1760,
+   "rows_total": 1760
+  },
+  {
+   "path": "stage1/market/beta/inputs/prices_IMOEX.csv",
+   "sha256_full": "8a83bf396d55e1378952c682813f770e9cecc96c237e3f92532b0125b2dc54f5",
+   "sha256_input": "8a83bf396d55e1378952c682813f770e9cecc96c237e3f92532b0125b2dc54f5",
+   "filter": "весь лист",
+   "rows_kept": 1762,
+   "rows_total": 1762
+  },
+  {
+   "path": "stage1/market/beta/inputs/prices_MOEXFN.csv",
+   "sha256_full": "5353cf050451c166ea39338651b0c10a0a84f6071da12c8b1867bd70b8441fff",
+   "sha256_input": "5353cf050451c166ea39338651b0c10a0a84f6071da12c8b1867bd70b8441fff",
+   "filter": "весь лист",
+   "rows_kept": 1759,
+   "rows_total": 1759
+  },
+  {
+   "path": "stage1/market/beta/inputs/prices_SBER.csv",
+   "sha256_full": "58d6da92c015352503059b792e36f00a2e6f83316b1ca401ca5b6c7eb90bd489",
+   "sha256_input": "58d6da92c015352503059b792e36f00a2e6f83316b1ca401ca5b6c7eb90bd489",
+   "filter": "весь лист",
+   "rows_kept": 1779,
+   "rows_total": 1779
+  },
+  {
+   "path": "stage1/market/beta/inputs/sber_dividends_public.csv",
+   "sha256_full": "fda92ec5df2d3ac42197dee34bed5270969ac858a1a5700c45dd686f916e5292",
+   "sha256_input": "fda92ec5df2d3ac42197dee34bed5270969ac858a1a5700c45dd686f916e5292",
+   "filter": "весь лист",
+   "rows_kept": 14,
+   "rows_total": 14
+  },
+  {
+   "path": "stage1/market/beta/inputs/SOURCES.json",
+   "sha256_full": "770aa53e6e8c801e3a87b385586ca2aaa9cbb7e14c6316fb410a46be299ec75d",
+   "sha256_input": "770aa53e6e8c801e3a87b385586ca2aaa9cbb7e14c6316fb410a46be299ec75d",
+   "filter": "весь лист",
+   "rows_kept": 48,
+   "rows_total": 48
+  },
+  {
+   "path": "stage1/market/dividends_public.csv",
+   "sha256_full": "b70511331291ac8111f1f497e3f0203816aa18ba7f8078cfb417dc94daeca7fc",
+   "sha256_input": "b70511331291ac8111f1f497e3f0203816aa18ba7f8078cfb417dc94daeca7fc",
+   "filter": "весь лист",
+   "rows_kept": 9,
+   "rows_total": 9
+  },
+  {
+   "path": "stage1/market/dividends_lags.csv",
+   "sha256_full": "eb834d64b6d9bfe7daeadea8d4b3db1717359b413b980a28e803d4daaeae1adb",
+   "sha256_input": "eb834d64b6d9bfe7daeadea8d4b3db1717359b413b980a28e803d4daaeae1adb",
+   "filter": "весь лист",
+   "rows_kept": 9,
+   "rows_total": 9
+  },
+  {
+   "path": "stage1/market/shares_history.csv",
+   "sha256_full": "e45b4bf619de28a9e3602f970c5ddb668fd2b1ff32f32a55496b54bb4df2f798",
+   "sha256_input": "e45b4bf619de28a9e3602f970c5ddb668fd2b1ff32f32a55496b54bb4df2f798",
+   "filter": "весь лист",
+   "rows_kept": 26,
+   "rows_total": 26
+  },
+  {
+   "path": "stage1/worlds/bank_overlay_draft.yaml",
+   "sha256_full": "31eb1b56df1ca16bb77a1e80e09896e366c7026d6d050f70ff118e046e9b6cc3",
+   "sha256_input": "3c68b2e542ed5bbf1cd9e96a12dd670de61940316dfd8cdaa4a2c81b7ae010fe",
+   "filter": "весь лист",
+   "rows_kept": 674,
+   "rows_total": 674
+  },
+  {
+   "path": "stage1/calib/pnl/op_basis_quarterly.csv",
+   "sha256_full": "62ab1404c28554f92f1b5f3f3bd8a837aad0b5538cb7d765bcac2d7e4a0dd60f",
+   "sha256_input": "62ab1404c28554f92f1b5f3f3bd8a837aad0b5538cb7d765bcac2d7e4a0dd60f",
+   "filter": "весь лист",
+   "rows_kept": 11,
+   "rows_total": 11
+  }
+ ]
+}

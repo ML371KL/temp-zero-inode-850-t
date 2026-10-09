@@ -1,0 +1,849 @@
+{
+ "bridge": {
+  "nim": -0.001219,
+  "cor": -0.002527,
+  "cir": 0.015672
+ },
+ "level": {
+  "key": 0.111,
+  "world": "M",
+  "stationary": 0.111,
+  "stationary_by_world": {
+   "N": 0.1056,
+   "H": 0.11131,
+   "M": 0.111
+  },
+  "reference_world": "H",
+  "reference_level": 0.111307,
+  "sigma0": -0.01329
+ },
+ "splits": {
+  "sigma0_split": 1.0,
+  "sigma0_limit": 1.0,
+  "phi_split": 0.7,
+  "phi_by_history": 0.7099,
+  "phi_limit": 1.0,
+  "phi_limit_at": [],
+  "history_compression": 0.4939,
+  "phi": 0.6957,
+  "axis_sigma0": [
+   0.0,
+   1.0
+  ],
+  "axis_phi": [
+   0.52,
+   1.0
+  ],
+  "floor_headroom": [
+   0.01054,
+   "corp_loans",
+   "H"
+  ],
+  "lt_spread": {
+   "cards": {
+    "N": 0.21011,
+    "H": 0.19794,
+    "M": 0.16629
+   },
+   "cash_loans": {
+    "N": 0.13586,
+    "H": 0.11989,
+    "M": 0.09617
+   },
+   "auto": {
+    "N": 0.04224,
+    "H": 0.04224,
+    "M": 0.04224
+   },
+   "mortgage": {
+    "N": 0.02304,
+    "H": 0.02304,
+    "M": 0.02304
+   },
+   "sme_loans": {
+    "N": 0.27062,
+    "H": 0.25757,
+    "M": 0.22743
+   },
+   "corp_loans": {
+    "N": 0.01054,
+    "H": 0.01054,
+    "M": 0.01054
+   }
+  }
+ },
+ "near": {
+  "nim_mgmt_path": {
+   "2026Q3": 0.1153,
+   "2026Q4": 0.1148,
+   "2027Q1": 0.11562,
+   "2027Q2": 0.11643,
+   "2027Q3": 0.11725,
+   "2027Q4": 0.11806,
+   "2028Q1": 0.11888,
+   "2028Q2": 0.11969,
+   "2028Q3": 0.12051,
+   "2028Q4": 0.12133,
+   "2029Q1": 0.12214,
+   "2029Q2": 0.12296,
+   "2029Q3": 0.12377,
+   "2029Q4": 0.12459,
+   "2030Q1": 0.12541,
+   "2030Q2": 0.12486,
+   "2030Q3": 0.12422,
+   "2030Q4": 0.1237,
+   "2031Q1": 0.12411
+  },
+  "level_first_free_quarter": 0.12541,
+  "step_into_first_free_quarter": 0.00082,
+  "line_step_per_quarter": 0.000816
+ },
+ "t2": {
+  "share_of_rwa": 0.0233,
+  "first": 128.62,
+  "last": 363.7
+ },
+ "cost": {
+  "spread": {
+   "margin_to_key": 0.0638,
+   "wholesale_lt_spread": -0.00279,
+   "to_wholesale": 0.0666,
+   "instruments": {
+    "rows": [
+     {
+      "name": "бессрочные субординированные облигации 2021 года, 600 млн долл.",
+      "carrying": 35.615,
+      "coupon": 0.06,
+      "key": 0.0025,
+      "margin": 0.0575,
+      "note": "купон фиксирован при размещении в сентябре 2021 года; право отзыва с 20.12.2026"
+     },
+     {
+      "name": "бессрочные субординированные облигации 2017 года, 300 млн долл.",
+      "carrying": 18.211,
+      "coupon": 0.1126,
+      "key": 0.045,
+      "margin": 0.0676,
+      "note": "купон установлен 15.09.2025; право отзыва с 15.09.2027"
+     },
+     {
+      "name": "бессрочный субординированный заём акционера (пришёл с Росбанком)",
+      "carrying": 11.734,
+      "coupon": 0.1146,
+      "key": 0.0375,
+      "margin": 0.0771,
+      "note": "ставка на 31.12.2025; годом раньше 12,3 % при ключевой 4,50 %"
+     }
+    ],
+    "carrying_total": 65.56,
+    "weighted": 0.0638,
+    "simple": 0.0674,
+    "range": [
+     0.0575,
+     0.0771
+    ]
+   },
+   "estimate": true
+  },
+  "external": {
+   "as_of": "2026-06-30",
+   "external": 65.7,
+   "bank_instruments_gross": 142.142,
+   "intragroup": 76.442,
+   "share": 0.4622,
+   "estimate": true
+  },
+  "spread_on_increment": 0.030783,
+  "level": 21.0,
+  "cost_nominal": {
+   "2026": 0.087,
+   "2027": 0.677,
+   "2028": 1.288,
+   "2029": 2.043,
+   "2030": 2.992,
+   "2031": 3.885,
+   "2032": 4.634,
+   "2033": 5.251,
+   "2034": 5.891,
+   "2035": 6.576,
+   "2036": 7.365
+  },
+  "increment_year_end": {
+   "2026": 11.6,
+   "2027": 31.1,
+   "2028": 54.3,
+   "2029": 82.0,
+   "2030": 112.9,
+   "2031": 139.9,
+   "2032": 160.6,
+   "2033": 180.7,
+   "2034": 202.2,
+   "2035": 225.2,
+   "2036": 240.5
+  }
+ },
+ "fees": {
+  "goal": {
+   "last_quarter": 0.15423,
+   "reported_part_of_year": 0.17655,
+   "goal": 0.16539
+  },
+  "without_spread": 0.17741,
+  "growth_by_quarter": {
+   "2026Q3": 0.17257,
+   "2026Q4": 0.15821
+  }
+ },
+ "opex": {
+  "subject": "слой «рыночные ставки как есть»",
+  "scope": "market_layer",
+  "cir_mgmt_path": {
+   "2027": 0.49312,
+   "2028": 0.49396,
+   "2029": 0.48399,
+   "2030": 0.47,
+   "2031": 0.46674,
+   "2032": 0.47,
+   "2033": 0.47091,
+   "2034": 0.47023,
+   "2035": 0.46995,
+   "2036": 0.46891
+  },
+  "cir_anchor_half": 0.4636,
+  "cir_lt_mean": 0.47,
+  "target": 0.47,
+  "goal_anchor_half": 0.4636,
+  "modal_cell_cir_lt_mean": 0.45279,
+  "modal_cell_cir_path": {
+   "2027": 0.48639,
+   "2028": 0.47499,
+   "2029": 0.46109,
+   "2030": 0.448,
+   "2031": 0.44779,
+   "2032": 0.4508,
+   "2033": 0.4505,
+   "2034": 0.45125,
+   "2035": 0.45391,
+   "2036": 0.45549
+  }
+ },
+ "convergence": {
+  "tol": 0.0001,
+  "rounds": [
+   {
+    "round": 1,
+    "max_relative_change": 0.00032546562643199,
+    "at": "capital.n20.t2.2026Q4"
+   },
+   {
+    "round": 2,
+    "max_relative_change": 4.012896418837742e-05,
+    "at": "regimes.near_nim_shift.2028Q1"
+   }
+  ],
+  "converged": true
+ },
+ "frozen_check": {
+  "nim_stationary": 0.111,
+  "nim_level_world": "M",
+  "nim_stationary_ok": true,
+  "cir_lt_value": 0.470019,
+  "cir_lt_subject": "слой «рыночные ставки как есть»",
+  "cir_lt_ok": true,
+  "cir_lt_modal_cell": 0.452807,
+  "near_anchor_year": [
+   0.115297,
+   0.114803
+  ],
+  "t2_share_error": 7.6e-06,
+  "fees_growth_anchor_year": 0.165414,
+  "cir_anchor_half": 0.463602
+ },
+ "modal_cell": {
+  "label": "H/norm/mid",
+  "anchor": {
+   "loans_to_funds": 0.8871
+  },
+  "funds_anchor_year": {
+   "2026Q2": {
+    "retail": 3484.3,
+    "corporate": 814.2,
+    "total": 4298.5,
+    "loans_to_funds": 0.8871
+   },
+   "2026Q3": {
+    "retail": 3303.0,
+    "corporate": 831.7,
+    "total": 4134.7,
+    "loans_to_funds": 0.9677
+   },
+   "2026Q4": {
+    "retail": 3378.8,
+    "corporate": 850.8,
+    "total": 4229.6,
+    "loans_to_funds": 0.9928
+   }
+  },
+  "years": {
+   "2026": {
+    "loans_to_funds": 0.9928,
+    "wholesale_share": 0.1351,
+    "lam_min": 1.0,
+    "cut_share": 0.0,
+    "n20": 0.1317,
+    "t2_share_of_rwa": 0.02329,
+    "roe": null
+   },
+   "2027": {
+    "loans_to_funds": 1.0359,
+    "wholesale_share": 0.1351,
+    "lam_min": 0.422,
+    "cut_share": 0.0683,
+    "n20": 0.1376,
+    "t2_share_of_rwa": 0.02329,
+    "roe": 0.2291
+   },
+   "2028": {
+    "loans_to_funds": 1.0782,
+    "wholesale_share": 0.1503,
+    "lam_min": 0.456,
+    "cut_share": 0.1224,
+    "n20": 0.1426,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.2195
+   },
+   "2029": {
+    "loans_to_funds": 1.1313,
+    "wholesale_share": 0.1846,
+    "lam_min": 0.516,
+    "cut_share": 0.1467,
+    "n20": 0.1469,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.2194
+   },
+   "2030": {
+    "loans_to_funds": 1.1906,
+    "wholesale_share": 0.2189,
+    "lam_min": 1.0,
+    "cut_share": 0.1474,
+    "n20": 0.1527,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.2223
+   },
+   "2031": {
+    "loans_to_funds": 1.2216,
+    "wholesale_share": 0.2298,
+    "lam_min": 1.0,
+    "cut_share": 0.1478,
+    "n20": 0.1614,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.2074
+   },
+   "2032": {
+    "loans_to_funds": 1.2204,
+    "wholesale_share": 0.2164,
+    "lam_min": 1.0,
+    "cut_share": 0.1478,
+    "n20": 0.1738,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.1894
+   },
+   "2033": {
+    "loans_to_funds": 1.2204,
+    "wholesale_share": 0.2071,
+    "lam_min": 1.0,
+    "cut_share": 0.1478,
+    "n20": 0.1823,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.1857
+   },
+   "2034": {
+    "loans_to_funds": 1.2204,
+    "wholesale_share": 0.2069,
+    "lam_min": 1.0,
+    "cut_share": 0.1478,
+    "n20": 0.1818,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.184
+   },
+   "2035": {
+    "loans_to_funds": 1.2204,
+    "wholesale_share": 0.214,
+    "lam_min": 1.0,
+    "cut_share": 0.1478,
+    "n20": 0.1742,
+    "t2_share_of_rwa": 0.0233,
+    "roe": 0.1855
+   },
+   "2036": {
+    "loans_to_funds": 1.2204,
+    "wholesale_share": 0.2172,
+    "lam_min": 1.0,
+    "cut_share": 0.1478,
+    "n20": 0.1697,
+    "t2_share_of_rwa": 0.02271,
+    "roe": 0.1886
+   }
+  },
+  "roe_t": 0.1991,
+  "k_t": 0.1849,
+  "terminal_share": 0.5028,
+  "flags": [
+   "growth_cut"
+  ]
+ },
+ "keys": {
+  "nii.sigma0_split": 1.0,
+  "nii.phi_split": 0.7,
+  "regimes.near_nim_shift": {
+   "2026Q3": -0.0064,
+   "2026Q4": -0.01359,
+   "2026": -0.009995,
+   "2027Q1": -0.01315,
+   "2027Q2": -0.01355,
+   "2027Q3": -0.0121,
+   "2027Q4": -0.01118,
+   "2027": -0.012495,
+   "2028Q1": -0.00831,
+   "2028Q2": -0.00793,
+   "2028Q3": -0.00679,
+   "2028Q4": -0.00583,
+   "2028": -0.007215,
+   "2029Q1": -0.00545,
+   "2029Q2": -0.00438,
+   "2029Q3": -0.00275,
+   "2029Q4": -0.00116,
+   "2029": -0.003435,
+   "LT": 0.0,
+   "LT_from": 2030
+  },
+  "capital.n20.t2": {
+   "2026Q2": 123.182,
+   "2026Q3": 128.6,
+   "2026Q4": 134.7,
+   "2027Q1": 141.5,
+   "2027Q2": 144.8,
+   "2027Q3": 149.7,
+   "2027Q4": 154.2,
+   "2028Q1": 157.8,
+   "2028Q2": 163.8,
+   "2028Q3": 172.0,
+   "2028Q4": 177.5,
+   "2029Q1": 181.5,
+   "2029Q2": 188.4,
+   "2029Q3": 196.7,
+   "2029Q4": 205.2,
+   "2030Q1": 212.5,
+   "2030Q2": 220.1,
+   "2030Q3": 227.9,
+   "2030Q4": 236.1,
+   "2031Q1": 242.5,
+   "2031Q2": 249.2,
+   "2031Q3": 256.0,
+   "2031Q4": 263.1,
+   "2032Q1": 268.1,
+   "2032Q2": 273.2,
+   "2032Q3": 278.4,
+   "2032Q4": 283.8,
+   "2033Q1": 288.7,
+   "2033Q2": 293.6,
+   "2033Q3": 298.7,
+   "2033Q4": 303.9,
+   "2034Q1": 309.1,
+   "2034Q2": 314.4,
+   "2034Q3": 319.9,
+   "2034Q4": 325.4,
+   "2035Q1": 331.0,
+   "2035Q2": 336.7,
+   "2035Q3": 342.5,
+   "2035Q4": 348.4,
+   "2036": 363.7,
+   "LT": 363.7
+  },
+  "other.misc_net_real": {
+   "2026": 20.83,
+   "2027": 20.37,
+   "2028": 19.87,
+   "2029": 19.31,
+   "2030": 18.66,
+   "2031": 18.12,
+   "2032": 17.74,
+   "2033": 17.5,
+   "2034": 17.28,
+   "2035": 17.07,
+   "2036": 16.82,
+   "LT": 16.82
+  },
+  "fees.growth_vs_wages": {
+   "2026": -0.012,
+   "2027": 0.0,
+   "2028": 0.0,
+   "2029": 0.0,
+   "2030": 0.0,
+   "LT": 0.0,
+   "LT_from": 2031
+  },
+  "opex.real_growth": {
+   "2026": -0.0115,
+   "2027": 0.0075,
+   "2028": 0.0075,
+   "2029": 0.0075,
+   "2030": 0.0075,
+   "2031": 0.0156,
+   "2032": 0.0156,
+   "LT": -0.0007,
+   "LT_from": 2033
+  }
+ },
+ "transmission": {
+  "axis": [
+   0.0,
+   0.12
+  ],
+  "structural_top": 0.12,
+  "top_is_solver_limit": false,
+  "level_world": "M",
+  "level_world_fixed": true,
+  "level_world_drift": 2.7755575615628914e-17,
+  "rows": {
+   "low": {
+    "target": 0.0,
+    "phi": 0.8871,
+    "t_real": 0.0,
+    "solved": true,
+    "nss": {
+     "N": 0.111,
+     "H": 0.11497,
+     "M": 0.111
+    },
+    "reference_level": 0.11497,
+    "pairs": {
+     "N_H": 0.1588,
+     "H_M": -0.0611
+    },
+    "floor_headroom": [
+     0.01054,
+     "corp_loans",
+     "H"
+    ]
+   },
+   "centre": {
+    "target": 0.06,
+    "phi": 0.6957,
+    "t_real": 0.06,
+    "solved": true,
+    "nss": {
+     "N": 0.1056,
+     "H": 0.11131,
+     "M": 0.111
+    },
+    "reference_level": 0.11131,
+    "pairs": {
+     "N_H": 0.2283,
+     "H_M": -0.0047
+    },
+    "floor_headroom": [
+     0.01054,
+     "corp_loans",
+     "H"
+    ]
+   },
+   "high": {
+    "target": 0.12,
+    "phi": 0.5043,
+    "t_real": 0.12,
+    "solved": true,
+    "nss": {
+     "N": 0.1002,
+     "H": 0.10764,
+     "M": 0.111
+    },
+    "reference_level": 0.10764,
+    "pairs": {
+     "N_H": 0.2977,
+     "H_M": 0.0516
+    },
+    "floor_headroom": [
+     0.01054,
+     "corp_loans",
+     "H"
+    ]
+   }
+  }
+ },
+ "ends": {
+  "opex_axis": {
+   "low": -0.015,
+   "high": 0.014,
+   "cir": [
+    0.44,
+    0.5
+   ]
+  },
+  "margin_axis": {
+   "low": 0.103,
+   "high": 0.116,
+   "world": "M",
+   "stationary": [
+    0.103,
+    0.116
+   ],
+   "stationary_goal": [
+    0.103,
+    0.116
+   ],
+   "reference_level": [
+    0.10331,
+    0.11631
+   ],
+   "floor_headroom": {
+    "low": [
+     -0.00346,
+     "cash_loans",
+     "M"
+    ],
+    "high": [
+     0.01054,
+     "corp_loans",
+     "H"
+    ]
+   }
+  },
+  "phi_axis": {
+   "low": 0.52,
+   "high": 1.0,
+   "gate_max": 0.706,
+   "funds_cost_to_key_at_low": 0.7054,
+   "funds_cost_to_key_at_centre": 0.687,
+   "funds_cost_to_key_at_floor": 0.7279,
+   "floor": 0.3
+  },
+  "bundle": {
+   "subject": "слой «рыночные ставки как есть»",
+   "paths": [
+    "opex.volume_link",
+    "fees.volume_link",
+    "opex.real_growth.2026",
+    "opex.real_growth.2027",
+    "opex.real_growth.2028",
+    "opex.real_growth.2029",
+    "opex.real_growth.2030",
+    "opex.real_growth.2031",
+    "opex.real_growth.2032",
+    "opex.real_growth.LT",
+    "fees.growth_vs_wages.2026",
+    "fees.growth_vs_wages.2027",
+    "fees.growth_vs_wages.2028",
+    "fees.growth_vs_wages.2029",
+    "fees.growth_vs_wages.2030",
+    "fees.growth_vs_wages.LT"
+   ],
+   "low": {
+    "opex.volume_link": 0.3,
+    "fees.volume_link": 0.4,
+    "opex.real_growth.2026": 0.0133,
+    "opex.real_growth.2027": 0.0167,
+    "opex.real_growth.2028": 0.0167,
+    "opex.real_growth.2029": 0.0167,
+    "opex.real_growth.2030": 0.0167,
+    "opex.real_growth.2031": 0.0205,
+    "opex.real_growth.2032": 0.0205,
+    "opex.real_growth.LT": -0.0014,
+    "fees.growth_vs_wages.2026": 0.0164,
+    "fees.growth_vs_wages.2027": 0.0099,
+    "fees.growth_vs_wages.2028": 0.0099,
+    "fees.growth_vs_wages.2029": 0.0099,
+    "fees.growth_vs_wages.2030": 0.0099,
+    "fees.growth_vs_wages.LT": 0.0017
+   },
+   "high": {
+    "opex.volume_link": 0.7,
+    "fees.volume_link": 0.8,
+    "opex.real_growth.2026": -0.0351,
+    "opex.real_growth.2027": -0.0014,
+    "opex.real_growth.2028": -0.0014,
+    "opex.real_growth.2029": -0.0014,
+    "opex.real_growth.2030": -0.0014,
+    "opex.real_growth.2031": 0.0106,
+    "opex.real_growth.2032": 0.0106,
+    "opex.real_growth.LT": -0.0,
+    "fees.growth_vs_wages.2026": -0.0404,
+    "fees.growth_vs_wages.2027": -0.0098,
+    "fees.growth_vs_wages.2028": -0.0098,
+    "fees.growth_vs_wages.2029": -0.0098,
+    "fees.growth_vs_wages.2030": -0.0098,
+    "fees.growth_vs_wages.LT": -0.0016
+   },
+   "centre": {
+    "cir": {
+     "half": 0.4636,
+     "first": 0.47006,
+     "second": 0.47006,
+     "lt": 0.47002
+    },
+    "fees": {
+     "anchor": 198.981,
+     "mid": 325.473,
+     "last": 665.341
+    },
+    "ni_sh_modal_cell": {
+     "2026": 210.12,
+     "2030": 342.79,
+     "2036": 535.24
+    },
+    "point": 329.25
+   },
+   "check": {
+    "low": {
+     "cir": {
+      "half": 0.46361,
+      "first": 0.47005,
+      "second": 0.47,
+      "lt": 0.46997
+     },
+     "fees": {
+      "anchor": 198.984,
+      "mid": 325.479,
+      "last": 665.405
+     },
+     "ni_sh_modal_cell": {
+      "2026": 210.04,
+      "2030": 350.22,
+      "2036": 552.95
+     },
+     "point": 334.52,
+     "rounds": 4
+    },
+    "high": {
+     "cir": {
+      "half": 0.4636,
+      "first": 0.47011,
+      "second": 0.4701,
+      "lt": 0.47005
+     },
+     "fees": {
+      "anchor": 198.977,
+      "mid": 325.413,
+      "last": 665.37
+     },
+     "ni_sh_modal_cell": {
+      "2026": 210.2,
+      "2030": 335.79,
+      "2036": 518.58
+     },
+     "point": 324.36,
+     "rounds": 4
+    }
+   }
+  },
+  "wholesale_share": {
+   "anchor": 0.1351,
+   "min": 0.1351,
+   "max": 0.3461,
+   "max_cell": "N/soft/schedule",
+   "modal_by_year": {
+    "2026": 0.1351,
+    "2027": 0.1351,
+    "2028": 0.1503,
+    "2029": 0.1846,
+    "2030": 0.2189,
+    "2031": 0.2298,
+    "2032": 0.2164,
+    "2033": 0.2071,
+    "2034": 0.2069,
+    "2035": 0.214,
+    "2036": 0.2172
+   },
+   "corridor": [
+    0.08,
+    0.39
+   ],
+   "margin": 0.05
+  },
+  "window": {
+   "quarters": [
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1",
+    "2026Q2"
+   ],
+   "nim": {
+    "min": 0.10023,
+    "max": 0.11588,
+    "mean": 0.1075,
+    "min_quarter": "2025Q1",
+    "max_quarter": "2026Q2"
+   },
+   "cor": {
+    "min": 0.04692,
+    "max": 0.06651,
+    "mean": 0.05637,
+    "min_quarter": "2026Q2",
+    "max_quarter": "2025Q2"
+   },
+   "cir": {
+    "min": 0.46001,
+    "max": 0.4828,
+    "mean": 0.47038,
+    "min_quarter": "2025Q3",
+    "max_quarter": "2024Q4"
+   },
+   "loans_share": {
+    "by_quarter_end": {
+     "2024Q4": 0.57771,
+     "2025Q1": 0.63026,
+     "2025Q2": 0.63207,
+     "2025Q3": 0.62364,
+     "2025Q4": 0.63642,
+     "2026Q1": 0.67323,
+     "2026Q2": 0.67699
+    },
+    "window": 0.6358,
+    "anchor_on_engine": 0.67699
+   }
+  }
+ },
+ "need": {
+  "year": 2030,
+  "shape": {
+   "2027": 1.0,
+   "2028": 1.0,
+   "2029": 0.8,
+   "2030": 0.6,
+   "2031": 0.4
+  },
+  "level": 0.0602,
+  "loans_to_funds_at_level": 0.99996,
+  "loans_to_funds_book": 1.1906,
+  "loans_to_funds_at_axis_ends": {
+   "low": 1.396,
+   "high": 1.0135
+  },
+  "probes": [
+   {
+    "level": 0.0,
+    "loans_to_funds": 1.19067
+   },
+   {
+    "level": 0.05,
+    "loans_to_funds": 1.03378
+   },
+   {
+    "level": 0.060764,
+    "loans_to_funds": 0.99811
+   },
+   {
+    "level": 0.060194,
+    "loans_to_funds": 0.99996
+   }
+  ],
+  "relinked_rounds": 3
+ },
+ "evaluations": {
+  "cells": 327,
+  "grids": 836
+ }
+}

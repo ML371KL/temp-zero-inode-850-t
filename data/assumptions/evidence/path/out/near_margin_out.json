@@ -1,0 +1,234 @@
+{
+ "anchor": "2026Q2",
+ "quarter": "2026Q3",
+ "months_known": [
+  "2026M07",
+  "2026M08"
+ ],
+ "anchor_nim": 0.1159,
+ "growth": {
+  "income_per_day": 0.06401,
+  "assets": 0.030292,
+  "loans": 0.067104,
+  "index_to_assets": 1.032727,
+  "index_to_loans": 0.997101
+ },
+ "ras_margin_on_assets": {
+  "anchor": 0.093248,
+  "known_months": 0.0963
+ },
+ "estimate": {
+  "to_loans": 0.115564,
+  "to_assets": 0.119693
+ },
+ "history": [
+  {
+   "quarter": "2025Q3",
+   "nim_previous": 0.106,
+   "nim": 0.105,
+   "full": {
+    "growth": {
+     "income_per_day": 0.120013,
+     "assets": 0.075373,
+     "loans": 0.085403,
+     "index_to_assets": 1.041511,
+     "index_to_loans": 1.031888
+    },
+    "estimate": {
+     "to_loans": 0.10938,
+     "to_assets": 0.1104
+    },
+    "error": {
+     "to_loans": 0.00438,
+     "to_assets": 0.0054
+    }
+   },
+   "first_months": {
+    "growth": {
+     "income_per_day": 0.093189,
+     "assets": 0.070134,
+     "loans": 0.079031,
+     "index_to_assets": 1.021544,
+     "index_to_loans": 1.013121
+    },
+    "estimate": {
+     "to_loans": 0.107391,
+     "to_assets": 0.108284
+    },
+    "error": {
+     "to_loans": 0.002391,
+     "to_assets": 0.003284
+    }
+   }
+  },
+  {
+   "quarter": "2025Q4",
+   "nim_previous": 0.105,
+   "nim": 0.11,
+   "full": {
+    "growth": {
+     "income_per_day": 0.136773,
+     "assets": 0.041511,
+     "loans": 0.047638,
+     "index_to_assets": 1.091465,
+     "index_to_loans": 1.085083
+    },
+    "estimate": {
+     "to_loans": 0.113934,
+     "to_assets": 0.114604
+    },
+    "error": {
+     "to_loans": 0.003934,
+     "to_assets": 0.004604
+    }
+   },
+   "first_months": {
+    "growth": {
+     "income_per_day": 0.10748,
+     "assets": 0.035675,
+     "loans": 0.040801,
+     "index_to_assets": 1.069331,
+     "index_to_loans": 1.064065
+    },
+    "estimate": {
+     "to_loans": 0.111727,
+     "to_assets": 0.11228
+    },
+    "error": {
+     "to_loans": 0.001727,
+     "to_assets": 0.00228
+    }
+   }
+  },
+  {
+   "quarter": "2026Q1",
+   "nim_previous": 0.11,
+   "nim": 0.109,
+   "full": {
+    "growth": {
+     "income_per_day": 0.040981,
+     "assets": 0.033844,
+     "loans": 0.029274,
+     "index_to_assets": 1.006903,
+     "index_to_loans": 1.011374
+    },
+    "estimate": {
+     "to_loans": 0.111251,
+     "to_assets": 0.110759
+    },
+    "error": {
+     "to_loans": 0.002251,
+     "to_assets": 0.001759
+    }
+   },
+   "first_months": {
+    "growth": {
+     "income_per_day": 0.0056,
+     "assets": 0.031797,
+     "loans": 0.024071,
+     "index_to_assets": 0.97461,
+     "index_to_loans": 0.981964
+    },
+    "estimate": {
+     "to_loans": 0.108016,
+     "to_assets": 0.107207
+    },
+    "error": {
+     "to_loans": -0.000984,
+     "to_assets": -0.001793
+    }
+   }
+  },
+  {
+   "quarter": "2026Q2",
+   "nim_previous": 0.109,
+   "nim": 0.116,
+   "full": {
+    "growth": {
+     "income_per_day": 0.111073,
+     "assets": 0.005531,
+     "loans": 0.039269,
+     "index_to_assets": 1.104961,
+     "index_to_loans": 1.069091
+    },
+    "estimate": {
+     "to_loans": 0.116531,
+     "to_assets": 0.120441
+    },
+    "error": {
+     "to_loans": 0.000531,
+     "to_assets": 0.004441
+    }
+   },
+   "first_months": {
+    "growth": {
+     "income_per_day": 0.101015,
+     "assets": -0.004902,
+     "loans": 0.031904,
+     "index_to_assets": 1.106439,
+     "index_to_loans": 1.066974
+    },
+    "estimate": {
+     "to_loans": 0.1163,
+     "to_assets": 0.120602
+    },
+    "error": {
+     "to_loans": 0.0003,
+     "to_assets": 0.004602
+    }
+   }
+  }
+ ],
+ "errors": {
+  "full": {
+   "to_loans": {
+    "mean": 0.002774,
+    "min": 0.000531,
+    "max": 0.00438
+   },
+   "to_assets": {
+    "mean": 0.004051,
+    "min": 0.001759,
+    "max": 0.0054
+   }
+  },
+  "first_months": {
+   "to_loans": {
+    "mean": 0.000858,
+    "min": -0.000984,
+    "max": 0.002391
+   },
+   "to_assets": {
+    "mean": 0.002093,
+    "min": -0.001793,
+    "max": 0.004602
+   }
+  }
+ },
+ "estimate_corrected": {
+  "full": {
+   "to_loans": {
+    "low": 0.111184,
+    "high": 0.115033,
+    "mean": 0.11279
+   },
+   "to_assets": {
+    "low": 0.114293,
+    "high": 0.117934,
+    "mean": 0.115642
+   }
+  },
+  "first_months": {
+   "to_loans": {
+    "low": 0.113173,
+    "high": 0.116548,
+    "mean": 0.114706
+   },
+   "to_assets": {
+    "low": 0.115091,
+    "high": 0.121486,
+    "mean": 0.1176
+   }
+  }
+ }
+}

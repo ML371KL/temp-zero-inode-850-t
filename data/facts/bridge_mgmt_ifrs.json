@@ -1,0 +1,700 @@
+{
+ "basis": "mgmt↔IFRS",
+ "as_of": "2026-06-30",
+ "unit": "доли, годовые",
+ "window": [
+  "2024Q4",
+  "2026Q2"
+ ],
+ "direction": "to_engine(v) = v + value (additive); gap = engine − mgmt; окно CoR и C/I — window (кварталы после присоединения Росбанка), окно ЧПМ — отчётные кварталы года якоря (nim.window)",
+ "cor": {
+  "method": "additive",
+  "window": [
+   "2024Q4",
+   "2026Q2"
+  ],
+  "value": {
+   "v": -0.002527,
+   "calc": "среднее gap по окну 2024Q4–2026Q2 (n = 7)"
+  },
+  "sd": {
+   "v": 0.00076,
+   "calc": "выборочное стандартное отклонение gap по окну"
+  },
+  "n": {
+   "v": 7,
+   "calc": "кварталов в окне"
+  },
+  "definition": "CoR в мосте = −llp_debt_fa × 365/d / средняя сумма шести кредитных книг; упр. — стоимость риска эмитента: резерв по кредитам × 4 / среднее двух концов валовых кредитов. Движок считает CoR к сумме шести кредитных книг (с кредитами по справедливой стоимости): этот вариант — в engine_books, gap_books и value_books",
+  "history": [
+   {
+    "period": "2024Q1",
+    "mgmt": {
+     "v": 0.075636,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.07166,
+     "calc": "−llp_debt_fa −21,2 × 365/91 / средняя сумма кредитных книг 1 186,62"
+    },
+    "gap": {
+     "v": -0.003976,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.07166,
+     "calc": "−llp_debt_fa × 365/91 / средняя сумма шести кредитных книг 1 186,62 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.003976,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2024Q2",
+    "mgmt": {
+     "v": 0.074456,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.070049,
+     "calc": "−llp_debt_fa −22,9 × 365/91 / средняя сумма кредитных книг 1 311,25"
+    },
+    "gap": {
+     "v": -0.004407,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.070049,
+     "calc": "−llp_debt_fa × 365/91 / средняя сумма шести кредитных книг 1 311,25 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.004407,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2024Q3",
+    "mgmt": {
+     "v": 0.081996,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.079564,
+     "calc": "−llp_debt_fa −41,9 × 365/92 / средняя сумма кредитных книг 2 089,30"
+    },
+    "gap": {
+     "v": -0.002432,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.079564,
+     "calc": "−llp_debt_fa × 365/92 / средняя сумма шести кредитных книг 2 089,30 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.002432,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2024Q4",
+    "mgmt": {
+     "v": 0.065462,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.062092,
+     "calc": "−llp_debt_fa −43,6 × 365/92 / средняя сумма кредитных книг 2 785,85"
+    },
+    "gap": {
+     "v": -0.00337,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.062092,
+     "calc": "−llp_debt_fa × 365/92 / средняя сумма шести кредитных книг 2 785,85 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.00337,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2025Q1",
+    "mgmt": {
+     "v": 0.051957,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.049313,
+     "calc": "−llp_debt_fa −33,7 × 365/90 / средняя сумма кредитных книг 2 771,55"
+    },
+    "gap": {
+     "v": -0.002644,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.049313,
+     "calc": "−llp_debt_fa × 365/90 / средняя сумма шести кредитных книг 2 771,55 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.002644,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2025Q2",
+    "mgmt": {
+     "v": 0.066511,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.063381,
+     "calc": "−llp_debt_fa −46,0 × 365/91 / средняя сумма кредитных книг 2 911,05"
+    },
+    "gap": {
+     "v": -0.00313,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.063381,
+     "calc": "−llp_debt_fa × 365/91 / средняя сумма шести кредитных книг 2 911,05 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.00313,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2025Q3",
+    "mgmt": {
+     "v": 0.061106,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.058247,
+     "calc": "−llp_debt_fa −46,1 × 365/92 / средняя сумма кредитных книг 3 140,00"
+    },
+    "gap": {
+     "v": -0.002859,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.058247,
+     "calc": "−llp_debt_fa × 365/92 / средняя сумма шести кредитных книг 3 140,00 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.002859,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2025Q4",
+    "mgmt": {
+     "v": 0.049165,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.046525,
+     "calc": "−llp_debt_fa −39,4 × 365/92 / средняя сумма кредитных книг 3 359,80"
+    },
+    "gap": {
+     "v": -0.00264,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.046525,
+     "calc": "−llp_debt_fa × 365/92 / средняя сумма шести кредитных книг 3 359,80 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.00264,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2026Q1",
+    "mgmt": {
+     "v": 0.053464,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.052286,
+     "calc": "−llp_debt_fa −45,5 × 365/90 / средняя сумма кредитных книг 3 529,20"
+    },
+    "gap": {
+     "v": -0.001178,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.052286,
+     "calc": "−llp_debt_fa × 365/90 / средняя сумма шести кредитных книг 3 529,20 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.001178,
+     "calc": "engine_books − mgmt"
+    }
+   },
+   {
+    "period": "2026Q2",
+    "mgmt": {
+     "v": 0.046922,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ139, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.045054,
+     "calc": "−llp_debt_fa −41,5 × 365/91 / средняя сумма кредитных книг 3 694,55"
+    },
+    "gap": {
+     "v": -0.001868,
+     "calc": "engine − mgmt"
+    },
+    "engine_books": {
+     "v": 0.045054,
+     "calc": "−llp_debt_fa × 365/91 / средняя сумма шести кредитных книг 3 694,55 — знаменатель движка"
+    },
+    "gap_books": {
+     "v": -0.001868,
+     "calc": "engine_books − mgmt"
+    }
+   }
+  ],
+  "value_books": {
+   "v": -0.002527,
+   "calc": "то же окно на знаменателе движка — сумме шести кредитных книг (среднее gap_books)"
+  },
+  "value_ac_only": {
+   "v": -0.002449,
+   "calc": "то же окно на знаменателе без кредитов по справедливой стоимости (определение листа калибровки ОПУ)"
+  }
+ },
+ "nim": {
+  "method": "additive",
+  "window": [
+   "2026Q1",
+   "2026Q2"
+  ],
+  "value": {
+   "v": -0.001219,
+   "calc": "среднее gap_x4 по отчётным кварталам года якоря 2026Q1–2026Q2 (n = 2): мост на нынешнем составе процентных активов, без ряби счёта дней"
+  },
+  "sd": {
+   "v": 0.000604,
+   "calc": "разброс ряда 2024Q4–2026Q2 (бумаги с акциями и паями, база «× 4») вокруг линейного тренда: мост дрейфует вместе с составом процентных активов"
+  },
+  "n": {
+   "v": 2,
+   "calc": "кварталов в окне значения"
+  },
+  "definition": "ЧПМ движка = nii × 365/d / средние процентные активы движка (шесть кредитных книг + долговые бумаги + ликвидность); упр. — чистая процентная маржа эмитента: ЧПД × 4 / среднее двух концов процентных активов эмитента. gap — на act/365 (его сверяет гейт дрейфа моста), gap_x4 — без ряби счёта дней (по нему value)",
+  "history": [
+   {
+    "period": "2024Q2",
+    "mgmt": {
+     "v": 0.118412,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.115924,
+     "calc": "nii 73,4 × 365/91 / средние процентные активы движка 2 539,6; бумаги на концах квартала до 31.12.2025 — с акциями и паями (долговые отдельно не раскрыты)"
+    },
+    "gap": {
+     "v": -0.002488,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.115606,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.002806,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2024Q3",
+    "mgmt": {
+     "v": 0.109923,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.105085,
+     "calc": "nii 98,8 × 365/92 / средние процентные активы движка 3 730,1; бумаги на концах квартала до 31.12.2025 — с акциями и паями (долговые отдельно не раскрыты)"
+    },
+    "gap": {
+     "v": -0.004838,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.105949,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.003974,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2024Q4",
+    "mgmt": {
+     "v": 0.106052,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.100715,
+     "calc": "nii 120,5 × 365/92 / средние процентные активы движка 4 746,8; бумаги на концах квартала до 31.12.2025 — с акциями и паями (долговые отдельно не раскрыты)"
+    },
+    "gap": {
+     "v": -0.005337,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.101543,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.004509,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2025Q1",
+    "mgmt": {
+     "v": 0.100234,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.098281,
+     "calc": "nii 111,4 × 365/90 / средние процентные активы движка 4 596,9; бумаги на концах квартала до 31.12.2025 — с акциями и паями (долговые отдельно не раскрыты)"
+    },
+    "gap": {
+     "v": -0.001953,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.096935,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.003299,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2025Q2",
+    "mgmt": {
+     "v": 0.106037,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.104016,
+     "calc": "nii 119,6 × 365/91 / средние процентные активы движка 4 611,9; бумаги на концах квартала до 31.12.2025 — с акциями и паями (долговые отдельно не раскрыты)"
+    },
+    "gap": {
+     "v": -0.002021,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.103731,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.002306,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2025Q3",
+    "mgmt": {
+     "v": 0.104953,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.101595,
+     "calc": "nii 128,1 × 365/92 / средние процентные активы движка 5 002,4; бумаги на концах квартала до 31.12.2025 — с акциями и паями (долговые отдельно не раскрыты)"
+    },
+    "gap": {
+     "v": -0.003358,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.10243,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.002523,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2025Q4",
+    "mgmt": {
+     "v": 0.110245,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.106564,
+     "calc": "nii 143,2 × 365/92 / средние процентные активы движка 5 331,4; бумаги на концах квартала до 31.12.2025 — с акциями и паями (долговые отдельно не раскрыты)"
+    },
+    "gap": {
+     "v": -0.003681,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.10744,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.002805,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2026Q1",
+    "mgmt": {
+     "v": 0.109111,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.10884,
+     "calc": "nii 144,7 × 365/90 / средние процентные активы движка 5 391,8"
+    },
+    "gap": {
+     "v": -0.000271,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.107349,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.001762,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   },
+   {
+    "period": "2026Q2",
+    "mgmt": {
+     "v": 0.11588,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ131, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.11552,
+     "calc": "nii 157,6 × 365/91 / средние процентные активы движка 5 472,1"
+    },
+    "gap": {
+     "v": -0.00036,
+     "calc": "engine − mgmt"
+    },
+    "engine_x4": {
+     "v": 0.115204,
+     "calc": "nii × 4 / средние процентные активы движка — без ряби счёта дней"
+    },
+    "gap_x4": {
+     "v": -0.000676,
+     "calc": "engine_x4 − mgmt (обе стороны на базе «× 4»)"
+    }
+   }
+  ]
+ },
+ "cir": {
+  "method": "additive",
+  "window": [
+   "2024Q4",
+   "2026Q2"
+  ],
+  "value": {
+   "v": 0.015672,
+   "calc": "среднее gap по окну 2024Q4–2026Q2 (n = 7)"
+  },
+  "sd": {
+   "v": 0.009088,
+   "calc": "выборочное стандартное отклонение gap по окну"
+  },
+  "n": {
+   "v": 7,
+   "calc": "кварталов в окне"
+  },
+  "definition": "C/I движка = −opex / (nii + fees_net + insurance_net + misc_net) на операционном базисе (без переоценки и дивидендов пакета; noncore_net в доход не входит); упр. — отношение расходов к доходам эмитента с затратами на привлечение",
+  "history": [
+   {
+    "period": "2024Q1",
+    "mgmt": {
+     "v": 0.504365,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.53328,
+     "calc": "−opex −56,5 / (nii + fees_net + insurance_net + misc_net) 105,948"
+    },
+    "gap": {
+     "v": 0.028915,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2024Q2",
+    "mgmt": {
+     "v": 0.502762,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.536401,
+     "calc": "−opex −60,8 / (nii + fees_net + insurance_net + misc_net) 113,348"
+    },
+    "gap": {
+     "v": 0.033639,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2024Q3",
+    "mgmt": {
+     "v": 0.467044,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.464126,
+     "calc": "−opex −76,3 / (nii + fees_net + insurance_net + misc_net) 164,395"
+    },
+    "gap": {
+     "v": -0.002918,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2024Q4",
+    "mgmt": {
+     "v": 0.482798,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.496599,
+     "calc": "−opex −90,6 / (nii + fees_net + insurance_net + misc_net) 182,441"
+    },
+    "gap": {
+     "v": 0.013801,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2025Q1",
+    "mgmt": {
+     "v": 0.47998,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.511,
+     "calc": "−opex −81,9 / (nii + fees_net + insurance_net + misc_net) 160,274"
+    },
+    "gap": {
+     "v": 0.03102,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2025Q2",
+    "mgmt": {
+     "v": 0.460398,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.464873,
+     "calc": "−opex −88,9 / (nii + fees_net + insurance_net + misc_net) 191,235"
+    },
+    "gap": {
+     "v": 0.004475,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2025Q3",
+    "mgmt": {
+     "v": 0.460009,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.465297,
+     "calc": "−opex −92,2 / (nii + fees_net + insurance_net + misc_net) 198,153"
+    },
+    "gap": {
+     "v": 0.005288,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2025Q4",
+    "mgmt": {
+     "v": 0.460629,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.479981,
+     "calc": "−opex −99,6 / (nii + fees_net + insurance_net + misc_net) 207,508"
+    },
+    "gap": {
+     "v": 0.019352,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2026Q1",
+    "mgmt": {
+     "v": 0.47321,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.491142,
+     "calc": "−opex −99,8 / (nii + fees_net + insurance_net + misc_net) 203,200"
+    },
+    "gap": {
+     "v": 0.017932,
+     "calc": "engine − mgmt"
+    }
+   },
+   {
+    "period": "2026Q2",
+    "mgmt": {
+     "v": 0.47561,
+     "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ136, sha256 11386cbbb9ffb0bc",
+     "calc": "проценты документа → доли"
+    },
+    "engine": {
+     "v": 0.493448,
+     "calc": "−opex −109,2 / (nii + fees_net + insurance_net + misc_net) 221,300"
+    },
+    "gap": {
+     "v": 0.017838,
+     "calc": "engine − mgmt"
+    }
+   }
+  ]
+ }
+}

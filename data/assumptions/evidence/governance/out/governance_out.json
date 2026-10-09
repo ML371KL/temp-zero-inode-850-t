@@ -1,0 +1,94 @@
+{
+ "total": 0.0,
+ "channels": {
+  "related_party_deals": {
+   "value_book": 0.0,
+   "value_sheet": 0.0,
+   "pv_bn": 0.0,
+   "range": [
+    0.0,
+    0.03644
+   ],
+   "share_of_v0_by_median": {
+    "250": 0.0,
+    "350": 0.0,
+    "450": 0.0
+   },
+   "key": 0.0
+  },
+  "motivation": {
+   "value_book": 0.0,
+   "value_sheet": 0.0,
+   "pv_bn": 0.0,
+   "range": [
+    0.0,
+    0.00374
+   ],
+   "share_of_v0_by_median": {
+    "250": 0.0,
+    "350": 0.0,
+    "450": 0.0
+   },
+   "key": 0.0
+  },
+  "depositary_block": {
+   "value_book": 0.0,
+   "value_sheet": 0.0,
+   "pv_bn": 0.0,
+   "range": [
+    -0.04359,
+    0.0
+   ],
+   "share_of_v0_by_median": {
+    "250": 0.0,
+    "350": 0.0,
+    "450": 0.0
+   },
+   "key": 0.0
+  },
+  "liquidity_listing": {
+   "value_book": 0.0,
+   "value_sheet": 0.0,
+   "pv_bn": 0.0,
+   "range": null,
+   "share_of_v0_by_median": {
+    "250": 0.0,
+    "350": 0.0,
+    "450": 0.0
+   },
+   "key": 0.0
+  },
+  "holding_layer": {
+   "value_book": 0.0,
+   "value_sheet": 0.0,
+   "pv_bn": 0.0,
+   "range": null,
+   "share_of_v0_by_median": {
+    "250": 0.0,
+    "350": 0.0,
+    "450": 0.0
+   },
+   "key": 0.0
+  }
+ },
+ "base": {
+  "n_div_mln": 2682.74786,
+  "n_out_mln": 2549.948,
+  "treasury_mln": 132.8,
+  "declared_dividend_bn": 11.98,
+  "price_rub": 271.2,
+  "price_date": "2026-10-06"
+ },
+ "axis": {
+  "low": 0.0,
+  "high": 0.1,
+  "mean_of_draw_at_center": 0.01667
+ },
+ "deals_record_bn": {
+  "ifrs_lens_bn": -7.42,
+  "ifrs_plus_share_leg_bn": -4.87,
+  "eps_lens_bn_per_year": -12.5,
+  "market_lens_car01_bn": 31.9
+ },
+ "book_mismatches": []
+}

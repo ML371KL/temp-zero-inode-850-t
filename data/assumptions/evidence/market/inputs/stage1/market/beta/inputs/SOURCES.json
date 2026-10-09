@@ -1,0 +1,49 @@
+{
+ "fetched_utc": "2026-10-07T05:33:42Z",
+ "from": "2019-10-01",
+ "till": "2026-10-06",
+ "files": {
+  "prices_TCSG.csv": {
+   "url": "https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/TCSG.json?from=2019-10-01&till=2026-10-06",
+   "rows": 1288,
+   "first": "2019-10-28",
+   "last": "2024-11-27",
+   "sha256": "3772c33596f86b9316b86f1c2841601a44b42a2d4774d4be3cc20a9d5d3f43ce"
+  },
+  "prices_T.csv": {
+   "url": "https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/T.json?from=2019-10-01&till=2026-10-06",
+   "rows": 471,
+   "first": "2024-11-28",
+   "last": "2026-10-06",
+   "sha256": "def55f5f1d40a40302b81481937e0190a1742f446aa12c5c81685e320521b969"
+  },
+  "prices_SBER.csv": {
+   "url": "https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/SBER.json?from=2019-10-01&till=2026-10-06",
+   "rows": 1778,
+   "first": "2019-10-01",
+   "last": "2026-10-06",
+   "sha256": "58d6da92c015352503059b792e36f00a2e6f83316b1ca401ca5b6c7eb90bd489"
+  },
+  "prices_MCFTR.csv": {
+   "url": "https://iss.moex.com/iss/history/engines/stock/markets/index/securities/MCFTR.json?from=2019-10-01&till=2026-10-06",
+   "rows": 1759,
+   "first": "2019-10-01",
+   "last": "2026-10-06",
+   "sha256": "9e48837bcd863559ab0b24c9125a89fcdfd456e9ae97edc72d79a31cfd5cb13a"
+  },
+  "prices_IMOEX.csv": {
+   "url": "https://iss.moex.com/iss/history/engines/stock/markets/index/securities/IMOEX.json?from=2019-10-01&till=2026-10-06",
+   "rows": 1761,
+   "first": "2019-10-01",
+   "last": "2026-10-06",
+   "sha256": "8a83bf396d55e1378952c682813f770e9cecc96c237e3f92532b0125b2dc54f5"
+  },
+  "prices_MOEXFN.csv": {
+   "url": "https://iss.moex.com/iss/history/engines/stock/markets/index/securities/MOEXFN.json?from=2019-10-01&till=2026-10-06",
+   "rows": 1758,
+   "first": "2019-10-01",
+   "last": "2026-10-06",
+   "sha256": "5353cf050451c166ea39338651b0c10a0a84f6071da12c8b1867bd70b8441fff"
+  }
+ }
+}

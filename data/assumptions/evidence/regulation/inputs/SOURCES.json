@@ -1,0 +1,22 @@
+{
+ "area": "regulation",
+ "root": "$BANK_HANDOFF_DIR",
+ "files": [
+  {
+   "path": "stage1/regulation/schedule.yaml",
+   "sha256_full": "33d02df21e72e8feef7a83b268f6367bc451eb2c9f41d8724f448b416d74dadc",
+   "sha256_input": "e0985c6c5d9800b89326fdfd16586783bd80bf3f93323ce041cdd398286f67cb",
+   "filter": "весь лист",
+   "rows_kept": 1065,
+   "rows_total": 1065
+  },
+  {
+   "path": "stage1/calib/capital/out/p3_floors.csv",
+   "sha256_full": "9724065909aecce97538ec49047a8b794fa06847a7705f2262d77bc48c421919",
+   "sha256_input": "fe49cf430b2c91cbfb14b594e49e68d27b4962a82a80a56b28e41d423e65d64d",
+   "filter": "весь лист",
+   "rows_kept": 19,
+   "rows_total": 19
+  }
+ ]
+}

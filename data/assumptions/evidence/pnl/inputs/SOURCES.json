@@ -1,0 +1,110 @@
+{
+ "area": "pnl",
+ "root": "$BANK_HANDOFF_DIR",
+ "files": [
+  {
+   "path": "stage1/ifrs/ifrs_quarterly.csv",
+   "sha256_full": "f385c532272e0402893d2173a411c8015a1eacbee270e991e0341a398effcbb3",
+   "sha256_input": "795d43be3833b6de291078b75336a767d55d83f475005ed57c02075f23dc735a",
+   "filter": "строки, где metric — литерал кода области",
+   "rows_kept": 310,
+   "rows_total": 1900
+  },
+  {
+   "path": "stage1/ifrs/ifrs_history.csv",
+   "sha256_full": "2a3910ac7ee4e7f517769aea8baf252b51fe42f4511d773ca29e2be2524f7f98",
+   "sha256_input": "1cbaaf7866ec2ded9eb396cd370e4d8be932d84d2053cffac6b41c483b33e981",
+   "filter": "строки, где metric — литерал кода области",
+   "rows_kept": 509,
+   "rows_total": 3893
+  },
+  {
+   "path": "stage1/ifrs/three_profits.csv",
+   "sha256_full": "db5ed034b5ee5ab3b73793f2fcc5ee6dc428a8bfad5be2f5eafa3d75aa93e92e",
+   "sha256_input": "87780076e73205459d90ba1eec1526349cf44563b205d62d8d2e5c25b8fa5137",
+   "filter": "весь лист",
+   "rows_kept": 121,
+   "rows_total": 121
+  },
+  {
+   "path": "stage1/ifrs/anchor_books.csv",
+   "sha256_full": "f93a850505a9523b344bf494962d78155fbd846ba6fab6e9cd8ba0fcd5007be4",
+   "sha256_input": "251ac05d5783c25d79e2c56f50011beb2987e4545b31b8d2ef6b71ca8a2e91b1",
+   "filter": "весь лист",
+   "rows_kept": 22,
+   "rows_total": 22
+  },
+  {
+   "path": "stage1/mgmt/mgmt_kpi.csv",
+   "sha256_full": "fa33e06bb888992fadfea12bc393d231ff385c9866b4a173c74acc255749fe05",
+   "sha256_input": "d5114366ddccc06280e7202471530144bb17e7984d064cc6d01c5a8033d95377",
+   "filter": "строки, где metric — литерал кода области",
+   "rows_kept": 117,
+   "rows_total": 2059
+  },
+  {
+   "path": "stage1/mgmt/guidance.csv",
+   "sha256_full": "6974d8c89345f257a15e6feabe54403ac348eb3261cb1f72254f9e14b48449d3",
+   "sha256_input": "6974d8c89345f257a15e6feabe54403ac348eb3261cb1f72254f9e14b48449d3",
+   "filter": "весь лист",
+   "rows_kept": 43,
+   "rows_total": 43
+  },
+  {
+   "path": "stage1/market/dividends_public.csv",
+   "sha256_full": "b70511331291ac8111f1f497e3f0203816aa18ba7f8078cfb417dc94daeca7fc",
+   "sha256_input": "b70511331291ac8111f1f497e3f0203816aa18ba7f8078cfb417dc94daeca7fc",
+   "filter": "весь лист",
+   "rows_kept": 9,
+   "rows_total": 9
+  },
+  {
+   "path": "stage1/regimes/season_sigma.json",
+   "sha256_full": "1181e4ce6a99a19fded9e740184a819e1bfee14e8ee78d094704ceb4a215e3d7",
+   "sha256_input": "940517868714762cb61c64fae18056759d409ff3fb950aaa494ac0968ea9dffd",
+   "filter": "весь лист",
+   "rows_kept": 592,
+   "rows_total": 592
+  },
+  {
+   "path": "stage1/worlds/world_paths_quarterly.csv",
+   "sha256_full": "4a8412c6ccb5a920d45db1a35a54705bcda299e2e825becd6f440bd333e432af",
+   "sha256_input": "4a8412c6ccb5a920d45db1a35a54705bcda299e2e825becd6f440bd333e432af",
+   "filter": "весь лист",
+   "rows_kept": 130,
+   "rows_total": 130
+  },
+  {
+   "path": "stage1/calib/pnl/inputs/yandex_dividends.csv",
+   "sha256_full": "cde75acf2e350e5414ea2fefb1e0e4cc8e0f6e77faed1cf62115b64ab6fd9b98",
+   "sha256_input": "cde75acf2e350e5414ea2fefb1e0e4cc8e0f6e77faed1cf62115b64ab6fd9b98",
+   "filter": "весь лист",
+   "rows_kept": 6,
+   "rows_total": 6
+  },
+  {
+   "path": "stage1/calib/pnl/inputs/lead_decisions.yaml",
+   "sha256_full": "18c766bb28d0bcf9e6b36aef8cb294ea14615ae32f6f0a0452f729667268ce4b",
+   "sha256_input": "18c766bb28d0bcf9e6b36aef8cb294ea14615ae32f6f0a0452f729667268ce4b",
+   "filter": "весь лист",
+   "rows_kept": 23,
+   "rows_total": 23
+  },
+  {
+   "path": "research/facts/t_quarterly.csv",
+   "sha256_full": "2656ae7171b2c95014e3551a039865c90a3861ba4311ef9a9bc093ad5216f391",
+   "sha256_input": "b30b25d68e259636a51952ef398b11ea0ab4feff3261224060d5152454de87dd",
+   "filter": "строки, где metric — литерал кода области",
+   "rows_kept": 550,
+   "rows_total": 26875
+  },
+  {
+   "path": "research/facts/cbr_key_rate_quarterly.csv",
+   "sha256_full": "c671c2d5c6b75ac72129f95f8c6560cd6119253bbf6e73f639b253e6d609fc2f",
+   "sha256_input": "ca5b3f676aa68d8b5a9c3906b09b1d1681d426ce098673acb8f54e7729cdfaf1",
+   "filter": "весь лист",
+   "rows_kept": 69,
+   "rows_total": 69
+  }
+ ]
+}

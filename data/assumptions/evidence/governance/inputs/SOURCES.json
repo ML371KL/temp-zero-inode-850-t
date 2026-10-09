@@ -1,0 +1,38 @@
+{
+ "area": "governance",
+ "root": "$BANK_HANDOFF_DIR",
+ "files": [
+  {
+   "path": "stage1/calib/governance/out/governance_out.json",
+   "sha256_full": "2fb6848223bf41befb5665324c30b9c3f30c086826b03c7a62d69821159a62a1",
+   "sha256_input": "2fb6848223bf41befb5665324c30b9c3f30c086826b03c7a62d69821159a62a1",
+   "filter": "весь лист",
+   "rows_kept": 461,
+   "rows_total": 461
+  },
+  {
+   "path": "stage1/calib/governance/out/proposal.yaml",
+   "sha256_full": "774365ef0810259a697a65fa4951a23cc34e806854aff9104f07ad9a504c216f",
+   "sha256_input": "774365ef0810259a697a65fa4951a23cc34e806854aff9104f07ad9a504c216f",
+   "filter": "весь лист",
+   "rows_kept": 15,
+   "rows_total": 15
+  },
+  {
+   "path": "stage1/calib/governance/out/deals_table.csv",
+   "sha256_full": "f110c697b5b3cf7050343b0ae4493a5d2624434dcdccd2563217ab175a0fa7cc",
+   "sha256_input": "6766f37718573ea133eaef56d4bc0a520b067d1dbbb36de4b766f2a8bd91f056",
+   "filter": "весь лист",
+   "rows_kept": 7,
+   "rows_total": 7
+  },
+  {
+   "path": "stage1/calib/governance/out/event_study.csv",
+   "sha256_full": "8faf520e051847b1fc3f1c8599b89afb7161285933db28242465fcc20a4ae353",
+   "sha256_input": "34e62bc7690d519a0c3ba04a7b2db957c3fad99734e0843679db51a44eb7f8d3",
+   "filter": "весь лист",
+   "rows_kept": 10,
+   "rows_total": 10
+  }
+ ]
+}

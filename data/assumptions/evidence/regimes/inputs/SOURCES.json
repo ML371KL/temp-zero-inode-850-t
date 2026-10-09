@@ -1,0 +1,62 @@
+{
+ "area": "regimes",
+ "root": "$BANK_HANDOFF_DIR",
+ "files": [
+  {
+   "path": "stage1/regimes/cor_by_state.csv",
+   "sha256_full": "fd6aaf3fb9bdeffddead403976c13229146b2b7d35460115e8002fe415df8ade",
+   "sha256_input": "908cae5b55d062513aaf36aab8594eaf07fa1edb22382663921ead006edaf666",
+   "filter": "весь лист",
+   "rows_kept": 8,
+   "rows_total": 8
+  },
+  {
+   "path": "stage1/regimes/kappa.json",
+   "sha256_full": "40816cd4a1abe40e30ca26dcb8e95d1d64773d4faf01daa1f2b647e75ddd36ba",
+   "sha256_input": "bd712414ac218f3751a073857bd15e8f5aab6a0ed81a56c57490163187a0860c",
+   "filter": "весь лист",
+   "rows_kept": 935,
+   "rows_total": 935
+  },
+  {
+   "path": "stage1/regimes/season_sigma.json",
+   "sha256_full": "1181e4ce6a99a19fded9e740184a819e1bfee14e8ee78d094704ceb4a215e3d7",
+   "sha256_input": "940517868714762cb61c64fae18056759d409ff3fb950aaa494ac0968ea9dffd",
+   "filter": "весь лист",
+   "rows_kept": 592,
+   "rows_total": 592
+  },
+  {
+   "path": "stage1/regimes/paths_check.json",
+   "sha256_full": "1c69d06179d26d976711d53725c1a510a49ec4372376b2d144a555ec96c204ca",
+   "sha256_input": "36d1d809369f8bd68d1e35cde3d6914d08007fe5f2e4bebc41380ea0caf44534",
+   "filter": "весь лист",
+   "rows_kept": 53,
+   "rows_total": 53
+  },
+  {
+   "path": "stage1/regimes/proforma_annual.csv",
+   "sha256_full": "eb1bb07bdf7fca1e6c6e8c9e9e3d7b655c95a1837f7b273b2eb33f798da848cc",
+   "sha256_input": "b9e404b2de3955b644140b78f5221e9ec9f9cd279a28d2f4702a73f4ffe90361",
+   "filter": "весь лист",
+   "rows_kept": 14,
+   "rows_total": 14
+  },
+  {
+   "path": "stage1/regimes/segments.csv",
+   "sha256_full": "7ed4a23691637e5b509cd69b1a65251eda7a29edbcf8d050cf0e7a6e3bdc0bf5",
+   "sha256_input": "9ba10be3fc1a8fe3e747461f71fe19872f1176a1bb8b8ea6d71a607ae3b4b324",
+   "filter": "весь лист",
+   "rows_kept": 15,
+   "rows_total": 15
+  },
+  {
+   "path": "stage1/worlds/world_paths_quarterly.csv",
+   "sha256_full": "4a8412c6ccb5a920d45db1a35a54705bcda299e2e825becd6f440bd333e432af",
+   "sha256_input": "4a8412c6ccb5a920d45db1a35a54705bcda299e2e825becd6f440bd333e432af",
+   "filter": "весь лист",
+   "rows_kept": 130,
+   "rows_total": 130
+  }
+ ]
+}

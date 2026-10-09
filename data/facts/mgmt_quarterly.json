@@ -1,0 +1,1488 @@
+{
+ "basis": "mgmt",
+ "as_of": "2026-06-30",
+ "unit": "доли (проценты документа / 100), годовые за квартал; прибыль и капитал — млрд ₽; клиенты — млн",
+ "note": "управленческие метрики эмитента в новой методике отчёта: без суффикса — напечатанное в пресс-релизе или презентации (известно в день отчёта), с суффиксом _exact — точное значение справочника аналитика (выходит примерно через месяц). roe — операционный ROE эмитента, op_np — операционная прибыль акционеров, op_equity — операционный капитал на конец квартала. В движок — только через bridge_mgmt_ifrs",
+ "quarters": {
+  "2024Q1": {
+   "nim": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "nim_exact": {
+    "v": 0.121997,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.076,
+    "src": "2025Q1_ifrs_press.pdf, с. 3, sha256 c322ffdbf18334f5",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.075636,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cir_exact": {
+    "v": 0.504365,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_exact": {
+    "v": 0.317273,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "op_np_exact": {
+    "v": 22.306,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "op_equity_exact": {
+    "v": 278.7,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AQ47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.317273,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": 0.317,
+    "src": "2025Q1_ifrs_press.pdf, с. 3, sha256 c322ffdbf18334f5",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported_exact": {
+    "v": 0.316978,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AQ127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.079304,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AQ190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 41.9,
+    "src": "2025Q1_ifrs_press.pdf, с. 3, sha256 c322ffdbf18334f5"
+   },
+   "clients_total_exact": {
+    "v": 42.21,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AR9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 29.0,
+    "src": "2025Q1_ifrs_press.pdf, с. 3, sha256 c322ffdbf18334f5"
+   },
+   "clients_active_exact": {
+    "v": 28.96,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AR16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.100494,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AQ217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.051546,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AQ219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.064958,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AQ220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.0,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AQ218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.010901,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AQ221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   },
+   "cor_lease": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   },
+   "asset_yield": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   }
+  },
+  "2024Q2": {
+   "nim": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "nim_exact": {
+    "v": 0.118412,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.075,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.074456,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cir_exact": {
+    "v": 0.502762,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.326,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.326407,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "op_np_exact": {
+    "v": 23.436,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 296.0,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3"
+   },
+   "op_equity_exact": {
+    "v": 295.7,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AR47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": 0.326,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.326407,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": 0.327,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported_exact": {
+    "v": 0.325735,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AR127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.097276,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AR190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 44.5,
+    "src": "2025Q2_ifrs_press.pdf, с. 3, sha256 ebf2113605fdf9d3"
+   },
+   "clients_total_exact": {
+    "v": 44.15,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AS9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 30.3,
+    "src": "2025Q2_ifrs_press.pdf, с. 3, sha256 ebf2113605fdf9d3"
+   },
+   "clients_active_exact": {
+    "v": 30.28,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AS16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.085899,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AR217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.057126,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AR219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.069139,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AR220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.0,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AR218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.112311,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AR221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   },
+   "cor_lease": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   },
+   "asset_yield": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   }
+  },
+  "2024Q3": {
+   "nim": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "nim_exact": {
+    "v": 0.109923,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.082,
+    "src": "2025Q3_ifrs_press.pdf, с. 3, sha256 1ebe1c7f6c8109cb",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.081996,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cir_exact": {
+    "v": 0.467044,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.383,
+    "src": "2025Q3_ifrs_press.pdf, с. 3, sha256 1ebe1c7f6c8109cb",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.38293,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 38.1,
+    "src": "2025Q3_ifrs_press.pdf, с. 3, sha256 1ebe1c7f6c8109cb"
+   },
+   "op_np_exact": {
+    "v": 38.135,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 501.0,
+    "src": "2025Q3_ifrs_press.pdf, с. 4, sha256 1ebe1c7f6c8109cb"
+   },
+   "op_equity_exact": {
+    "v": 501.0,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AS47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.38293,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": 0.378,
+    "src": "2024Q4_ifrs_press.pdf, с. 4, sha256 2c865279632abb13",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported_exact": {
+    "v": 0.378426,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AS127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.10682,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 45.7,
+    "src": "2025Q3_ifrs_press.pdf, с. 3, sha256 1ebe1c7f6c8109cb"
+   },
+   "clients_total_exact": {
+    "v": 45.97,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AT9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 31.4,
+    "src": "2025Q3_ifrs_press.pdf, с. 3, sha256 1ebe1c7f6c8109cb"
+   },
+   "clients_active_exact": {
+    "v": 31.26,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AT16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.100563,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.100104,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.07663,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.014744,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.173919,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.03314,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": 0.038789,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AS223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   }
+  },
+  "2024Q4": {
+   "nim": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "nim_exact": {
+    "v": 0.106052,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.065,
+    "src": "2025Q4_ifrs_press.pdf, с. 4, sha256 85a4dbc6c02d9264",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.065462,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cir_exact": {
+    "v": 0.482798,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.302,
+    "src": "2025Q4_ifrs_press.pdf, с. 3, sha256 85a4dbc6c02d9264",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.301881,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 38.5,
+    "src": "2025Q4_ifrs_press.pdf, с. 3, sha256 85a4dbc6c02d9264"
+   },
+   "op_np_exact": {
+    "v": 38.52,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 520.0,
+    "src": "2025Q4_ifrs_press.pdf, с. 4, sha256 85a4dbc6c02d9264"
+   },
+   "op_equity_exact": {
+    "v": 519.8,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AT47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.301881,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": 0.302,
+    "src": "2025Q1_ifrs_press.pdf, с. 3, sha256 c322ffdbf18334f5",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported_exact": {
+    "v": 0.302137,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.119255,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 47.8,
+    "src": "2025Q4_ifrs_press.pdf, с. 3, sha256 85a4dbc6c02d9264"
+   },
+   "clients_total_exact": {
+    "v": 47.83,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AU9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 32.3,
+    "src": "2025Q4_ifrs_press.pdf, с. 3, sha256 85a4dbc6c02d9264"
+   },
+   "clients_active_exact": {
+    "v": 32.29,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AU16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.141584,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.068084,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.035143,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.002211,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.157527,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.006855,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": 0.043405,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AT223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": null,
+    "calc": "не раскрыто за этот квартал"
+   }
+  },
+  "2025Q1": {
+   "nim": {
+    "v": 0.1,
+    "src": "2026Q1_ifrs_press.pdf, с. 4, sha256 b21014e98f91cc5d",
+    "calc": "проценты документа → доли"
+   },
+   "nim_exact": {
+    "v": 0.100234,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.052,
+    "src": "2026Q1_ifrs_press.pdf, с. 4, sha256 b21014e98f91cc5d",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.051957,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": 0.48,
+    "src": "2026Q1_ifrs_press.pdf, с. 4, sha256 b21014e98f91cc5d",
+    "calc": "проценты документа → доли"
+   },
+   "cir_exact": {
+    "v": 0.47998,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.245,
+    "src": "2026Q1_ifrs_press.pdf, с. 4, sha256 b21014e98f91cc5d",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.24529,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 33.3,
+    "src": "2026Q1_ifrs_press.pdf, с. 4, sha256 b21014e98f91cc5d"
+   },
+   "op_np_exact": {
+    "v": 33.292,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 566.0,
+    "src": "2026Q1_ifrs_press.pdf, с. 5, sha256 b21014e98f91cc5d"
+   },
+   "op_equity_exact": {
+    "v": 566.0,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AU47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": 0.245,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.24529,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": 0.246,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported_exact": {
+    "v": 0.246052,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AU127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": 0.137,
+    "src": "2026Q1_ifrs_presentation.pdf, с. 11, sha256 4b5ac03106075df0",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.136516,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 50.0,
+    "src": "2026Q1_ifrs_press.pdf, с. 2, sha256 b21014e98f91cc5d"
+   },
+   "clients_total_exact": {
+    "v": 50.02,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AV9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 33.3,
+    "src": "2026Q1_ifrs_press.pdf, с. 2, sha256 b21014e98f91cc5d"
+   },
+   "clients_active_exact": {
+    "v": 33.05,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AV16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.108125,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.061845,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.008241,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.001118,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.15518,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.009925,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": 0.005964,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AU223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": 0.228,
+    "src": "2026Q1_ifrs_presentation.pdf, с. 11, sha256 4b5ac03106075df0",
+    "calc": "проценты документа → доли"
+   }
+  },
+  "2025Q2": {
+   "nim": {
+    "v": 0.106,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "nim_exact": {
+    "v": 0.106037,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.067,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.066511,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": 0.46,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "cir_exact": {
+    "v": 0.460398,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.284,
+    "src": "2026Q2_ifrs_press.pdf, с. 5, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.283804,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 41.6,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df"
+   },
+   "op_np_exact": {
+    "v": 41.591,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 606.0,
+    "src": "2026Q2_ifrs_press.pdf, с. 5, sha256 529eb43fb73641df"
+   },
+   "op_equity_exact": {
+    "v": 606.3867,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AV47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": 0.288,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.288099,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": 0.289,
+    "src": "2025Q2_ifrs_press.pdf, с. 4, sha256 ebf2113605fdf9d3",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported_exact": {
+    "v": 0.288806,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AV127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": 0.134,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.134255,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 51.4,
+    "src": "2026Q2_ifrs_press.pdf, с. 2, sha256 529eb43fb73641df"
+   },
+   "clients_total_exact": {
+    "v": 51.4,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AW9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 33.5,
+    "src": "2026Q2_ifrs_press.pdf, с. 2, sha256 529eb43fb73641df"
+   },
+   "clients_active_exact": {
+    "v": 33.55,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AW16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.119703,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.090647,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.029273,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.006856,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.187013,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.003667,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": 0.006024,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AV223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": 0.232,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   }
+  },
+  "2025Q3": {
+   "nim": {
+    "v": 0.105,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "nim_exact": {
+    "v": 0.104953,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.061,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 16, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.061106,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "cir_exact": {
+    "v": 0.460009,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.292,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 10, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.291864,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 45.2,
+    "src": "2025Q4_ifrs_press.pdf, с. 3, sha256 85a4dbc6c02d9264"
+   },
+   "op_np_exact": {
+    "v": 45.1935,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 632.0,
+    "src": "2025Q4_ifrs_press.pdf, с. 4, sha256 85a4dbc6c02d9264"
+   },
+   "op_equity_exact": {
+    "v": 632.3672,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AW47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.257403,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_reported_exact": {
+    "v": 0.218404,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AW127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": 0.129,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.129168,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 52.8,
+    "src": "2025Q4_ifrs_press.pdf, с. 3, sha256 85a4dbc6c02d9264"
+   },
+   "clients_total_exact": {
+    "v": 52.78,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AX9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 34.0,
+    "src": "2025Q4_ifrs_press.pdf, с. 3, sha256 85a4dbc6c02d9264"
+   },
+   "clients_active_exact": {
+    "v": 34.0,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AX16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.095244,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.094593,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.030087,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.005815,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.176672,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.012198,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": 0.0,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AW223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": 0.226,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   }
+  },
+  "2025Q4": {
+   "nim": {
+    "v": 0.11,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "nim_exact": {
+    "v": 0.110245,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.049,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 16, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.049165,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": 0.461,
+    "src": "2026Q1_ifrs_press.pdf, с. 4, sha256 b21014e98f91cc5d",
+    "calc": "проценты документа → доли"
+   },
+   "cir_exact": {
+    "v": 0.460629,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.333,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 10, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.332524,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 54.4,
+    "src": "2026Q1_ifrs_press.pdf, с. 4, sha256 b21014e98f91cc5d"
+   },
+   "op_np_exact": {
+    "v": 54.3565,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 675.0,
+    "src": "2026Q1_ifrs_press.pdf, с. 5, sha256 b21014e98f91cc5d"
+   },
+   "op_equity_exact": {
+    "v": 675.3657,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AX47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.371386,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_reported_exact": {
+    "v": 0.37111,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": 0.114,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.114336,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 54.1,
+    "src": "2026Q1_ifrs_press.pdf, с. 2, sha256 b21014e98f91cc5d"
+   },
+   "clients_total_exact": {
+    "v": 54.12,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AY9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 34.3,
+    "src": "2026Q1_ifrs_press.pdf, с. 2, sha256 b21014e98f91cc5d"
+   },
+   "clients_active_exact": {
+    "v": 34.3,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AY16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.058039,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.074599,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.031548,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.00459,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.129964,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.034368,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": 0.028369,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AX223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": 0.218,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   }
+  },
+  "2026Q1": {
+   "nim": {
+    "v": 0.109,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "nim_exact": {
+    "v": 0.109111,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.053,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.053464,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": 0.473,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "cir_exact": {
+    "v": 0.47321,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.267,
+    "src": "2026Q2_ifrs_press.pdf, с. 5, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.266947,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 46.5,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df"
+   },
+   "op_np_exact": {
+    "v": 46.5343,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 719.0,
+    "src": "2026Q2_ifrs_press.pdf, с. 5, sha256 529eb43fb73641df"
+   },
+   "op_equity_exact": {
+    "v": 719.2,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AY47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.221193,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_reported_exact": {
+    "v": 0.170461,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AY127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": 0.105,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.104862,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 54.9,
+    "src": "2026Q2_ifrs_press.pdf, с. 2, sha256 529eb43fb73641df"
+   },
+   "clients_total_exact": {
+    "v": 54.9344,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AZ9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 34.2,
+    "src": "2026Q2_ifrs_press.pdf, с. 2, sha256 529eb43fb73641df"
+   },
+   "clients_active_exact": {
+    "v": 34.2432,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!AZ16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.083546,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.08756,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.022571,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.008901,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.144404,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.018657,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": -0.005424,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AY223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": 0.208,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   }
+  },
+  "2026Q2": {
+   "nim": {
+    "v": 0.116,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "nim_exact": {
+    "v": 0.11588,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ131, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor": {
+    "v": 0.047,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "cor_exact": {
+    "v": 0.046922,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ139, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": 0.476,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "cir_exact": {
+    "v": 0.47561,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ136, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe": {
+    "v": 0.281,
+    "src": "2026Q2_ifrs_press.pdf, с. 5, sha256 529eb43fb73641df",
+    "calc": "проценты документа → доли"
+   },
+   "roe_exact": {
+    "v": 0.280762,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ129, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "op_np": {
+    "v": 52.1,
+    "src": "2026Q2_ifrs_press.pdf, с. 4, sha256 529eb43fb73641df"
+   },
+   "op_np_exact": {
+    "v": 52.0552,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ107, sha256 11386cbbb9ffb0bc"
+   },
+   "op_equity": {
+    "v": 764.0,
+    "src": "2026Q2_ifrs_press.pdf, с. 5, sha256 529eb43fb73641df"
+   },
+   "op_equity_exact": {
+    "v": 764.0552,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, BS!AZ47, sha256 11386cbbb9ffb0bc"
+   },
+   "roe_shareholders": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_shareholders_exact": {
+    "v": 0.240027,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ128, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "roe_reported": {
+    "v": null,
+    "calc": "не напечатано: в пресс-релизе и презентации квартала значения нет"
+   },
+   "roe_reported_exact": {
+    "v": 0.185163,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AZ127, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding": {
+    "v": 0.098,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   },
+   "cost_of_funding_exact": {
+    "v": 0.097606,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ190, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "clients_total": {
+    "v": 55.7,
+    "src": "2026Q2_ifrs_press.pdf, с. 2, sha256 529eb43fb73641df"
+   },
+   "clients_total_exact": {
+    "v": 55.7335,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!BA9, sha256 11386cbbb9ffb0bc"
+   },
+   "clients_active": {
+    "v": 34.3,
+    "src": "2026Q2_ifrs_press.pdf, с. 2, sha256 529eb43fb73641df"
+   },
+   "clients_active_exact": {
+    "v": 34.2909,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Operating stats!BA16, sha256 11386cbbb9ffb0bc"
+   },
+   "cor_cards": {
+    "v": 0.077349,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ217, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_cash": {
+    "v": 0.081437,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ219, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_auto": {
+    "v": 0.02053,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ220, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_mortgage": {
+    "v": 0.007544,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ218, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_sme": {
+    "v": 0.142237,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ221, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_corp": {
+    "v": 0.0,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ222, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "cor_lease": {
+    "v": -0.015842,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, Credit!AZ223, sha256 11386cbbb9ffb0bc",
+    "calc": "проценты документа → доли"
+   },
+   "asset_yield": {
+    "v": 0.208,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 17, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   }
+  }
+ },
+ "annual": {
+  "2024": {
+   "nim": {
+    "v": 0.103069,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT62, sha256 11386cbbb9ffb0bc",
+    "calc": "точное значение справочника аналитика (напечатанного годового значения нет); проценты → доли"
+   },
+   "cor": {
+    "v": 0.073,
+    "src": "2025Q4_ifrs_press.pdf, с. 4, sha256 85a4dbc6c02d9264",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": 0.486662,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AT67, sha256 11386cbbb9ffb0bc",
+    "calc": "точное значение справочника аналитика (напечатанного годового значения нет); проценты → доли"
+   },
+   "roe": {
+    "v": 0.326,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 25, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   }
+  },
+  "2025": {
+   "nim": {
+    "v": 0.104642,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX62, sha256 11386cbbb9ffb0bc",
+    "calc": "точное значение справочника аналитика (напечатанного годового значения нет); проценты → доли"
+   },
+   "cor": {
+    "v": 0.057,
+    "src": "2025Q4_ifrs_press.pdf, с. 4, sha256 85a4dbc6c02d9264",
+    "calc": "проценты документа → доли"
+   },
+   "cir": {
+    "v": 0.464644,
+    "src": "t-databook-key-financial-ratios_pub2026-09-09.xlsx, PL!AX67, sha256 11386cbbb9ffb0bc",
+    "calc": "точное значение справочника аналитика (напечатанного годового значения нет); проценты → доли"
+   },
+   "roe": {
+    "v": 0.291,
+    "src": "2026Q2_ifrs_presentation.pdf, с. 25, sha256 153245fdef3c4e8b",
+    "calc": "проценты документа → доли"
+   }
+  }
+ },
+ "history_gaps": [
+  {
+   "period": "2024Q1",
+   "basis": "mgmt",
+   "reason": "не напечатано в пресс-релизе и презентации квартала: ЧПМ, расходы к доходам, ROE эмитента; точные значения — в справочнике аналитика эмитента"
+  },
+  {
+   "period": "2024Q2–2024Q4",
+   "basis": "mgmt",
+   "reason": "не напечатано в пресс-релизе и презентации квартала: ЧПМ, расходы к доходам; точные значения — в справочнике аналитика эмитента"
+  },
+  {
+   "period": "2025Q3",
+   "basis": "mgmt",
+   "reason": "не напечатано в пресс-релизе и презентации квартала: расходы к доходам; точное значение — в справочнике аналитика эмитента"
+  },
+  {
+   "period": "2024Q1–2024Q3",
+   "basis": "ifrs",
+   "reason": "остатков капитала и кредитов на концы кварталов до 31.12.2024 в фактах нет: капитал, ROE и стоимость риска по МСФО не считаются; норматив Н20.0 банковской группы — с формы на 01.01.2025"
+  },
+  {
+   "period": "2024Q4",
+   "basis": "ifrs",
+   "reason": "ROE и стоимость риска по МСФО считаются по среднему двух концов квартала, а остатков на 30.09.2024 в фактах нет"
+  }
+ ]
+}

@@ -1,0 +1,393 @@
+{
+ "basis": "IFRS",
+ "as_of": "2026-06-30",
+ "snapshot": "2026-10-07",
+ "unit": "DPS — ₽ на акцию после дробления 1:10 (исходное значение решения — dps_pre_split); суммы — млрд ₽",
+ "policy": {
+  "name": "Дивидендная политика МКПАО «Т-Технологии» (редакция 2, утверждена советом директоров 20 марта 2025 года)",
+  "doc": "dividend_policy_red1.pdf",
+  "doc_title": "Дивидендная политика МКПАО «Т-Технологии» (редакция 2, утверждена советом директоров 20.03.2025)",
+  "sha256": "d0cfc69bb0bed6b6a819e1926cbceda5f71e9002c98c02fdf3ff82ad33337f1d",
+  "approved": "2025-03-20",
+  "approved_by": "Совет директоров, протокол без номера от 20 марта 2025 года",
+  "frequency": "quarterly",
+  "cap": {
+   "v": 0.3,
+   "src": "dividend_policy_red1.pdf, с. 4, sha256 d0cfc69bb0bed6b6",
+   "calc": "п. 4.2: «Общество стремится распределять до 30% (тридцати процентов) от чистой прибыли по итогам года» по консолидированной отчётности МСФО"
+  },
+  "threshold": {
+   "v": null,
+   "calc": "числового порога достаточности капитала в политике нет: совет директоров учитывает потребность в капитале и требования к нормативам (п. 4.4)"
+  },
+  "valid_until": {
+   "v": null,
+   "calc": "срок действия не ограничен (п. 1.5)"
+  },
+  "valid_until_note": "Срок действия политики не ограничен. Новая редакция войдёт новым фактом и новой версией книги.",
+  "text": "До 30 % чистой прибыли группы по МСФО за год; решения о выплате — каждый квартал; числового порога достаточности капитала нет: совет директоров учитывает потребность в капитале и требования к нормативам.",
+  "src": "dividend_policy_red1.pdf, sha256 d0cfc69bb0bed6b6"
+ },
+ "history": [
+  {
+   "year": 2024,
+   "period": "2024Q3",
+   "label": "за девять месяцев 2024 года",
+   "dps": {
+    "v": 9.25,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2024-11-14_dividend_recommendation.pdf, sha256 3028c7c6a6472131; stage1/market/dividends_public.csv, решение 14.11.2024: за девять месяцев 2024 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию после дробления 1:10, ₽"
+   },
+   "dps_pre_split": {
+    "v": 92.5,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2024-11-14_dividend_recommendation.pdf, sha256 3028c7c6a6472131; stage1/market/dividends_public.csv, решение 14.11.2024: за девять месяцев 2024 года, sha256 b70511331291ac81",
+    "calc": "как объявлено решением, до дробления: dps × 10"
+   },
+   "split_factor": 10,
+   "recommended_date": "2024-10-09",
+   "decided_date": "2024-11-14",
+   "decided_by": "внеочередное общее собрание акционеров",
+   "record_date": "2024-11-25",
+   "last_buy_date": "2024-11-22",
+   "ex_date": "2024-11-25",
+   "pay_date": "2024-12-09",
+   "pay_deadline_others": "2024-12-28",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 24.815418,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2024-11-14_dividend_recommendation.pdf, sha256 3028c7c6a6472131; stage1/market/dividends_public.csv, решение 14.11.2024: за девять месяцев 2024 года, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 268274786 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — рекомендация совета директоров собранию 14.11.2024 (GM_2024-11-14_dividend_recommendation.pdf, sha256 3028c7c6a6472131)",
+    "news: Коммерсантъ, 14.11.2024: «ТКС Холдинг» объявил о дивидендах и сменил название — https://www.kommersant.ru/doc/7299248 (лист решений о дивидендах, sha256 b70511331291ac81)",
+    "news: ПРАЙМ, 14.11.2024: Акционеры \"ТКС Холдинга\" утвердили дивиденды за девять месяцев — https://1prime.ru/20241114/tks-kholding-852820985.html (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2024,
+   "period": "2024Q4",
+   "label": "за 2024 год",
+   "dps": {
+    "v": 3.2,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-05-05_agm_dividend_recommendation.pdf, sha256 b18d569ed10e4a45; stage1/market/dividends_public.csv, решение 05.05.2025: за 2024 год, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию после дробления 1:10, ₽"
+   },
+   "dps_pre_split": {
+    "v": 32.0,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-05-05_agm_dividend_recommendation.pdf, sha256 b18d569ed10e4a45; stage1/market/dividends_public.csv, решение 05.05.2025: за 2024 год, sha256 b70511331291ac81",
+    "calc": "как объявлено решением, до дробления: dps × 10"
+   },
+   "split_factor": 10,
+   "recommended_date": "2025-03-20",
+   "decided_date": "2025-05-05",
+   "decided_by": "годовое общее собрание акционеров",
+   "record_date": "2025-05-16",
+   "last_buy_date": "2025-05-15",
+   "ex_date": "2025-05-16",
+   "pay_date": "2025-05-30",
+   "pay_deadline_others": "2025-06-24",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 8.584793,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-05-05_agm_dividend_recommendation.pdf, sha256 b18d569ed10e4a45; stage1/market/dividends_public.csv, решение 05.05.2025: за 2024 год, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 268274786 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — рекомендация совета директоров годовому собранию 05.05.2025 (GM_2025-05-05_agm_dividend_recommendation.pdf, sha256 b18d569ed10e4a45)",
+    "news: Ведомости, 06.05.2025: Акционеры «Т-технологий» утвердили дивиденды за 2024 год — https://www.vedomosti.ru/investments/news/2025/05/06/1108527-aktsioneri-t-tehnologii-utverdili-dividendi (лист решений о дивидендах, sha256 b70511331291ac81)",
+    "news: ПРАЙМ, 06.05.2025: Акционеры \"Т-Технологий\" утвердили дивиденды за 2024 год — https://1prime.ru/20250506/dividendy-857305671.html (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2025,
+   "period": "2025Q1",
+   "label": "за три месяца 2025 года",
+   "dps": {
+    "v": 3.3,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-06-27_dividend_recommendation.pdf, sha256 f887f2a4d88b6f92; stage1/market/dividends_public.csv, решение 30.06.2025: за три месяца 2025 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию после дробления 1:10, ₽"
+   },
+   "dps_pre_split": {
+    "v": 33.0,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-06-27_dividend_recommendation.pdf, sha256 f887f2a4d88b6f92; stage1/market/dividends_public.csv, решение 30.06.2025: за три месяца 2025 года, sha256 b70511331291ac81",
+    "calc": "как объявлено решением, до дробления: dps × 10"
+   },
+   "split_factor": 10,
+   "recommended_date": "2025-05-22",
+   "decided_date": "2025-06-30",
+   "decided_by": "внеочередное общее собрание акционеров (заочное голосование, созвано на 27.06.2025; дата объявления по «Истории» эмитента — 30.06.2025)",
+   "record_date": "2025-07-17",
+   "last_buy_date": "2025-07-16",
+   "ex_date": "2025-07-17",
+   "pay_date": "2025-07-31",
+   "pay_deadline_others": "2025-08-21",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 8.853068,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-06-27_dividend_recommendation.pdf, sha256 f887f2a4d88b6f92; stage1/market/dividends_public.csv, решение 30.06.2025: за три месяца 2025 года, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 268274786 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — рекомендация совета директоров заочному голосованию 27.06.2025 (GM_2025-06-27_dividend_recommendation.pdf, sha256 f887f2a4d88b6f92)",
+    "news: Интерфакс, 01.07.2025: Акционеры \"Т-Технологий\" утвердили дивиденды за I квартал в 33 рубля на акцию — https://www.interfax.ru/business/1033878 (лист решений о дивидендах, sha256 b70511331291ac81)",
+    "news: Financial One (ТАСС), 01.07.2025: \"Т-технологии\" выплатят дивиденды за I квартал в размере 33 руб. на акцию — https://fomag.ru/news-streem/t-tekhnologii-vyplatyat-dividendy-za-i-kvartal-v-razmere-33-rub-na-aktsiyu/ (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2025,
+   "period": "2025Q2",
+   "label": "за полугодие 2025 года",
+   "dps": {
+    "v": 3.5,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-09-25_dividend_recommendation.pdf, sha256 22ab71c3a20d2579; stage1/market/dividends_public.csv, решение 25.09.2025: за полугодие 2025 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию после дробления 1:10, ₽"
+   },
+   "dps_pre_split": {
+    "v": 35.0,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-09-25_dividend_recommendation.pdf, sha256 22ab71c3a20d2579; stage1/market/dividends_public.csv, решение 25.09.2025: за полугодие 2025 года, sha256 b70511331291ac81",
+    "calc": "как объявлено решением, до дробления: dps × 10"
+   },
+   "split_factor": 10,
+   "recommended_date": "2025-08-21",
+   "decided_date": "2025-09-25",
+   "decided_by": "внеочередное общее собрание акционеров (заочное голосование)",
+   "record_date": "2025-10-06",
+   "last_buy_date": "2025-10-03",
+   "ex_date": "2025-10-06",
+   "pay_date": "2025-10-20",
+   "pay_deadline_others": "2025-11-11",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 9.389618,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-09-25_dividend_recommendation.pdf, sha256 22ab71c3a20d2579; stage1/market/dividends_public.csv, решение 25.09.2025: за полугодие 2025 года, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 268274786 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — рекомендация совета директоров заочному голосованию 25.09.2025 (GM_2025-09-25_dividend_recommendation.pdf, sha256 22ab71c3a20d2579)",
+    "news: Интерфакс, 29.09.2025: Акционеры \"Т-Технологий\" одобрили дивиденды за II квартал в 35 руб. на акцию — https://www.interfax.ru/business/1049789 (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2025,
+   "period": "2025Q3",
+   "label": "за девять месяцев 2025 года",
+   "dps": {
+    "v": 3.6,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-12-25_dividend_recommendation.pdf, sha256 ba0afcf91033d17b; stage1/market/dividends_public.csv, решение 25.12.2025: за девять месяцев 2025 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию после дробления 1:10, ₽"
+   },
+   "dps_pre_split": {
+    "v": 36.0,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-12-25_dividend_recommendation.pdf, sha256 ba0afcf91033d17b; stage1/market/dividends_public.csv, решение 25.12.2025: за девять месяцев 2025 года, sha256 b70511331291ac81",
+    "calc": "как объявлено решением, до дробления: dps × 10"
+   },
+   "split_factor": 10,
+   "recommended_date": "2025-11-20",
+   "decided_date": "2025-12-25",
+   "decided_by": "внеочередное общее собрание акционеров (заочное голосование)",
+   "record_date": "2026-01-08",
+   "last_buy_date": "2026-01-06",
+   "ex_date": "2026-01-08",
+   "pay_date": "2026-01-23",
+   "pay_deadline_others": "2026-02-13",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 9.657892,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2025-12-25_dividend_recommendation.pdf, sha256 ba0afcf91033d17b; stage1/market/dividends_public.csv, решение 25.12.2025: за девять месяцев 2025 года, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 268274786 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — рекомендация совета директоров заочному голосованию 25.12.2025 (GM_2025-12-25_dividend_recommendation.pdf, sha256 ba0afcf91033d17b)",
+    "news: InvestFuture (РИА Новости), 29.12.2025: Т-Технологии утвердили дивиденды: 36 рублей на акцию в январе 2025 года — https://investfuture.ru/articles/t-tekhnologii-utverdili-dividendy-36-rubley-na-aktsiyu-v-yanvare-2025-goda-1172471826 (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2025,
+   "period": "2025Q4",
+   "label": "за 2025 год",
+   "dps": {
+    "v": 4.5,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2026-05-14_agm_minutes12.pdf, sha256 4e4e7911e6bc39d6; stage1/market/dividends_public.csv, решение 14.05.2026: за 2025 год, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию, ₽"
+   },
+   "dps_pre_split": {
+    "v": null,
+    "calc": "решение принято после дробления: исходное значение равно dps"
+   },
+   "split_factor": 1,
+   "recommended_date": "2026-03-19",
+   "decided_date": "2026-05-14",
+   "decided_by": "годовое общее собрание акционеров (протокол № 12 от 15.05.2026)",
+   "record_date": "2026-05-25",
+   "last_buy_date": "2026-05-22",
+   "ex_date": "2026-05-25",
+   "pay_date": "2026-06-08",
+   "pay_deadline_others": "2026-06-30",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 12.072365,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2026-05-14_agm_minutes12.pdf, sha256 4e4e7911e6bc39d6; stage1/market/dividends_public.csv, решение 14.05.2026: за 2025 год, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 2682747860 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — протокол № 12 годового собрания 14.05.2026 (GM_2026-05-14_agm_minutes12.pdf, sha256 4e4e7911e6bc39d6)",
+    "news: Финмаркет, 15.05.2026: Акционеры \"Т-Технологий\" одобрили выплату дивидендов за 4-й квартал 2025г в размере 4,5 руб. на акцию — https://www.finmarket.ru/news/6621393 (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2026,
+   "period": "2026Q1",
+   "label": "за первый квартал 2026 года",
+   "dps": {
+    "v": 4.6,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2026-07-30_minutes13.pdf, sha256 a80a96c096713549; stage1/market/dividends_public.csv, решение 30.07.2026: за первый квартал 2026 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию, ₽"
+   },
+   "dps_pre_split": {
+    "v": null,
+    "calc": "решение принято после дробления: исходное значение равно dps"
+   },
+   "split_factor": 1,
+   "recommended_date": "2026-05-21",
+   "decided_date": "2026-07-30",
+   "decided_by": "внеочередное общее собрание акционеров (заочное голосование; протокол № 13 от 31.07.2026)",
+   "record_date": "2026-08-10",
+   "last_buy_date": "2026-08-07",
+   "ex_date": "2026-08-10",
+   "pay_date": "2026-08-24",
+   "pay_deadline_others": "2026-09-14",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 12.34064,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2026-07-30_minutes13.pdf, sha256 a80a96c096713549; stage1/market/dividends_public.csv, решение 30.07.2026: за первый квартал 2026 года, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 2682747860 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — протокол № 13 заочного голосования 30.07.2026 (GM_2026-07-30_minutes13.pdf, sha256 a80a96c096713549)",
+    "news: Эксперт, 03.08.2026: Акционеры «Т-Технологий» утвердили дивиденды за первый квартал 2026 года — https://expert.ru/news/aktsionery-t-tekhnologiy-utverdili-dividendy-za-pervyy-kvartal-2026-goda (лист решений о дивидендах, sha256 b70511331291ac81)",
+    "news: InvestFuture (РИА Новости), 03.08.2026: Акционеры Т-Технологий одобрили дивиденды 4,6 рубля на акцию — https://investfuture.ru/articles/aktsionery-t-tekhnologiy-odobrili-dividendy-4-6-rublya-na-aktsiyu-1184013977 (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2026,
+   "period": "2026Q2",
+   "label": "за полугодие 2026 года",
+   "dps": {
+    "v": 4.7,
+    "src": "GM_2026-10-01_minutes16.pdf, sha256 4c50d645edddcbf4; GM_2026-10-01_dividend_recommendation.pdf, sha256 c2713453957c4bf6; stage1/market/dividends_public.csv, решение 01.10.2026: за полугодие 2026 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию, ₽"
+   },
+   "dps_pre_split": {
+    "v": null,
+    "calc": "решение принято после дробления: исходное значение равно dps"
+   },
+   "split_factor": 1,
+   "recommended_date": "2026-08-11",
+   "decided_date": "2026-10-01",
+   "decided_by": "внеочередное общее собрание акционеров (заочное голосование; протокол № 16 от 02.10.2026)",
+   "record_date": "2026-10-12",
+   "last_buy_date": "2026-10-09",
+   "ex_date": "2026-10-12",
+   "pay_date": "2026-10-26",
+   "pay_deadline_others": "2026-11-17",
+   "settlement": "T+1",
+   "pool_declared": {
+    "v": 12.608915,
+    "src": "GM_2026-10-01_minutes16.pdf, sha256 4c50d645edddcbf4; GM_2026-10-01_dividend_recommendation.pdf, sha256 c2713453957c4bf6; stage1/market/dividends_public.csv, решение 01.10.2026: за полугодие 2026 года, sha256 b70511331291ac81",
+    "calc": "сумма на все размещённые акции (строка «Итого» эмитента): DPS × 2682747860 размещённых акций"
+   },
+   "sources": [
+    "manual: документ эмитента — протокол № 16 заочного голосования 01.10.2026 (в «Истории» эмитента строки ещё нет: файл от 09.09.2026) (GM_2026-10-01_minutes16.pdf, sha256 4c50d645edddcbf4)",
+    "manual: документ эмитента — рекомендация совета директоров заочному голосованию 01.10.2026 (GM_2026-10-01_dividend_recommendation.pdf, sha256 c2713453957c4bf6)",
+    "news: Коммерсантъ, 02.10.2026: Акционеры «Т-Технологий» утвердили дивиденды в размере 4,7 руб. на акцию — https://www.kommersant.ru/doc/9004969 (лист решений о дивидендах, sha256 b70511331291ac81)",
+    "news: Ведомости, 02.10.2026: Акционеры «Т-технологий» одобрили дивиденды за полугодие — https://www.vedomosti.ru/investments/news/2026/10/02/1233824-t-tehnologii-dividendi (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  }
+ ],
+ "years": {
+  "2024": {
+   "ni_shareholders": {
+    "v": 122.397,
+    "src": "FY2025_ifrs_fs.pdf, с. 10, sha256 b7f5081af385b43d",
+    "calc": "отчётная прибыль акционеров по МСФО за год"
+   },
+   "complete": true
+  },
+  "2025": {
+   "ni_shareholders": {
+    "v": 177.018,
+    "src": "FY2025_ifrs_fs.pdf, с. 10, sha256 b7f5081af385b43d",
+    "calc": "отчётная прибыль акционеров по МСФО за год"
+   },
+   "complete": true
+  },
+  "2026": {
+   "ni_shareholders": {
+    "v": 83.1,
+    "src": "2026Q2_ifrs_fs.pdf, с. 5, sha256 fd08eacf4ed7e57c",
+    "calc": "отчётная прибыль акционеров по МСФО с начала года по 2К2026"
+   },
+   "complete": false,
+   "through": "2026Q2"
+  }
+ },
+ "register_seed": [
+  {
+   "year": 2026,
+   "period": "2026Q1",
+   "label": "за первый квартал 2026 года",
+   "dps": {
+    "v": 4.6,
+    "src": "dividend_history.pdf, sha256 ab9a8f91a1c69fcc; GM_2026-07-30_minutes13.pdf, sha256 a80a96c096713549; stage1/market/dividends_public.csv, решение 30.07.2026: за первый квартал 2026 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию, ₽"
+   },
+   "status": "paid",
+   "decided_date": "2026-07-30",
+   "recommended_date": "2026-05-21",
+   "record_date": "2026-08-10",
+   "last_buy_date": "2026-08-07",
+   "ex_date": "2026-08-10",
+   "pay_date": "2026-08-24",
+   "sources": [
+    "manual: документ эмитента — История дивидендных выплат МКПАО «Т-Технологии» (файл эмитента от 09.09.2026) (dividend_history.pdf, sha256 ab9a8f91a1c69fcc)",
+    "manual: документ эмитента — протокол № 13 заочного голосования 30.07.2026 (GM_2026-07-30_minutes13.pdf, sha256 a80a96c096713549)",
+    "news: Эксперт, 03.08.2026: Акционеры «Т-Технологий» утвердили дивиденды за первый квартал 2026 года — https://expert.ru/news/aktsionery-t-tekhnologiy-utverdili-dividendy-za-pervyy-kvartal-2026-goda (лист решений о дивидендах, sha256 b70511331291ac81)",
+    "news: InvestFuture (РИА Новости), 03.08.2026: Акционеры Т-Технологий одобрили дивиденды 4,6 рубля на акцию — https://investfuture.ru/articles/aktsionery-t-tekhnologiy-odobrili-dividendy-4-6-rublya-na-aktsiyu-1184013977 (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  },
+  {
+   "year": 2026,
+   "period": "2026Q2",
+   "label": "за полугодие 2026 года",
+   "dps": {
+    "v": 4.7,
+    "src": "GM_2026-10-01_minutes16.pdf, sha256 4c50d645edddcbf4; GM_2026-10-01_dividend_recommendation.pdf, sha256 c2713453957c4bf6; stage1/market/dividends_public.csv, решение 01.10.2026: за полугодие 2026 года, sha256 b70511331291ac81",
+    "calc": "дивиденд на акцию, ₽"
+   },
+   "status": "declared",
+   "decided_date": "2026-10-01",
+   "recommended_date": "2026-08-11",
+   "record_date": "2026-10-12",
+   "last_buy_date": "2026-10-09",
+   "ex_date": "2026-10-12",
+   "pay_date": "2026-10-26",
+   "sources": [
+    "manual: документ эмитента — протокол № 16 заочного голосования 01.10.2026 (в «Истории» эмитента строки ещё нет: файл от 09.09.2026) (GM_2026-10-01_minutes16.pdf, sha256 4c50d645edddcbf4)",
+    "manual: документ эмитента — рекомендация совета директоров заочному голосованию 01.10.2026 (GM_2026-10-01_dividend_recommendation.pdf, sha256 c2713453957c4bf6)",
+    "news: Коммерсантъ, 02.10.2026: Акционеры «Т-Технологий» утвердили дивиденды в размере 4,7 руб. на акцию — https://www.kommersant.ru/doc/9004969 (лист решений о дивидендах, sha256 b70511331291ac81)",
+    "news: Ведомости, 02.10.2026: Акционеры «Т-технологий» одобрили дивиденды за полугодие — https://www.vedomosti.ru/investments/news/2026/10/02/1233824-t-tehnologii-dividendi (лист решений о дивидендах, sha256 b70511331291ac81)"
+   ]
+  }
+ ],
+ "register_seed_note": "стартовый реестр: решения собраний с экс-датой позже якоря — их дивиденд ещё не вычтен из капитала якоря; статус — на дату снимка листа решений. У каждой записи два источника разных видов: документ эмитента и новость о решении",
+ "dates_rule": "Дата реестра — дата, на которую определяются лица, имеющие право на дивиденды (решение собрания; не раньше 10 и не позже 20 дней после решения). Экс-дата при расчётах T+1 — день реестра; последний день покупки с дивидендом — торговый день перед ним. Срок выплаты — 10 рабочих дней после даты реестра номинальным держателям (брокерам и депозитариям) и 25 рабочих дней прочим лицам реестра.",
+ "broker_check": "Размер дивиденда на акцию после дробления, дата реестра и последний день покупки по всем 8 решениям сверены с брокерским календарём дивидендов (снимок 07.10.2026) — расхождений нет. Источник чисел — документы эмитента и новости о решениях; брокерский календарь — только сверка."
+}

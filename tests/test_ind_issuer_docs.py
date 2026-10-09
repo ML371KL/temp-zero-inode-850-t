@@ -127,6 +127,10 @@ def test_dividend_documents_give_period_amount_and_dates():
                    "phrase": rec["phrase"]}
     done = issuer_docs.parse_dividend_document(_text("minutes_16.pdf.txt"), "meeting_minutes", period_patterns=patterns)
     assert (done["status"], done["period"], done["dps"], done["record_date"]) == ("declared", "2026Q2", 4.7, "2026-10-12")
+    # заочное собрание: день решения — конец приёма бюллетеней, а не дата нормативного акта из текста протокола
+    assert done["meeting_date"] == "2026-10-01"
+    by_the_act = _text("minutes_16.pdf.txt").replace("Дата окончания приема 01 октября 2026 года (включительно)", "")
+    assert issuer_docs.parse_dividend_document(by_the_act, "meeting_minutes", period_patterns=patterns)["meeting_date"] is None
     other = issuer_docs.parse_dividend_document(_text("minutes_15.pdf.txt"), "meeting_minutes", period_patterns=patterns)
     assert other is None                                                   # протокол не о дивиденде
     not_adopted = _text("minutes_16.pdf.txt").replace("РЕШЕНИЕ ПО ВОПРОСУ № 1 ПОВЕСТКИ ДНЯ ПРИНЯТО", "РЕШЕНИЕ НЕ ПРИНЯТО")

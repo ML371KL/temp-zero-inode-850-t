@@ -10,7 +10,7 @@ After=network-online.target
 # фактически не ограничен: не больше 3 стартов за окно, дальше юнит стоит до
 # следующего таймера. Расчёт — ops/budgets.json (restart); числа вписывает
 # `python ops/tools/budgets.py --write`, равенство сверяет tests/test_ops_units.py.
-StartLimitIntervalSec=26760
+StartLimitIntervalSec=24600
 StartLimitBurst=3
 
 [Service]
@@ -44,7 +44,7 @@ RestartPreventExitStatus=8 64 78
 # Число вписывает `python ops/tools/budgets.py --write` из ops/budgets.json;
 # руками не правится, равенство сверяет tests/test_ops_units.py. Оценка это
 # или замер сервера — ops/budgets.json, status (ops/README.md §9).
-RuntimeMaxSec=8640
+RuntimeMaxSec=7920
 SyslogIdentifier=t850
 
 StateDirectory=t-850

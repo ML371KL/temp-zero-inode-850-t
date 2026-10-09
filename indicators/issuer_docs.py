@@ -421,6 +421,11 @@ _RECORD = re.compile(r"дату, на которую определяются л
 _PAY = re.compile(r"в срок\s+не позднее\s+" + _RU_DATE, re.S)
 _MEETING = re.compile(r"(?:собрани\w+ акционеров|голосовани\w+ общего собрания акционеров)[^.]{0,80}?\s" + _RU_DATE,
                       re.S)
+# Заочное собрание: решение принято в день окончания приёма бюллетеней — он стоит в шапке протокола
+# («Дата окончания приема 01 октября 2026 года (включительно) бюллетеней для голосования»).
+_BALLOT_END = re.compile(r"Дата окончания при[её]ма\s+" + _RU_DATE, re.S | re.I)
+# Ссылка на нормативный акт («…«Об общих собраниях акционеров» от 16 ноября 2018 года») — не дата собрания.
+_ACT_REFERENCE = re.compile(r"акционеров\s*[»\"”]\s*от\s", re.S)
 _ADOPTED = re.compile(r"РЕШЕНИЕ ПО ВОПРОСУ[^.]{0,60}?ПРИНЯТО", re.S)
 # Пресс-релиз МСФО: «…совет директоров рекомендовал выплатить 4,7 рублей на акцию по результатам
 # II квартала 2026 г.», «Дивиденды в размере 35 рубля на акцию рекомендовал выплатить совет директоров…».
@@ -466,7 +471,8 @@ def parse_dividend_document(text: str, kind: str, *, period_patterns: Mapping[st
     dps = _number(m.group("rub")) + (int(m.group("kop")) / 100.0 if m.group("kop") else 0.0)
     record = _RECORD.search(flat)
     pay = _PAY.search(flat)
-    meeting = _MEETING.search(flat)
+    meeting = _BALLOT_END.search(flat) or next(
+        (found for found in _MEETING.finditer(flat) if not _ACT_REFERENCE.search(found.group(0))), None)
     return {"status": status, "period": got[0], "label": got[1] or re.sub(r"\s+", " ", "за " + m.group("period")),
             "dps": round(dps, 4), "record_date": _day(*record.groups()) if record else None,
             "pay_date": _day(*pay.groups()) if pay else None,

@@ -34,7 +34,7 @@ ExecStart=/bin/bash /srv/dash/repo-850-t/ops/run.sh rebuild
 # Число вписывает `python ops/tools/budgets.py --write` из ops/budgets.json;
 # руками не правится, равенство сверяет tests/test_ops_units.py. Оценка это
 # или замер сервера — ops/budgets.json, status (ops/README.md §9).
-RuntimeMaxSec=4080
+RuntimeMaxSec=3360
 SyslogIdentifier=t850
 
 StateDirectory=t-850

@@ -378,7 +378,11 @@ def test_the_decisions_state_what_is_and_is_not_deployed():
     for decision in [f"B{n}" for n in range(1, 17)] + ["C1", "C2", "C3", "C4", "C5", "C6"]:
         assert f"| {decision} |" in lead, decision
     state = text.split("## Часть 3.", 1)[1].split("\n## Открытые вопросы", 1)[0]
-    assert "не выложен" in state and "не созданы" in state and "Push репозитория кода не делался" in state
+    # состояние — как есть: что выложено (корневой коммит, сервер, первый выпуск, таймеры) и что не сделано
+    for word in ("на бою с", "одним корневым коммитом", "сверен через дверь витрины", "таймеры включены",
+                 "не зарегистрирована"):
+        assert word in state, word
+    assert "не выложен" not in state and "Push репозитория кода не делался" not in state
     assert "1c0b904" in state
     questions = text.split("\n## Открытые вопросы", 1)[1].lower()
     for word in ("докапитализац", "обучение режимов", "два контура", "сторож", "умолчания ведущего"):

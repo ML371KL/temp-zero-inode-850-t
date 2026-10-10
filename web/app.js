@@ -3621,16 +3621,48 @@ function banners(d) {
 	for (const r of list(obj(d.dividends).register)) {
 		const left = daysBetween(m.valuation_date, r.last_buy_date);
 		if ((r.status === "declared" || r.status === "recommended") && isNum(left) && left >= 0 && left <= 7) {
-			out.push(plain("banner-event", `Последний день покупки скоро: дивиденд ${rub2(r.dps)} ${divLabel(r)} — ${fmt.date(r.last_buy_date)}${left === 0 ? " (сегодня)" : `, через ${fmt.days(left)}`}.`));
+			// ключ без счёта дней: свёрнутая не разворачивается каждое утро, только в последний день
+			out.push(plain("banner-event", `Последний день покупки скоро: дивиденд ${rub2(r.dps)} ${divLabel(r)} — ${fmt.date(r.last_buy_date)}${left === 0 ? " (сегодня)" : `, через ${fmt.days(left)}`}.`, `buy${r.last_buy_date}${left ? "" : "!"}`));
 		}
 	}
 	const week = list(obj(d.calendar).recent).filter((e) => ["ifrs", "databook", "agm", "dividend_decision", "record", "cbr_rate", "form805", "call_option", "deal", "regulation", "investor_day"].includes(e.kind));
 	if (week.length) out.push(plain("banner-info", `События недели: ${week.map((e) => `${fmt.date(e.date)} — ${lowerFirst(ruText(e.title))}${e.note ? ` (${ruText(e.note)})` : ""}`).join("; ")}.`));
+	for (const k of [...folded()]) if (!out.some((n) => n.foldKey === k)) folded().delete(k);       // плашки нет — ключ не копится
 	return out.length ? [bx("belt", out)] : [];
 }
 
-function plain(kind, message) {
-	return el("div", { class: cls("banner", kind), role: "status" }, el("span", { class: "banner-icon", "aria-hidden": "true" }, "!"), bx("banner-body", message));
+// Плашку сворачивают нажатием в строку-ярлык (кроме «выпуск устарел»); свёрнутое помнит браузер, пока
+// у плашки тот же ключ (по умолчанию — её текст): новая или изменившаяся приходит развёрнутой.
+const FOLD = "tzi-banners";
+let FOLDED = null;
+function folded() {
+	if (!FOLDED) {
+		try { FOLDED = new Set(list(JSON.parse(window.localStorage.getItem(FOLD)))); } catch (e) { FOLDED = new Set(); }
+	}
+	return FOLDED;
+}
+
+function plain(kind, message, key) {
+	const node = el("div", { class: cls("banner", kind), role: "status" }, el("span", { class: "banner-icon", "aria-hidden": "true" }, "!"), bx("banner-body", message));
+	if (kind === "banner-stale") return node;
+	const id = key || node.textContent, set = folded();
+	const show = () => {
+		const off = set.has(id);
+		node.classList[off ? "add" : "remove"]("is-folded");
+		node.setAttribute("aria-expanded", String(!off));
+		node.title = off ? node.textContent.slice(1) : "Свернуть";
+	};
+	const flip = (e) => {
+		if (e.key ? e.key !== "Enter" && e.key !== " " : window.getSelection && String(window.getSelection())) return;
+		e.preventDefault();
+		if (!set.delete(id)) set.add(id);
+		try { window.localStorage.setItem(FOLD, JSON.stringify([...set])); } catch (err) { /* нет хранилища — до перезагрузки */ }
+		show();
+	};
+	setAttrs(node, { role: "button", tabindex: "0", on: { click: flip, keydown: flip } });
+	node.foldKey = id;
+	show();
+	return node;
 }
 
 /* ── экраны и переходы ── */

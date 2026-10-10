@@ -227,6 +227,69 @@ for (const [name, d] of variants) {
   const [lateText, lateChip] = await closedPage((s) => { s.meta.periods_closed = 2; });
   check("книга отстала больше чем на квартал — тревога и жёлтый ярлык",
     lateText.includes("закрыт по календарю, а факты и книга прежние") && lateChip === "warn", [lateText.slice(0, 500), lateChip]);
+
+  // Сворачивание плашек: нажатие сворачивает в ярлык и разворачивает обратно; свёрнутое живёт при смене экрана и
+  // после перезагрузки (хранилище браузера), пока текст плашки тот же; «выпуск устарел» не сворачивается.
+  const store = () => { const data = {}; return { data, getItem: (k) => (k in data ? data[k] : null), setItem: (k, v) => { data[k] = String(v); } }; };
+  const banner = (p, word) => findNode(p.app, (n) => /(^| )banner( |$)/.test(n.attrs.class || "") && squash(n.textContent).includes(word));
+  const isFolded = (n) => n.classList.contains("is-folded");
+  const withBanners = () => {
+    const s = sample();
+    s.meta.book_first_period_closed = true;
+    s.checks.flags.find((f) => f.name === "price_fallback").raised = true;
+    return s;
+  };
+  const open = async (opts) => { const p = makePage({ now: FRESH, ...opts }); await p.boot(); await settle(); return p; };
+  const shelf = store();
+  const first = await open({ payload: JSON.stringify(withBanners()), storage: shelf });
+  let closed = banner(first, "закрыт по календарю");
+  check("плашка — кнопка: развёрнута, с подсказкой и фокусом с клавиатуры",
+    closed && closed.getAttribute("role") === "button" && closed.getAttribute("aria-expanded") === "true" && closed.getAttribute("tabindex") === "0"
+    && !isFolded(closed), closed && closed.attrs);
+  closed.dispatch("click");
+  check("нажатие сворачивает плашку: класс, признак, полный текст — подсказкой, текст в узле цел",
+    isFolded(closed) && closed.getAttribute("aria-expanded") === "false" && closed.title.startsWith("Первый прогнозный") && first.text().includes("закрыт по календарю")
+    && !isFolded(banner(first, "Живая цена не принята")), [closed.attrs, closed.title]);
+  first.hashchange("#model");
+  check("свёрнутая плашка остаётся свёрнутой на другом экране", isFolded(banner(first, "закрыт по календарю")) && !isFolded(banner(first, "Живая цена не принята")));
+  const again = await open({ payload: JSON.stringify(withBanners()), storage: shelf });
+  check("после перезагрузки свёрнутое помнит браузер", isFolded(banner(again, "закрыт по календарю")) && !isFolded(banner(again, "Живая цена не принята")), shelf.data);
+  banner(again, "закрыт по календарю").dispatch("keydown", { key: "Tab" });
+  check("посторонняя клавиша плашку не трогает", isFolded(banner(again, "закрыт по календарю")));
+  banner(again, "закрыт по календарю").dispatch("keydown", { key: "Enter" });
+  check("Enter разворачивает; хранилище пусто", !isFolded(banner(again, "закрыт по календарю")) && shelf.data["tzi-banners"] === "[]", shelf.data);
+  banner(again, "закрыт по календарю").dispatch("click");
+  const changed = withBanners();
+  changed.meta.first_period = "2026Q4";
+  changed.calendar.next_fact.covers = "2026Q4";
+  const next = await open({ payload: JSON.stringify(changed), storage: shelf });
+  check("текст плашки изменился — она приходит развёрнутой", banner(next, "закрыт по календарю") && !isFolded(banner(next, "закрыт по календарю")), shelf.data);
+  banner(next, "Живая цена не принята").dispatch("click");
+  check("ключ исчезнувшей плашки не копится в хранилище", JSON.parse(shelf.data["tzi-banners"]).length === 1, shelf.data);
+  const bare = await open({ payload: JSON.stringify(withBanners()) });
+  banner(bare, "закрыт по календарю").dispatch("click");
+  check("без хранилища сворачивание работает до перезагрузки", isFolded(banner(bare, "закрыт по календарю")) && !bare.errors.length, bare.errors);
+  const old = makePage({ now: Date.parse("2026-10-10T12:00:00+03:00") });
+  await old.boot();
+  await settle();
+  const staleBanner = banner(old, "Выпуску 9 дней");
+  staleBanner.dispatch("click");
+  check("«выпуск устарел» не сворачивается", staleBanner.getAttribute("role") === "status" && !isFolded(staleBanner) && !staleBanner.hasAttribute("aria-expanded"), staleBanner.attrs);
+  const buyDay = (today) => {
+    const s = sample();
+    s.meta.valuation_date = today;
+    s.dividends.register.push({ year: 2026, dps: 20.5, amount: 463.0, record_date: "2026-10-06", last_buy_date: "2026-10-05", ex_date: "2026-10-06",
+      pay_date: "2026-10-20", status: "declared", in_bridge: true, sources: ["синтетика"] });
+    return JSON.stringify(s);
+  };
+  const days = store();
+  const d5 = await open({ payload: buyDay("2026-09-30"), storage: days });
+  banner(d5, "Последний день покупки скоро").dispatch("click");
+  const d4 = await open({ payload: buyDay("2026-10-01"), storage: days });
+  const d0 = await open({ payload: buyDay("2026-10-05"), storage: days });
+  check("последний день покупки: свёрнутая не разворачивается назавтра, только в сам последний день",
+    isFolded(banner(d4, "Последний день покупки скоро")) && /сегодня/.test(banner(d0, "Последний день покупки скоро").textContent)
+    && !isFolded(banner(d0, "Последний день покупки скоро")), [days.data, d4.text().slice(0, 300), d0.text().slice(0, 300)]);
 }
 
 /* ── 6. волна W1: подписи, дивиденд, пары передачи, доли, эталоны, гайденс ── */

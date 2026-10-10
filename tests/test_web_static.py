@@ -2,7 +2,7 @@
 
 * одна CSP в двух местах — `web/_headers` (статика) и `functions/_middleware.js`
   (ответы функций), посимвольно одинаковая; скрипт темы — по sha256 текста с LF;
-* вся витрина (`web/`) — меньше 329 000 байт, файлы — в своих потолках (DASHBOARD §1);
+* вся витрина (`web/`) — меньше 332 000 байт, файлы — в своих потолках (DASHBOARD §1);
 * в витрине и функциях нет литералов эмитента (имя с границами слова, тикер строковым литералом,
   регномер), годов и дат; имя — только статическим текстом в index.html и 404.html;
 * карточка панели не рисуется без своего узла выпуска; слова общей формы выбирают данные; у ROE и
@@ -43,9 +43,9 @@ CSS = (WEB / "styles.css").read_text(encoding="utf-8")
 HTML = (WEB / "index.html").read_text(encoding="utf-8")
 PAGE_404 = (WEB / "404.html").read_text(encoding="utf-8")
 # Бюджет витрины — DASHBOARD §1: все файлы `web/` вместе.
-FRONT_BUDGET = 329_000
+FRONT_BUDGET = 332_000
 # Потолки по файлам — docs/DASHBOARD.md §1 (байты).
-FILE_BUDGETS = {"app.js": 275_000, "styles.css": 43_000}
+FILE_BUDGETS = {"app.js": 278_000, "styles.css": 43_000}
 SMALL_FILES_BUDGET = 9_000   # index.html, 404.html, _headers, _routes.json, favicon.svg
 SCREENS = ["overview", "market", "model", "report", "capital", "book"]
 
@@ -405,6 +405,12 @@ def test_w3_fields_of_the_contract_are_printed():
     # закрытый первый период книги до отчёта за него — справка: ярлык желтит только отставание больше чем на период
     assert "book_first_period_closed" not in chip and "m.periods_closed > 1" in chip
     assert "m.periods_closed > 1" in banners and '"banner-info"' in banners.split("m.book_first_period_closed", 1)[1].split("last_buy_date", 1)[0]
+    # плашки сворачиваются нажатием и помнятся браузером; «выпуск устарел» — нет; хранилище — только под try
+    fold, memory = _function("plain"), _function("folded")
+    assert 'if (kind === "banner-stale") return node;' in fold and '"is-folded"' in fold and '"aria-expanded"' in fold
+    assert "try { window.localStorage.setItem(FOLD" in fold and "try { FOLDED = new Set(list(JSON.parse(window.localStorage.getItem(FOLD))))" in memory
+    assert APP.count("localStorage") == 2, "хранилище браузера витрина трогает только ради свёрнутых плашек"
+    assert ".banner.is-folded" in CSS and "flex-wrap: wrap" in CSS.split(".belt {", 1)[1].split("}", 1)[0]
     units = _function("indicatorValue")
     for code in ('"share"', '"pct"', '"bn"', '"price"', '"rub"', '"level"', '"count"'):
         assert f"case {code}" in units, code

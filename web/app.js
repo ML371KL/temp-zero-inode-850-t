@@ -3613,7 +3613,10 @@ function banners(d) {
 	say("dividend_recommended", "banner-event", rec ? ` DPS ${rub2(rec.dps)} ${divLabel(rec)}; до решения собрания модель платит по политике.` : "");
 	say("ras_mismatch", "banner-degraded");
 	if (m.book_first_period_closed) {
-		out.push(plain("banner-degraded", `Первый прогнозный ${modelUnit(d).one} книги (${periodLabel(m.first_period)}) закрыт по календарю, а факты и книга прежние: оценка на ${fmt.date(m.valuation_date)} считается на них.`));
+		// До отчёта — справка; тревога — флаг report_fact и отставание больше чем на период.
+		const nf = obj(obj(d.calendar).next_fact), head = `Первый прогнозный ${modelUnit(d).one} книги (${periodLabel(m.first_period)}) закрыт по календарю`;
+		if (m.periods_closed > 1) out.push(plain("banner-degraded", `${head}, а факты и книга прежние: оценка на ${fmt.date(m.valuation_date)} считается на них.`));
+		else if (!flag(d, "report_fact")) out.push(plain("banner-info", `${head}${nf.covers === m.first_period ? `, отчёт за него ожидается ${nf.confirmed ? "" : "≈" + NBSP}${fmt.date(nf.date)}` : ""}: до отчёта оценка считается на фактах ${periodLabel(m.anchor_period)} и прогнозе книги.`));
 	}
 	for (const r of list(obj(d.dividends).register)) {
 		const left = daysBetween(m.valuation_date, r.last_buy_date);
@@ -3730,7 +3733,7 @@ function releaseChip(d) {
 	const m = obj(d.meta);
 	const age = releaseAgeHours(d);
 	const warn = obj(d.live).degraded_flag || ["price_fallback", "report_fact", "book_update"].some((n) => flag(d, n))
-		|| list(obj(d.checks).gates).some((g) => g.name === "manual_input_overdue" && g.fired) || m.book_first_period_closed;
+		|| list(obj(d.checks).gates).some((g) => g.name === "manual_input_overdue" && g.fired) || m.periods_closed > 1;
 	chip.dataset.state = isNum(age) && age > STALE_HOURS ? "stale" : warn ? "warn" : "ok";
 	const at = m.published_at || m.generated_at;
 	$(".chip-text", chip).replaceChildren(sx(sp("chip-word", "Выпуск "), `${fmt.dateShort(mskDay(at))}, ${fmt.time(at)}`), sp("chip-extra", ` · книга ${m.book_version || "—"}`));

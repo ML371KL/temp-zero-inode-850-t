@@ -402,6 +402,9 @@ def test_w3_fields_of_the_contract_are_printed():
     assert 'say("explanation_expiring", "banner-info")' in banners and 'say("policy_expired", "banner-info")' in banners
     chip = _function("releaseChip")
     assert "explanation_expiring" not in chip and "policy_expired" not in chip, "флаги срока — плашки, ярлык выпуска не желтеет (не тревога)"
+    # закрытый первый период книги до отчёта за него — справка: ярлык желтит только отставание больше чем на период
+    assert "book_first_period_closed" not in chip and "m.periods_closed > 1" in chip
+    assert "m.periods_closed > 1" in banners and '"banner-info"' in banners.split("m.book_first_period_closed", 1)[1].split("last_buy_date", 1)[0]
     units = _function("indicatorValue")
     for code in ('"share"', '"pct"', '"bn"', '"price"', '"rub"', '"level"', '"count"'):
         assert f"case {code}" in units, code

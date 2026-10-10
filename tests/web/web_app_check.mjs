@@ -203,6 +203,30 @@ for (const [name, d] of variants) {
   check("последний день покупки в ближайшие 7 дней — плашка", /Последний день покупки скоро: дивиденд 20,50 ₽ за 2026 — 05\.10\.2026, через 5 дней/.test(text), text.slice(0, 900));
   check("МСФО вышло — вместо отсчёта «Отчёт вышел»", text.includes("Отчёт вышел") && text.includes("факт ещё не внесён в модель"), text.slice(0, 900));
   check("жёлтый ярлык при деградации", page.get('document.querySelector("#release-chip").dataset.state') === "warn", page.get('document.querySelector("#release-chip").dataset.state'));
+
+  // Закрытый первый квартал книги: до отчёта — справка и зелёный ярлык (обычное состояние между концом квартала и
+  // отчётом); отчёт вышел — плашка флага вместо справки; книга отстала больше чем на квартал — тревога.
+  const closedPage = async (patch) => {
+    const s = sample();
+    s.meta.book_first_period_closed = true;
+    patch(s);
+    const p = makePage({ payload: JSON.stringify(s), now: FRESH });
+    await p.boot();
+    await settle();
+    return [p.text(), p.get('document.querySelector("#release-chip").dataset.state'), s];
+  };
+  const [waitText, waitChip, waitSample] = await closedPage(() => {});
+  const due = waitSample.calendar.next_fact.date.split("-").reverse().join("\\.");       // дата отчёта образца выпуска — как на экране
+  check("первый квартал книги закрыт, отчёта ещё нет — справка с датой отчёта, ярлык зелёный",
+    waitSample.calendar.next_fact.covers === waitSample.meta.first_period
+    && new RegExp(`закрыт по календарю, отчёт за него ожидается (≈\\s)?${due}: до отчёта оценка считается на фактах .{3,24} и прогнозе книги\\.`).test(waitText)
+    && !waitText.includes("а факты и книга прежние") && waitChip === "ok", [waitText.slice(0, 500), waitChip]);
+  const [outText, outChip] = await closedPage((s) => { s.checks.flags.find((f) => f.name === "report_fact").raised = true; });
+  check("первый квартал закрыт, отчёт вышел — плашка флага без справки, ярлык жёлтый",
+    outText.includes("Вышла МСФО, факт не внесён.") && !outText.includes("закрыт по календарю") && outChip === "warn", [outText.slice(0, 500), outChip]);
+  const [lateText, lateChip] = await closedPage((s) => { s.meta.periods_closed = 2; });
+  check("книга отстала больше чем на квартал — тревога и жёлтый ярлык",
+    lateText.includes("закрыт по календарю, а факты и книга прежние") && lateChip === "warn", [lateText.slice(0, 500), lateChip]);
 }
 
 /* ── 6. волна W1: подписи, дивиденд, пары передачи, доли, эталоны, гайденс ── */

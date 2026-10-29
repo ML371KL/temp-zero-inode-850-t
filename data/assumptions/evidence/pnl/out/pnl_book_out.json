@@ -121,13 +121,13 @@
   "book": 0.26
  },
  "opex_roots": {
-  "sheet_anchor_year": 0.015,
+  "sheet_anchor_year": 0.016,
   "book_anchor_year": -0.0115,
-  "sheet_2027_2030": -0.004,
+  "sheet_2027_2030": -0.003,
   "book_2027_2030": 0.0075,
-  "sheet_2031_2032": 0.006,
+  "sheet_2031_2032": 0.007,
   "book_2031_2032": 0.0156,
-  "sheet_lt": -0.0008,
+  "sheet_lt": -0.0007,
   "book_lt": -0.0007,
   "sheet_link": 0.7,
   "book_link": 0.5,

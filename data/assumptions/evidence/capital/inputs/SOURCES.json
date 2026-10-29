@@ -100,11 +100,11 @@
   },
   {
    "path": "stage1/worlds/bank_overlay_draft.yaml",
-   "sha256_full": "31eb1b56df1ca16bb77a1e80e09896e366c7026d6d050f70ff118e046e9b6cc3",
-   "sha256_input": "3c68b2e542ed5bbf1cd9e96a12dd670de61940316dfd8cdaa4a2c81b7ae010fe",
+   "sha256_full": "2d64f30036ed16f17c51e2c244c8db264fe6404109b4e19da3608075ed7eac7b",
+   "sha256_input": "584b352b1f71087c332b3bc7079ccb2c88f60ba3a91ac18d6d3f321ab9ecfb4e",
    "filter": "весь лист",
-   "rows_kept": 674,
-   "rows_total": 674
+   "rows_kept": 683,
+   "rows_total": 683
   },
   {
    "path": "stage1/calib/capital/inputs/zcyc_quarter_ends_2024_2026.csv",

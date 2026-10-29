@@ -92,14 +92,14 @@
   "real_rate_lt": {
    "N": 0.0385,
    "H": 0.0474,
-   "M": 0.0656
+   "M": 0.0654
   },
   "stationary_addition": {
-   "N": -0.00271,
-   "H": -0.00182,
+   "N": -0.00269,
+   "H": -0.0018,
    "M": 0.0
   },
-  "cor_lt_expected_over_worlds": 0.05428
+  "cor_lt_expected_over_worlds": 0.0543
  },
  "shock_year": 2027,
  "book_mismatches": []

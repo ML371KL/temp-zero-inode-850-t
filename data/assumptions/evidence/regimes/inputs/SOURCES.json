@@ -52,8 +52,8 @@
   },
   {
    "path": "stage1/worlds/world_paths_quarterly.csv",
-   "sha256_full": "4a8412c6ccb5a920d45db1a35a54705bcda299e2e825becd6f440bd333e432af",
-   "sha256_input": "4a8412c6ccb5a920d45db1a35a54705bcda299e2e825becd6f440bd333e432af",
+   "sha256_full": "62f65f94b57ffb14518fb8417194ad981de28cead0dc1758cc48106eb76130d3",
+   "sha256_input": "62f65f94b57ffb14518fb8417194ad981de28cead0dc1758cc48106eb76130d3",
    "filter": "весь лист",
    "rows_kept": 130,
    "rows_total": 130

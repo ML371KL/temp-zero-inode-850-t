@@ -20,74 +20,74 @@
  "near_spreads": {
   "cards": {
    "rate_anchor": 0.31969,
-   "ref_first_quarter": 0.14,
+   "ref_first_quarter": 0.1405,
    "rule": {
-    "2026": 0.17969,
-    "2027": 0.1859
+    "2026": 0.17919,
+    "2027": 0.18565
    }
   },
   "cash_loans": {
    "rate_anchor": 0.2768,
-   "ref_first_quarter": 0.1596,
+   "ref_first_quarter": 0.1621,
    "rule": {
-    "2026": 0.1172,
-    "2027": 0.12519
+    "2026": 0.1147,
+    "2027": 0.12394
    }
   },
   "auto": {
    "rate_anchor": 0.19235,
-   "ref_first_quarter": 0.1596,
+   "ref_first_quarter": 0.1621,
    "rule": {
-    "2026": 0.03275,
-    "2027": 0.03717
+    "2026": 0.03025,
+    "2027": 0.03592
    }
   },
   "mortgage": {
    "rate_anchor": 0.17256,
-   "ref_first_quarter": 0.1596,
+   "ref_first_quarter": 0.1621,
    "rule": {
-    "2026": 0.01296,
-    "2027": 0.0147
+    "2026": 0.01046,
+    "2027": 0.01345
    }
   },
   "sme_loans": {
    "rate_anchor": 0.40964,
-   "ref_first_quarter": 0.1396,
+   "ref_first_quarter": 0.1444,
    "rule": {
-    "2026": 0.27004,
-    "2027": 0.26599
+    "2026": 0.26524,
+    "2027": 0.26359
    }
   },
   "corp_loans": {
    "rate_anchor": 0.14929,
-   "ref_first_quarter": 0.14,
+   "ref_first_quarter": 0.1405,
    "rule": {
-    "2026": 0.00929,
-    "2027": 0.00992
+    "2026": 0.00879,
+    "2027": 0.00966
    }
   },
   "securities": {
    "rate_anchor": 0.11606,
-   "ref_first_quarter": 0.1396,
+   "ref_first_quarter": 0.1444,
    "rule": {
-    "2026": -0.02354,
-    "2027": -0.01937
+    "2026": -0.02834,
+    "2027": -0.02176
    }
   },
   "liquidity": {
    "rate_anchor": 0.1342,
-   "ref_first_quarter": 0.14,
+   "ref_first_quarter": 0.1405,
    "rule": {
-    "2026": -0.0058,
-    "2027": -0.0105
+    "2026": -0.0063,
+    "2027": -0.01075
    }
   },
   "wholesale": {
    "rate_anchor": 0.10801,
-   "ref_first_quarter": 0.14,
+   "ref_first_quarter": 0.1405,
    "rule": {
-    "2026": -0.03199,
-    "2027": -0.01739
+    "2026": -0.03249,
+    "2027": -0.01764
    }
   }
  },
@@ -175,8 +175,8 @@
   "liquidity_lt_spread": -0.01069,
   "rule": -0.00279,
   "book": {
-   "2026": -0.03199,
-   "2027": -0.01739,
+   "2026": -0.03249,
+   "2027": -0.01764,
    "LT": -0.00279,
    "LT_from": 2028
   },

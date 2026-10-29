@@ -1,0 +1,13 @@
+# Прогулка книги Т 1.0 → 1.1 (миры ставок после заседания Банка России 23.10.2026): шаги ops/tools/walk_book.py, по одной причине сдвига (V1.1-CHANGES.md).
+- name: "Миры ставок (ЦБ 23.10.2026): запись миров 1.7 — пути N/H/M, кривые, уровень кривой в терминале правилом, дата кривых"
+  from_end: [worlds.N, worlds.H, worlds.M, worlds.source, meta.curve_as_of]
+- name: "Миры ставок (ЦБ 23.10.2026): ключи спредов книг на опоре и пути мира H 1.7 (A-N1n; с 2028 года — правило листа калибровки)"
+  from_end: [nii.books]
+- name: "Миры ставок (ЦБ 23.10.2026): банковская надстройка 1.7 и фактический ключ премии средств 3-го квартала 2026 года"
+  from_end: [worlds_bank, worlds.overlay, volumes.funds_share_drift]
+- name: "Миры ставок (ЦБ 23.10.2026): путь пакета Яндекса на мире H 1.7 (A-O2)"
+  from_end: [noncore.result_real]
+- name: "Миры ставок (ЦБ 23.10.2026): числа, выведенные на ядре, концы осей и справочные варианты"
+  from_end: [nii.phi_split, regimes.near_nim_shift, capital.n20.t2, other.misc_net_real, fees.growth_vs_wages, opex.real_growth, valuation.uncertainty.axes, valuation.reference_variants]
+- name: "Версия книги 1.1"
+  from_end: [meta.version]

@@ -338,22 +338,22 @@ credit:                                                        # резервы 
 # пакета Яндекса в долговых бумагах нет: он в постоянных прочих активах (volumes.other_assets_fixed).
 nii:
   books:
-    cards:          {name: "Кредитные карты", side: asset, ref: key, rho: 0.10, spread: {"2026": 0.17919, "2027": 0.18565, "2028": 0.19211, "2029": 0.20061, "2030": 0.20592, LT: 0.21123, LT_from: 2031}, phi: true, lt_shift: true, sector: retail_other, cor_segment: retail}
+    cards:          {name: "Кредитные карты", side: asset, ref: key, rho: 0.10, spread: {"2026": 0.17919, "2027": 0.18352, "2028": 0.18786, "2029": 0.19636, "2030": 0.20273, LT: 0.21123, LT_from: 2031}, phi: true, lt_shift: true, sector: retail_other, cor_segment: retail}
                     # ставка якоря 31,969 %; окно 4 кв. 2024 — 2 кв. 2026; наклон к ключевой 0,15 [В]; ρ 95 % 0,05–0,52 [Р: evidence/nii]
     cash_loans:     {name: "Кредиты наличными", side: asset, ref: ofz_3y, rho: 0.18, spread: {"2026": 0.1147, "2027": 0.12394, "2028": 0.13318, "2029": 0.13318, "2030": 0.13318, LT: 0.13318, LT_from: 2031}, phi: true, lt_shift: true, sector: retail_other, cor_segment: retail}
                     # ставка якоря 27,680 %; ряды эмитента 4 кв. 2018 — 4 кв. 2025; ρ 95 % 0,13–0,24 [Р: evidence/nii]
-    auto:           {name: "Автокредиты", side: asset, ref: ofz_3y, rho: 0.34, spread: {"2026": 0.03025, "2027": 0.03592, "2028": 0.04158, "2029": 0.04188, "2030": 0.04205, LT: 0.04224, LT_from: 2031}, phi: false, lt_shift: false, sector: retail_other, cor_segment: retail}
+    auto:           {name: "Автокредиты", side: asset, ref: ofz_3y, rho: 0.34, spread: {"2026": 0.03025, "2027": 0.03586, "2028": 0.04147, "2029": 0.04182, "2030": 0.04204, LT: 0.04224, LT_from: 2031}, phi: false, lt_shift: false, sector: retail_other, cor_segment: retail}
                     # ставка якоря 19,235 %; ряды эмитента 1 кв. 2019 — 4 кв. 2025; спред — у пола, сдвига и сжатия не несёт [Р: evidence/nii]
-    mortgage:       {name: "Ипотека", side: asset, ref: ofz_3y, rho: 0.30, spread: {"2026": 0.01046, "2027": 0.01345, "2028": 0.01645, "2029": 0.01941, "2030": 0.02115, LT: 0.02304, LT_from: 2031}, phi: false, lt_shift: false, sector: mortgage, cor_segment: retail}
+    mortgage:       {name: "Ипотека", side: asset, ref: ofz_3y, rho: 0.30, spread: {"2026": 0.01046, "2027": 0.01292, "2028": 0.01539, "2029": 0.01881, "2030": 0.021, LT: 0.02307, LT_from: 2031}, phi: false, lt_shift: false, sector: mortgage, cor_segment: retail}
                     # ставка якоря 17,256 %; окно 4 кв. 2024 — 2 кв. 2026; наклон 0,70 [В]; льготная ипотека отдельно не раскрыта [Р: evidence/nii]
-    sme_loans:      {name: "Кредиты МСБ", side: asset, ref: ofz_1y, rho: 0.40, spread: {"2026": 0.26524, "2027": 0.26359, "2028": 0.26194, "2029": 0.26598, "2030": 0.26868, LT: 0.27086, LT_from: 2031}, phi: true, lt_shift: true, sector: corporate, cor_segment: retail}
+    sme_loans:      {name: "Кредиты МСБ", side: asset, ref: ofz_1y, rho: 0.40, spread: {"2026": 0.26524, "2027": 0.26261, "2028": 0.25998, "2029": 0.26402, "2030": 0.2677, LT: 0.27086, LT_from: 2031}, phi: true, lt_shift: true, sector: corporate, cor_segment: retail}
                     # ставка якоря 40,964 %; окно; наклон 0,60 [В]; рост — с сектором бизнеса, риск — розничный [Р: evidence/nii]
     corp_loans:     {name: "Корпоративные кредиты и лизинг", side: asset, ref: key, rho: 0.78, spread: {"2026": 0.00879, "2027": 0.00966, "2028": 0.01054, "2029": 0.01054, "2030": 0.01054, LT: 0.01054, LT_from: 2031}, phi: false, lt_shift: false, sector: corporate, cor_segment: corporate}
                     # корпоративные 732,9 + лизинг 77,8 + кредиты по справедливой стоимости 5,3; ставка якоря 14,929 %; уровень спреда
                     #   +1,05 п.п., ст. ош. 0,38 [Р: evidence/nii]
-    securities:     {name: "Долговые бумаги", side: asset, ref: ofz_1y, rho: 0.18, spread: {"2026": -0.02834, "2027": -0.02176, "2028": -0.01519, "2029": -0.01175, "2030": -0.00946, LT: -0.00761, LT_from: 2031}, phi: false, lt_shift: false, balancing: true}
+    securities:     {name: "Долговые бумаги", side: asset, ref: ofz_1y, rho: 0.18, spread: {"2026": -0.02834, "2027": -0.0226, "2028": -0.01685, "2029": -0.01342, "2030": -0.01029, LT: -0.00761, LT_from: 2031}, phi: false, lt_shift: false, balancing: true}
                     # только долговые бумаги (745,8); ставка якоря 11,606 %; ряды эмитента 2016–2025 [Р: evidence/nii]; акции и паи (56,8) — в прочих активах
-    liquidity:      {name: "Ликвидность", side: asset, ref: key, rho: 1.0, spread: {"2026": -0.0063, "2027": -0.01075, "2028": -0.01519, "2029": -0.01319, "2030": -0.01194, LT: -0.01069, LT_from: 2031}, phi: false, lt_shift: false, balancing: true}
+    liquidity:      {name: "Ликвидность", side: asset, ref: key, rho: 1.0, spread: {"2026": -0.0063, "2027": -0.01124, "2028": -0.01619, "2029": -0.01419, "2030": -0.01269, LT: -0.01069, LT_from: 2031}, phi: false, lt_shift: false, balancing: true}
                     # деньги, счета в Банке России, обязательные резервы, средства в банках и обратное репо (1 073,5); ставка якоря 13,420 % [Р: evidence/nii]
     retail_current: {name: "Текущие счета физлиц", side: liability, ref: key, rho: 0.85, beta: 0.24, spread: 0.02239, phi: true, lt_shift: true}   # ставка якоря 5,684 %; ряды эмитента 2020–2025 [Р: evidence/nii]
     retail_term:    {name: "Срочные вклады физлиц", side: liability, ref: key, rho: 0.55, beta: 1.0, spread: -0.02155, phi: true, lt_shift: true}   # ставка якоря 13,134 %; ρ 95 % 0,41–0,71 [Р: evidence/nii]

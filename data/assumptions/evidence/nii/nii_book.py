@@ -7,8 +7,11 @@
 фактов якоря и записи миров, и сверяет шаблон книги:
   * двенадцать книг шаблона = предложение листа (кроме подписи оптового фондирования, ключа кредитов по справедливой
     стоимости — поправки сводки этапа 1 —, траектории спреда оптового фондирования: её долгосрочный уровень задан
-    правилом книги, — и ближних ключей "2026" и "2027": их задаёт правило A-N1n на опоре мира H записи миров книги,
-    сверка ниже; предложение этапа 1 посчитано на записи 1.6);
+    правилом книги, — и траекторий спредов книг активов: их задают правила, сверка ниже; предложение этапа 1 посчитано
+    на записи 1.6);
+  * траектории спредов книг активов с 2028 года и LT — правило листа калибровки этапа 1 в мире H: калибровка истории
+    s + (a − 1) × опора мира H (среднее кварталов года; LT — LT-опора мира H), наклон a и уровень s — выход листа
+    (`stage1/calib/nii/out/results.json`); на записи 1.6 правило воспроизводит книгу 1.0 бит в бит;
   * долгосрочный спред оптового фондирования — цена недостающего фондирования: долгосрочный спред книги ликвидности
     плюс средняя по окну разность ставки срочных вкладов физлиц и доходности ликвидных активов (панель ставок листа
     калибровки, книги `retail_term` и `liquidity`);
@@ -157,6 +160,9 @@ def compute() -> dict:
         if isinstance(have.get("spread"), dict) and y0_ in have["spread"]:   # ближние ключи — правило A-N1n (ниже)
             have["spread"] = {k: v for k, v in have["spread"].items() if k not in near_keys}
             want["spread"] = {k: v for k, v in want["spread"].items() if k not in near_keys}
+            if spec["side"] == "asset":                          # дальние ключи — правило листа на пути мира H (ниже)
+                have["spread"] = {k: v for k, v in have["spread"].items() if not (k == "LT" or k.isdigit())}
+                want["spread"] = {k: v for k, v in want["spread"].items() if not (k == "LT" or k.isdigit())}
         if b == WHOLESALE_BOOK:                                  # траектория спреда — правило книги: уровень сверяется ниже
             lt_from = want["spread"]["LT_from"]
             cmp.eq("спред оптового фондирования: год выхода на LT — лист", have["spread"]["LT_from"], lt_from)
@@ -189,6 +195,20 @@ def compute() -> dict:
     wrow = {(r["world"], r["period"]): r for r in evlib.read_csv(IN / "stage1/worlds/world_paths_quarterly.csv")}
     ref = {k: float(wrow[(ref_world, first)][f]) / 100 for k, f in REF_FIELD.items()}
     y0 = int(first[:4])
+    calib = json.loads((IN / "stage1/calib/nii/out/results.json").read_text(encoding="utf-8"))["books"]
+    lt_from = None
+    for b, spec in nii["books"].items():                         # дальние ключи книг активов — правило листа калибровки
+        sp = spec["spread"]
+        if spec["side"] != "asset" or not isinstance(sp, dict) or b not in calib:
+            continue
+        a, s = calib[b]["slope"], calib[b]["s_level"]
+        lt_from = int(sp["LT_from"])
+        for y in range(y0 + 2, lt_from):
+            qs = [r for (w, q), r in wrow.items() if w == ref_world and q.startswith(str(y)) and q != "LT"]
+            ref_y = sum(float(r[REF_FIELD[spec["ref"]]]) for r in qs) / len(qs) / 100
+            cmp.eq(f"nii.books.{b}.spread.{y} = s + (a − 1) × опора мира H года", sp[str(y)], round(s + (a - 1) * ref_y + 0.0, 5), 6e-6)
+        ref_lt = float(wrow[(ref_world, "LT")][REF_FIELD[spec["ref"]]]) / 100
+        cmp.eq(f"nii.books.{b}.spread.LT = s + (a − 1) × LT-опора мира H", sp["LT"], round(s + (a - 1) * ref_lt + 0.0, 5), 6e-6)
     half = f"{y0}H{1 if int(first[5]) <= 2 else 2}"
     rec_row = next(r for r in evlib.record()["rows"] if r["world"] == ref_world and r["period"] == half)
     cmp.eq("опора мира H первого прогнозного квартала: пути этапа 1 = запись миров книги",

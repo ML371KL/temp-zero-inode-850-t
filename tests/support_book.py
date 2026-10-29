@@ -30,9 +30,9 @@ RECORD_CSV_SHA256 = "5fc8e86b97b9647e54dc7ef61cd34043aae6a4b8f5b492048abe6dd8957
 RECIPE_LF_SHA256 = {                  # 1.7: worlds_recipe.py — байт в байт семейная копия канона (port/, sha256 3b786f7b…);
                                       # .yaml — она же со своей строкой 1; .md — документ книги-источника 1.7 со своими местами
                                       # (шапка .md оговаривает: раздел о сборщике описывает сборщик книги-источника)
-    "worlds_inputs.yaml": "7b6c29fcf86bfd644bad8fe7b0ca43599a9732694e7f47d1fc56f759b652e309",
+    "worlds_inputs.yaml": "1a172c8fb3b62046e82e58646bec65904f565ddb18bfa6f96d0aa1f60aacf530",
     "worlds_recipe.py": "3b786f7b39356a9592fce4f460e45f4a65ae397b730aa1702af3680cca3b56a4",
-    "WORLDS-RECIPE.md": "096ebc6171b68c765a15a721a25c27a6d49dac1d6742b658e855729be735fc89",
+    "WORLDS-RECIPE.md": "a60c807c5926dbbe2a048b6e8ab6b10da95fda62393ffa81bdfbcf951a159873",
 }
 # Чего в копиях рецепта быть не должно (публичный репозиторий): тикер и адрес выпуска книги-источника, её суммы в ₽
 RECIPE_FORBIDDEN = ("MGNT", "Магнит", "pages.dev", "tzi-850oa")

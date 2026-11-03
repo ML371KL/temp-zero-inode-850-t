@@ -405,7 +405,9 @@ def test_lead_decisions_4_are_in_the_book(book):
     gap = axes["capital.n20.gap_pp"]                                                 # п. 8
     assert (gap["low"], gap["high"]) == (-0.003, 0.003) and book["capital"]["n20"]["gap_pp"] == 0.0
     nc = book["noncore"]["result_real"]                                              # п. 9: ключ 2026 года — явно
-    assert nc["2026"] == 10.13 and nc["LT"] == nc["2036"] == 3.78 and book["noncore"]["price_base_year"] == 2026
+    rule = json.loads((S.EVIDENCE / "pnl" / "out" / "noncore_center.json").read_text(encoding="utf-8"))["traj_A"]
+    # числа — правило «долг под пакет постоянен в рублях» на пути мира H записи (лист pnl; книга 1.0: 10,13 и 3,78, 1.1: 10,14 и 3,67)
+    assert nc == rule and nc["LT"] == nc["2036"] and book["noncore"]["price_base_year"] == 2026
     assert (axes["valuation.governance.discount"]["low"], axes["valuation.governance.discount"]["high"]) == (0.0, 0.10)   # п. 10
     assert book["joint"]["regime_update"]["observations"] == []                      # п. 12: наблюдения — в базисе движка
     assert 0.0 <= nii["phi_split"] <= nii["sigma0_split"] <= 1.0                     # п. 13: доли заданы правилом (вывод на ядре)

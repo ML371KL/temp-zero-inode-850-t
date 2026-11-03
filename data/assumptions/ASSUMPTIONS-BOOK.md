@@ -102,24 +102,24 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 | Что | Точно | Печать |
 |---|---|---|
-| Медиана справедливой стоимости, ₽ | <!--=headline.median r2-->313,45<!--/--> | **<!--=headline.printed_median r0-->315<!--/-->** |
-| Полоса 80 % (P10–P90), ₽ | <!--=headline.p10 r2-->232,80<!--/--> – <!--=headline.p90 r2-->389,15<!--/--> | <!--=headline.printed_band80[0] r0-->235<!--/--> – <!--=headline.printed_band80[1] r0-->390<!--/--> |
-| Полоса 50 % (P25–P75), ₽ | <!--=headline.p25 r2-->268,83<!--/--> – <!--=headline.p75 r2-->353,12<!--/--> | <!--=headline.printed_band50[0] r0-->270<!--/--> – <!--=headline.printed_band50[1] r0-->355<!--/--> |
-| Среднее прогонов, ₽ | <!--=headline.mean r2-->311,71<!--/--> | — |
-| Потенциал медианы к цене, % | <!--=headline.upside.T sp1-->+15,9<!--/--> | — |
-| P(центр ниже рынка), % | <!--=headline.p_below_by_ticker.T p2-->26,15<!--/--> | — |
-| Точка при центральных значениях (λ = 0,5), ₽ | <!--=headline.point r2-->329,25<!--/--> | <!--=headline.printed_point r0-->330<!--/--> |
-| Низ оси ставок (слой «Рыночные ставки как есть»: весь вес на мире M), ₽ | <!--=headline.low r2-->276,29<!--/--> | — |
-| Верх оси ставок (слой «Свой макро-взгляд»), ₽ | <!--=headline.high r2-->382,22<!--/--> | — |
-| Вклад взгляда на ставки (верх − низ), ₽ | <!--=headline.rates_view r2-->105,93<!--/--> | — |
+| Медиана справедливой стоимости, ₽ | <!--=headline.median r2-->309,92<!--/--> | **<!--=headline.printed_median r0-->310<!--/-->** |
+| Полоса 80 % (P10–P90), ₽ | <!--=headline.p10 r2-->228,40<!--/--> – <!--=headline.p90 r2-->386,61<!--/--> | <!--=headline.printed_band80[0] r0-->230<!--/--> – <!--=headline.printed_band80[1] r0-->385<!--/--> |
+| Полоса 50 % (P25–P75), ₽ | <!--=headline.p25 r2-->264,30<!--/--> – <!--=headline.p75 r2-->349,73<!--/--> | <!--=headline.printed_band50[0] r0-->265<!--/--> – <!--=headline.printed_band50[1] r0-->350<!--/--> |
+| Среднее прогонов, ₽ | <!--=headline.mean r2-->308,24<!--/--> | — |
+| Потенциал медианы к цене, % | <!--=headline.upside.T sp1-->+14,6<!--/--> | — |
+| P(центр ниже рынка), % | <!--=headline.p_below_by_ticker.T p2-->27,70<!--/--> | — |
+| Точка при центральных значениях (λ = 0,5), ₽ | <!--=headline.point r2-->325,74<!--/--> | <!--=headline.printed_point r0-->325<!--/--> |
+| Низ оси ставок (слой «Рыночные ставки как есть»: весь вес на мире M), ₽ | <!--=headline.low r2-->273,05<!--/--> | — |
+| Верх оси ставок (слой «Свой макро-взгляд»), ₽ | <!--=headline.high r2-->378,43<!--/--> | — |
+| Вклад взгляда на ставки (верх − низ), ₽ | <!--=headline.rates_view r2-->105,39<!--/--> | — |
 
 **0.2. Слои** (М§9; цена — на размещённую акцию; дисконт за управление — 0)
 
 | Слой | Веса N / H / M | V0, млрд ₽ | BV_v, млрд ₽ | Цена, ₽ | P/B | ROE после фазы роста, % | Стоимость капитала, % |
 |---|---|---|---|---|---|---|---|
-| «Свой макро-взгляд» | 0,35 / 0,45 / 0,20 | <!--=layers.analytical.v0 r1-->1 025,4<!--/--> | <!--=layers.analytical.bv_v r1-->801,0<!--/--> | <!--=layers.analytical.price r2-->382,22<!--/--> | <!--=layers.analytical.pb r3-->1,280<!--/--> | <!--=layers.analytical.roe_tc p2-->19,03<!--/--> | <!--=layers.analytical.k_tc p2-->18,00<!--/--> |
-| «Вменённые рынком» | 0,10 / 0,25 / 0,65 | <!--=layers.market_implied.v0 r1-->854,7<!--/--> | <!--=layers.market_implied.bv_v r1-->801,3<!--/--> | <!--=layers.market_implied.price r2-->318,61<!--/--> | <!--=layers.market_implied.pb r3-->1,067<!--/--> | <!--=layers.market_implied.roe_tc p2-->20,36<!--/--> | <!--=layers.market_implied.k_tc p2-->20,72<!--/--> |
-| «Рыночные ставки как есть» | 0 / 0 / 1 | <!--=layers.macro_neutral.v0 r1-->741,2<!--/--> | <!--=layers.macro_neutral.bv_v r1-->801,7<!--/--> | <!--=layers.macro_neutral.price r2-->276,29<!--/--> | <!--=layers.macro_neutral.pb r3-->0,925<!--/--> | <!--=layers.macro_neutral.roe_tc p2-->21,09<!--/--> | <!--=layers.macro_neutral.k_tc p2-->22,49<!--/--> |
+| «Свой макро-взгляд» | 0,35 / 0,45 / 0,20 | <!--=layers.analytical.v0 r1-->1 015,2<!--/--> | <!--=layers.analytical.bv_v r1-->800,2<!--/--> | <!--=layers.analytical.price r2-->378,43<!--/--> | <!--=layers.analytical.pb r3-->1,269<!--/--> | <!--=layers.analytical.roe_tc p2-->18,89<!--/--> | <!--=layers.analytical.k_tc p2-->17,92<!--/--> |
+| «Вменённые рынком» | 0,10 / 0,25 / 0,65 | <!--=layers.market_implied.v0 r1-->846,7<!--/--> | <!--=layers.market_implied.bv_v r1-->800,9<!--/--> | <!--=layers.market_implied.price r2-->315,60<!--/--> | <!--=layers.market_implied.pb r3-->1,057<!--/--> | <!--=layers.market_implied.roe_tc p2-->20,24<!--/--> | <!--=layers.market_implied.k_tc p2-->20,69<!--/--> |
+| «Рыночные ставки как есть» | 0 / 0 / 1 | <!--=layers.macro_neutral.v0 r1-->732,5<!--/--> | <!--=layers.macro_neutral.bv_v r1-->801,5<!--/--> | <!--=layers.macro_neutral.price r2-->273,05<!--/--> | <!--=layers.macro_neutral.pb r3-->0,914<!--/--> | <!--=layers.macro_neutral.roe_tc p2-->21,00<!--/--> | <!--=layers.macro_neutral.k_tc p2-->22,49<!--/--> |
 
 **0.3. Выводимое ядром и уровни после фазы роста** (`results.json → derived`, `funds_cost_to_key`, `levels`; М прил. A,
 М§14.5)
@@ -129,16 +129,16 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 | Суждение о марже — ключ цели ЧПМ: стационарная маржа мира M на составе баланса якоря (упр.), % | <!--=judgements[id=nii.nim_lt_target_mgmt].book p2-->11,10<!--/--> | суждение A-N2; мир уровня — M (`nii.transmission.level_world`) |
 | Уровень мира-опоры решателя H на том же составе (упр.), % | <!--=derived.nii.reference_level_mgmt p2-->11,13<!--/--> | находит решатель передачи: при нём стационарная маржа мира M равна суждению (A-N2, A-N3) |
 | Цель ЧПМ в базисе движка (мир M), % | <!--=derived.nii.target_eng p3-->10,978<!--/--> | суждение в упр. базисе минус мост ЧПМ 0,122 п.п. (A-C8) |
-| Стационарная ЧПМ движка по мирам N / H / M, % | <!--=derived.nii.nss.N p3-->10,438<!--/--> / <!--=derived.nii.nss.H p3-->11,009<!--/--> / <!--=derived.nii.nss.M p3-->10,978<!--/--> | на составе баланса якоря; разность миров M и N — цель передачи на 9 п.п. ключевой ставки (A-N3) |
-| σ0_A — сдвиг спредов кредитных книг с 2027 года / σ0_L — сдвиг средств клиентов, п.п. | <!--=derived.nii.sigma0 p3-->−1,329<!--/--> / <!--=derived.nii.sigma0_liab p3-->0,000<!--/--> | доля сдвига на кредитных книгах — <!--=judgements[id=nii.sigma0_split].book r2-->1,00<!--/--> (A-N7) |
-| φ — сжатие маржи со ставкой мира / φ_A — на спредах кредитных книг / φ_L — в стоимости средств клиентов | <!--=derived.nii.phi r4-->0,6957<!--/--> / <!--=derived.nii.phi_assets r4-->0,4870<!--/--> / <!--=derived.nii.phi_liab r4-->0,0888<!--/--> | доля сжатия на кредитных книгах — <!--=judgements[id=nii.phi_split].book r2-->0,70<!--/--> (A-N8) |
-| Эффективный LT-спред кредитных карт к ключевой: N / H / M, п.п. | <!--=derived.nii.lt_spread.cards.N p2-->21,01<!--/--> / <!--=derived.nii.lt_spread.cards.H p2-->19,79<!--/--> / <!--=derived.nii.lt_spread.cards.M p2-->16,63<!--/--> | пол 9,5 п.п. (A-X8) |
-| То же, кредиты наличными к ОФЗ 3 лет: N / H / M, п.п. | <!--=derived.nii.lt_spread.cash_loans.N p2-->13,59<!--/--> / <!--=derived.nii.lt_spread.cash_loans.H p2-->11,99<!--/--> / <!--=derived.nii.lt_spread.cash_loans.M p2-->9,62<!--/--> | пол 7,5 п.п. |
-| То же, кредиты МСБ к ОФЗ 1 года: N / H / M, п.п. | <!--=derived.nii.lt_spread.sme_loans.N p2-->27,06<!--/--> / <!--=derived.nii.lt_spread.sme_loans.H p2-->25,76<!--/--> / <!--=derived.nii.lt_spread.sme_loans.M p2-->22,74<!--/--> | пол 15,5 п.п. |
-| Кредитная маржа стационара мира: N / H / M, п.п. | <!--=derived.nii.loan_margin.N p2-->6,86<!--/--> / <!--=derived.nii.loan_margin.H p2-->6,42<!--/--> / <!--=derived.nii.loan_margin.M p2-->4,20<!--/--> | доходность кредитов минус стоимость риска и балансирующие активы; тест книги — не ниже нуля в каждом мире. Окупает ли кредит капитал под него — другой вопрос (A-K13) |
-| Стоимость средств клиентов к ключевой ставке, среднее 2030–2036 годов: миры N / H / M | <!--=funds_cost_to_key.by_world.N.ratio r3-->0,531<!--/--> / <!--=funds_cost_to_key.by_world.H.ratio r3-->0,590<!--/--> / <!--=funds_cost_to_key.by_world.M.ratio r3-->0,687<!--/--> | не выше наибольшего квартала окна фактов — 0,706 (гейт `funds_cost_to_key`; A-N8) |
+| Стационарная ЧПМ движка по мирам N / H / M, % | <!--=derived.nii.nss.N p3-->10,420<!--/--> / <!--=derived.nii.nss.H p3-->11,009<!--/--> / <!--=derived.nii.nss.M p3-->10,978<!--/--> | на составе баланса якоря; разность миров M и N — цель передачи на 9 п.п. ключевой ставки (A-N3) |
+| σ0_A — сдвиг спредов кредитных книг с 2027 года / σ0_L — сдвиг средств клиентов, п.п. | <!--=derived.nii.sigma0 p3-->−1,318<!--/--> / <!--=derived.nii.sigma0_liab p3-->0,000<!--/--> | доля сдвига на кредитных книгах — <!--=judgements[id=nii.sigma0_split].book r2-->1,00<!--/--> (A-N7) |
+| φ — сжатие маржи со ставкой мира / φ_A — на спредах кредитных книг / φ_L — в стоимости средств клиентов | <!--=derived.nii.phi r4-->0,6752<!--/--> / <!--=derived.nii.phi_assets r4-->0,4929<!--/--> / <!--=derived.nii.phi_liab r4-->0,0776<!--/--> | доля сжатия на кредитных книгах — <!--=judgements[id=nii.phi_split].book r2-->0,73<!--/--> (A-N8) |
+| Эффективный LT-спред кредитных карт к ключевой: N / H / M, п.п. | <!--=derived.nii.lt_spread.cards.N p2-->21,04<!--/--> / <!--=derived.nii.lt_spread.cards.H p2-->19,81<!--/--> / <!--=derived.nii.lt_spread.cards.M p2-->16,45<!--/--> | пол 9,5 п.п. (A-X8) |
+| То же, кредиты наличными к ОФЗ 3 лет: N / H / M, п.п. | <!--=derived.nii.lt_spread.cash_loans.N p2-->13,62<!--/--> / <!--=derived.nii.lt_spread.cash_loans.H p2-->12,00<!--/--> / <!--=derived.nii.lt_spread.cash_loans.M p2-->9,54<!--/--> | пол 7,5 п.п. |
+| То же, кредиты МСБ к ОФЗ 1 года: N / H / M, п.п. | <!--=derived.nii.lt_spread.sme_loans.N p2-->27,09<!--/--> / <!--=derived.nii.lt_spread.sme_loans.H p2-->25,77<!--/--> / <!--=derived.nii.lt_spread.sme_loans.M p2-->22,67<!--/--> | пол 15,5 п.п. |
+| Кредитная маржа стационара мира: N / H / M, п.п. | <!--=derived.nii.loan_margin.N p2-->6,87<!--/--> / <!--=derived.nii.loan_margin.H p2-->6,42<!--/--> / <!--=derived.nii.loan_margin.M p2-->4,12<!--/--> | доходность кредитов минус стоимость риска и балансирующие активы; тест книги — не ниже нуля в каждом мире. Окупает ли кредит капитал под него — другой вопрос (A-K13) |
+| Стоимость средств клиентов к ключевой ставке, среднее 2030–2036 годов: миры N / H / M | <!--=funds_cost_to_key.by_world.N.ratio r3-->0,536<!--/--> / <!--=funds_cost_to_key.by_world.H.ratio r3-->0,591<!--/--> / <!--=funds_cost_to_key.by_world.M.ratio r3-->0,684<!--/--> | не выше наибольшего квартала окна фактов — 0,706 (гейт `funds_cost_to_key`; A-N8) |
 | Реализованная передача (инвариант `transmission_solved`) | <!--=derived.nii.T_real r4-->0,0600<!--/--> | цель книги +0,06 (A-N3) |
-| Парная передача N→H / H→M | <!--=derived.nii.T_pairs.N_H r4-->0,2283<!--/--> / <!--=derived.nii.T_pairs.H_M r4-->−0,0047<!--/--> | коридор гейта −0,20…0,30 (A-X7) |
+| Парная передача N→H / H→M | <!--=derived.nii.T_pairs.N_H r4-->0,2357<!--/--> / <!--=derived.nii.T_pairs.H_M r4-->−0,0046<!--/--> | коридор гейта −0,20…0,30 (A-X7) |
 | RWA_0 модели, млрд ₽ | <!--=derived.capital.rwa0 r1-->5 287,3<!--/--> | вменённые RWA банковской группы 5 287,3 (A-K11b) |
 | CoR движка в 2036 году в мире M: мягкая посадка / нормализация / спад / кризис, % | <!--=derived.regimes.soft.cor_engine.2036 p3-->4,547<!--/--> / <!--=derived.regimes.norm.cor_engine.2036 p3-->5,247<!--/--> / <!--=derived.regimes.downturn.cor_engine.2036 p3-->5,647<!--/--> / <!--=derived.regimes.crisis.cor_engine.2036 p3-->5,847<!--/--> | LT-уровни 4,8 / 5,5 / 5,9 / 6,1 % упр. минус мост 0,253 п.п.; после фазы роста в мирах N и H уровень ниже на κ × разность реальных ставок (A-C0b, A-C2b, A-C8) |
 
@@ -153,10 +153,10 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 | Уровни после фазы роста: среднее 2030–2036 годов, упр. (`levels`) | ЧПМ, % | Стоимость риска, % | Расходы к доходам, % | Кредиты в процентных активах, % |
 |---|---|---|---|---|
 | Суждение книги: мир M, состав баланса якоря | 11,1 (A-N2) | 5,61, взвешенно по режимам (A-C0b) | 47, слой «Рыночные ставки как есть» (A-O1) | <!--=levels.window.loans_share.anchor p1-->67,7<!--/--> — якорь |
-| Модальная клетка: мир H, «нормализация», «средняя группа» | <!--=levels.rows.modal_cell.nim p2-->12,40<!--/--> | <!--=levels.rows.modal_cell.cor p2-->5,40<!--/--> | <!--=levels.rows.modal_cell.cir p1-->45,1<!--/--> | <!--=levels.rows.modal_cell.loans_share p1-->77,9<!--/--> |
-| Слой «Свой макро-взгляд» | <!--=levels.rows.analytical.nim p2-->12,05<!--/--> | <!--=levels.rows.analytical.cor p2-->5,46<!--/--> | <!--=levels.rows.analytical.cir p1-->46,3<!--/--> | <!--=levels.rows.analytical.loans_share p1-->76,8<!--/--> |
-| Смесь заголовка (точка, λ = 0,5) | <!--=levels.rows.point.nim p2-->12,05<!--/--> | <!--=levels.rows.point.cor p2-->5,52<!--/--> | <!--=levels.rows.point.cir p1-->46,6<!--/--> | <!--=levels.rows.point.loans_share p1-->75,8<!--/--> |
-| Слой «Рыночные ставки как есть» | <!--=levels.rows.macro_neutral.nim p2-->12,05<!--/--> | <!--=levels.rows.macro_neutral.cor p2-->5,57<!--/--> | <!--=levels.rows.macro_neutral.cir p1-->47,0<!--/--> | <!--=levels.rows.macro_neutral.loans_share p1-->75,0<!--/--> |
+| Модальная клетка: мир H, «нормализация», «средняя группа» | <!--=levels.rows.modal_cell.nim p2-->12,42<!--/--> | <!--=levels.rows.modal_cell.cor p2-->5,39<!--/--> | <!--=levels.rows.modal_cell.cir p1-->44,9<!--/--> | <!--=levels.rows.modal_cell.loans_share p1-->77,9<!--/--> |
+| Слой «Свой макро-взгляд» | <!--=levels.rows.analytical.nim p2-->12,03<!--/--> | <!--=levels.rows.analytical.cor p2-->5,45<!--/--> | <!--=levels.rows.analytical.cir p1-->46,2<!--/--> | <!--=levels.rows.analytical.loans_share p1-->76,7<!--/--> |
+| Смесь заголовка (точка, λ = 0,5) | <!--=levels.rows.point.nim p2-->12,02<!--/--> | <!--=levels.rows.point.cor p2-->5,51<!--/--> | <!--=levels.rows.point.cir p1-->46,6<!--/--> | <!--=levels.rows.point.loans_share p1-->75,8<!--/--> |
+| Слой «Рыночные ставки как есть» | <!--=levels.rows.macro_neutral.nim p2-->12,01<!--/--> | <!--=levels.rows.macro_neutral.cor p2-->5,57<!--/--> | <!--=levels.rows.macro_neutral.cir p1-->47,0<!--/--> | <!--=levels.rows.macro_neutral.loans_share p1-->75,0<!--/--> |
 | Окно фактов, семь кварталов: среднее | <!--=levels.window.nim.mean p2-->10,75<!--/--> | <!--=levels.window.cor.mean p2-->5,64<!--/--> | <!--=levels.window.cir.mean p2-->47,04<!--/--> | <!--=levels.window.loans_share.window p1-->63,6<!--/--> |
 | Окно фактов: наименьший … наибольший квартал | <!--=levels.window.nim.min p2-->10,02<!--/--> … <!--=levels.window.nim.max p2-->11,59<!--/--> | <!--=levels.window.cor.min p2-->4,69<!--/--> … <!--=levels.window.cor.max p2-->6,65<!--/--> | <!--=levels.window.cir.min p2-->46,00<!--/--> … <!--=levels.window.cir.max p2-->48,28<!--/--> | — |
 
@@ -184,7 +184,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   стационарная маржа на том же составе баланса — <!--=derived.nii.reference_level_mgmt p2-->11,13<!--/--> %: чуть выше суждения, хотя на прямой между мирами N и M мир H
   стоял бы ниже него, — его поднимают наклон кривой мира и доля текущих счетов (A-N3, A-N4). В мире N стационарная маржа
   ниже суждения на полпункта: это и есть передача +0,06 на 9,3 пункта ключевой ставки. Поэтому слой «Свой
-  макро-взгляд», где миры N и H весят 0,80, печатает маржу не выше слоя «Рыночные ставки как есть» — <!--=levels.rows.analytical.nim p2-->12,05<!--/--> и <!--=levels.rows.macro_neutral.nim p2-->12,05<!--/--> % —
+  макро-взгляд», где миры N и H весят 0,80, печатает маржу не выше слоя «Рыночные ставки как есть» — <!--=levels.rows.analytical.nim p2-->12,03<!--/--> и <!--=levels.rows.macro_neutral.nim p2-->12,01<!--/--> % —
   при большей доле кредитов.
 
 **Чем это может быть неверно.** Эффект состава отчётность подтверждает по существу — кредит зарабатывает больше
@@ -193,7 +193,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 эффект книга не ставит. Он меньше, если доходность кредита падает с ростом портфеля (необеспеченная розница — предмет
 конкуренции и регулирования полной стоимости кредита) или если недостающее фондирование стоит дороже, чем в книге
 (A-G4); и доля кредитов ниже, если средства клиентов растут быстрее сектора (A-G2). Цена места уровня — справочный
-вариант «уровень окна — в модальной клетке мира H» (раздел 0.10): точка <!--=reference_variants[id=window_level_in_modal_cell].point r2-->225,75<!--/--> ₽ против <!--=headline.point r2-->329,25<!--/--> ₽ книги.
+вариант «уровень окна — в модальной клетке мира H» (раздел 0.10): точка <!--=reference_variants[id=window_level_in_modal_cell].point r2-->223,50<!--/--> ₽ против <!--=headline.point r2-->325,74<!--/--> ₽ книги.
 
 **0.4. Суждения в дисперсии медианы** (вклад осей полосы A-V9 — доля квадрата ранговой корреляции оси с центром, М§10;
 точка на концах оси — `judgements`; в полосе все 43 оси книги — 39 скалярных, 2 оси-связки и 2 оси-словаря; строки ниже
@@ -201,40 +201,40 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 | Суждение | Книга | Ось | Точка на концах оси, ₽ | Доля дисперсии, % |
 |---|---|---|---|---|
-| Уровень маржи после фазы роста (A-N2), упр.: стационарная маржа мира M на составе баланса якоря | <!--=judgements[id=nii.nim_lt_target_mgmt].book p1-->11,1<!--/--> % | <!--=judgements[id=nii.nim_lt_target_mgmt].low p1-->10,3<!--/-->–<!--=judgements[id=nii.nim_lt_target_mgmt].high p1-->11,6<!--/--> % | <!--=judgements[id=nii.nim_lt_target_mgmt].price_low r0-->229<!--/--> / <!--=judgements[id=nii.nim_lt_target_mgmt].price_high r0-->393<!--/--> | <!--=headline.contributions[axis=nii.nim_lt_target_mgmt].share p1-->27,0<!--/--> |
-| Стоимость риска после фазы роста: сдвиг уровня всех режимов (A-C0b) | 0 | −0,9…+1,2 п.п. | <!--=judgements[id=regimes.*.cor.LT].price_low r0-->399<!--/--> / <!--=judgements[id=regimes.*.cor.LT].price_high r0-->231<!--/--> | <!--=headline.contributions[axis=regimes.*.cor.LT].share p1-->28,6<!--/--> |
-| Передача ключевой в ЧПМ: перенос уровня маржи из мира M в миры N и H (A-N3) | <!--=judgements[id=nii.transmission.target].book s2-->+0,06<!--/--> | <!--=judgements[id=nii.transmission.target].low r2-->0,00<!--/-->…<!--=judgements[id=nii.transmission.target].high s2-->+0,12<!--/--> | <!--=judgements[id=nii.transmission.target].price_low r0-->355<!--/--> / <!--=judgements[id=nii.transmission.target].price_high r0-->304<!--/--> | <!--=headline.contributions[axis=nii.transmission.target].share p1-->3,9<!--/--> |
-| Скорость схода ЧПМ (сдвиг ближнего пути 2027–2029, A-C4b) | 0 | −0,3…+0,5 п.п. | <!--=judgements[id=regimes.near_nim_shift.*].price_low r0-->322<!--/--> / <!--=judgements[id=regimes.near_nim_shift.*].price_high r0-->342<!--/--> | <!--=headline.contributions[axis=regimes.near_nim_shift.*].share p1-->0,5<!--/--> |
-| Расходы: реальный рост 2027–2030 (сдвиг; расходы к доходам слоя «Рыночные ставки как есть» 44–50 %, A-O1) | 0 | <!--=judgements[id=opex.real_growth.*].low sp1-->−1,5<!--/-->…<!--=judgements[id=opex.real_growth.*].high sp1-->+1,4<!--/--> п.п. | <!--=judgements[id=opex.real_growth.*].price_low r0-->384<!--/--> / <!--=judgements[id=opex.real_growth.*].price_high r0-->276<!--/--> | <!--=headline.contributions[axis=opex.real_growth.*].share p1-->10,5<!--/--> |
-| Гибкость расходов и услуг к кредитному портфелю (связка, A-F2) | 0,5 и 0,6 | 0,3 и 0,4 … 0,7 и 0,8 | <!--=judgements[id=opex.volume_link+].price_low r0-->335<!--/--> / <!--=judgements[id=opex.volume_link+].price_high r0-->324<!--/--> | <!--=headline.contributions[axis=opex.volume_link+].share p1-->0,2<!--/--> |
-| Запас менеджмента над минимумом норматива (A-K10b) | 1,5 п.п. | 0,5–2,5 п.п. | <!--=judgements[id=capital.mgmt_buffer.*].price_low r0-->337<!--/--> / <!--=judgements[id=capital.mgmt_buffer.*].price_high r0-->319<!--/--> | <!--=headline.contributions[axis=capital.mgmt_buffer.*].share p1-->0,6<!--/--> |
-| Дрейф плотности RWA (A-K11b) | +1,0 % в год | −4,0…+3,5 % в год | <!--=judgements[id=capital.rwa.density_drift_rate].price_low r0-->339<!--/--> / <!--=judgements[id=capital.rwa.density_drift_rate].price_high r0-->323<!--/--> | <!--=headline.contributions[axis=capital.rwa.density_drift_rate].share p1-->0,5<!--/--> |
-| Инструменты капитала (сдвиг пути, A-K8b) | 0 | −37…+37 млрд ₽ | <!--=judgements[id=capital.n20.t2].price_low r0-->326<!--/--> / <!--=judgements[id=capital.n20.t2].price_high r0-->331<!--/--> | <!--=headline.contributions[axis=capital.n20.t2].share p1-->0,0<!--/--> |
-| Премия роста кредитов к сектору (сдвиг трёх путей, A-G1) | 0 | −5…+5 п.п. | <!--=judgements[id=volumes.loan_share_drift.*].price_low r0-->324<!--/--> / <!--=judgements[id=volumes.loan_share_drift.*].price_high r0-->334<!--/--> | <!--=headline.contributions[axis=volumes.loan_share_drift.*].share p1-->0,1<!--/--> |
-| Премия роста средств клиентов к сектору с 2027 года (связка, A-G2) | 0 | ±5 п.п. в 2027–2028 годах, ±4 / ±3 / ±2 п.п. в 2029–2031 годах | <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->276<!--/--> / <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->381<!--/--> | <!--=headline.contributions[axis=volumes.funds_share_drift.*.*].share p1-->13,7<!--/--> |
-| Цена недостающего фондирования: долгосрочный спред оптового фондирования к ключевой ставке (A-N1, A-G4) | <!--=judgements[id=nii.books.wholesale.spread.LT].book sp2-->−0,28<!--/--> п.п. | <!--=judgements[id=nii.books.wholesale.spread.LT].low sp1-->−1,5<!--/-->…<!--=judgements[id=nii.books.wholesale.spread.LT].high sp1-->+1,5<!--/--> п.п. | <!--=judgements[id=nii.books.wholesale.spread.LT].price_low r0-->335<!--/--> / <!--=judgements[id=nii.books.wholesale.spread.LT].price_high r0-->321<!--/--> | <!--=headline.contributions[axis=nii.books.wholesale.spread.LT].share p1-->0,1<!--/--> |
-| Угасание избыточной доходности (A-V4) | 0,5 | 0,25–1,0 | <!--=judgements[id=valuation.terminal.fade].price_low r0-->323<!--/--> / <!--=judgements[id=valuation.terminal.fade].price_high r0-->342<!--/--> | <!--=headline.contributions[axis=valuation.terminal.fade].share p1-->0,0<!--/--> |
-| β_E (A-V1) | 1,04 | 0,95–1,15 | <!--=judgements[id=valuation.beta_e].price_low r0-->347<!--/--> / <!--=judgements[id=valuation.beta_e].price_high r0-->310<!--/--> | <!--=headline.contributions[axis=valuation.beta_e].share p1-->2,0<!--/--> |
-| ERP (A-V2) | 5,57 % | 4,9–6,2 % | <!--=judgements[id=valuation.erp].price_low r0-->354<!--/--> / <!--=judgements[id=valuation.erp].price_high r0-->309<!--/--> | <!--=headline.contributions[axis=valuation.erp].share p1-->2,3<!--/--> |
-| Реальный рост терминала (A-V3b) | 1,5 % | 0,5–2,5 % | <!--=judgements[id=valuation.terminal.real_growth].price_low r0-->321<!--/--> / <!--=judgements[id=valuation.terminal.real_growth].price_high r0-->339<!--/--> | <!--=headline.contributions[axis=valuation.terminal.real_growth].share p1-->0,2<!--/--> |
-| Число акций (поправка делителя, A-V6) | 0 | −5…+2 % | <!--=judgements[id=valuation.share_count_adj].price_low r0-->347<!--/--> / <!--=judgements[id=valuation.share_count_adj].price_high r0-->323<!--/--> | <!--=headline.contributions[axis=valuation.share_count_adj].share p1-->1,1<!--/--> |
-| Дисконт за управление (A-V7) | 0 | 0–10 % | <!--=judgements[id=valuation.governance.discount].price_low r0-->329<!--/--> / <!--=judgements[id=valuation.governance.discount].price_high r0-->297<!--/--> | <!--=headline.contributions[axis=valuation.governance.discount].share p1-->0,9<!--/--> |
-| Стоимость риска к реальной ставке: перенос уровня окна в миры N и H (κ, A-C2b) | 0,10 | 0–0,30 | <!--=judgements[id=credit.kappa].price_low r0-->324<!--/--> / <!--=judgements[id=credit.kappa].price_high r0-->339<!--/--> | <!--=headline.contributions[axis=credit.kappa].share p1-->0,0<!--/--> |
-| Отклонение выплаты от политики (сдвиг, A-D2) | 0 | −5…+4 п.п. | <!--=judgements[id=dividends.payout_deviation].price_low r0-->323<!--/--> / <!--=judgements[id=dividends.payout_deviation].price_high r0-->334<!--/--> | <!--=headline.contributions[axis=dividends.payout_deviation].share p1-->0,1<!--/--> |
-| Выплата избытка капитала ε с 2032 года (A-D3) | 0,5 | 0–1 | <!--=judgements[id=dividends.excess.epsilon].price_low r0-->322<!--/--> / <!--=judgements[id=dividends.excess.epsilon].price_high r0-->332<!--/--> | <!--=headline.contributions[axis=dividends.excess.epsilon].share p1-->0,0<!--/--> |
-| Пакет Яндекса и долг под него (сдвиг пути, A-O2) | 0 | −5,4…+5,4 млрд ₽ | <!--=judgements[id=noncore.result_real.*].price_low r0-->319<!--/--> / <!--=judgements[id=noncore.result_real.*].price_high r0-->339<!--/--> | <!--=headline.contributions[axis=noncore.result_real.*].share p1-->0,4<!--/--> |
-| Налог: сдвиг ставки (A-T1) | 0 | 0…+3 п.п. | <!--=judgements[id=tax.statutory].price_low r0-->329<!--/--> / <!--=judgements[id=tax.statutory].price_high r0-->306<!--/--> | <!--=headline.contributions[axis=tax.statutory].share p1-->1,1<!--/--> |
-| Доля неконтролирующих акционеров в прибыли (A-O6) | 2,4 % | 1,5–3,5 % | <!--=judgements[id=pnl.nci_share].price_low r0-->335<!--/--> / <!--=judgements[id=pnl.nci_share].price_high r0-->323<!--/--> | <!--=headline.contributions[axis=pnl.nci_share].share p1-->0,2<!--/--> |
-| Сдвиг уровня маржи: доля на кредитных книгах (A-N7) | <!--=judgements[id=nii.sigma0_split].book r2-->1,00<!--/--> | <!--=judgements[id=nii.sigma0_split].low r2-->0,00<!--/-->–<!--=judgements[id=nii.sigma0_split].high r2-->1,00<!--/--> | <!--=judgements[id=nii.sigma0_split].price_low r0-->333<!--/--> / <!--=judgements[id=nii.sigma0_split].price_high r0-->329<!--/--> | <!--=headline.contributions[axis=nii.sigma0_split].share p1-->0,0<!--/--> |
-| Сжатие маржи при высокой ставке: доля на кредитных книгах (A-N8) | <!--=judgements[id=nii.phi_split].book r2-->0,70<!--/--> | <!--=judgements[id=nii.phi_split].low r2-->0,52<!--/-->–<!--=judgements[id=nii.phi_split].high r2-->1,00<!--/--> | <!--=judgements[id=nii.phi_split].price_low r0-->330<!--/--> / <!--=judgements[id=nii.phi_split].price_high r0-->328<!--/--> | <!--=headline.contributions[axis=nii.phi_split].share p1-->0,0<!--/--> |
+| Уровень маржи после фазы роста (A-N2), упр.: стационарная маржа мира M на составе баланса якоря | <!--=judgements[id=nii.nim_lt_target_mgmt].book p1-->11,1<!--/--> % | <!--=judgements[id=nii.nim_lt_target_mgmt].low p1-->10,3<!--/-->–<!--=judgements[id=nii.nim_lt_target_mgmt].high p1-->11,6<!--/--> % | <!--=judgements[id=nii.nim_lt_target_mgmt].price_low r0-->225<!--/--> / <!--=judgements[id=nii.nim_lt_target_mgmt].price_high r0-->390<!--/--> | <!--=headline.contributions[axis=nii.nim_lt_target_mgmt].share p1-->26,8<!--/--> |
+| Стоимость риска после фазы роста: сдвиг уровня всех режимов (A-C0b) | 0 | −0,9…+1,2 п.п. | <!--=judgements[id=regimes.*.cor.LT].price_low r0-->396<!--/--> / <!--=judgements[id=regimes.*.cor.LT].price_high r0-->226<!--/--> | <!--=headline.contributions[axis=regimes.*.cor.LT].share p1-->28,6<!--/--> |
+| Передача ключевой в ЧПМ: перенос уровня маржи из мира M в миры N и H (A-N3) | <!--=judgements[id=nii.transmission.target].book s2-->+0,06<!--/--> | <!--=judgements[id=nii.transmission.target].low r2-->0,00<!--/-->…<!--=judgements[id=nii.transmission.target].high s2-->+0,12<!--/--> | <!--=judgements[id=nii.transmission.target].price_low r0-->353<!--/--> / <!--=judgements[id=nii.transmission.target].price_high r0-->299<!--/--> | <!--=headline.contributions[axis=nii.transmission.target].share p1-->4,2<!--/--> |
+| Скорость схода ЧПМ (сдвиг ближнего пути 2027–2029, A-C4b) | 0 | −0,3…+0,5 п.п. | <!--=judgements[id=regimes.near_nim_shift.*].price_low r0-->318<!--/--> / <!--=judgements[id=regimes.near_nim_shift.*].price_high r0-->338<!--/--> | <!--=headline.contributions[axis=regimes.near_nim_shift.*].share p1-->0,5<!--/--> |
+| Расходы: реальный рост 2027–2030 (сдвиг; расходы к доходам слоя «Рыночные ставки как есть» 44–50 %, A-O1) | 0 | <!--=judgements[id=opex.real_growth.*].low sp1-->−1,5<!--/-->…<!--=judgements[id=opex.real_growth.*].high sp1-->+1,4<!--/--> п.п. | <!--=judgements[id=opex.real_growth.*].price_low r0-->381<!--/--> / <!--=judgements[id=opex.real_growth.*].price_high r0-->272<!--/--> | <!--=headline.contributions[axis=opex.real_growth.*].share p1-->10,5<!--/--> |
+| Гибкость расходов и услуг к кредитному портфелю (связка, A-F2) | 0,5 и 0,6 | 0,3 и 0,4 … 0,7 и 0,8 | <!--=judgements[id=opex.volume_link+].price_low r0-->330<!--/--> / <!--=judgements[id=opex.volume_link+].price_high r0-->321<!--/--> | <!--=headline.contributions[axis=opex.volume_link+].share p1-->0,1<!--/--> |
+| Запас менеджмента над минимумом норматива (A-K10b) | 1,5 п.п. | 0,5–2,5 п.п. | <!--=judgements[id=capital.mgmt_buffer.*].price_low r0-->333<!--/--> / <!--=judgements[id=capital.mgmt_buffer.*].price_high r0-->316<!--/--> | <!--=headline.contributions[axis=capital.mgmt_buffer.*].share p1-->0,6<!--/--> |
+| Дрейф плотности RWA (A-K11b) | +1,0 % в год | −4,0…+3,5 % в год | <!--=judgements[id=capital.rwa.density_drift_rate].price_low r0-->335<!--/--> / <!--=judgements[id=capital.rwa.density_drift_rate].price_high r0-->319<!--/--> | <!--=headline.contributions[axis=capital.rwa.density_drift_rate].share p1-->0,4<!--/--> |
+| Инструменты капитала (сдвиг пути, A-K8b) | 0 | −37…+37 млрд ₽ | <!--=judgements[id=capital.n20.t2].price_low r0-->323<!--/--> / <!--=judgements[id=capital.n20.t2].price_high r0-->328<!--/--> | <!--=headline.contributions[axis=capital.n20.t2].share p1-->0,0<!--/--> |
+| Премия роста кредитов к сектору (сдвиг трёх путей, A-G1) | 0 | −5…+5 п.п. | <!--=judgements[id=volumes.loan_share_drift.*].price_low r0-->322<!--/--> / <!--=judgements[id=volumes.loan_share_drift.*].price_high r0-->331<!--/--> | <!--=headline.contributions[axis=volumes.loan_share_drift.*].share p1-->0,1<!--/--> |
+| Премия роста средств клиентов к сектору с 2027 года (связка, A-G2) | 0 | ±5 п.п. в 2027–2028 годах, ±4 / ±3 / ±2 п.п. в 2029–2031 годах | <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->271<!--/--> / <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->379<!--/--> | <!--=headline.contributions[axis=volumes.funds_share_drift.*.*].share p1-->13,9<!--/--> |
+| Цена недостающего фондирования: долгосрочный спред оптового фондирования к ключевой ставке (A-N1, A-G4) | <!--=judgements[id=nii.books.wholesale.spread.LT].book sp2-->−0,28<!--/--> п.п. | <!--=judgements[id=nii.books.wholesale.spread.LT].low sp1-->−1,5<!--/-->…<!--=judgements[id=nii.books.wholesale.spread.LT].high sp1-->+1,5<!--/--> п.п. | <!--=judgements[id=nii.books.wholesale.spread.LT].price_low r0-->331<!--/--> / <!--=judgements[id=nii.books.wholesale.spread.LT].price_high r0-->318<!--/--> | <!--=headline.contributions[axis=nii.books.wholesale.spread.LT].share p1-->0,1<!--/--> |
+| Угасание избыточной доходности (A-V4) | 0,5 | 0,25–1,0 | <!--=judgements[id=valuation.terminal.fade].price_low r0-->320<!--/--> / <!--=judgements[id=valuation.terminal.fade].price_high r0-->338<!--/--> | <!--=headline.contributions[axis=valuation.terminal.fade].share p1-->0,0<!--/--> |
+| β_E (A-V1) | 1,04 | 0,95–1,15 | <!--=judgements[id=valuation.beta_e].price_low r0-->343<!--/--> / <!--=judgements[id=valuation.beta_e].price_high r0-->307<!--/--> | <!--=headline.contributions[axis=valuation.beta_e].share p1-->1,9<!--/--> |
+| ERP (A-V2) | 5,57 % | 4,9–6,2 % | <!--=judgements[id=valuation.erp].price_low r0-->350<!--/--> / <!--=judgements[id=valuation.erp].price_high r0-->305<!--/--> | <!--=headline.contributions[axis=valuation.erp].share p1-->2,2<!--/--> |
+| Реальный рост терминала (A-V3b) | 1,5 % | 0,5–2,5 % | <!--=judgements[id=valuation.terminal.real_growth].price_low r0-->318<!--/--> / <!--=judgements[id=valuation.terminal.real_growth].price_high r0-->335<!--/--> | <!--=headline.contributions[axis=valuation.terminal.real_growth].share p1-->0,2<!--/--> |
+| Число акций (поправка делителя, A-V6) | 0 | −5…+2 % | <!--=judgements[id=valuation.share_count_adj].price_low r0-->343<!--/--> / <!--=judgements[id=valuation.share_count_adj].price_high r0-->319<!--/--> | <!--=headline.contributions[axis=valuation.share_count_adj].share p1-->1,1<!--/--> |
+| Дисконт за управление (A-V7) | 0 | 0–10 % | <!--=judgements[id=valuation.governance.discount].price_low r0-->326<!--/--> / <!--=judgements[id=valuation.governance.discount].price_high r0-->294<!--/--> | <!--=headline.contributions[axis=valuation.governance.discount].share p1-->0,8<!--/--> |
+| Стоимость риска к реальной ставке: перенос уровня окна в миры N и H (κ, A-C2b) | 0,10 | 0–0,30 | <!--=judgements[id=credit.kappa].price_low r0-->321<!--/--> / <!--=judgements[id=credit.kappa].price_high r0-->336<!--/--> | <!--=headline.contributions[axis=credit.kappa].share p1-->0,0<!--/--> |
+| Отклонение выплаты от политики (сдвиг, A-D2) | 0 | −5…+4 п.п. | <!--=judgements[id=dividends.payout_deviation].price_low r0-->319<!--/--> / <!--=judgements[id=dividends.payout_deviation].price_high r0-->331<!--/--> | <!--=headline.contributions[axis=dividends.payout_deviation].share p1-->0,1<!--/--> |
+| Выплата избытка капитала ε с 2032 года (A-D3) | 0,5 | 0–1 | <!--=judgements[id=dividends.excess.epsilon].price_low r0-->319<!--/--> / <!--=judgements[id=dividends.excess.epsilon].price_high r0-->328<!--/--> | <!--=headline.contributions[axis=dividends.excess.epsilon].share p1-->0,0<!--/--> |
+| Пакет Яндекса и долг под него (сдвиг пути, A-O2) | 0 | −5,4…+5,4 млрд ₽ | <!--=judgements[id=noncore.result_real.*].price_low r0-->316<!--/--> / <!--=judgements[id=noncore.result_real.*].price_high r0-->336<!--/--> | <!--=headline.contributions[axis=noncore.result_real.*].share p1-->0,4<!--/--> |
+| Налог: сдвиг ставки (A-T1) | 0 | 0…+3 п.п. | <!--=judgements[id=tax.statutory].price_low r0-->326<!--/--> / <!--=judgements[id=tax.statutory].price_high r0-->302<!--/--> | <!--=headline.contributions[axis=tax.statutory].share p1-->1,1<!--/--> |
+| Доля неконтролирующих акционеров в прибыли (A-O6) | 2,4 % | 1,5–3,5 % | <!--=judgements[id=pnl.nci_share].price_low r0-->331<!--/--> / <!--=judgements[id=pnl.nci_share].price_high r0-->319<!--/--> | <!--=headline.contributions[axis=pnl.nci_share].share p1-->0,2<!--/--> |
+| Сдвиг уровня маржи: доля на кредитных книгах (A-N7) | <!--=judgements[id=nii.sigma0_split].book r2-->1,00<!--/--> | <!--=judgements[id=nii.sigma0_split].low r2-->0,00<!--/-->–<!--=judgements[id=nii.sigma0_split].high r2-->1,00<!--/--> | <!--=judgements[id=nii.sigma0_split].price_low r0-->330<!--/--> / <!--=judgements[id=nii.sigma0_split].price_high r0-->326<!--/--> | <!--=headline.contributions[axis=nii.sigma0_split].share p1-->0,0<!--/--> |
+| Сжатие маржи при высокой ставке: доля на кредитных книгах (A-N8) | <!--=judgements[id=nii.phi_split].book r2-->0,73<!--/--> | <!--=judgements[id=nii.phi_split].low r2-->0,52<!--/-->–<!--=judgements[id=nii.phi_split].high r2-->1,00<!--/--> | <!--=judgements[id=nii.phi_split].price_low r0-->326<!--/--> / <!--=judgements[id=nii.phi_split].price_high r0-->324<!--/--> | <!--=headline.contributions[axis=nii.phi_split].share p1-->0,0<!--/--> |
 
 Доля в дисперсии меряет разброс, а не положение. Односторонние оси (налог 0…+3 п.п., дисконт за управление 0–10 %,
 вероятность разового налога 0–30 %, доля сдвига уровня маржи на кредитных книгах — центр на верхнем краю) и скошенные
 оси (стационарная маржа −0,8…+0,5 п.п. от центра, стоимость риска −0,9…+1,2 п.п., κ 0–0,30 при книге 0,10, угасание
 0,25–1,0 при книге 0,5, разовый убыток кризиса −100…0 млрд ₽ при книге −40) сдвигают среднее прогонов: каждая — на (цена
 на верхнем конце + цена на нижнем − 2 × точка) / 6 (М§10). Самые большие сдвиги — у оси маржи (<!--=judgements[id=nii.nim_lt_target_mgmt].mean_shift s1-->−6,0<!--/--> ₽), дисконта за
-управление (<!--=judgements[id=valuation.governance.discount].mean_shift s1-->−5,4<!--/--> ₽), стоимости риска (<!--=judgements[id=regimes.*.cor.LT].mean_shift s1-->−4,9<!--/--> ₽) и налога (<!--=judgements[id=tax.statutory].mean_shift s1-->−3,9<!--/--> ₽). Диапазоны опускают медиану под точку: медиана
-— <!--=headline.median r2-->313,45<!--/--> ₽, среднее прогонов — <!--=headline.mean r2-->311,71<!--/--> ₽ при точке <!--=headline.point r2-->329,25<!--/--> ₽. Это осторожность диапазонов. В самой точке стоят правила и
+управление (<!--=judgements[id=valuation.governance.discount].mean_shift s1-->−5,4<!--/--> ₽), стоимости риска (<!--=judgements[id=regimes.*.cor.LT].mean_shift s1-->−4,8<!--/--> ₽) и налога (<!--=judgements[id=tax.statutory].mean_shift s1-->−3,9<!--/--> ₽). Диапазоны опускают медиану под точку: медиана
+— <!--=headline.median r2-->309,92<!--/--> ₽, среднее прогонов — <!--=headline.mean r2-->308,24<!--/--> ₽ при точке <!--=headline.point r2-->325,74<!--/--> ₽. Это осторожность диапазонов. В самой точке стоят правила и
 развилки, которые тоже двигают оценку, — каждое названо и оценено: таблица «Цена правил и развилок» (раздел 0.10). У оси
 передачи цена убывает с передачей: уровень маржи стоит в мире M, и чем больше передача, тем ниже маржа миров N и H
 (A-N3). Оси-словари (веса миров, вероятности режимов) в этой мере вклада не имеют. Ось-связка двигает одним положением
@@ -257,7 +257,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 | `wholesale_share` | <!--=checks[name=wholesale_share].mass r3-->0,000<!--/--> | доля оптового фондирования на конец года — в коридоре книги 8–39 %; на якоре 13,5 % |
 | `capital_gap` | <!--=checks[name=capital_gap].mass r3-->0,000<!--/--> | отчётный норматив не ниже пола сценария; сколько таких клеток в прогонах полосы — в сообщении гейта |
 | `lt_spread_floor` | <!--=checks[name=lt_spread_floor].mass r3-->0,000<!--/--> | кредит в стационаре мира не дешевле опоры плюс стоимость риска (полы — A-X8) |
-| `nim_path_joint` | <!--=checks[name=nim_path_joint].mass r3-->0,169<!--/--> | маржа первых восьми кварталов не выше маржи якоря и стационарной маржи мира больше чем на 0,3 п.п. (A-C4b, A-X7) |
+| `nim_path_joint` | <!--=checks[name=nim_path_joint].mass r3-->0,078<!--/--> | маржа первых восьми кварталов не выше маржи якоря и стационарной маржи мира больше чем на 0,3 п.п. (A-C4b, A-X7) |
 | `nim_range` | <!--=checks[name=nim_range].mass r3-->0,000<!--/--> | маржа каждого квартала — в коридоре 8–13 % (упр.; A-X2) |
 | `pb_by_world` | <!--=checks[name=pb_by_world].mass r3-->0,000<!--/--> | P/B клетки в коридоре 0,4–2,5 |
 | `terminal_share` | <!--=checks[name=terminal_share].mass r3-->0,000<!--/--> | доля терминала 15–65 %: при выплате в четверть прибыли стоимость возвращается поздно |
@@ -274,29 +274,29 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 | Строка | Книга | Решение | Невязка медианы, ₽ | Корень уточнён |
 |---|---|---|---|---|
-| ЧПМ после фазы роста — суждение A-N2: стационарная маржа мира M на составе баланса якоря (упр.), % | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].book p2-->11,10<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].solved p2n-->10,75<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].gap s2-->+0,21<!--/--> | на полной полосе |
-| то же — слой «Рыночные ставки как есть», 2030–2036 годы (упр.): ЧПМ / расходы к доходам, % | <!--=levels.rows.macro_neutral.nim p2-->12,05<!--/--> / <!--=levels.rows.macro_neutral.cir p1-->47,0<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.nim p2-->11,57<!--/--> / <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.cir p1-->48,5<!--/--> | — | — |
-| то же — смесь заголовка, 2030–2036 годы (упр.): ЧПМ / расходы к доходам, % | <!--=levels.rows.point.nim p2-->12,05<!--/--> / <!--=levels.rows.point.cir p1-->46,6<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.nim p2-->11,60<!--/--> / <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.cir p1-->48,1<!--/--> | — | — |
-| Стоимость риска после фазы роста, сдвиг уровня всех режимов, п.п. | 0 | <!--=reverse_dcf.rows[key=regimes.*.cor.LT].solved sp2n-->+0,54<!--/--> | <!--=reverse_dcf.rows[key=regimes.*.cor.LT].gap s2-->+0,03<!--/--> | на полной полосе |
-| Передача ставки в ЧПМ | <!--=reverse_dcf.rows[key=nii.transmission.target].book s2-->+0,06<!--/--> | <!--=reverse_dcf.rows[key=nii.transmission.target].solved s3n-->+0,161<!--/--> | <!--=reverse_dcf.rows[key=nii.transmission.target].gap s2-->−0,09<!--/--> | по подвыборке |
-| Расходы: реальный рост 2027–2030, сдвиг, п.п. | 0 | <!--=reverse_dcf.rows[key=opex.real_growth.*].solved sp2n-->+1,81<!--/--> | <!--=reverse_dcf.rows[key=opex.real_growth.*].gap s2-->−0,34<!--/--> | по подвыборке |
-| Премия роста средств клиентов, ровный сдвиг 2027–2031 годов, п.п. | 0 | <!--=reverse_dcf.rows[key=volumes.funds_share_drift.*.*].solved sp1n-->−5,1<!--/--> | <!--=reverse_dcf.rows[key=volumes.funds_share_drift.*.*].gap s2-->+0,03<!--/--> | по подвыборке |
-| Запас над минимумом норматива, % RWA | 1,5 | <!--=reverse_dcf.rows[key=capital.mgmt_buffer.*].solved p2n-->5,23<!--/--> | <!--=reverse_dcf.rows[key=capital.mgmt_buffer.*].gap s2-->+0,43<!--/--> | по подвыборке |
-| Выплата (отклонение доли от политики), п.п. | 0 | <!--=reverse_dcf.rows[key=dividends.payout_deviation].solved sp1n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=dividends.payout_deviation].gap s2-->+12,73<!--/--> | по подвыборке |
-| β_E | 1,04 | <!--=reverse_dcf.rows[key=valuation.beta_e].solved r2n-->1,30<!--/--> | <!--=reverse_dcf.rows[key=valuation.beta_e].gap s2-->+0,43<!--/--> | по подвыборке |
-| ERP, % | 5,57 | <!--=reverse_dcf.rows[key=valuation.erp].solved p2n-->7,03<!--/--> | <!--=reverse_dcf.rows[key=valuation.erp].gap s2-->+0,16<!--/--> | по подвыборке |
-| Регуляторный сценарий (смесь к «жёсткому») | 0 | <!--=reverse_dcf.rows[key=joint.reg_prob_given_regime].solved r2n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=joint.reg_prob_given_regime].gap s2-->+33,83<!--/--> | по подвыборке |
-| Реальный рост терминала, % | 1,5 | <!--=reverse_dcf.rows[key=valuation.terminal.real_growth].solved p2n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=valuation.terminal.real_growth].gap s2-->+7,36<!--/--> | по подвыборке |
-| Угасание избыточной доходности | 0,5 | <!--=reverse_dcf.rows[key=valuation.terminal.fade].solved r2n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=valuation.terminal.fade].gap s2-->+31,06<!--/--> | по подвыборке |
-| Дисконт за управление, % | 0 | <!--=reverse_dcf.rows[key=valuation.governance.discount].solved p1n-->13,4<!--/--> | <!--=reverse_dcf.rows[key=valuation.governance.discount].gap s2-->−0,27<!--/--> | по подвыборке |
+| ЧПМ после фазы роста — суждение A-N2: стационарная маржа мира M на составе баланса якоря (упр.), % | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].book p2-->11,10<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].solved p2n-->10,78<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].gap s2-->−0,04<!--/--> | на полной полосе |
+| то же — слой «Рыночные ставки как есть», 2030–2036 годы (упр.): ЧПМ / расходы к доходам, % | <!--=levels.rows.macro_neutral.nim p2-->12,01<!--/--> / <!--=levels.rows.macro_neutral.cir p1-->47,0<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.nim p2-->11,58<!--/--> / <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.cir p1-->48,4<!--/--> | — | — |
+| то же — смесь заголовка, 2030–2036 годы (упр.): ЧПМ / расходы к доходам, % | <!--=levels.rows.point.nim p2-->12,02<!--/--> / <!--=levels.rows.point.cir p1-->46,6<!--/--> | <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.nim p2-->11,61<!--/--> / <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.cir p1-->47,9<!--/--> | — | — |
+| Стоимость риска после фазы роста, сдвиг уровня всех режимов, п.п. | 0 | <!--=reverse_dcf.rows[key=regimes.*.cor.LT].solved sp2n-->+0,49<!--/--> | <!--=reverse_dcf.rows[key=regimes.*.cor.LT].gap s2-->−0,12<!--/--> | на полной полосе |
+| Передача ставки в ЧПМ | <!--=reverse_dcf.rows[key=nii.transmission.target].book s2-->+0,06<!--/--> | <!--=reverse_dcf.rows[key=nii.transmission.target].solved s3n-->+0,148<!--/--> | <!--=reverse_dcf.rows[key=nii.transmission.target].gap s2-->+0,25<!--/--> | по подвыборке |
+| Расходы: реальный рост 2027–2030, сдвиг, п.п. | 0 | <!--=reverse_dcf.rows[key=opex.real_growth.*].solved sp2n-->+1,70<!--/--> | <!--=reverse_dcf.rows[key=opex.real_growth.*].gap s2-->+0,03<!--/--> | по подвыборке |
+| Премия роста средств клиентов, ровный сдвиг 2027–2031 годов, п.п. | 0 | <!--=reverse_dcf.rows[key=volumes.funds_share_drift.*.*].solved sp1n-->−4,6<!--/--> | <!--=reverse_dcf.rows[key=volumes.funds_share_drift.*.*].gap s2-->−0,47<!--/--> | по подвыборке |
+| Запас над минимумом норматива, % RWA | 1,5 | <!--=reverse_dcf.rows[key=capital.mgmt_buffer.*].solved p2n-->5,03<!--/--> | <!--=reverse_dcf.rows[key=capital.mgmt_buffer.*].gap s2-->+0,08<!--/--> | по подвыборке |
+| Выплата (отклонение доли от политики), п.п. | 0 | <!--=reverse_dcf.rows[key=dividends.payout_deviation].solved sp1n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=dividends.payout_deviation].gap s2-->+8,65<!--/--> | по подвыборке |
+| β_E | 1,04 | <!--=reverse_dcf.rows[key=valuation.beta_e].solved r2n-->1,29<!--/--> | <!--=reverse_dcf.rows[key=valuation.beta_e].gap s2-->0,00<!--/--> | по подвыборке |
+| ERP, % | 5,57 | <!--=reverse_dcf.rows[key=valuation.erp].solved p2n-->6,96<!--/--> | <!--=reverse_dcf.rows[key=valuation.erp].gap s2-->+0,18<!--/--> | по подвыборке |
+| Регуляторный сценарий (смесь к «жёсткому») | 0 | <!--=reverse_dcf.rows[key=joint.reg_prob_given_regime].solved r2n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=joint.reg_prob_given_regime].gap s2-->+31,28<!--/--> | по подвыборке |
+| Реальный рост терминала, % | 1,5 | <!--=reverse_dcf.rows[key=valuation.terminal.real_growth].solved p2n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=valuation.terminal.real_growth].gap s2-->+4,75<!--/--> | по подвыборке |
+| Угасание избыточной доходности | 0,5 | <!--=reverse_dcf.rows[key=valuation.terminal.fade].solved r2n-->недостижимо<!--/--> | <!--=reverse_dcf.rows[key=valuation.terminal.fade].gap s2-->+29,48<!--/--> | по подвыборке |
+| Дисконт за управление, % | 0 | <!--=reverse_dcf.rows[key=valuation.governance.discount].solved p1n-->12,5<!--/--> | <!--=reverse_dcf.rows[key=valuation.governance.discount].gap s2-->−0,14<!--/--> | по подвыборке |
 
 | Банковская строка (М§11.3) | Книга (модель) | Вменено рынком или предел |
 |---|---|---|
-| ROE после фазы роста, % | <!--=reverse_dcf.bank_rows[key=implied_roe_through_cycle].book p2-->20,06<!--/--> | <!--=reverse_dcf.bank_rows[key=implied_roe_through_cycle].implied p2n-->18,84<!--/--> |
-| Стоимость капитала, % | <!--=reverse_dcf.bank_rows[key=implied_cost_of_equity].book p2-->20,25<!--/--> | <!--=reverse_dcf.bank_rows[key=implied_cost_of_equity].implied p2n-->21,77<!--/--> |
-| Капитализация − капитал (модель: V − BV), млрд ₽ | <!--=reverse_dcf.bank_rows[key=market_cap_minus_bv].book r1-->82,0<!--/--> | <!--=reverse_dcf.bank_rows[key=market_cap_minus_bv].implied r1-->−75,6<!--/--> |
-| Стоимость без опережающего роста (премия роста кредитов — ноль; отток средств клиентов 3-го квартала 2026 года остаётся), ₽ | <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].book r2-->329,25<!--/--> | <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].implied r2n-->310,81<!--/--> |
-| Капитал без премии (капитал на размещённую акцию), ₽ | <!--=reverse_dcf.bank_rows[key=book_value_per_share].book r2-->329,25<!--/--> | <!--=reverse_dcf.bank_rows[key=book_value_per_share].implied r2n-->298,70<!--/--> |
+| ROE после фазы роста, % | <!--=reverse_dcf.bank_rows[key=implied_roe_through_cycle].book p2-->19,94<!--/--> | <!--=reverse_dcf.bank_rows[key=implied_roe_through_cycle].implied p2n-->18,83<!--/--> |
+| Стоимость капитала, % | <!--=reverse_dcf.bank_rows[key=implied_cost_of_equity].book p2-->20,21<!--/--> | <!--=reverse_dcf.bank_rows[key=implied_cost_of_equity].implied p2n-->21,65<!--/--> |
+| Капитализация − капитал (модель: V − BV), млрд ₽ | <!--=reverse_dcf.bank_rows[key=market_cap_minus_bv].book r1-->73,0<!--/--> | <!--=reverse_dcf.bank_rows[key=market_cap_minus_bv].implied r1-->−75,1<!--/--> |
+| Стоимость без опережающего роста (премия роста кредитов — ноль; отток средств клиентов 3-го квартала 2026 года остаётся), ₽ | <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].book r2-->325,74<!--/--> | <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].implied r2n-->308,25<!--/--> |
+| Капитал без премии (капитал на размещённую акцию), ₽ | <!--=reverse_dcf.bank_rows[key=book_value_per_share].book r2-->325,74<!--/--> | <!--=reverse_dcf.bank_rows[key=book_value_per_share].implied r2n-->298,52<!--/--> |
 | В цене — лет избыточной доходности | — | <!--=reverse_dcf.bank_rows[key=excess_return_years].implied r0n-->0<!--/--> |
 
 Строка уровня маржи ищет само суждение A-N2 — стационарную маржу мира M на составе баланса якоря — и печатает рядом
@@ -312,26 +312,26 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 сколько стоит акция, если избыточной доходности нет вовсе; сколько лет избыточной доходности модели оплачено рыночной
 ценой. **Строка «без опережающего роста» снимает суждение, а не факт.** Премия роста кредитов в ней — ноль (премия
 средств клиентов с 2027 года в центре книги и так ноль), а отток средств клиентов 3-го квартала 2026 года остаётся как в
-книге — его ключи названы фактом (`valuation.reverse_dcf.premium_facts`). Цена суждения — <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].delta s2-->−18,44<!--/--> ₽ к точке. Отток —
+книге — его ключи названы фактом (`valuation.reverse_dcf.premium_facts`). Цена суждения — <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].delta s2-->−17,48<!--/--> ₽ к точке. Отток —
 слагаемое другого знака: без него тот же кредит фондировался бы дешевле и оценка была бы выше, поэтому строка, снимавшая
 и суждение, и факт, показывала бы цену роста меньше настоящей. Цена книги — <!--=headline.market r2-->270,52<!--/--> ₽ при капитале модели на дату
-оценки <!--=reverse_dcf.bank_rows[key=book_value_per_share].implied r2n-->298,70<!--/--> ₽ на размещённую акцию: пока цена ниже капитала, строка «в цене — лет» печатает ноль.
+оценки <!--=reverse_dcf.bank_rows[key=book_value_per_share].implied r2n-->298,52<!--/--> ₽ на размещённую акцию: пока цена ниже капитала, строка «в цене — лет» печатает ноль.
 
 **0.7. Что даст отчёт за 3-й квартал 2026 года** (отчётность МСФО — в ноябре 2026 года, оценка даты — 19.11.2026;
 М§13)
 
 | Что | Значение |
 |---|---|
-| Ожидание модели: CoR упр. / ЧПМ упр., % | <!--=next_report.expectation.cor_mgmt p2-->5,08<!--/--> / <!--=next_report.expectation.nim_mgmt p2-->11,52<!--/--> |
-| Ожидание модели: операционная прибыль акционеров квартала, млрд ₽ | <!--=next_report.expectation.ni r1-->56,6<!--/--> |
+| Ожидание модели: CoR упр. / ЧПМ упр., % | <!--=next_report.expectation.cor_mgmt p2-->5,08<!--/--> / <!--=next_report.expectation.nim_mgmt p2-->11,51<!--/--> |
+| Ожидание модели: операционная прибыль акционеров квартала, млрд ₽ | <!--=next_report.expectation.ni r1-->56,5<!--/--> |
 | Нейтральная CoR (упр.), % | <!--=next_report.neutral.cor.value p3n-->5,039<!--/--> |
-| Нейтральная ЧПМ (упр.), % | <!--=next_report.neutral.nim.value p3n-->11,515<!--/--> |
-| Наклон медианы: ₽ на +0,1 п.п. CoR / ЧПМ квартала | <!--=next_report.slope.rub_per_01pp_cor s2-->−3,05<!--/--> / <!--=next_report.slope.rub_per_01pp_nim s2-->+0,37<!--/--> |
+| Нейтральная ЧПМ (упр.), % | <!--=next_report.neutral.nim.value p3n-->11,507<!--/--> |
+| Наклон медианы: ₽ на +0,1 п.п. CoR / ЧПМ квартала | <!--=next_report.slope.rub_per_01pp_cor s2-->−3,05<!--/--> / <!--=next_report.slope.rub_per_01pp_nim s2-->+0,36<!--/--> |
 
 Нейтральные значения — факт квартала, при котором медиана не двигается (М§13). При смеси режимов они не совпадают с
 ожиданием: факт, равный ожиданию, перевзвешивает режимы (A-P2u). Упр. ЧПМ 3-го квартала несёт рябь счёта дней: она выше
 значения движка ещё на 0,085 п.п. сверх моста (A-C8). Ожидание квартала стоит на балансе с оттоком средств клиентов
-июля–августа (A-G2): средние процентные активы квартала — <!--=next_report.expectation.iea r1-->5 531,7<!--/--> млрд ₽ против 5 632,4 млрд ₽ на якоре.
+июля–августа (A-G2): средние процентные активы квартала — <!--=next_report.expectation.iea r1-->5 535,3<!--/--> млрд ₽ против 5 632,4 млрд ₽ на якоре.
 
 **0.8. Центральная клетка и смесь заголовка.** Центральная клетка — модальная (мода по каждой оси слоя «Свой
 макро-взгляд»): мир H (вес 0,45), «нормализация» (0,40), «средняя группа СЗКО» (0,45 при нормализации); вероятность
@@ -340,48 +340,48 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 | Год | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2036 |
 |---|---|---|---|---|---|---|---|
-| Операционная прибыль акционеров, млрд ₽ | <!--=central_cell.ni_sh[0] r1-->210,1<!--/--> | <!--=central_cell.ni_sh[1] r1-->209,0<!--/--> | <!--=central_cell.ni_sh[2] r1-->238,8<!--/--> | <!--=central_cell.ni_sh[3] r1-->283,7<!--/--> | <!--=central_cell.ni_sh[4] r1-->342,8<!--/--> | <!--=central_cell.ni_sh[5] r1-->377,9<!--/--> | <!--=central_cell.ni_sh[10] r1-->535,2<!--/--> |
-| ROE (к капиталу акционеров МСФО), % | <!--=central_cell.roe[0] p1-->27,8<!--/--> | <!--=central_cell.roe[1] p1-->22,9<!--/--> | <!--=central_cell.roe[2] p1-->22,0<!--/--> | <!--=central_cell.roe[3] p1-->21,9<!--/--> | <!--=central_cell.roe[4] p1-->22,2<!--/--> | <!--=central_cell.roe[5] p1-->20,7<!--/--> | <!--=central_cell.roe[10] p1-->18,9<!--/--> |
-| ЧПМ движка, % | <!--=central_cell.nim[0] p2-->11,25<!--/--> | <!--=central_cell.nim[1] p2-->11,51<!--/--> | <!--=central_cell.nim[2] p2-->11,89<!--/--> | <!--=central_cell.nim[3] p2-->12,20<!--/--> | <!--=central_cell.nim[4] p2-->12,33<!--/--> | <!--=central_cell.nim[5] p2-->12,27<!--/--> | <!--=central_cell.nim[10] p2-->12,20<!--/--> |
-| CoR движка, % | <!--=central_cell.cor[0] p2-->4,74<!--/--> | <!--=central_cell.cor[1] p2-->4,77<!--/--> | <!--=central_cell.cor[2] p2-->5,04<!--/--> | <!--=central_cell.cor[3] p2-->5,17<!--/--> | <!--=central_cell.cor[4] p2-->5,16<!--/--> | <!--=central_cell.cor[5] p2-->5,22<!--/--> | <!--=central_cell.cor[10] p2-->5,08<!--/--> |
-| Расходы к доходам, движок, % | <!--=central_cell.cir[0] p1-->48,5<!--/--> | <!--=central_cell.cir[1] p1-->50,2<!--/--> | <!--=central_cell.cir[2] p1-->49,1<!--/--> | <!--=central_cell.cir[3] p1-->47,7<!--/--> | <!--=central_cell.cir[4] p1-->46,4<!--/--> | <!--=central_cell.cir[5] p1-->46,4<!--/--> | <!--=central_cell.cir[10] p1-->47,1<!--/--> |
-| Н20.0 на конец года, % | <!--=central_cell.n20[0] p2-->13,17<!--/--> | <!--=central_cell.n20[1] p2-->13,76<!--/--> | <!--=central_cell.n20[2] p2-->14,26<!--/--> | <!--=central_cell.n20[3] p2-->14,69<!--/--> | <!--=central_cell.n20[4] p2-->15,27<!--/--> | <!--=central_cell.n20[5] p2-->16,14<!--/--> | <!--=central_cell.n20[10] p2-->16,97<!--/--> |
-| Н20.1 (отчётный) на конец года, % | <!--=central_cell.n11[0] p2-->10,58<!--/--> | <!--=central_cell.n11[1] p2-->11,21<!--/--> | <!--=central_cell.n11[2] p2-->11,69<!--/--> | <!--=central_cell.n11[3] p2-->12,09<!--/--> | <!--=central_cell.n11[4] p2-->12,66<!--/--> | <!--=central_cell.n11[5] p2-->13,56<!--/--> | <!--=central_cell.n11[10] p2-->14,46<!--/--> |
-| Дивиденд на акцию за год прибыли, ₽ | <!--=central_cell.dps[0] r2-->19,50<!--/--> | <!--=central_cell.dps[1] r2-->20,04<!--/--> | <!--=central_cell.dps[2] r2-->21,84<!--/--> | <!--=central_cell.dps[3] r2-->25,61<!--/--> | <!--=central_cell.dps[4] r2-->31,22<!--/--> | <!--=central_cell.dps[5] r2-->35,37<!--/--> | — |
+| Операционная прибыль акционеров, млрд ₽ | <!--=central_cell.ni_sh[0] r1-->210,4<!--/--> | <!--=central_cell.ni_sh[1] r1-->213,2<!--/--> | <!--=central_cell.ni_sh[2] r1-->240,4<!--/--> | <!--=central_cell.ni_sh[3] r1-->283,7<!--/--> | <!--=central_cell.ni_sh[4] r1-->341,5<!--/--> | <!--=central_cell.ni_sh[5] r1-->392,0<!--/--> | <!--=central_cell.ni_sh[10] r1-->543,1<!--/--> |
+| ROE (к капиталу акционеров МСФО), % | <!--=central_cell.roe[0] p1-->27,8<!--/--> | <!--=central_cell.roe[1] p1-->23,3<!--/--> | <!--=central_cell.roe[2] p1-->22,0<!--/--> | <!--=central_cell.roe[3] p1-->21,8<!--/--> | <!--=central_cell.roe[4] p1-->22,1<!--/--> | <!--=central_cell.roe[5] p1-->21,4<!--/--> | <!--=central_cell.roe[10] p1-->18,8<!--/--> |
+| ЧПМ движка, % | <!--=central_cell.nim[0] p2-->11,25<!--/--> | <!--=central_cell.nim[1] p2-->11,51<!--/--> | <!--=central_cell.nim[2] p2-->11,88<!--/--> | <!--=central_cell.nim[3] p2-->12,17<!--/--> | <!--=central_cell.nim[4] p2-->12,30<!--/--> | <!--=central_cell.nim[5] p2-->12,29<!--/--> | <!--=central_cell.nim[10] p2-->12,23<!--/--> |
+| CoR движка, % | <!--=central_cell.cor[0] p2-->4,74<!--/--> | <!--=central_cell.cor[1] p2-->4,69<!--/--> | <!--=central_cell.cor[2] p2-->5,03<!--/--> | <!--=central_cell.cor[3] p2-->5,22<!--/--> | <!--=central_cell.cor[4] p2-->5,28<!--/--> | <!--=central_cell.cor[5] p2-->5,18<!--/--> | <!--=central_cell.cor[10] p2-->5,08<!--/--> |
+| Расходы к доходам, движок, % | <!--=central_cell.cir[0] p1-->48,5<!--/--> | <!--=central_cell.cir[1] p1-->50,1<!--/--> | <!--=central_cell.cir[2] p1-->48,9<!--/--> | <!--=central_cell.cir[3] p1-->47,5<!--/--> | <!--=central_cell.cir[4] p1-->46,2<!--/--> | <!--=central_cell.cir[5] p1-->45,9<!--/--> | <!--=central_cell.cir[10] p1-->47,3<!--/--> |
+| Н20.0 на конец года, % | <!--=central_cell.n20[0] p2-->13,16<!--/--> | <!--=central_cell.n20[1] p2-->13,76<!--/--> | <!--=central_cell.n20[2] p2-->14,26<!--/--> | <!--=central_cell.n20[3] p2-->14,62<!--/--> | <!--=central_cell.n20[4] p2-->15,07<!--/--> | <!--=central_cell.n20[5] p2-->15,98<!--/--> | <!--=central_cell.n20[10] p2-->16,96<!--/--> |
+| Н20.1 (отчётный) на конец года, % | <!--=central_cell.n11[0] p2-->10,56<!--/--> | <!--=central_cell.n11[1] p2-->11,20<!--/--> | <!--=central_cell.n11[2] p2-->11,69<!--/--> | <!--=central_cell.n11[3] p2-->12,02<!--/--> | <!--=central_cell.n11[4] p2-->12,48<!--/--> | <!--=central_cell.n11[5] p2-->13,37<!--/--> | <!--=central_cell.n11[10] p2-->14,45<!--/--> |
+| Дивиденд на акцию за год прибыли, ₽ | <!--=central_cell.dps[0] r2-->19,51<!--/--> | <!--=central_cell.dps[1] r2-->20,34<!--/--> | <!--=central_cell.dps[2] r2-->22,06<!--/--> | <!--=central_cell.dps[3] r2-->25,70<!--/--> | <!--=central_cell.dps[4] r2-->31,12<!--/--> | <!--=central_cell.dps[5] r2-->36,02<!--/--> | — |
 
-Терминал клетки: ROE после угасания <!--=central_cell.roe_t p2-->19,91<!--/--> %, стоимость капитала <!--=central_cell.k_t p2-->18,49<!--/--> %, рост <!--=central_cell.g_t p2-->7,08<!--/--> %, избыток капитала на конец
-2036 года <!--=central_cell.x_t r1-->362,9<!--/--> млрд ₽, доля терминала в стоимости — <!--=central_cell.terminal_share p1-->50,3<!--/--> %. Путь «рост, на который хватает капитала»
+Терминал клетки: ROE после угасания <!--=central_cell.roe_t p2-->19,80<!--/--> %, стоимость капитала <!--=central_cell.k_t p2-->18,39<!--/--> %, рост <!--=central_cell.g_t p2-->7,08<!--/--> %, избыток капитала на конец
+2036 года <!--=central_cell.x_t r1-->368,4<!--/--> млрд ₽, доля терминала в стоимости — <!--=central_cell.terminal_share p1-->50,2<!--/--> %. Путь «рост, на который хватает капитала»
 (потенциальный и фактический рост кредитных книг, доля прироста по кварталам, требование с глиссадой) печатает выпуск —
 экран «Капитал и дивиденды»; в таблицы книги он не входит.
 
 **Заголовок стоит на смеси клеток, а не на модальной клетке.** Модальная клетка весит <!--=point_path.modal_cell.p_analytical p1-->8,1<!--/--> % в слое «Свой макро-взгляд»
-и <!--=point_path.modal_cell.p_point p2-->4,05<!--/--> % в смеси заголовка; её цена — <!--=point_path.modal_cell.price r2-->397,70<!--/--> ₽ на акцию при точке <!--=headline.point r2-->329,25<!--/--> ₽. Смесь заголовка — все 36 клеток под
+и <!--=point_path.modal_cell.p_point p2-->4,05<!--/--> % в смеси заголовка; её цена — <!--=point_path.modal_cell.price r2-->397,95<!--/--> ₽ на акцию при точке <!--=headline.point r2-->325,74<!--/--> ₽. Смесь заголовка — все 36 клеток под
 вероятностями точки (λ = 0,5; `results.json → point_path`, тот же счёт, что у годового пути выпуска). Маржа, стоимость
 риска и расходы к доходам смеси — упр. базис, отношения ожидаемых агрегатов.
 
 | Год | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2036 |
 |---|---|---|---|---|---|---|---|
-| Операционная прибыль акционеров: смесь заголовка, млрд ₽ | <!--=point_path.ni_sh[0] r1-->206,8<!--/--> | <!--=point_path.ni_sh[1] r1-->155,5<!--/--> | <!--=point_path.ni_sh[2] r1-->201,2<!--/--> | <!--=point_path.ni_sh[3] r1-->252,1<!--/--> | <!--=point_path.ni_sh[4] r1-->306,6<!--/--> | <!--=point_path.ni_sh[5] r1-->348,4<!--/--> | <!--=point_path.ni_sh[10] r1-->562,1<!--/--> |
-| то же — модальная клетка, млрд ₽ | <!--=point_path.modal_cell.ni_sh[0] r1-->210,1<!--/--> | <!--=point_path.modal_cell.ni_sh[1] r1-->209,0<!--/--> | <!--=point_path.modal_cell.ni_sh[2] r1-->238,8<!--/--> | <!--=point_path.modal_cell.ni_sh[3] r1-->283,7<!--/--> | <!--=point_path.modal_cell.ni_sh[4] r1-->342,8<!--/--> | <!--=point_path.modal_cell.ni_sh[5] r1-->377,9<!--/--> | <!--=point_path.modal_cell.ni_sh[10] r1-->535,2<!--/--> |
-| ROE смеси (к капиталу акционеров МСФО), % | <!--=point_path.roe[0] p1-->27,3<!--/--> | <!--=point_path.roe[1] p1-->17,6<!--/--> | <!--=point_path.roe[2] p1-->19,6<!--/--> | <!--=point_path.roe[3] p1-->20,9<!--/--> | <!--=point_path.roe[4] p1-->21,5<!--/--> | <!--=point_path.roe[5] p1-->20,7<!--/--> | <!--=point_path.roe[10] p1-->19,1<!--/--> |
-| ЧПМ смеси, упр., % | <!--=point_path.nim_mgmt[0] p2-->11,36<!--/--> | <!--=point_path.nim_mgmt[1] p2-->11,34<!--/--> | <!--=point_path.nim_mgmt[2] p2-->11,33<!--/--> | <!--=point_path.nim_mgmt[3] p2-->11,57<!--/--> | <!--=point_path.nim_mgmt[4] p2-->11,90<!--/--> | <!--=point_path.nim_mgmt[5] p2-->12,01<!--/--> | <!--=point_path.nim_mgmt[10] p2-->12,08<!--/--> |
-| Стоимость риска смеси, упр., % | <!--=point_path.cor_mgmt[0] p2-->5,05<!--/--> | <!--=point_path.cor_mgmt[1] p2-->6,17<!--/--> | <!--=point_path.cor_mgmt[2] p2-->5,61<!--/--> | <!--=point_path.cor_mgmt[3] p2-->5,42<!--/--> | <!--=point_path.cor_mgmt[4] p2-->5,50<!--/--> | <!--=point_path.cor_mgmt[5] p2-->5,53<!--/--> | <!--=point_path.cor_mgmt[10] p2-->5,51<!--/--> |
-| Расходы к доходам смеси, упр., % | <!--=point_path.cir_mgmt[0] p1-->46,9<!--/--> | <!--=point_path.cir_mgmt[1] p1-->49,2<!--/--> | <!--=point_path.cir_mgmt[2] p1-->48,8<!--/--> | <!--=point_path.cir_mgmt[3] p1-->47,7<!--/--> | <!--=point_path.cir_mgmt[4] p1-->46,4<!--/--> | <!--=point_path.cir_mgmt[5] p1-->46,3<!--/--> | <!--=point_path.cir_mgmt[10] p1-->46,8<!--/--> |
-| Дивиденд на акцию за год прибыли: смесь, ₽ | <!--=point_path.dps[0] r2-->18,65<!--/--> | <!--=point_path.dps[1] r2-->15,68<!--/--> | <!--=point_path.dps[2] r2-->17,97<!--/--> | <!--=point_path.dps[3] r2-->22,26<!--/--> | <!--=point_path.dps[4] r2-->27,82<!--/--> | <!--=point_path.dps[5] r2-->32,17<!--/--> | — |
+| Операционная прибыль акционеров: смесь заголовка, млрд ₽ | <!--=point_path.ni_sh[0] r1-->206,8<!--/--> | <!--=point_path.ni_sh[1] r1-->156,7<!--/--> | <!--=point_path.ni_sh[2] r1-->198,9<!--/--> | <!--=point_path.ni_sh[3] r1-->250,9<!--/--> | <!--=point_path.ni_sh[4] r1-->304,7<!--/--> | <!--=point_path.ni_sh[5] r1-->346,5<!--/--> | <!--=point_path.ni_sh[10] r1-->563,2<!--/--> |
+| то же — модальная клетка, млрд ₽ | <!--=point_path.modal_cell.ni_sh[0] r1-->210,4<!--/--> | <!--=point_path.modal_cell.ni_sh[1] r1-->213,2<!--/--> | <!--=point_path.modal_cell.ni_sh[2] r1-->240,4<!--/--> | <!--=point_path.modal_cell.ni_sh[3] r1-->283,7<!--/--> | <!--=point_path.modal_cell.ni_sh[4] r1-->341,5<!--/--> | <!--=point_path.modal_cell.ni_sh[5] r1-->392,0<!--/--> | <!--=point_path.modal_cell.ni_sh[10] r1-->543,1<!--/--> |
+| ROE смеси (к капиталу акционеров МСФО), % | <!--=point_path.roe[0] p1-->27,3<!--/--> | <!--=point_path.roe[1] p1-->17,7<!--/--> | <!--=point_path.roe[2] p1-->19,4<!--/--> | <!--=point_path.roe[3] p1-->20,9<!--/--> | <!--=point_path.roe[4] p1-->21,4<!--/--> | <!--=point_path.roe[5] p1-->20,7<!--/--> | <!--=point_path.roe[10] p1-->19,0<!--/--> |
+| ЧПМ смеси, упр., % | <!--=point_path.nim_mgmt[0] p2-->11,36<!--/--> | <!--=point_path.nim_mgmt[1] p2-->11,32<!--/--> | <!--=point_path.nim_mgmt[2] p2-->11,29<!--/--> | <!--=point_path.nim_mgmt[3] p2-->11,55<!--/--> | <!--=point_path.nim_mgmt[4] p2-->11,87<!--/--> | <!--=point_path.nim_mgmt[5] p2-->11,92<!--/--> | <!--=point_path.nim_mgmt[10] p2-->12,09<!--/--> |
+| Стоимость риска смеси, упр., % | <!--=point_path.cor_mgmt[0] p2-->5,05<!--/--> | <!--=point_path.cor_mgmt[1] p2-->6,15<!--/--> | <!--=point_path.cor_mgmt[2] p2-->5,62<!--/--> | <!--=point_path.cor_mgmt[3] p2-->5,45<!--/--> | <!--=point_path.cor_mgmt[4] p2-->5,55<!--/--> | <!--=point_path.cor_mgmt[5] p2-->5,52<!--/--> | <!--=point_path.cor_mgmt[10] p2-->5,51<!--/--> |
+| Расходы к доходам смеси, упр., % | <!--=point_path.cir_mgmt[0] p1-->46,9<!--/--> | <!--=point_path.cir_mgmt[1] p1-->49,2<!--/--> | <!--=point_path.cir_mgmt[2] p1-->48,9<!--/--> | <!--=point_path.cir_mgmt[3] p1-->47,6<!--/--> | <!--=point_path.cir_mgmt[4] p1-->46,3<!--/--> | <!--=point_path.cir_mgmt[5] p1-->46,4<!--/--> | <!--=point_path.cir_mgmt[10] p1-->47,1<!--/--> |
+| Дивиденд на акцию за год прибыли: смесь, ₽ | <!--=point_path.dps[0] r2-->18,65<!--/--> | <!--=point_path.dps[1] r2-->15,80<!--/--> | <!--=point_path.dps[2] r2-->17,88<!--/--> | <!--=point_path.dps[3] r2-->22,08<!--/--> | <!--=point_path.dps[4] r2-->27,72<!--/--> | <!--=point_path.dps[5] r2-->31,91<!--/--> | — |
 
 **Год шока в пути смеси.** Прибыль смеси в 2027 году ниже, чем в 2026-м: 2027-й — год шока стрессовых режимов. На
 «розничный спад» и «кризис» приходится 45 % вероятности; стоимость риска 2027 года в них — 6,9 и 10,0 % против 5,0 % в
 «нормализации» (A-C1b), в «кризисе» к ней прибавляется разовый убыток 40 млрд ₽ (A-C6b), и год шока там убыточен.
-Стоимость риска смеси в 2027 году — <!--=point_path.cor_mgmt[1] p2-->6,17<!--/--> %. Это ожидание по режимам, а не прогноз одного сценария; гайденс эмитента
+Стоимость риска смеси в 2027 году — <!--=point_path.cor_mgmt[1] p2-->6,15<!--/--> %. Это ожидание по режимам, а не прогноз одного сценария; гайденс эмитента
 назван на 2026 год. Уровни 2030–2036 годов, на которые выходит смесь, — таблица раздела 0.3.
 
 **Плоская прибыль модальной клетки и расходы 2027–2029 годов.** В модальной клетке шока нет, а прибыль 2027 года стоит
-на месте: <!--=central_cell.ni_sh[1] r1-->209,0<!--/--> млрд ₽ против <!--=central_cell.ni_sh[0] r1-->210,1<!--/--> млрд ₽ в 2026-м; ROE снижается с <!--=central_cell.roe[0] p1-->27,8<!--/--> до <!--=central_cell.roe[1] p1-->22,9<!--/--> %. Причина — ближний путь маржи. Книга
+на месте: <!--=central_cell.ni_sh[1] r1-->213,2<!--/--> млрд ₽ против <!--=central_cell.ni_sh[0] r1-->210,4<!--/--> млрд ₽ в 2026-м; ROE снижается с <!--=central_cell.roe[0] p1-->27,8<!--/--> до <!--=central_cell.roe[1] p1-->23,3<!--/--> %. Причина — ближний путь маржи. Книга
 ведёт маржу от пути 2026 года к уровню клетки прямой до 2030 года (A-C4b), ниже механики книг, и чистый процентный доход
 растёт медленнее портфеля; расходы и резервы идут за портфелем — расходы по формуле связи с кредитом (A-F2), резервы по
 пути стоимости риска режима. По той же причине расходы к доходам 2027–2029 годов выше окна фактов: корни расходов
 подобраны под 47 % в слое «Рыночные ставки как есть» с 2030 года (A-O1), а до него доход держит ближний путь маржи.
-Смесь заголовка печатает <!--=point_path.cir_mgmt[1] p1-->49,2<!--/--> и <!--=point_path.cir_mgmt[2] p1-->48,8<!--/--> % в 2027 и 2028 годах, слой «Рыночные ставки как есть» — 49,3 / 49,4 / 48,4 % в
+Смесь заголовка печатает <!--=point_path.cir_mgmt[1] p1-->49,2<!--/--> и <!--=point_path.cir_mgmt[2] p1-->48,9<!--/--> % в 2027 и 2028 годах, слой «Рыночные ставки как есть» — 49,3 / 49,4 / 48,4 % в
 2027–2029 годах (запись вывода `evidence/path/out/`) при наибольшем квартале окна <!--=levels.window.cir.max p1-->48,3<!--/--> %. Гейт `window_backtest` сверяет
 с окном только годы после фазы роста, 2030–2036.
 
@@ -390,14 +390,14 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 | Замыкание | Точка, ₽ | Медиана, ₽ | Масса капитального разрыва |
 |---|---|---|---|
-| Без ограничения роста капиталом: рост задан спросом и премией, глиссады требования нет | <!--=rule_price.rows[key=unconstrained].point r2-->301,30<!--/--> | <!--=rule_price.rows[key=unconstrained].median r2-->286,93<!--/--> | <!--=rule_price.rows[key=unconstrained].capital_gap_mass r3-->0,474<!--/--> |
-| Дивиденд по политике, рост — остаток (книга) | <!--=rule_price.rows[key=dividend_first].point r2-->329,25<!--/--> | <!--=rule_price.rows[key=dividend_first].median r2-->313,45<!--/--> | <!--=rule_price.rows[key=dividend_first].capital_gap_mass r3-->0,000<!--/--> |
-| Сначала уступает дивиденд, затем рост | <!--=rule_price.rows[key=growth_first].point r2-->313,02<!--/--> | <!--=rule_price.rows[key=growth_first].median r2-->299,48<!--/--> | <!--=rule_price.rows[key=growth_first].capital_gap_mass r3-->0,000<!--/--> |
+| Без ограничения роста капиталом: рост задан спросом и премией, глиссады требования нет | <!--=rule_price.rows[key=unconstrained].point r2-->295,37<!--/--> | <!--=rule_price.rows[key=unconstrained].median r2-->281,55<!--/--> | <!--=rule_price.rows[key=unconstrained].capital_gap_mass r3-->0,478<!--/--> |
+| Дивиденд по политике, рост — остаток (книга) | <!--=rule_price.rows[key=dividend_first].point r2-->325,74<!--/--> | <!--=rule_price.rows[key=dividend_first].median r2-->309,92<!--/--> | <!--=rule_price.rows[key=dividend_first].capital_gap_mass r3-->0,000<!--/--> |
+| Сначала уступает дивиденд, затем рост | <!--=rule_price.rows[key=growth_first].point r2-->308,10<!--/--> | <!--=rule_price.rows[key=growth_first].median r2-->296,22<!--/--> | <!--=rule_price.rows[key=growth_first].capital_gap_mass r3-->0,000<!--/--> |
 
 **Что мерит каждая строка.** Первая — «без ограничения роста капиталом»: кредит растёт так, как задают спрос и премия
 роста, сколько бы капитала это ни требовало; глиссады требования нет, норматив части клеток уходит ниже пола (масса
 капитального разрыва — последний столбец), и терминал взыскивает дефицит. Разность первой строки и строки книги — цена
-самой механики «рост — тот, на который хватает капитала». У этой книги первая строка ниже: <!--=rule_price.rows[key=unconstrained].point r2-->301,30<!--/--> ₽ против <!--=rule_price.rows[key=dividend_first].point r2-->329,25<!--/--> ₽.
+самой механики «рост — тот, на который хватает капитала». У этой книги первая строка ниже: <!--=rule_price.rows[key=unconstrained].point r2-->295,37<!--/--> ₽ против <!--=rule_price.rows[key=dividend_first].point r2-->325,74<!--/--> ₽.
 Рост, который капитал урезает, в точке стоил бы акционеру дороже, чем приносит, — ограничение роста капиталом оценку
 повышает; почему — «Чего стоит рост сверх капитала» в конце раздела. Вторая строка — книга. Третья — «сначала уступает
 дивиденд»: при нехватке капитала менеджмент сначала отказывается от выплаты и лишь затем урезает рост; разность третьей
@@ -410,18 +410,18 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 | Правило или развилка книги | Справочный вариант | Точка, ₽ | К точке книги, ₽ |
 |---|---|---|---|
-| Уровень окна стоит в мире M на составе баланса якоря (A-N2, A-O1) | уровень окна отнесён к модальной клетке мира H: мир уровня — H; ключ цели маржи, доли на кредитных книгах, ближний сдвиг, спред услуг и корни расходов такой калибровки; премия средств клиентов, цена фондирования и передача — книги. Модальная клетка варианта печатает уровни рядом с уровнями окна, но не ровно их: числа — подпись варианта в шаблоне книги и в выпуске | <!--=reference_variants[id=window_level_in_modal_cell].point r2-->225,75<!--/--> | <!--=reference_variants[id=window_level_in_modal_cell].d_point s2-->−103,50<!--/--> |
-| Расхождение маржи 3-го квартала 2026 года с механикой книг сходит к 2030 году (A-C4b) | расхождение не сходит: ключи ближнего сдвига с 2027 года и долгосрочный — на уровне ключа 3-го квартала 2026 года, −0,64 п.п. | <!--=reference_variants[id=near_shift_stays].point r2-->263,36<!--/--> | <!--=reference_variants[id=near_shift_stays].d_point s2-->−65,89<!--/--> |
-| Средства клиентов с 2027 года растут вместе с сектором (A-G2) | премия на уровне нужды баланса: +6,0 п.п. в 2027–2028 годах со сходом к 2032 году | <!--=reference_variants[id=funds_premium_need].point r2-->390,60<!--/--> | <!--=reference_variants[id=funds_premium_need].d_point s2-->+61,35<!--/--> |
-| то же | премия на уровне фактов последних окон: −3,4 п.п. в 2027–2028 годах со сходом к 2032 году | <!--=reference_variants[id=funds_premium_facts].point r2-->293,15<!--/--> | <!--=reference_variants[id=funds_premium_facts].d_point s2-->−36,10<!--/--> |
-| Передача ставки в маржу — середина свидетельств, +0,06 (A-N3) | передача на уровне структурной оценки баланса якоря: +0,12, верхний конец оси | <!--=reference_variants[id=transmission_structural].point r2-->303,69<!--/--> | <!--=reference_variants[id=transmission_structural].d_point s2-->−25,56<!--/--> |
-| Маржа 3-го и 4-го кварталов 2026 года идёт путём книги, ниже механики книг (A-C4b) | ближнего сдвига нет: маржа идёт механикой книг, все ключи траектории равны нулю | <!--=reference_variants[id=no_near_shift].point r2-->352,70<!--/--> | <!--=reference_variants[id=no_near_shift].d_point s2-->+23,45<!--/--> |
-| Урезанный капиталом рост не навёрстывается (A-K13) | навёрстывается четверть разрыва с потенциальным путём в год | <!--=reference_variants[id=catch_up_quarter].point r2-->318,55<!--/--> | <!--=reference_variants[id=catch_up_quarter].d_point s2-->−10,70<!--/--> |
-| Недостающее фондирование стоит на 0,79 п.п. дороже ликвидных активов — как срочные вклады в окне: ключевая −0,28 п.п. (A-N1, A-G4) | недостающее фондирование по облигационной ставке: ключевая +1,5 п.п., верхний конец оси | <!--=reference_variants[id=wholesale_bond_rate].point r2-->321,38<!--/--> | <!--=reference_variants[id=wholesale_bond_rate].d_point s2-->−7,87<!--/--> |
-| Угасание действует только на доходность выше стоимости капитала (A-V4) | угасание с обеих сторон: доходность ниже стоимости капитала тоже сходит к ней | <!--=reference_variants[id=fade_symmetric].point r2-->335,07<!--/--> | <!--=reference_variants[id=fade_symmetric].d_point s2-->+5,82<!--/--> |
-| Внешняя доля прироста инструментов капитала стоит спред к оптовому фондированию (A-K8b) | инструменты капитала без надбавки к оптовому фондированию | <!--=reference_variants[id=no_instrument_cost].point r2-->335,04<!--/--> | <!--=reference_variants[id=no_instrument_cost].d_point s2-->+5,79<!--/--> |
-| Делитель — все размещённые акции (A-V6) | акции в обращении и заработанная доля грантов: 2 638,6 млн | <!--=reference_variants[id=divisor_earned_grants].point r2-->334,76<!--/--> | <!--=reference_variants[id=divisor_earned_grants].d_point s2-->+5,51<!--/--> |
-| После фазы роста стоимость риска в мирах N и H ниже уровня окна на κ × разность реальных ставок (A-C2b) | стоимость риска не зависит от реальной ставки: уровень окна во всех мирах | <!--=reference_variants[id=kappa_zero].point r2-->324,23<!--/--> | <!--=reference_variants[id=kappa_zero].d_point s2-->−5,02<!--/--> |
+| Уровень окна стоит в мире M на составе баланса якоря (A-N2, A-O1) | уровень окна отнесён к модальной клетке мира H: мир уровня — H; ключ цели маржи, доли на кредитных книгах, ближний сдвиг, спред услуг и корни расходов такой калибровки; премия средств клиентов, цена фондирования и передача — книги. Модальная клетка варианта печатает уровни рядом с уровнями окна, но не ровно их: числа — подпись варианта в шаблоне книги и в выпуске | <!--=reference_variants[id=window_level_in_modal_cell].point r2-->223,50<!--/--> | <!--=reference_variants[id=window_level_in_modal_cell].d_point s2-->−102,24<!--/--> |
+| Расхождение маржи 3-го квартала 2026 года с механикой книг сходит к 2030 году (A-C4b) | расхождение не сходит: ключи ближнего сдвига с 2027 года и долгосрочный — на уровне ключа 3-го квартала 2026 года, −0,64 п.п. | <!--=reference_variants[id=near_shift_stays].point r2-->260,75<!--/--> | <!--=reference_variants[id=near_shift_stays].d_point s2-->−64,99<!--/--> |
+| Средства клиентов с 2027 года растут вместе с сектором (A-G2) | премия на уровне нужды баланса: +6,0 п.п. в 2027–2028 годах со сходом к 2032 году | <!--=reference_variants[id=funds_premium_need].point r2-->386,02<!--/--> | <!--=reference_variants[id=funds_premium_need].d_point s2-->+60,28<!--/--> |
+| то же | премия на уровне фактов последних окон: −3,4 п.п. в 2027–2028 годах со сходом к 2032 году | <!--=reference_variants[id=funds_premium_facts].point r2-->288,57<!--/--> | <!--=reference_variants[id=funds_premium_facts].d_point s2-->−37,17<!--/--> |
+| Передача ставки в маржу — середина свидетельств, +0,06 (A-N3) | передача на уровне структурной оценки баланса якоря: +0,12, верхний конец оси | <!--=reference_variants[id=transmission_structural].point r2-->298,59<!--/--> | <!--=reference_variants[id=transmission_structural].d_point s2-->−27,15<!--/--> |
+| Маржа 3-го и 4-го кварталов 2026 года идёт путём книги, ниже механики книг (A-C4b) | ближнего сдвига нет: маржа идёт механикой книг, все ключи траектории равны нулю | <!--=reference_variants[id=no_near_shift].point r2-->347,72<!--/--> | <!--=reference_variants[id=no_near_shift].d_point s2-->+21,98<!--/--> |
+| Урезанный капиталом рост не навёрстывается (A-K13) | навёрстывается четверть разрыва с потенциальным путём в год | <!--=reference_variants[id=catch_up_quarter].point r2-->314,71<!--/--> | <!--=reference_variants[id=catch_up_quarter].d_point s2-->−11,03<!--/--> |
+| Недостающее фондирование стоит на 0,79 п.п. дороже ликвидных активов — как срочные вклады в окне: ключевая −0,28 п.п. (A-N1, A-G4) | недостающее фондирование по облигационной ставке: ключевая +1,5 п.п., верхний конец оси | <!--=reference_variants[id=wholesale_bond_rate].point r2-->317,98<!--/--> | <!--=reference_variants[id=wholesale_bond_rate].d_point s2-->−7,76<!--/--> |
+| Угасание действует только на доходность выше стоимости капитала (A-V4) | угасание с обеих сторон: доходность ниже стоимости капитала тоже сходит к ней | <!--=reference_variants[id=fade_symmetric].point r2-->332,14<!--/--> | <!--=reference_variants[id=fade_symmetric].d_point s2-->+6,40<!--/--> |
+| Внешняя доля прироста инструментов капитала стоит спред к оптовому фондированию (A-K8b) | инструменты капитала без надбавки к оптовому фондированию | <!--=reference_variants[id=no_instrument_cost].point r2-->331,59<!--/--> | <!--=reference_variants[id=no_instrument_cost].d_point s2-->+5,85<!--/--> |
+| Делитель — все размещённые акции (A-V6) | акции в обращении и заработанная доля грантов: 2 638,6 млн | <!--=reference_variants[id=divisor_earned_grants].point r2-->331,19<!--/--> | <!--=reference_variants[id=divisor_earned_grants].d_point s2-->+5,45<!--/--> |
+| После фазы роста стоимость риска в мирах N и H ниже уровня окна на κ × разность реальных ставок (A-C2b) | стоимость риска не зависит от реальной ставки: уровень окна во всех мирах | <!--=reference_variants[id=kappa_zero].point r2-->320,59<!--/--> | <!--=reference_variants[id=kappa_zero].d_point s2-->−5,15<!--/--> |
 
 Варианты не складываются: каждый — подмена своих ключей при прочих значениях книги. **Первая строка — цена главной
 развилки книги:** в варианте уровни окна отнесены к модальной клетке мира H, а мир M стоит ниже окна; в книге уровни
@@ -434,22 +434,22 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 **Что это значит для заголовка.**
 
-**Заголовок выше рынка.** Медиана — <!--=headline.median r2-->313,45<!--/--> ₽ (печать <!--=headline.printed_median r0-->315<!--/--> ₽) при цене книги <!--=headline.market r2-->270,52<!--/--> ₽: потенциал <!--=headline.upside.T sp1-->+15,9<!--/--> %, центр ниже рынка
-в <!--=headline.p_below_by_ticker.T p0-->26<!--/--> % прогонов. Цена книги лежит внутри полосы 80 % (печать <!--=headline.printed_band80[0] r0-->235<!--/-->–<!--=headline.printed_band80[1] r0-->390<!--/--> ₽) и у самого нижнего края полосы 50 %: её нижняя
-граница — <!--=headline.p25 r2-->268,83<!--/--> ₽ (печать <!--=headline.printed_band50[0] r0-->270<!--/-->–<!--=headline.printed_band50[1] r0-->355<!--/--> ₽). Выше рынка стоят оба конца оси ставок: слой «Свой макро-взгляд» — <!--=headline.high r0-->382<!--/--> ₽, слой
-«Рыночные ставки как есть» — <!--=headline.low r0-->276<!--/--> ₽. Рынок платит <!--=headline.market r2-->270,52<!--/--> ₽ при капитале модели <!--=reverse_dcf.bank_rows[key=book_value_per_share].implied r2n-->298,70<!--/--> ₽ на акцию — меньше капитала;
-модель оценивает акцию выше капитала в слое «Свой макро-взгляд» (<!--=layers.analytical.pb r2-->1,28<!--/--> капитала) и ниже — в слое «Рыночные ставки как
-есть» (<!--=layers.macro_neutral.pb r2-->0,92<!--/-->).
+**Заголовок выше рынка.** Медиана — <!--=headline.median r2-->309,92<!--/--> ₽ (печать <!--=headline.printed_median r0-->310<!--/--> ₽) при цене книги <!--=headline.market r2-->270,52<!--/--> ₽: потенциал <!--=headline.upside.T sp1-->+14,6<!--/--> %, центр ниже рынка
+в <!--=headline.p_below_by_ticker.T p0-->28<!--/--> % прогонов. Цена книги лежит внутри полосы 80 % (печать <!--=headline.printed_band80[0] r0-->230<!--/-->–<!--=headline.printed_band80[1] r0-->385<!--/--> ₽) и у самого нижнего края полосы 50 %: её нижняя
+граница — <!--=headline.p25 r2-->264,30<!--/--> ₽ (печать <!--=headline.printed_band50[0] r0-->265<!--/-->–<!--=headline.printed_band50[1] r0-->350<!--/--> ₽). Выше рынка стоят оба конца оси ставок: слой «Свой макро-взгляд» — <!--=headline.high r0-->378<!--/--> ₽, слой
+«Рыночные ставки как есть» — <!--=headline.low r0-->273<!--/--> ₽. Рынок платит <!--=headline.market r2-->270,52<!--/--> ₽ при капитале модели <!--=reverse_dcf.bank_rows[key=book_value_per_share].implied r2n-->298,52<!--/--> ₽ на акцию — меньше капитала;
+модель оценивает акцию выше капитала в слое «Свой макро-взгляд» (<!--=layers.analytical.pb r2-->1,27<!--/--> капитала) и ниже — в слое «Рыночные ставки как
+есть» (<!--=layers.macro_neutral.pb r2-->0,91<!--/-->).
 
 **На чём стоит отношение заголовка к рынку.** Обратный расчёт (раздел 0.6) ищет для каждого суждения значение, при
 котором медиана равна цене рынка. В диапазонах книги таких строк две, и каждая объясняет цену в одиночку. **Маржа:**
-стационарная маржа мира M на составе баланса якоря <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].solved p2n-->10,75<!--/--> % вместо <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].book p2-->11,10<!--/--> % — средняя окна (<!--=levels.window.nim.mean p2-->10,75<!--/--> %) без поправки на
-выросшую долю кредитов. Слой «Рыночные ставки как есть» при ней печатает маржу <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.nim p2-->11,57<!--/--> % и расходы к доходам <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.cir p1-->48,5<!--/--> %, смесь
-заголовка — <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.nim p2-->11,60<!--/--> и <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.cir p1-->48,1<!--/--> %: маржу лучшего квартала окна (<!--=levels.window.nim.max p2-->11,59<!--/--> %) и расходы к доходам у его верхнего края (<!--=levels.window.cir.max p1-->48,3<!--/--> %).
-**Стоимость риска:** уровни всех режимов выше на <!--=reverse_dcf.rows[key=regimes.*.cor.LT].solved sp2n-->+0,54<!--/--> п.п. — внутри оси, но выше оценок сквозь цикл (A-C0b). Остальные
+стационарная маржа мира M на составе баланса якоря <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].solved p2n-->10,78<!--/--> % вместо <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].book p2-->11,10<!--/--> % — средняя окна (<!--=levels.window.nim.mean p2-->10,75<!--/--> %) без поправки на
+выросшую долю кредитов. Слой «Рыночные ставки как есть» при ней печатает маржу <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.nim p2-->11,58<!--/--> % и расходы к доходам <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.cir p1-->48,4<!--/--> %, смесь
+заголовка — <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.nim p2-->11,61<!--/--> и <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.cir p1-->47,9<!--/--> %: маржу лучшего квартала окна (<!--=levels.window.nim.max p2-->11,59<!--/--> %) и расходы к доходам у его верхнего края (<!--=levels.window.cir.max p1-->48,3<!--/--> %).
+**Стоимость риска:** уровни всех режимов выше на <!--=reverse_dcf.rows[key=regimes.*.cor.LT].solved sp2n-->+0,49<!--/--> п.п. — внутри оси, но выше оценок сквозь цикл (A-C0b). Остальные
 строки лежат за диапазонами книги (передача, уровень расходов, премия роста средств клиентов, запас над минимумом
 норматива, β, ERP, дисконт за управление) или недостижимы на своих отрезках поиска (выплата, регуляторный сценарий, рост
-терминала, угасание). Строка передачи — <!--=reverse_dcf.rows[key=nii.transmission.target].solved s3n-->+0,161<!--/-->: сразу за верхом оси свидетельств. Иначе: рынок оценивает акцию так, как
+терминала, угасание). Строка передачи — <!--=reverse_dcf.rows[key=nii.transmission.target].solved s3n-->+0,148<!--/-->: сразу за верхом оси свидетельств. Иначе: рынок оценивает акцию так, как
 если бы стационарная маржа на нынешнем балансе и при нынешних ставках была на средней окна, а не на средней, приведённой
 к выросшей доле кредитов; смесь заголовка при этом всё ещё печатает маржу лучшего квартала окна — падать ниже
 наблюдавшегося ей для этого не нужно. Либо так, как если бы стоимость риска была на полпункта выше окна. Книга ставит
@@ -457,62 +457,62 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 **На чём стоит уровень оценки: четыре суждения, ближний путь маржи и вес мира M.**
 - **Место и уровень маржи** (A-N2, A-N3): 11,1 % — стационарная маржа мира M на составе баланса якоря; ключ книги — само
-  это суждение. Точка на концах оси 10,3–11,6 % — <!--=judgements[id=nii.nim_lt_target_mgmt].price_low r0-->229<!--/--> и <!--=judgements[id=nii.nim_lt_target_mgmt].price_high r0-->393<!--/--> ₽ при точке книги <!--=headline.point r0-->329<!--/--> ₽; вместе с осью стоимости риска это
+  это суждение. Точка на концах оси 10,3–11,6 % — <!--=judgements[id=nii.nim_lt_target_mgmt].price_low r0-->225<!--/--> и <!--=judgements[id=nii.nim_lt_target_mgmt].price_high r0-->390<!--/--> ₽ при точке книги <!--=headline.point r0-->326<!--/--> ₽; вместе с осью стоимости риска это
   самая широкая ось полосы: её доля в дисперсии медианы — <!--=headline.contributions[axis=nii.nim_lt_target_mgmt].share p0-->27<!--/--> %. Если уровень окна отнести не к миру M на составе якоря,
-  а к модальной клетке мира H, точка — <!--=reference_variants[id=window_level_in_modal_cell].point r0-->226<!--/--> ₽ (раздел 0.10). В миры N и H уровень переносит передача: +0,06 — середина
-  свидетельств 0…+0,12. Точка на концах её оси — <!--=judgements[id=nii.transmission.target].price_low r0-->355<!--/--> и <!--=judgements[id=nii.transmission.target].price_high r0-->304<!--/--> ₽: меньшая передача — выше оценка миров с низкими ставками.
+  а к модальной клетке мира H, точка — <!--=reference_variants[id=window_level_in_modal_cell].point r0-->223<!--/--> ₽ (раздел 0.10). В миры N и H уровень переносит передача: +0,06 — середина
+  свидетельств 0…+0,12. Точка на концах её оси — <!--=judgements[id=nii.transmission.target].price_low r0-->353<!--/--> и <!--=judgements[id=nii.transmission.target].price_high r0-->299<!--/--> ₽: меньшая передача — выше оценка миров с низкими ставками.
 - **Стоимость риска после фазы роста** (A-C0b, A-C2b): уровни режимов 4,8 / 5,5 / 5,9 / 6,1 % стоят в мире M; после фазы
-  роста в мирах N и H они ниже на κ × разность реальных ставок. Точка на концах оси −0,9…+1,2 п.п. — <!--=judgements[id=regimes.*.cor.LT].price_low r0-->399<!--/--> и <!--=judgements[id=regimes.*.cor.LT].price_high r0-->231<!--/--> ₽; доля
+  роста в мирах N и H они ниже на κ × разность реальных ставок. Точка на концах оси −0,9…+1,2 п.п. — <!--=judgements[id=regimes.*.cor.LT].price_low r0-->396<!--/--> и <!--=judgements[id=regimes.*.cor.LT].price_high r0-->226<!--/--> ₽; доля
   оси в дисперсии медианы — <!--=headline.contributions[axis=regimes.*.cor.LT].share p0-->29<!--/--> %.
 - **Расходы** (A-O1, A-F2): расходы к доходам 47 % — в слое «Рыночные ставки как есть»; модальная клетка
-  печатает <!--=levels.rows.modal_cell.cir p1-->45,1<!--/--> %. Точка на концах оси уровня (44–50 % в слое) — <!--=judgements[id=opex.real_growth.*].price_low r0-->384<!--/--> и <!--=judgements[id=opex.real_growth.*].price_high r0-->276<!--/--> ₽. За кредитным портфелем идёт около половины
-  расходов; точка на концах оси гибкости — <!--=judgements[id=opex.volume_link+].price_low r0-->335<!--/--> и <!--=judgements[id=opex.volume_link+].price_high r0-->324<!--/--> ₽.
+  печатает <!--=levels.rows.modal_cell.cir p1-->44,9<!--/--> %. Точка на концах оси уровня (44–50 % в слое) — <!--=judgements[id=opex.real_growth.*].price_low r0-->381<!--/--> и <!--=judgements[id=opex.real_growth.*].price_high r0-->272<!--/--> ₽. За кредитным портфелем идёт около половины
+  расходов; точка на концах оси гибкости — <!--=judgements[id=opex.volume_link+].price_low r0-->330<!--/--> и <!--=judgements[id=opex.volume_link+].price_high r0-->321<!--/--> ₽.
 - **Средства клиентов и цена недостающего фондирования** (A-G2, A-G4): отток июля–августа 2026 года стоит в 3-м квартале
   по факту, с 2027 года средства растут вместе с сектором. Кредиты при этом обгоняют средства клиентов, и недостающее
   фондирование клетка берёт на 0,79 п.п. дороже доходности ликвидных активов — столько в окне переплачивали за срочные
-  вклады, — то есть на 0,28 п.п. ниже ключевой ставки. Точка на концах оси премии ±5 п.п. — <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->276<!--/--> и <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->381<!--/--> ₽; при премии на
-  уровне нужды баланса — <!--=reference_variants[id=funds_premium_need].point r0-->391<!--/--> ₽, на уровне фактов последних окон — <!--=reference_variants[id=funds_premium_facts].point r0-->293<!--/--> ₽; при недостающем фондировании по облигационной
-  ставке — <!--=reference_variants[id=wholesale_bond_rate].point r0-->321<!--/--> ₽ (раздел 0.10).
+  вклады, — то есть на 0,28 п.п. ниже ключевой ставки. Точка на концах оси премии ±5 п.п. — <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->271<!--/--> и <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->379<!--/--> ₽; при премии на
+  уровне нужды баланса — <!--=reference_variants[id=funds_premium_need].point r0-->386<!--/--> ₽, на уровне фактов последних окон — <!--=reference_variants[id=funds_premium_facts].point r0-->289<!--/--> ₽; при недостающем фондировании по облигационной
+  ставке — <!--=reference_variants[id=wholesale_bond_rate].point r0-->318<!--/--> ₽ (раздел 0.10).
 - **Ближний путь маржи** (A-C4b) — правило точки, а не ось: 11,53 и 11,48 % в 3-м и 4-м кварталах 2026 года, затем
-  прямая к уровню клетки 2030 года. Оно стоит между двумя названными краями: «маржа идёт механикой книг» — <!--=reference_variants[id=no_near_shift].point r0-->353<!--/--> ₽ и
-  «расхождение 3-го квартала не сходит» — <!--=reference_variants[id=near_shift_stays].point r0-->263<!--/--> ₽, ниже цены книги. Ось «скорость схода» накрывает меньше: <!--=judgements[id=regimes.near_nim_shift.*].price_low r0-->322<!--/--> и <!--=judgements[id=regimes.near_nim_shift.*].price_high r0-->342<!--/--> ₽.
-- **Вес мира M.** Слой «Рыночные ставки как есть» (весь вес на мире M) стоит <!--=headline.low r0-->276<!--/--> ₽, слой «Свой макро-взгляд» — <!--=headline.high r0-->382<!--/--> ₽, и
+  прямая к уровню клетки 2030 года. Оно стоит между двумя названными краями: «маржа идёт механикой книг» — <!--=reference_variants[id=no_near_shift].point r0-->348<!--/--> ₽ и
+  «расхождение 3-го квартала не сходит» — <!--=reference_variants[id=near_shift_stays].point r0-->261<!--/--> ₽, ниже цены книги. Ось «скорость схода» накрывает меньше: <!--=judgements[id=regimes.near_nim_shift.*].price_low r0-->318<!--/--> и <!--=judgements[id=regimes.near_nim_shift.*].price_high r0-->338<!--/--> ₽.
+- **Вес мира M.** Слой «Рыночные ставки как есть» (весь вес на мире M) стоит <!--=headline.low r0-->273<!--/--> ₽, слой «Свой макро-взгляд» — <!--=headline.high r0-->378<!--/--> ₽, и
   в точке мир M весит 0,60: низ оси ставок целиком и пятая часть верха. В мире M стоимость капитала — <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, ROE после
-  фазы роста — <!--=layers.macro_neutral.roe_tc p1-->21,1<!--/--> %: стационарная маржа мира M выше, чем в мире N, на полпункта (передача +0,06 на девять пунктов
+  фазы роста — <!--=layers.macro_neutral.roe_tc p1-->21,0<!--/--> %: стационарная маржа мира M выше, чем в мире N, на полпункта (передача +0,06 на девять пунктов
   ключевой ставки), а стоимость капитала — на 7,7 п.п.
 
 Маржа, премия средств клиентов и гибкость расходов — суждения класса C: центры поставлены по правилам от фактов, но окно
-фактов — семь кварталов одного смягчения ставки. Диапазоны опускают медиану под точку — <!--=headline.median r2-->313,45<!--/--> ₽ против <!--=headline.point r2-->329,25<!--/--> ₽;
+фактов — семь кварталов одного смягчения ставки. Диапазоны опускают медиану под точку — <!--=headline.median r2-->309,92<!--/--> ₽ против <!--=headline.point r2-->325,74<!--/--> ₽;
 правила самой точки и их цена — раздел 0.10.
 
-**Какие уровни ждёт заголовок.** В среднем за 2030–2036 годы смесь заголовка печатает маржу <!--=levels.rows.point.nim p2-->12,05<!--/--> %, стоимость
-риска <!--=levels.rows.point.cor p2-->5,52<!--/--> % и расходы к доходам <!--=levels.rows.point.cir p1-->46,6<!--/--> % (раздел 0.3). Стоимость риска и расходы к доходам лежат внутри окна фактов
+**Какие уровни ждёт заголовок.** В среднем за 2030–2036 годы смесь заголовка печатает маржу <!--=levels.rows.point.nim p2-->12,02<!--/--> %, стоимость
+риска <!--=levels.rows.point.cor p2-->5,51<!--/--> % и расходы к доходам <!--=levels.rows.point.cir p1-->46,6<!--/--> % (раздел 0.3). Стоимость риска и расходы к доходам лежат внутри окна фактов
 (<!--=levels.window.cor.min p2-->4,69<!--/-->…<!--=levels.window.cor.max p2-->6,65<!--/--> % и <!--=levels.window.cir.min p2-->46,00<!--/-->…<!--=levels.window.cir.max p2-->48,28<!--/--> %). Маржа — выше лучшего квартала окна (<!--=levels.window.nim.max p2-->11,59<!--/--> %): в окне кредиты занимали <!--=levels.window.loans_share.window p1-->63,6<!--/--> % процентных
 активов, на якоре — <!--=levels.window.loans_share.anchor p1-->67,7<!--/--> %, в смеси заголовка — <!--=levels.rows.point.loans_share p1-->75,8<!--/--> %. Это главное, чем заголовок может ошибаться в большую сторону:
 эффект состава баланса отчётность подтверждает по существу, но в таком размере окно его не наблюдало (раздел 0.3; A-N2).
 
-**Путь прибыли.** Прибыль смеси заголовка — <!--=point_path.ni_sh[0] r0-->207<!--/--> млрд ₽ в 2026 году, <!--=point_path.ni_sh[1] r0-->156<!--/--> — в 2027-м и <!--=point_path.ni_sh[4] r0-->307<!--/--> — в 2030-м; у модальной клетки
-— <!--=point_path.modal_cell.ni_sh[0] r0-->210<!--/-->, <!--=point_path.modal_cell.ni_sh[1] r0-->209<!--/--> и <!--=point_path.modal_cell.ni_sh[4] r0-->343<!--/--> млрд ₽. Провал 2027 года в смеси — год шока стрессовых режимов с общей вероятностью 45 %, а не прогноз
+**Путь прибыли.** Прибыль смеси заголовка — <!--=point_path.ni_sh[0] r0-->207<!--/--> млрд ₽ в 2026 году, <!--=point_path.ni_sh[1] r0-->157<!--/--> — в 2027-м и <!--=point_path.ni_sh[4] r0-->305<!--/--> — в 2030-м; у модальной клетки
+— <!--=point_path.modal_cell.ni_sh[0] r0-->210<!--/-->, <!--=point_path.modal_cell.ni_sh[1] r0-->213<!--/--> и <!--=point_path.modal_cell.ni_sh[4] r0-->341<!--/--> млрд ₽. Провал 2027 года в смеси — год шока стрессовых режимов с общей вероятностью 45 %, а не прогноз
 одного сценария; плоская прибыль модальной клетки — ближний путь маржи (раздел 0.8).
 
 **Сверка порядка.** Два внешних факта, оба с датой; книга по ним не калибруется.
 - **Книга-образец семейства** — Сбербанк, книга 1.3 от 30.09.2026 (цена книги 272,87 ₽). У образца ROE после фазы роста
   по слоям «Свой макро-взгляд» / «Вменённые рынком» / «Рыночные ставки как есть» — 16,8 / 17,4 / 17,5 % при стоимости
   капитала 16,8 / 19,6 / 21,3 %, P/B слоёв — 1,19 / 0,92 / 0,74; рынок на дату той книги платил 0,73 отчётного капитала.
-  У этой книги ROE после фазы роста — <!--=layers.analytical.roe_tc p1-->19,0<!--/--> / <!--=layers.market_implied.roe_tc p1-->20,4<!--/--> / <!--=layers.macro_neutral.roe_tc p1-->21,1<!--/--> % при стоимости капитала <!--=layers.analytical.k_tc p1-->18,0<!--/--> / <!--=layers.market_implied.k_tc p1-->20,7<!--/--> / <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, P/B слоёв — <!--=layers.analytical.pb r2-->1,28<!--/-->
-  / <!--=layers.market_implied.pb r2-->1,07<!--/--> / <!--=layers.macro_neutral.pb r2-->0,92<!--/-->; рынок платит 0,96 отчётного капитала (A-X2). Модель ставит Т выше образца и по доходности, и по P/B в
+  У этой книги ROE после фазы роста — <!--=layers.analytical.roe_tc p1-->18,9<!--/--> / <!--=layers.market_implied.roe_tc p1-->20,2<!--/--> / <!--=layers.macro_neutral.roe_tc p1-->21,0<!--/--> % при стоимости капитала <!--=layers.analytical.k_tc p1-->17,9<!--/--> / <!--=layers.market_implied.k_tc p1-->20,7<!--/--> / <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, P/B слоёв — <!--=layers.analytical.pb r2-->1,27<!--/-->
+  / <!--=layers.market_implied.pb r2-->1,06<!--/--> / <!--=layers.macro_neutral.pb r2-->0,91<!--/-->; рынок платит 0,96 отчётного капитала (A-X2). Модель ставит Т выше образца и по доходности, и по P/B в
   каждом слое — в ту же сторону, что рынок.
 - **Цели брокеров** на 07.10.2026: 13 целевых цен на двенадцать месяцев — от 320 до 500 ₽, медиана 400 ₽ (тот же агрегат
-  печатает выпуск; имён и состава снимка книга не несёт). Медиана модели — <!--=headline.median r0-->313<!--/--> ₽ — ниже самой низкой цели, точка — <!--=headline.point r0-->329<!--/--> ₽
-  — у нижнего края их диапазона, слой «Свой макро-взгляд» — <!--=headline.high r0-->382<!--/--> ₽ — ниже их медианы; полоса 80 % — <!--=headline.printed_band80[0] r0-->235<!--/-->–<!--=headline.printed_band80[1] r0-->390<!--/--> ₽. Цель
+  печатает выпуск; имён и состава снимка книга не несёт). Медиана модели — <!--=headline.median r0-->310<!--/--> ₽ — ниже самой низкой цели, точка — <!--=headline.point r0-->326<!--/--> ₽
+  — у нижнего края их диапазона, слой «Свой макро-взгляд» — <!--=headline.high r0-->378<!--/--> ₽ — ниже их медианы; полоса 80 % — <!--=headline.printed_band80[0] r0-->230<!--/-->–<!--=headline.printed_band80[1] r0-->385<!--/--> ₽. Цель
   брокера — цена через год, а не стоимость на дату: это сверка порядка, а не якорь.
 
 **Откуда стоимость сверх капитала и где её нет.** ROE после фазы роста стоит против стоимости капитала так: в слое «Свой
-макро-взгляд» — <!--=layers.analytical.roe_tc p1-->19,0<!--/--> % против <!--=layers.analytical.k_tc p1-->18,0<!--/--> %, в слое «Рыночные ставки как есть» — <!--=layers.macro_neutral.roe_tc p1-->21,1<!--/--> % против <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, в модальной клетке
-— <!--=central_cell.roe_t p1-->19,9<!--/--> % против <!--=central_cell.k_t p1-->18,5<!--/--> %. ROE модальной клетки снижается с <!--=central_cell.roe[0] p1-->27,8<!--/--> % в 2026 году до <!--=central_cell.roe[10] p1-->18,9<!--/--> % в 2036 году (раздел 0.8): капитал
+макро-взгляд» — <!--=layers.analytical.roe_tc p1-->18,9<!--/--> % против <!--=layers.analytical.k_tc p1-->17,9<!--/--> %, в слое «Рыночные ставки как есть» — <!--=layers.macro_neutral.roe_tc p1-->21,0<!--/--> % против <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, в модальной клетке
+— <!--=central_cell.roe_t p1-->19,8<!--/--> % против <!--=central_cell.k_t p1-->18,4<!--/--> %. ROE модальной клетки снижается с <!--=central_cell.roe[0] p1-->27,8<!--/--> % в 2026 году до <!--=central_cell.roe[10] p1-->18,8<!--/--> % в 2036 году (раздел 0.8): капитал
 под растущее требование копится быстрее прибыли, а стоимость риска поднимается к уровню режима. Приведённый остаточный
-доход явного участка в слое «Свой макро-взгляд» — <!--=layers.analytical.pv_ri_explicit r1-->172,7<!--/--> млрд ₽, терминала — <!--=layers.analytical.pv_terminal r1-->51,7<!--/--> млрд ₽; в слое «Рыночные ставки как
-есть» — <!--=layers.macro_neutral.pv_ri_explicit r1-->−13,4<!--/--> и <!--=layers.macro_neutral.pv_terminal r1-->−47,1<!--/--> млрд ₽. Избыточная доходность терминала угасает только сверху: отрицательный терминал мира M
+доход явного участка в слое «Свой макро-взгляд» — <!--=layers.analytical.pv_ri_explicit r1-->167,0<!--/--> млрд ₽, терминала — <!--=layers.analytical.pv_terminal r1-->48,0<!--/--> млрд ₽; в слое «Рыночные ставки как
+есть» — <!--=layers.macro_neutral.pv_ri_explicit r1-->−16,4<!--/--> и <!--=layers.macro_neutral.pv_terminal r1-->−52,6<!--/--> млрд ₽. Избыточная доходность терминала угасает только сверху: отрицательный терминал мира M
 остаётся целиком (раздел 18, п. 32).
 
 **Чего стоит рост сверх капитала.** Кредит сверх того, что фондируют средства клиентов, занимает в балансе место
@@ -523,20 +523,20 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 — окупает в мирах N и H и не окупает в мире M: стоимость капитала там — <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, фондирование дорожает вместе со ставкой,
 а маржа с ней почти не растёт (числа — лист `evidence/path`, A-K13). Поэтому у этой книги ограничение роста капиталом
 оценку повышает. Книга этого не запрещает и не прячет, а меряет в пяти местах.
-- **«Цена правила»** (раздел 0.9): оценка без ограничения роста капиталом — <!--=rule_price.rows[key=unconstrained].point r0-->301<!--/--> ₽ против <!--=rule_price.rows[key=dividend_first].point r0-->329<!--/--> ₽ книги.
+- **«Цена правила»** (раздел 0.9): оценка без ограничения роста капиталом — <!--=rule_price.rows[key=unconstrained].point r0-->295<!--/--> ₽ против <!--=rule_price.rows[key=dividend_first].point r0-->326<!--/--> ₽ книги.
 - **Гейт `volume_sign`.** При выключенном ограничении роста снимаются остановка кредита в кризисе и поправки роста
-  режимов — кредита становится больше. Точка меняется на <!--=sign_test.d_point s2-->−9,69<!--/--> ₽, цены миров N / H / M — на <!--=sign_test.d_world.N s2-->+1,50<!--/--> / <!--=sign_test.d_world.H s2-->−2,12<!--/--> / <!--=sign_test.d_world.M s2-->−15,79<!--/--> ₽.
+  режимов — кредита становится больше. Точка меняется на <!--=sign_test.d_point s2-->−10,29<!--/--> ₽, цены миров N / H / M — на <!--=sign_test.d_world.N s2-->+1,54<!--/--> / <!--=sign_test.d_world.H s2-->−1,69<!--/--> / <!--=sign_test.d_world.M s2-->−16,96<!--/--> ₽.
   Гейт срабатывает, если точка снижается или цена мира M меняется хуже цены мира H; в точке мир M весит 0,60.
 - **Гейт `stress_sign`.** Разовый убыток кризиса увеличен на 60 млрд ₽ — стоимость клетки кризиса расти не должна;
   требование к капиталу жёстче — прибыль последнего года расти не должна. Масса нарушивших клеток — <!--=stress_sign.mass r3-->0,000<!--/-->; рубль убытка
-  после налога снижает стоимость клетки на <!--=stress_sign.loss.transfer_min r2-->0,19<!--/-->–<!--=stress_sign.loss.transfer_max r2-->0,94<!--/--> ₽ (раздел 18, п. 29).
+  после налога снижает стоимость клетки на <!--=stress_sign.loss.transfer_min r2-->0,17<!--/-->–<!--=stress_sign.loss.transfer_max r2-->0,93<!--/--> ₽ (раздел 18, п. 29).
 - **Сверка с отчётностью** (A-K13). Сегмент розничного кредитования эмитента за 1-е полугодие 2026 года заработал на
   свой капитал 34–36 % годовых после налога (отчётность МСФО за 6 месяцев 2026 года, прим. 6); на якоре арифметика книги
   на том же базисе даёт тот же порядок. Снижение доходности кредита после фазы роста — следствие суждений о марже, цене
   недостающего фондирования, стоимости риска и расходах и известных ступеней требования к капиталу; отчётностью оно не
   проверяется.
-- **Цена навёрстывания** (раздел 0.10): если урезанный рост возвращается по четверти разрыва в год, точка — <!--=reference_variants[id=catch_up_quarter].point r0-->319<!--/--> ₽
-  (<!--=reference_variants[id=catch_up_quarter].d_point s2-->−10,70<!--/--> ₽ к книге).
+- **Цена навёрстывания** (раздел 0.10): если урезанный рост возвращается по четверти разрыва в год, точка — <!--=reference_variants[id=catch_up_quarter].point r0-->315<!--/--> ₽
+  (<!--=reference_variants[id=catch_up_quarter].d_point s2-->−11,03<!--/--> ₽ к книге).
 
 Сработавший гейт печатается в выпуске с объяснением и сроком. Оси капитала (запас над минимумом, инструменты капитала,
 дрейф плотности) и оси стресса читаются вместе с этим свойством: в их цене сходятся два эффекта — рост, который капитал
@@ -657,8 +657,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   ценой Яндекса — следующая версия: 10 % цены Яндекса — около 1 % цены Т (порядок проекта, в таблицах книги его нет).
   Чистая позиция акционеров по пакету и долгу под него (−7,3 млрд ₽) уже сидит в капитале якоря. По таблицам книги
   сдвиг строки пакета на −5,4 и +5,4 млрд ₽ в год даёт
-  точку <!--=judgements[id=noncore.result_real.*].price_low r0-->319<!--/-->
-  и <!--=judgements[id=noncore.result_real.*].price_high r0-->339<!--/--> ₽ против <!--=headline.point r0-->329<!--/--> ₽
+  точку <!--=judgements[id=noncore.result_real.*].price_low r0-->316<!--/-->
+  и <!--=judgements[id=noncore.result_real.*].price_high r0-->336<!--/--> ₽ против <!--=headline.point r0-->326<!--/--> ₽
   книги (ось A-O2).
 
 ### A-A5. «Точка» и другие сделки — вне книги до закрытия
@@ -781,7 +781,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Чем может ошибаться:** «рынок как есть» содержит премии за срок и ликвидность — низ оси консервативен. Для этой
   книги мир M — ещё и мир, в котором стоят уровни окна фактов: слой «Рыночные ставки как есть» печатает стоимость риска
   и расходы к доходам внутри окна, а маржу — выше него, на свою долю кредитов и на свой капитал (раздел 0.3). Стоимость
-  средств клиентов в нём — <!--=funds_cost_to_key.by_world.M.ratio r3-->0,687<!--/--> ключевой ставки при наибольшем квартале окна 0,706 (A-N8); требование к капиталу то же,
+  средств клиентов в нём — <!--=funds_cost_to_key.by_world.M.ratio r3-->0,684<!--/--> ключевой ставки при наибольшем квартале окна 0,706 (A-N8); требование к капиталу то же,
   что в других мирах, а рост сектора номинально выше, и капитал урезает рост сильнее всего.
 
 ### A-P1c. Доверие к собственному макро-взгляду λ
@@ -833,13 +833,13 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   одних кредитных карт и по прежнему стандарту резервов. Вероятности одинаковы во всех мирах (правило семейства), хотя
   кризис в мире M вероятнее. Факты кварталов двигают вероятности (A-P2u). Цена по таблицам книги: при вероятности
   кризиса 0,25 вместо 0,15 (остальные режимы — пропорционально) точка
-  — <!--=judgements[id=joint.regime_prob].price_high r0-->317<!--/--> ₽, при 0,10
-  — <!--=judgements[id=joint.regime_prob].price_low r0-->335<!--/--> ₽ против <!--=headline.point r0-->329<!--/--> ₽ книги.
+  — <!--=judgements[id=joint.regime_prob].price_high r0-->314<!--/--> ₽, при 0,10
+  — <!--=judgements[id=joint.regime_prob].price_low r0-->332<!--/--> ₽ против <!--=headline.point r0-->326<!--/--> ₽ книги.
   Стоимость клетки мира H при средней группе: мягкая посадка
-  — <!--=cells[world=H&regime=soft&scenario=mid].v r0-->1 355<!--/--> млрд ₽, нормализация
-  — <!--=cells[world=H&regime=norm&scenario=mid].v r0-->1 067<!--/-->, розничный спад
-  — <!--=cells[world=H&regime=downturn&scenario=mid].v r0-->874<!--/-->, кризис
-  — <!--=cells[world=H&regime=crisis&scenario=mid].v r0-->705<!--/--> млрд ₽.
+  — <!--=cells[world=H&regime=soft&scenario=mid].v r0-->1 356<!--/--> млрд ₽, нормализация
+  — <!--=cells[world=H&regime=norm&scenario=mid].v r0-->1 068<!--/-->, розничный спад
+  — <!--=cells[world=H&regime=downturn&scenario=mid].v r0-->873<!--/-->, кризис
+  — <!--=cells[world=H&regime=crisis&scenario=mid].v r0-->702<!--/--> млрд ₽.
 
 ### A-C0b. CoR после фазы роста (долгосрочные уровни режимов)
 - **Ключи:** `regimes.<r>.cor.LT` (с 2030 года): мягкая посадка 4,8 %, нормализация 5,5 %, розничный спад 5,9 %, кризис
@@ -862,14 +862,14 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   полугодие (5,0 %) лежат ниже центра, и ось скошена в осторожную сторону. **Диапазон оценок сквозь цикл** шире одного
   числа окна: по ряду про-формы — от 5,05 % (2018–2025 годы, без кризиса глубины 2014–2015 годов) до 5,82 % (2014–2025
   годы), по частотам состояний — от 5,2 до 6,0 %. Уровни книги — 5,61 % в мире M и около 5,3–5,4 % в мирах N и H — лежат
-  внутри этого диапазона; слой «Свой макро-взгляд» печатает <!--=levels.rows.analytical.cor p2-->5,46<!--/--> %, слой «Рыночные ставки как есть» — <!--=levels.rows.macro_neutral.cor p2-->5,57<!--/--> %
+  внутри этого диапазона; слой «Свой макро-взгляд» печатает <!--=levels.rows.analytical.cor p2-->5,45<!--/--> %, слой «Рыночные ставки как есть» — <!--=levels.rows.macro_neutral.cor p2-->5,57<!--/--> %
   (раздел 0.3). Ошибиться можно в обе стороны. Вниз: реальная ставка окна (8,6–9,7 п.п.) выше стационарной реальной
   ставки даже мира M (6,6 %), и та же κ дала бы миру M уровень ещё на 0,2–0,3 п.п. ниже — этой поправки книга не делает:
   мир окна печатает уровень окна. Вверх: оценки с кризисом глубины 2014–2015 годов — 5,8–6,0 %; если такой кризис
   приходит раз в десять–двенадцать лет, уровень мира M занижен на 0,2–0,4 п.п. Обе поправки лежат внутри оси. Цена по
-  таблицам книги: точка на концах оси — <!--=judgements[id=regimes.*.cor.LT].price_low r0-->399<!--/--> ₽ при сдвиге −0,9 п.п. и <!--=judgements[id=regimes.*.cor.LT].price_high r0-->231<!--/--> ₽ при +1,2 п.п. (размах <!--=judgements[id=regimes.*.cor.LT].swing r0-->168<!--/--> ₽ на
+  таблицам книги: точка на концах оси — <!--=judgements[id=regimes.*.cor.LT].price_low r0-->396<!--/--> ₽ при сдвиге −0,9 п.п. и <!--=judgements[id=regimes.*.cor.LT].price_high r0-->226<!--/--> ₽ при +1,2 п.п. (размах <!--=judgements[id=regimes.*.cor.LT].swing r0-->170<!--/--> ₽ на
   2,1 п.п.); вклад оси в дисперсию медианы — <!--=headline.contributions[axis=regimes.*.cor.LT].share p0-->29<!--/--> %; строка обратного расчёта: сдвиг, при котором медиана равна
-  рынку, — <!--=reverse_dcf.rows[key=regimes.*.cor.LT].solved sp2n-->+0,54<!--/--> (п.п.). В 2027 году 0,1 п.п. CoR — около 4,5 млрд ₽ резервов.
+  рынку, — <!--=reverse_dcf.rows[key=regimes.*.cor.LT].solved sp2n-->+0,49<!--/--> (п.п.). В 2027 году 0,1 п.п. CoR — около 4,5 млрд ₽ резервов.
 
 ### A-C1b. Пути CoR режимов по годам
 - **Ключи:** `regimes.<r>.cor` (упр. базис; у спада и кризиса — квартальные ключи 2027 года, ключ года равен их
@@ -1022,11 +1022,11 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   отдельный множитель режима (A-K14).
 - **Чем может ошибаться и что это стоит:** это главный неизмеренный вход капитала. Цена по таблицам книги — стоимость
   клетки по сценариям. В мире H при «нормализации»: по графику
-  — <!--=cells[world=H&regime=norm&scenario=schedule].v r0-->1 102<!--/--> млрд ₽, средняя группа
-  — <!--=cells[world=H&regime=norm&scenario=mid].v r0-->1 067<!--/-->, жёсткий
+  — <!--=cells[world=H&regime=norm&scenario=schedule].v r0-->1 103<!--/--> млрд ₽, средняя группа
+  — <!--=cells[world=H&regime=norm&scenario=mid].v r0-->1 068<!--/-->, жёсткий
   — <!--=cells[world=H&regime=norm&scenario=strict].v r0-->1 046<!--/--> млрд ₽; в мире M
-  — <!--=cells[world=M&regime=norm&scenario=schedule].v r0-->802<!--/-->, <!--=cells[world=M&regime=norm&scenario=mid].v r0-->798<!--/-->
-  и <!--=cells[world=M&regime=norm&scenario=strict].v r0-->792<!--/--> млрд ₽. Более жёсткий сценарий урезает рост и
+  — <!--=cells[world=M&regime=norm&scenario=schedule].v r0-->792<!--/-->, <!--=cells[world=M&regime=norm&scenario=mid].v r0-->790<!--/-->
+  и <!--=cells[world=M&regime=norm&scenario=strict].v r0-->785<!--/--> млрд ₽. Более жёсткий сценарий урезает рост и
   удерживает больше капитала, и в порядке стоимостей сходятся оба эффекта (раздел 0): более высокое требование
   удешевляет клетку и без урезанного роста, поэтому порядок стоимостей не показывает, окупал ли урезанный кредит капитал
   под него. Знак роста отдельно меряют «цена правила» (раздел 0.9) и гейты знака (A-X11). Сдвиг весов к
@@ -1160,8 +1160,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   движка) до <!--=levels.rows.macro_neutral.loans_share p0-->75<!--/-->–<!--=levels.rows.modal_cell.loans_share p0-->78<!--/--> %: выше её не пускает минимум ликвидных активов — 20 % активов (A-G4). Маржу клетки это увеличивает
   арифметикой книг — кредит на месте ликвидного актива зарабатывает кредитный спред; вторая причина — капитал под
   растущее требование: на рубль активов приходится меньше платного фондирования (раздел 0.3). Потолка на эти эффекты
-  книга не ставит. Модальная клетка печатает в среднем за 2030–2036 годы <!--=levels.rows.modal_cell.nim p2-->12,40<!--/--> %, слой «Рыночные ставки как есть»
-  — <!--=levels.rows.macro_neutral.nim p2-->12,05<!--/--> %: выше лучшего квартала окна (<!--=levels.window.nim.max p2-->11,59<!--/--> %).
+  книга не ставит. Модальная клетка печатает в среднем за 2030–2036 годы <!--=levels.rows.modal_cell.nim p2-->12,42<!--/--> %, слой «Рыночные ставки как есть»
+  — <!--=levels.rows.macro_neutral.nim p2-->12,01<!--/--> %: выше лучшего квартала окна (<!--=levels.window.nim.max p2-->11,59<!--/--> %).
   **Концы оси.** Низ, 10,3 %, — средняя окна без поправки на состав и за вычетом неопределённости места уровня. Верх,
   11,6 %, — лучший квартал окна (2-й квартал 2026 года, 11,59 %).
   **Как суждение исполняется.** Ключ цели читается как стационарная маржа мира уровня (`nii.transmission.level_world`):
@@ -1176,24 +1176,24 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   кварталов одного смягчения ставки: ключевая в нём ближе всего к миру M, но за окно она прошла путь от 21 до 14,6 %, и
   стационарным ни один квартал не был — срочные вклады переоценивались вниз быстрее активов. Если отнести уровень окна
   не к стационару мира M на составе якоря, а к модальной клетке мира H, оценка намного ниже: справочный вариант даёт
-  точку <!--=reference_variants[id=window_level_in_modal_cell].point r2-->225,75<!--/--> ₽ (<!--=reference_variants[id=window_level_in_modal_cell].d_point s2-->−103,50<!--/--> ₽ к книге; раздел 0.10). **Состав.** Клетки печатают маржу выше любого квартала окна, потому
+  точку <!--=reference_variants[id=window_level_in_modal_cell].point r2-->223,50<!--/--> ₽ (<!--=reference_variants[id=window_level_in_modal_cell].d_point s2-->−102,24<!--/--> ₽ к книге; раздел 0.10). **Состав.** Клетки печатают маржу выше любого квартала окна, потому
   что доля кредитов в них выше, чем наблюдалась после сделки: в окне — <!--=levels.window.loans_share.window p1-->63,6<!--/--> % в среднем, наибольшая — на якоре. Эффект
   состава отчётность подтверждает по существу (A-K13), но он меньше, если доходность кредита падает с ростом портфеля —
   необеспеченная розница есть предмет конкуренции и регулирования полной стоимости кредита — или если недостающие
   средства придётся привлекать дороже, чем в книге (A-G4). **Терминал.** Стоимость после 2036 года читает последний год
-  сетки, а не среднюю: у модальной клетки маржа 2036 года — <!--=levels.rows.modal_cell.by_year.nim[6] p2-->12,33<!--/--> % при средней <!--=levels.rows.modal_cell.nim p2-->12,40<!--/--> % (уровни по годам —
+  сетки, а не среднюю: у модальной клетки маржа 2036 года — <!--=levels.rows.modal_cell.by_year.nim[6] p2-->12,35<!--/--> % при средней <!--=levels.rows.modal_cell.nim p2-->12,42<!--/--> % (уровни по годам —
   `results.json → levels`). **Мост и механика.** Мост упр. ↔ движок посчитан по двум кварталам (A-C8). Единственная
   сверка механики книг с фактом — 3-й квартал 2026 года: механика книг даёт маржу выше пути книги на 0,64 п.п. — это
   ключ ближнего сдвига квартала (A-C4b). Если расхождение не временное, уровень после 2030 года завышен на ту же
-  величину: справочный вариант «расхождение не сходит» — точка <!--=reference_variants[id=near_shift_stays].point r2-->263,36<!--/--> ₽ (<!--=reference_variants[id=near_shift_stays].d_point s2-->−65,89<!--/--> ₽ к книге). **Перенос якоря.** По
+  величину: справочный вариант «расхождение не сходит» — точка <!--=reference_variants[id=near_shift_stays].point r2-->260,75<!--/--> ₽ (<!--=reference_variants[id=near_shift_stays].d_point s2-->−64,99<!--/--> ₽ к книге). **Перенос якоря.** По
   ожиданию самой модели баланс якоря меняется уже в 3-м квартале 2026 года: отток средств клиентов сжимает ликвидные
   активы, доля кредитов растёт, и то же суждение на новом составе запишется числом выше верха нынешней оси и лучшего
   квартала окна (сухой прогон перезаякоривания на отчёт без новостей, сделанный при подготовке книги; порядок —
   `docs/REANCHOR.md`). Это запись, а не новость о марже; но читать ключ новой книги рядом с окном фактов надо, помня о
-  составе, на котором он назван. Цена по таблицам книги: точка на концах оси — <!--=judgements[id=nii.nim_lt_target_mgmt].price_low r0-->229<!--/--> ₽ при стационарной марже мира M
-  10,3 % и <!--=judgements[id=nii.nim_lt_target_mgmt].price_high r0-->393<!--/--> ₽ при 11,6 % (размах <!--=judgements[id=nii.nim_lt_target_mgmt].swing r0-->164<!--/--> ₽); вклад оси в дисперсию медианы — <!--=headline.contributions[axis=nii.nim_lt_target_mgmt].share p0-->27<!--/--> %. Строка обратного расчёта (раздел 0.6):
-  медиана равна рынку при стационарной марже мира M <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].solved p2n-->10,75<!--/--> % — на средней окна без поправки на состав; слой «Рыночные
-  ставки как есть» при этом печатает <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.nim p2-->11,57<!--/--> %, смесь заголовка — <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.nim p2-->11,60<!--/--> %. На балансе якоря 0,1 п.п. маржи — 5,5 млрд ₽
+  составе, на котором он назван. Цена по таблицам книги: точка на концах оси — <!--=judgements[id=nii.nim_lt_target_mgmt].price_low r0-->225<!--/--> ₽ при стационарной марже мира M
+  10,3 % и <!--=judgements[id=nii.nim_lt_target_mgmt].price_high r0-->390<!--/--> ₽ при 11,6 % (размах <!--=judgements[id=nii.nim_lt_target_mgmt].swing r0-->165<!--/--> ₽); вклад оси в дисперсию медианы — <!--=headline.contributions[axis=nii.nim_lt_target_mgmt].share p0-->27<!--/--> %. Строка обратного расчёта (раздел 0.6):
+  медиана равна рынку при стационарной марже мира M <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].solved p2n-->10,78<!--/--> % — на средней окна без поправки на состав; слой «Рыночные
+  ставки как есть» при этом печатает <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.macro_neutral.nim p2-->11,58<!--/--> %, смесь заголовка — <!--=reverse_dcf.rows[key=nii.nim_lt_target_mgmt].levels_solved.point.nim p2-->11,61<!--/--> %. На балансе якоря 0,1 п.п. маржи — 5,5 млрд ₽
   ЧПД в год.
 
 ### A-N3. Передача ключевой ставки в маржу
@@ -1221,7 +1221,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   судит центр книги, там 0,236; A-X7; запись вывода).
   **Двойного счёта уровня нет:** уровень мира окна несёт ось A-N2, а на этой оси мир M неподвижен — она несёт только
   различие маржи между мирами (0,06 передачи — 0,56 п.п. разницы миров M и N). **Положение мира H** этой осью не
-  задаётся. На прямой между мирами N и M мир H стоял бы около 10,7 %, а стоит на <!--=derived.nii.reference_level_mgmt p2-->11,13<!--/--> %: парная передача N → H — <!--=derived.nii.T_pairs.N_H r3-->0,228<!--/-->,
+  задаётся. На прямой между мирами N и M мир H стоял бы около 10,7 %, а стоит на <!--=derived.nii.reference_level_mgmt p2-->11,13<!--/--> %: парная передача N → H — <!--=derived.nii.T_pairs.N_H r3-->0,236<!--/-->,
   H → M — <!--=derived.nii.T_pairs.H_M r3-->−0,005<!--/-->. Этот «бугор», около 0,4 п.п., делают форма кривой записи миров — доходность ОФЗ 3 лет в конце сетки
   выше ключевой ставки сильнее всего в мире H, а к ней привязана треть процентных активов — и доля текущих счетов
   (A-N4). Своей оси, кроме оси ψ, у него нет.
@@ -1236,10 +1236,10 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   между мирами N и M, книга не несёт. По порядку она сопоставима с ценой навёрстывания или облигационной ставки
   фондирования в таблице раздела 0.10 — оценка по наклону цены мира H к уровню маржи, сделанная при подготовке книги.
   Гейт пола спреда проверяет центральную книгу и углы осей долей, а не края этой оси (раздел 18, п. 12). Цена по
-  таблицам книги: точка — <!--=judgements[id=nii.transmission.target].price_low r0-->355<!--/--> ₽ при передаче 0,00 и <!--=judgements[id=nii.transmission.target].price_high r0-->304<!--/--> ₽ при +0,12 (это и справочный вариант «передача на уровне
-  структурной оценки»: <!--=reference_variants[id=transmission_structural].d_point s2-->−25,56<!--/--> ₽ к книге); слой «Свой макро-взгляд» на концах оси меняется почти вдвое сильнее точки,
+  таблицам книги: точка — <!--=judgements[id=nii.transmission.target].price_low r0-->353<!--/--> ₽ при передаче 0,00 и <!--=judgements[id=nii.transmission.target].price_high r0-->299<!--/--> ₽ при +0,12 (это и справочный вариант «передача на уровне
+  структурной оценки»: <!--=reference_variants[id=transmission_structural].d_point s2-->−27,15<!--/--> ₽ к книге); слой «Свой макро-взгляд» на концах оси меняется почти вдвое сильнее точки,
   слой «Рыночные ставки как есть» — в несколько раз слабее. Вклад оси в дисперсию медианы — <!--=headline.contributions[axis=nii.transmission.target].share p0-->4<!--/--> %. Строка обратного
-  расчёта: передача, при которой медиана равна рынку, — <!--=reverse_dcf.rows[key=nii.transmission.target].solved s3n-->+0,161<!--/-->, сразу за верхним краем оси (оценка по подвыборке).
+  расчёта: передача, при которой медиана равна рынку, — <!--=reverse_dcf.rows[key=nii.transmission.target].solved s3n-->+0,148<!--/-->, сразу за верхним краем оси (оценка по подвыборке).
 
 ### A-C4b. Ближний сдвиг маржи и сход к уровню к 2030 году
 - **Ключи:** `regimes.near_nim_shift` — базис движка, одна траектория для всех режимов и миров: квартальные ключи с 3-го
@@ -1273,24 +1273,24 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   идёт вверх: книга ведёт маржу к уровню клетки постепенно, а не ступенью в 2027 году.
   **Правило точки между двумя краями.** Путь книги — выбор между двумя чтениями одного расхождения, и оба названы
   справочными вариантами с ценой (раздел 0.10). *Сдвига нет:* маржа идёт механикой книг, все ключи траектории равны нулю
-  — точка <!--=reference_variants[id=no_near_shift].point r2-->352,70<!--/--> ₽ (<!--=reference_variants[id=no_near_shift].d_point s2-->+23,45<!--/--> ₽ к книге). *Расхождение не сходит:* ключи с 2027 года и долгосрочный остаются на уровне
-  ключа 3-го квартала 2026 года, −0,62 п.п., — механика книг завышает маржу навсегда; точка <!--=reference_variants[id=near_shift_stays].point r2-->263,36<!--/--> ₽ (<!--=reference_variants[id=near_shift_stays].d_point s2-->−65,89<!--/--> ₽), ниже
+  — точка <!--=reference_variants[id=no_near_shift].point r2-->347,72<!--/--> ₽ (<!--=reference_variants[id=no_near_shift].d_point s2-->+21,98<!--/--> ₽ к книге). *Расхождение не сходит:* ключи с 2027 года и долгосрочный остаются на уровне
+  ключа 3-го квартала 2026 года, −0,62 п.п., — механика книг завышает маржу навсегда; точка <!--=reference_variants[id=near_shift_stays].point r2-->260,75<!--/--> ₽ (<!--=reference_variants[id=near_shift_stays].d_point s2-->−64,99<!--/--> ₽), ниже
   цены книги. Книга стоит между ними: расхождение 2026 года принято по факту двух месяцев, но считается временным —
   следствием лагов переоценки, которые к 2030 году исчерпаны.
 - **Чем может ошибаться и что это стоит:** сдвиг выведен на одной клетке и общий для всех: в мирах и режимах с иным
   составом баланса и иными ставками маржа первых кварталов уходит от пути книги. Прямая вверх подводит маржу первых
   восьми кварталов к порогу гейта `nim_path_joint`: модальная клетка проходит у самого порога, шесть клеток «мягкой
-  посадки» и «нормализации» — выше него (масса — <!--=checks[name=nim_path_joint].mass r2-->0,17<!--/-->; раздел 0.5). Порог — маржа якоря или стационарная маржа мира плюс
+  посадки» и «нормализации» — выше него (масса — <!--=checks[name=nim_path_joint].mass r2-->0,08<!--/-->; раздел 0.5). Порог — маржа якоря или стационарная маржа мира плюс
   0,3 п.п. — стоит на составе баланса якоря, а путь идёт к уровню на составе клетки. У центральной книги ступени маржи
   на стыке с 2030 годом быть не должно — её ловит тест книги. **Что на самом деле делает ось.** Она двигает уровень
   ключей 2027–2029 годов, а не срок: на нижнем конце маржа трёх лет ниже пути книги, на верхнем — выше, со ступенями по
   краям этих лет. Ключи после 2029 года и ключ цели маржи ось не трогает, но печатаемая маржа 2030–2036 годов на её
   концах отличается от центра — через рост, урезанный капиталом (раздел 18, п. 11). Концы −0,3 и +0,5 п.п. — суждение о
-  неопределённости уровня ближнего пути; края правила ось не накрывает. Цена оси по таблицам книги: точка — <!--=judgements[id=regimes.near_nim_shift.*].price_low r0-->322<!--/--> ₽ при
-  ключах на 0,3 п.п. ниже и <!--=judgements[id=regimes.near_nim_shift.*].price_high r0-->342<!--/--> ₽ при ключах на 0,5 п.п. выше; цена краёв правила — <!--=reference_variants[id=no_near_shift].point r0-->353<!--/--> и <!--=reference_variants[id=near_shift_stays].point r0-->263<!--/--> ₽. **Что проверит отчёт.**
+  неопределённости уровня ближнего пути; края правила ось не накрывает. Цена оси по таблицам книги: точка — <!--=judgements[id=regimes.near_nim_shift.*].price_low r0-->318<!--/--> ₽ при
+  ключах на 0,3 п.п. ниже и <!--=judgements[id=regimes.near_nim_shift.*].price_high r0-->338<!--/--> ₽ при ключах на 0,5 п.п. выше; цена краёв правила — <!--=reference_variants[id=no_near_shift].point r0-->348<!--/--> и <!--=reference_variants[id=near_shift_stays].point r0-->261<!--/--> ₽. **Что проверит отчёт.**
   Отчёт за 3-й квартал 2026 года покажет маржу квартала и то, какое из двух оснований было ближе; сойдёт ли расхождение
   с механикой книг, покажут только следующие кварталы — вариант «не сходит» одним отчётом не проверяется. Цена ближнего
-  пути в прибыли: прибыль 2026 года в модальной клетке — <!--=central_cell.ni_sh[0] r1-->210,1<!--/--> млрд ₽ по пути книги при пороге гайденса 209,3 млрд ₽
+  пути в прибыли: прибыль 2026 года в модальной клетке — <!--=central_cell.ni_sh[0] r1-->210,4<!--/--> млрд ₽ по пути книги при пороге гайденса 209,3 млрд ₽
   (+20 %); по механике книг она была бы выше.
 
 ### A-N4. Доля текущих счетов в средствах физлиц — функция ключевой ставки
@@ -1307,7 +1307,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Чем может ошибаться:** если срочные вклады 2024–2025 годов не вернутся на текущие счета при ключевой 8–10 %,
   ψ ближе к нулю и фондирование в мирах N и H дороже; если вернутся, как до сделки (77 % при ставке 7,5 %), ψ ближе к
   4–6. Цена ψ — не уровень маржи, а положение мира H над прямой между мирами N и M («бугор», A-N3): уровень мира окна
-  держит суждение A-N2, маржу мира N — передача. Точка на концах оси — <!--=judgements[id=nii.retail_current_share.psi].price_low r0-->328<!--/--> и <!--=judgements[id=nii.retail_current_share.psi].price_high r0-->329<!--/--> ₽ против <!--=headline.point r0-->329<!--/--> ₽ книги.
+  держит суждение A-N2, маржу мира N — передача. Точка на концах оси — <!--=judgements[id=nii.retail_current_share.psi].price_low r0-->325<!--/--> и <!--=judgements[id=nii.retail_current_share.psi].price_high r0-->325<!--/--> ₽ против <!--=headline.point r0-->326<!--/--> ₽ книги.
 
 ### A-N5. Взносы в систему страхования вкладов
 - **Ключи:** `nii.dia_rate` 0,0054.
@@ -1328,7 +1328,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   (низ — весь сдвиг на средствах клиентов; верх — не выше предела гейта пола спреда), треугольно.
 - **Класс:** C.
 - **Обоснование:** без сдвига стационарная маржа мира H на спредах калибровки выше уровня, который отвечает суждению:
-  книги «помнят» доходности последних кварталов. Разницу несёт сдвиг: σ0 на кредитных книгах — <!--=derived.nii.sigma0 p2-->−1,33<!--/--> п.п. при их весе
+  книги «помнят» доходности последних кварталов. Разницу несёт сдвиг: σ0 на кредитных книгах — <!--=derived.nii.sigma0 p2-->−1,32<!--/--> п.п. при их весе
   0,325 в процентных активах (раздел 0.3). Правило центра — наибольшая доля, при которой гейт пола спреда проходит в
   мире H (сжатия там нет): эффективные спреды карт, наличных и МСБ после сдвига (раздел 0.3) стоят против полов 9,5 /
   7,5 / 15,5 п.п. Авто, ипотека и корпоративные кредиты сдвига и сжатия не несут: их доходность идёт за рынком (наклоны
@@ -1339,10 +1339,10 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   зарабатывать меньше, чем в последние кварталы», и это суждение о конкуренции и регулировании полной стоимости кредита.
   Центр стоит на краю оси по правилу гейта, а не посередине свидетельств. На нижнем конце оси маржи сдвиг глубже, и
   спред кредитов наличными в мире M опускается ниже пола (раздел 18, п. 12). Цена по таблицам книги: если весь сдвиг
-  несут средства клиентов, точка — <!--=judgements[id=nii.sigma0_split].price_low r0-->333<!--/--> ₽ против <!--=headline.point r0-->329<!--/--> ₽ книги; ось сдвигает среднее прогонов на <!--=judgements[id=nii.sigma0_split].mean_shift s1-->+0,7<!--/--> ₽, не двигая точку.
+  несут средства клиентов, точка — <!--=judgements[id=nii.sigma0_split].price_low r0-->330<!--/--> ₽ против <!--=headline.point r0-->326<!--/--> ₽ книги; ось сдвигает среднее прогонов на <!--=judgements[id=nii.sigma0_split].mean_shift s1-->+0,7<!--/--> ₽, не двигая точку.
 
 ### A-N8. Кто несёт наклон маржи к ставке: доля φ на кредитных книгах
-- **Ключи:** `nii.phi_split` <!--=judgements[id=nii.phi_split].book r2-->0,70<!--/-->; флаг `phi` книг; порог со стороны средств клиентов — `checks.funds_cost_to_key`
+- **Ключи:** `nii.phi_split` <!--=judgements[id=nii.phi_split].book r2-->0,73<!--/-->; флаг `phi` книг; порог со стороны средств клиентов — `checks.funds_cost_to_key`
   {наибольшее отношение 0,706; с 2030 года}.
 - **Значение:** сжатие маржи со ставкой мира делят спреды карт, наличных и МСБ — в доле книги — и добавка к стоимости
   средств клиентов — остаток.
@@ -1354,21 +1354,21 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   9 п.п., что-то должно сжиматься в мире с высокой ставкой: либо спреды кредитов к опоре, либо выигрыш на дешёвых
   средствах клиентов. Правило центра — доля, которую показывает история наклонов, но не больше предела гейта пола
   спреда: книги со сжатием несли 0,494 сжатия на единицу опоры (наклоны 0,15 / 1,00 / 0,60 по весам якоря), и доля книги
-  — это число к полному сжатию φ. У этой книги связывает история: при цели передачи +0,06 полное сжатие — <!--=derived.nii.phi r3-->0,696<!--/-->, доля по
+  — это число к полному сжатию φ. У этой книги связывает история: при цели передачи +0,06 полное сжатие — <!--=derived.nii.phi r3-->0,675<!--/-->, доля по
   истории — 0,73, в книге — 0,73 (в книге 1.0 — 0,696, 0,71 и 0,70), а гейт пола спреда проходит и при всей доле на
   кредитных книгах. Из полного сжатия на
-  спредах кредитных книг — <!--=derived.nii.phi_assets r3-->0,487<!--/-->, в стоимости средств клиентов — <!--=derived.nii.phi_liab r3-->0,089<!--/-->; эффективные спреды и кредитная маржа стационара
+  спредах кредитных книг — <!--=derived.nii.phi_assets r3-->0,493<!--/-->, в стоимости средств клиентов — <!--=derived.nii.phi_liab r3-->0,078<!--/-->; эффективные спреды и кредитная маржа стационара
   по мирам — раздел 0.3. **Со стороны средств клиентов** раскладку сторожит гейт `funds_cost_to_key`: средняя стоимость
-  средств клиентов к средней ключевой ставке в 2030–2036 годах — <!--=funds_cost_to_key.by_world.N.ratio r3-->0,531<!--/--> / <!--=funds_cost_to_key.by_world.H.ratio r3-->0,590<!--/--> / <!--=funds_cost_to_key.by_world.M.ratio r3-->0,687<!--/--> в мирах N / H / M при пороге
+  средств клиентов к средней ключевой ставке в 2030–2036 годах — <!--=funds_cost_to_key.by_world.N.ratio r3-->0,536<!--/--> / <!--=funds_cost_to_key.by_world.H.ratio r3-->0,591<!--/--> / <!--=funds_cost_to_key.by_world.M.ratio r3-->0,684<!--/--> в мирах N / H / M при пороге
   0,706. Порог — наибольший квартал окна фактов (3-й квартал 2025 года); по кварталам окна отношение — 0,587 / 0,685 /
   0,660 / 0,706 / 0,678 / 0,675 / 0,671 (`evidence/nii`). Доля и концы оси проверяются заново при каждом выводе на ядре
   и при смене цели передачи: от них зависят и полное сжатие, и предел гейта.
 - **Чем может ошибаться:** оборотная сторона раскладки — стоимость средств клиентов в мире M: чем меньше сжатия несут
-  кредиты, тем дороже там средства клиентов. В центре мир M стоит под порогом (<!--=funds_cost_to_key.by_world.M.ratio r3-->0,687<!--/--> при 0,706), на нижнем конце оси — у
+  кредиты, тем дороже там средства клиентов. В центре мир M стоит под порогом (<!--=funds_cost_to_key.by_world.M.ratio r3-->0,684<!--/--> при 0,706), на нижнем конце оси — у
   самого порога: ось не заходит туда, где стоимость средств клиентов мира M выше наибольшего квартала окна (при доле
   0,30 отношение было бы 0,728; запись вывода). В мире N средства клиентов стоят дешевле, чем в любом квартале окна, в
   мире H — у нижнего его края: там ниже ставка и выше доля текущих счетов (A-N4); это следствие суждений о передаче и о
-  доле текущих счетов, окном оно не наблюдено. Цена оси по таблицам книги: точка на её концах — <!--=judgements[id=nii.phi_split].price_low r0-->330<!--/--> и <!--=judgements[id=nii.phi_split].price_high r0-->328<!--/--> ₽.
+  доле текущих счетов, окном оно не наблюдено. Цена оси по таблицам книги: точка на её концах — <!--=judgements[id=nii.phi_split].price_low r0-->326<!--/--> и <!--=judgements[id=nii.phi_split].price_high r0-->324<!--/--> ₽.
 
 ### A-G1. Премия роста кредитов к сектору
 - **Ключи:** `volumes.loan_share_drift.{corporate, mortgage, retail_other}`; `volumes.share_drift_until` 2031;
@@ -1386,12 +1386,12 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   и премия сходит к нулю. Потенциальный рост портфеля в мире H — 21,3 / 23,1 / 23,4 / 20,1 / 16,1 / 12,1 / 8,0 % в год
   (2-е полугодие 2026 — 2032 год); столько капитал не пропускает (A-K13).
 - **Чем может ошибаться и что это стоит:** высота и длина опережающего роста живут только здесь (раздел 17). Строка
-  «стоимость без опережающего роста» (раздел 0.6) снимает это суждение: с нулевой премией роста кредитов точка — <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].implied r0n-->311<!--/--> ₽
-  против <!--=headline.point r0-->329<!--/--> ₽ книги (<!--=reverse_dcf.bank_rows[key=value_without_excess_growth].delta s2-->−18,44<!--/--> ₽). У строки две части. Первая — то, что она снимает: премию кредитов; премия средств
+  «стоимость без опережающего роста» (раздел 0.6) снимает это суждение: с нулевой премией роста кредитов точка — <!--=reverse_dcf.bank_rows[key=value_without_excess_growth].implied r0n-->308<!--/--> ₽
+  против <!--=headline.point r0-->326<!--/--> ₽ книги (<!--=reverse_dcf.bank_rows[key=value_without_excess_growth].delta s2-->−17,48<!--/--> ₽). У строки две части. Первая — то, что она снимает: премию кредитов; премия средств
   клиентов с 2027 года в центре книги и так ноль. Вторая — то, что она оставляет: отток средств клиентов 3-го квартала
   2026 года, названный в книге фактом (A-G2). Отток — слагаемое другого знака: без него оценка была бы выше, и строка,
   снимавшая и суждение, и факт, показывала бы цену роста меньше настоящей. Сдвиг премии кредитов на −5 и +5 п.п.
-  даёт <!--=judgements[id=volumes.loan_share_drift.*].price_low r0-->324<!--/--> и <!--=judgements[id=volumes.loan_share_drift.*].price_high r0-->334<!--/--> ₽. Читать эти числа надо вместе с суждением о цене роста (A-K13). В клетках, где рост урезан капиталом,
+  даёт <!--=judgements[id=volumes.loan_share_drift.*].price_low r0-->322<!--/--> и <!--=judgements[id=volumes.loan_share_drift.*].price_high r0-->331<!--/--> ₽. Читать эти числа надо вместе с суждением о цене роста (A-K13). В клетках, где рост урезан капиталом,
   премия почти не меняет портфель — она меняет долю урезанного (сдвиг премии на ±5 п.п. даёт уровень портфеля 2030 года
   от 95 до 72 % потенциального пути; проба листа капитала); а в мире, где кредит не окупает капитал под него, больший
   спрос на кредит оценку не повышает.
@@ -1453,7 +1453,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   больше. **Вверх:** отток может оказаться разовым перетоком в инвестиции при снижении ставок, а банк — вернуть
   привлечение, когда оно понадобится балансу. **Цена фондирования.** Недостающий рубль стоит в модели на 0,79 п.п.
   дороже доходности ликвидных активов — как срочные вклады в окне, — то есть на 0,28 п.п. ниже ключевой ставки (A-G4);
-  если добирать придётся по облигационной ставке, точка — <!--=reference_variants[id=wholesale_bond_rate].point r0-->321<!--/--> ₽ (раздел 0.10). Лишний рубль средств клиентов, наоборот,
+  если добирать придётся по облигационной ставке, точка — <!--=reference_variants[id=wholesale_bond_rate].point r0-->318<!--/--> ₽ (раздел 0.10). Лишний рубль средств клиентов, наоборот,
   приносит в клетке разницу между этой ценой и своей стоимостью при почти нулевых активах под риском, и расходов на его
   привлечение связь с объёмом не начисляет (A-F2): в модели привлечение почти бесплатно, в жизни — нет (раздел 18, п.
   31). Доля текущих счетов в приросте та же, что в остатке, хотя за 18 месяцев до якоря текущие счета выросли всего на
@@ -1461,10 +1461,10 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   взяты с релизов во внутренней методике эмитента, а приложены к книгам МСФО: отношение двух рядов на концах кварталов
   ходит в пределах 0,991–1,004. Сентябрь в ключе 3-го квартала — допущение о темпе сектора, а не факт. Отчёт за 3-й
   квартал 2026 года покажет уровень средств клиентов и проверит ключ квартала; премию 2027–2031 годов он не проверит.
-  Цена по таблицам книги: точка на концах оси — <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->276<!--/--> и <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->381<!--/--> ₽ против <!--=headline.point r0-->329<!--/--> ₽ книги; вклад оси в дисперсию медианы — <!--=headline.contributions[axis=volumes.funds_share_drift.*.*].share p0-->14<!--/--> %.
-  Справочные варианты (раздел 0.10): премия на уровне нужды баланса — <!--=reference_variants[id=funds_premium_need].point r0-->391<!--/--> ₽ (<!--=reference_variants[id=funds_premium_need].d_point s2-->+61,35<!--/--> ₽ к книге), на уровне фактов,
-  −3,4 п.п., — <!--=reference_variants[id=funds_premium_facts].point r0-->293<!--/--> ₽ (<!--=reference_variants[id=funds_premium_facts].d_point s2-->−36,10<!--/--> ₽). Строка обратного расчёта — ровный сдвиг ключей 2027–2031 годов, при котором медиана
-  равна рынку, — <!--=reverse_dcf.rows[key=volumes.funds_share_drift.*.*].solved sp1n-->−5,1<!--/--> п.п.: за нижним краем диапазона книги для этой строки (±3,8 п.п.), оценка по подвыборке.
+  Цена по таблицам книги: точка на концах оси — <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->271<!--/--> и <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->379<!--/--> ₽ против <!--=headline.point r0-->326<!--/--> ₽ книги; вклад оси в дисперсию медианы — <!--=headline.contributions[axis=volumes.funds_share_drift.*.*].share p0-->14<!--/--> %.
+  Справочные варианты (раздел 0.10): премия на уровне нужды баланса — <!--=reference_variants[id=funds_premium_need].point r0-->386<!--/--> ₽ (<!--=reference_variants[id=funds_premium_need].d_point s2-->+60,28<!--/--> ₽ к книге), на уровне фактов,
+  −3,4 п.п., — <!--=reference_variants[id=funds_premium_facts].point r0-->289<!--/--> ₽ (<!--=reference_variants[id=funds_premium_facts].d_point s2-->−37,17<!--/--> ₽). Строка обратного расчёта — ровный сдвиг ключей 2027–2031 годов, при котором медиана
+  равна рынку, — <!--=reverse_dcf.rows[key=volumes.funds_share_drift.*.*].solved sp1n-->−4,6<!--/--> п.п.: за нижним краем диапазона книги для этой строки (±3,8 п.п.), оценка по подвыборке.
 
 ### A-G3. Постоянные прочие активы
 - **Ключи:** `volumes.other_assets_fixed` anchor; `volumes.other_assets_to_loans` anchor;
@@ -1513,8 +1513,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   клетки растёт с 13,5 % на якоре до 23 %, а по сетке доходит до 34,9 % — верхней трети коридора гейта (A-G2, A-X9). От
   этой цены зависит, окупает ли капитал рост сверх средств клиентов (A-K13): при ней предельный кредит, весь оплаченный
   по цене фондирования, после фазы роста окупает капитал только в мире N. Цена по таблицам книги: точка на концах оси
-  — <!--=judgements[id=nii.books.wholesale.spread.LT].price_low r0-->335<!--/--> ₽ при спреде −1,5 п.п. и <!--=judgements[id=nii.books.wholesale.spread.LT].price_high r0-->321<!--/--> ₽ при +1,5 п.п. (это и справочный вариант «недостающее фондирование по
-  облигационной ставке»: <!--=reference_variants[id=wholesale_bond_rate].d_point s2-->−7,87<!--/--> ₽ к книге) против <!--=headline.point r0-->329<!--/--> ₽ книги; вклад оси в дисперсию медианы — <!--=headline.contributions[axis=nii.books.wholesale.spread.LT].share p1-->0,1<!--/--> %.
+  — <!--=judgements[id=nii.books.wholesale.spread.LT].price_low r0-->331<!--/--> ₽ при спреде −1,5 п.п. и <!--=judgements[id=nii.books.wholesale.spread.LT].price_high r0-->318<!--/--> ₽ при +1,5 п.п. (это и справочный вариант «недостающее фондирование по
+  облигационной ставке»: <!--=reference_variants[id=wholesale_bond_rate].d_point s2-->−7,76<!--/--> ₽ к книге) против <!--=headline.point r0-->326<!--/--> ₽ книги; вклад оси в дисперсию медианы — <!--=headline.contributions[axis=nii.books.wholesale.spread.LT].share p1-->0,1<!--/--> %.
 
 ---
 
@@ -1553,8 +1553,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Чем может ошибаться и что это стоит:** два квартала для моста маржи — мало: за квартал разрыв сдвигается на
   0,05–0,10 п.п., правдоподобный диапазон — от −0,18 до −0,03 п.п., и его покрывает ось A-N2. Выбор «состав якоря»
   против «среднего окна» — 0,16 п.п. цели в базисе движка, ошибка моста расходов — 0,2 п.п. расходов к доходам; цену
-  таких сдвигов дают оси раздела 0.4: <!--=judgements[id=nii.nim_lt_target_mgmt].swing r0-->164<!--/--> ₽ на всю ось маржи
-  и <!--=judgements[id=opex.real_growth.*].swing r0-->107<!--/--> ₽ на ось расходов 44–50 %. Ядро читает значения
+  таких сдвигов дают оси раздела 0.4: <!--=judgements[id=nii.nim_lt_target_mgmt].swing r0-->165<!--/--> ₽ на всю ось маржи
+  и <!--=judgements[id=opex.real_growth.*].swing r0-->109<!--/--> ₽ на ось расходов 44–50 %. Ядро читает значения
   моста из фактов; числа этого раздела — лист калибровки, и сборка фактов обязана их воспроизвести.
 
 ### A-C2b. κ — стоимость риска к реальной ставке: перенос уровня окна в другие миры
@@ -1586,8 +1586,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   лагом в два квартала стоимость риска мира N поднимается к уровню режима, а мира H — немного выше него. Это след
   определения, а не суждение о цикле; на оценку он почти не влияет. Низ оси (0) — стоимость риска не зависит от мира:
   уровень окна во всех трёх мирах; верх (0,30) — после фазы роста мир N стоит ниже мира M на 0,8 п.п., на всю разность
-  групп. Цена по таблицам книги: точка — <!--=judgements[id=credit.kappa].price_low r0-->324<!--/--> ₽ при κ = 0 (это и справочный вариант раздела 0.10: <!--=reference_variants[id=kappa_zero].d_point s2-->−5,02<!--/--> ₽ к точке книги)
-  и <!--=judgements[id=credit.kappa].price_high r0-->339<!--/--> ₽ при κ = 0,30 против <!--=headline.point r0-->329<!--/--> ₽ книги. Реальная ставка самого окна выше стационарной ставки мира M — эта поправка
+  групп. Цена по таблицам книги: точка — <!--=judgements[id=credit.kappa].price_low r0-->321<!--/--> ₽ при κ = 0 (это и справочный вариант раздела 0.10: <!--=reference_variants[id=kappa_zero].d_point s2-->−5,15<!--/--> ₽ к точке книги)
+  и <!--=judgements[id=credit.kappa].price_high r0-->336<!--/--> ₽ при κ = 0,30 против <!--=headline.point r0-->326<!--/--> ₽ книги. Реальная ставка самого окна выше стационарной ставки мира M — эта поправка
   названа в A-C0b.
 
 ### A-C9. Резерв, сегменты и кредиты по справедливой стоимости
@@ -1651,9 +1651,9 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   квартале, про-форма не раскрыта. То, что при более сильной связи расходы приходят к цели без добавочного реального
   роста, — не довод в её пользу: корень выводится под цель при любой связи. База «кредиты» — тоже суждение: расходов на
   рост средств клиентов связь не начисляет (раздел 18, пп. 30–31). Цена по таблицам книги: точка на концах оси
-  — <!--=judgements[id=opex.volume_link+].price_low r0-->335<!--/--> ₽ при связях 0,3 и 0,4
-  и <!--=judgements[id=opex.volume_link+].price_high r0-->324<!--/--> ₽ при 0,7 и 0,8
-  против <!--=headline.point r0-->329<!--/--> ₽ книги; вклад оси в дисперсию медианы
+  — <!--=judgements[id=opex.volume_link+].price_low r0-->330<!--/--> ₽ при связях 0,3 и 0,4
+  и <!--=judgements[id=opex.volume_link+].price_high r0-->321<!--/--> ₽ при 0,7 и 0,8
+  против <!--=headline.point r0-->326<!--/--> ₽ книги; вклад оси в дисперсию медианы
   — <!--=headline.contributions[axis=opex.volume_link+].share p0-->0<!--/--> %.
 
 ### A-F1. Услуги нетто: спред к формуле связи
@@ -1680,7 +1680,7 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   — слой «Рыночные ставки как есть»} (A-X9). Корни выводятся на ядре.
 - **Значение:** рост расходов сверх формулы связи по годам — корни: они подобраны так, чтобы расходы к доходам **слоя
   «Рыночные ставки как есть»** вышли на 47 % упр. в 2030 году, в 2032 году и в среднем за 2033–2036 годы. Уровень окна
-  стоит в мире окна; модальная клетка мира H печатает меньше — <!--=levels.rows.modal_cell.cir p1-->45,1<!--/--> % в среднем за 2030–2036 годы, и это результат
+  стоит в мире окна; модальная клетка мира H печатает меньше — <!--=levels.rows.modal_cell.cir p1-->44,9<!--/--> % в среднем за 2030–2036 годы, и это результат
   (раздел 0.3). Значения корней — шаблон книги и запись вывода (`evidence/path/out/`); расходы к доходам модальной
   клетки по годам в базисе движка и смеси заголовка в упр. базисе — раздел 0.8.
 - **Ось:** «Расходы: реальный рост 2027–2030 (расходы к доходам 44–50 %)» — сдвиг ключей 2027–2030 годов
@@ -1706,9 +1706,9 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   продлевает их в терминал. Выход обоих сегментов в ноль — около 2,7 п.п. расходов к доходам, почти весь путь до нижнего
   конца оси; одни новые направления — около 1,7 п.п.; убыток повседневных сервисов зависит от трансфертных цен. В
   «прочем» — и стоимость инструментов капитала: корни выведены после неё, и часть этой стоимости возвращают меньшие
-  расходы (A-K8b). Цена уровня по таблицам книги: точка на концах оси — <!--=judgements[id=opex.real_growth.*].price_low r0-->384<!--/--> ₽ при расходах к доходам слоя около 44 %
-  и <!--=judgements[id=opex.real_growth.*].price_high r0-->276<!--/--> ₽ при около 50 %, размах <!--=judgements[id=opex.real_growth.*].swing r0-->107<!--/--> ₽; строка обратного расчёта: сдвиг реального роста, при котором медиана
-  равна рынку, — <!--=reverse_dcf.rows[key=opex.real_growth.*].solved sp2n-->+1,81<!--/--> п.п., за верхним краем оси (оценка по подвыборке).
+  расходы (A-K8b). Цена уровня по таблицам книги: точка на концах оси — <!--=judgements[id=opex.real_growth.*].price_low r0-->381<!--/--> ₽ при расходах к доходам слоя около 44 %
+  и <!--=judgements[id=opex.real_growth.*].price_high r0-->272<!--/--> ₽ при около 50 %, размах <!--=judgements[id=opex.real_growth.*].swing r0-->109<!--/--> ₽; строка обратного расчёта: сдвиг реального роста, при котором медиана
+  равна рынку, — <!--=reverse_dcf.rows[key=opex.real_growth.*].solved sp2n-->+1,70<!--/--> п.п., за верхним краем оси (оценка по подвыборке).
 
 ### A-O3. «Прочее» и страхование
 - **Ключи:** `other.misc_net_real` — траектория по годам: уровень «прочего» за вычетом стоимости внешней доли прироста
@@ -1767,8 +1767,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   постоянен в рублях и стоит ключевую ставку мира H, поэтому в ценах 2026 года строка сходит с 8,6 до 3,7.
 - **Чем может ошибаться и что это стоит:** сумма и ставка долга под пакет не раскрыты; поправка эмитента упала с 2,71
   до 1,70 млрд ₽ за квартал при росте процентов нефинансовых компаний. По таблицам книги сдвиг пути на −5,4 и +5,4
-  млрд ₽ в год даёт точку <!--=judgements[id=noncore.result_real.*].price_low r0-->319<!--/-->
-  и <!--=judgements[id=noncore.result_real.*].price_high r0-->339<!--/--> ₽. Сам пакет — около 27 ₽ на акцию в доле группы
+  млрд ₽ в год даёт точку <!--=judgements[id=noncore.result_real.*].price_low r0-->316<!--/-->
+  и <!--=judgements[id=noncore.result_real.*].price_high r0-->336<!--/--> ₽. Сам пакет — около 27 ₽ на акцию в доле группы
   до долга, и 10 % цены Яндекса — примерно 1 % цены Т (порядки листа и проекта, в таблицах книги их нет). Дивиденды и
   переоценка пакета в прибыль движка не входят: живая цена Яндекса — вторым контуром следующей версии.
 
@@ -1810,8 +1810,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Чем может ошибаться и что это стоит:** ядро берёт долю от всей прибыли, а источник — прибыль «Точки» и
   «Селектела»: если они растут медленнее банка, доля падает (за год — с 5 до 2,4 %). Один пункт доли — один процент
   прибыли акционеров; по таблицам книги точка на концах оси (1,5 и 3,5 %)
-  — <!--=judgements[id=pnl.nci_share].price_low r0-->335<!--/-->
-  и <!--=judgements[id=pnl.nci_share].price_high r0-->323<!--/--> ₽. После закрытия сделки с «Точкой» структура доли
+  — <!--=judgements[id=pnl.nci_share].price_low r0-->331<!--/-->
+  и <!--=judgements[id=pnl.nci_share].price_high r0-->319<!--/--> ₽. После закрытия сделки с «Точкой» структура доли
   меняется фактами нового якоря.
 
 ### A-O4. Совокупный доход: фонд переоценки облигаций
@@ -1928,13 +1928,13 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   в долларах США; перенос их надбавки к ставке ФРС на рублёвый выпуск — отдельное суждение класса C, ключа и оси у
   спреда нет, в полосу он не входит. **Внешняя доля** взята по якорю, а прирост четырёх кварталов до якоря был почти
   целиком внутригрупповым (внешние 65,2 → 65,7 млрд ₽): если так пойдёт дальше, стоимость меньше. Цена правила —
-  справочный вариант «инструменты капитала без надбавки к оптовому фондированию» (раздел 0.10): точка <!--=reference_variants[id=no_instrument_cost].point r0-->335<!--/--> ₽
-  (<!--=reference_variants[id=no_instrument_cost].d_point s2-->+5,79<!--/--> ₽ к книге). Это прямой эффект при корнях расходов книги: стоимость стоит в «прочем», «прочее» входит в доход
+  справочный вариант «инструменты капитала без надбавки к оптовому фондированию» (раздел 0.10): точка <!--=reference_variants[id=no_instrument_cost].point r0-->332<!--/--> ₽
+  (<!--=reference_variants[id=no_instrument_cost].d_point s2-->+5,85<!--/--> ₽ к книге). Это прямой эффект при корнях расходов книги: стоимость стоит в «прочем», «прочее» входит в доход
   отношения расходов к доходам, и если вывести корни заново под ту же цель 47 %, часть стоимости вернут меньшие расходы
   — цена правила меньше (A-O1). Ось двигает только путь инструментов в нормативе: стоимость прироста на оси не
   пересчитывается, и дополнительные инструменты на её верхнем конце бесплатны (раздел 18, п. 6). Ось задана в рублях:
   ±37 млрд ₽ — это ±0,7 п.п. активов под риском на якоре и заметно меньше к 2030 году. По таблицам книги точка
-  — <!--=judgements[id=capital.n20.t2].price_low r0-->326<!--/--> ₽ при сдвиге пути на −37 млрд ₽ и <!--=judgements[id=capital.n20.t2].price_high r0-->331<!--/--> ₽ при +37 млрд ₽: больше инструментов — больше роста, но знак оси не
+  — <!--=judgements[id=capital.n20.t2].price_low r0-->323<!--/--> ₽ при сдвиге пути на −37 млрд ₽ и <!--=judgements[id=capital.n20.t2].price_high r0-->328<!--/--> ₽ при +37 млрд ₽: больше инструментов — больше роста, но знак оси не
   говорит, окупает ли этот рост капитал: дополнительные инструменты на оси бесплатны, и в цене сходятся два эффекта
   (раздел 0); знак роста меряют «цена правила» и гейты знака (A-K13, A-X11). Отзыв займа на 600 млн долларов — событие
   календаря фактов и плашка; в книге инструменты не отзываются. Валютная переоценка внешних займов (±10 % курса — ±0,12
@@ -1986,9 +1986,9 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Чем может ошибаться и что это стоит:** центр — суждение между двумя чтениями; запас у обоих нормативов один, хотя
   связывает только Н20.0. Цена в портфеле: 1 п.п. запаса — около 8 п.п. уровня портфеля 2030 года к потенциальному пути
   (0,5 / 1,5 / 3,0 п.п. → 93 / 84 / 73 %; проба листа капитала). Цена в оценке по таблицам книги: точка
-  — <!--=judgements[id=capital.mgmt_buffer.*].price_low r0-->337<!--/--> ₽ при запасе 0,5 п.п.
-  и <!--=judgements[id=capital.mgmt_buffer.*].price_high r0-->319<!--/--> ₽ при 2,5 п.п.
-  против <!--=headline.point r0-->329<!--/--> ₽ книги. Больший запас урезает рост и удерживает больше капитала, и в его цене
+  — <!--=judgements[id=capital.mgmt_buffer.*].price_low r0-->333<!--/--> ₽ при запасе 0,5 п.п.
+  и <!--=judgements[id=capital.mgmt_buffer.*].price_high r0-->316<!--/--> ₽ при 2,5 п.п.
+  против <!--=headline.point r0-->326<!--/--> ₽ книги. Больший запас урезает рост и удерживает больше капитала, и в его цене
   сходятся два эффекта (раздел 0): цена урезанного роста и доход на удержанный капитал до его выплаты. На числах книги
   больший запас оценку снижает; окупает ли урезанный кредит капитал под него, отдельно меряют «цена правила» и гейты
   знака (A-K13, A-X11).
@@ -2018,8 +2018,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Чем может ошибаться и что это стоит:** разбивка группы не раскрыта; если надбавок на авто и ипотеку нет вовсе,
   плотность карт и наличных выше на 0,13, авто — ниже на 0,20. Цена дрейфа: 1 % плотности — 0,13 п.п. Н20.0; концы оси
   разводят долю прироста 2027–2028 годов от 1,00 (ограничение снято целиком) до 0,60 (счёт сводки этапа 1); в оценке по
-  таблицам книги точка на концах оси — <!--=judgements[id=capital.rwa.density_drift_rate].price_low r0-->339<!--/-->
-  и <!--=judgements[id=capital.rwa.density_drift_rate].price_high r0-->323<!--/--> ₽ (как читать знак — A-K13). Ступень
+  таблицам книги точка на концах оси — <!--=judgements[id=capital.rwa.density_drift_rate].price_low r0-->335<!--/-->
+  и <!--=judgements[id=capital.rwa.density_drift_rate].price_high r0-->319<!--/--> ₽ (как читать знак — A-K13). Ступень
   4-го квартала 2026 года — около +209 млрд ₽ активов под риском, −0,5 п.п. Н20.0 одним кварталом: плавный дрейф
   показывает норматив этого квартала на 0,2 п.п. выше (раздел 18, п. 4). С 15.10.2026 облигации секьюритизации
   потребительских кредитов получают надбавку 250 % — эффект не раскрыт (раздел 18, п. 5).
@@ -2087,16 +2087,16 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   есть выходы, которых в правиле нет: размещение акций (июль 2019 года), продажа и секьюритизация портфелей (127 млрд ₽
   на якоре). Доля прироста по кварталам ходит пилой — в 4-м квартале календарь вычитает два дивиденда, в 1-м ни одного,
   — поэтому гейт урезания считается по году. Ступень операционного риска 4-го квартала правилу неизвестна.
-  **Цена правила** — три строки раздела 0.9: точка <!--=rule_price.rows[key=dividend_first].point r0-->329<!--/--> ₽ при правиле книги, <!--=rule_price.rows[key=growth_first].point r0-->313<!--/--> ₽ при «сначала уступает дивиденд»
-  и <!--=rule_price.rows[key=unconstrained].point r0-->301<!--/--> ₽ без ограничения роста капиталом (масса капитального разрыва в последнем случае — <!--=rule_price.rows[key=unconstrained].capital_gap_mass p0-->47<!--/--> %). Правило книги — самое
+  **Цена правила** — три строки раздела 0.9: точка <!--=rule_price.rows[key=dividend_first].point r0-->326<!--/--> ₽ при правиле книги, <!--=rule_price.rows[key=growth_first].point r0-->308<!--/--> ₽ при «сначала уступает дивиденд»
+  и <!--=rule_price.rows[key=unconstrained].point r0-->295<!--/--> ₽ без ограничения роста капиталом (масса капитального разрыва в последнем случае — <!--=rule_price.rows[key=unconstrained].capital_gap_mass p0-->48<!--/--> %). Правило книги — самое
   дорогое из трёх: и снятие ограничения, и порядок «сначала уступает дивиденд» дают росту больше капитала, а рост сверх
   средств клиентов на числах книги окупает капитал не во всех мирах.
   **Чего стоит рост.** Средства клиентов растут в клетке своим путём, поэтому кредит сверх того, что они фондируют,
   занимает место ликвидных активов, а когда те упираются в минимум — фондируется по цене недостающего фондирования, на
   0,28 п.п. ниже ключевой ставки (A-G4); он несёт стоимость риска и свою долю расходов (A-F2) и требует капитала под
   норматив. Окупает ли такой кредит капитал под него, зависит от мира. Тест знака (гейт `volume_sign`, A-X11) при
-  выключенном ограничении роста добавляет кредита и меряет цену каждого мира: <!--=sign_test.d_world.N s2-->+1,50<!--/--> ₽ в мире N, <!--=sign_test.d_world.H s2-->−2,12<!--/--> ₽ в мире H
-  и <!--=sign_test.d_world.M s2-->−15,79<!--/--> ₽ в мире M. Стоимость рост создаёт только в мире N; в мире H он её немного разрушает, в мире M — заметно:
+  выключенном ограничении роста добавляет кредита и меряет цену каждого мира: <!--=sign_test.d_world.N s2-->+1,54<!--/--> ₽ в мире N, <!--=sign_test.d_world.H s2-->−1,69<!--/--> ₽ в мире H
+  и <!--=sign_test.d_world.M s2-->−16,96<!--/--> ₽ в мире M. Стоимость рост создаёт только в мире N; в мире H он её немного разрушает, в мире M — заметно:
   стоимость капитала там — <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, недостающее фондирование дорожает вместе с ключевой ставкой, а маржа с ней почти не
   растёт (A-N3). В точке мир M весит 0,60, поэтому снятие ограничения роста точку снижает (раздел 0.9). Там, где кредит
   капитал не окупает, знаки обратны привычным: то, что добавляет роста, оценку снижает, а убыток, который урезает рост,
@@ -2156,11 +2156,11 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   49,5 млрд ₽. Купон по бессрочным инструментам из базы не вычитается: в капитале МСФО таких инструментов нет (65,7
   млрд ₽ — в обязательствах).
 - **Чем может ошибаться и что это стоит:** эмитент ведёт дивиденд лестницей (+0,1 ₽ за квартал, шаг года — +0,9 ₽), а не
-  долей: за 2026 год правило даёт в модальной клетке <!--=central_cell.dps[0] r2-->19,50<!--/--> ₽ против 19,0 ₽ по лестнице
+  долей: за 2026 год правило даёт в модальной клетке <!--=central_cell.dps[0] r2-->19,51<!--/--> ₽ против 19,0 ₽ по лестнице
   (4,6 + 4,7 + 4,8 + 4,9) — расхождение в печатаемом дивиденде, не в оценке; решение за 4-й квартал исторически выше
   промежуточных (27,7 %). В оценке пункт доли стоит так: по таблицам книги точка
-  — <!--=judgements[id=dividends.payout_deviation].price_low r0-->323<!--/--> ₽ при доле на 5 п.п. ниже политики
-  и <!--=judgements[id=dividends.payout_deviation].price_high r0-->334<!--/--> ₽ при доле на 4 п.п. выше (ось A-D2).
+  — <!--=judgements[id=dividends.payout_deviation].price_low r0-->319<!--/--> ₽ при доле на 5 п.п. ниже политики
+  и <!--=judgements[id=dividends.payout_deviation].price_high r0-->331<!--/--> ₽ при доле на 4 п.п. выше (ось A-D2).
   Выплата конкурирует с ростом за капитал, и в знаке оси сходятся два эффекта (раздел 0): рост, который обеспечил бы
   удержанный рубль, и доход на удержанный капитал до его выплаты; знак роста отдельно меряют «цена правила» и гейты
   знака (A-K13, A-X11).
@@ -2277,9 +2277,9 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   Сбербанка (`evidence/market/beta_t.py`, выходы совпадают с листом этапа 1 байт в байт).
 - **Чем может ошибаться и что это стоит:** окно 3 года включает покупку Росбанка и смену тикера; на пятилетнем окне β
   выше. Цена: 0,1 β — 0,56 п.п. стоимости капитала; по таблицам книги точка на концах оси (0,95 и 1,15)
-  — <!--=judgements[id=valuation.beta_e].price_low r0-->347<!--/-->
-  и <!--=judgements[id=valuation.beta_e].price_high r0-->310<!--/--> ₽; строка обратного расчёта: β, при которой медиана
-  равна рынку, — <!--=reverse_dcf.rows[key=valuation.beta_e].solved r2n-->1,30<!--/-->.
+  — <!--=judgements[id=valuation.beta_e].price_low r0-->343<!--/-->
+  и <!--=judgements[id=valuation.beta_e].price_high r0-->307<!--/--> ₽; строка обратного расчёта: β, при которой медиана
+  равна рынку, — <!--=reverse_dcf.rows[key=valuation.beta_e].solved r2n-->1,29<!--/-->.
 
 ### A-V2. Премия за риск акций
 - **Ключи:** `valuation.erp` 0,0557.
@@ -2288,9 +2288,9 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   владельца 30.09.2026).
 - **Обоснование:** одна премия у всех панелей семейства — спор с рынком о ней ведёт строка обратного расчёта.
 - **Чем может ошибаться и что это стоит:** по таблицам книги точка на концах оси (4,9 и 6,2 %)
-  — <!--=judgements[id=valuation.erp].price_low r0-->354<!--/-->
-  и <!--=judgements[id=valuation.erp].price_high r0-->309<!--/--> ₽; строка обратного расчёта: ERP, при которой медиана
-  равна рынку, — <!--=reverse_dcf.rows[key=valuation.erp].solved p2n-->7,03<!--/--> (в процентах).
+  — <!--=judgements[id=valuation.erp].price_low r0-->350<!--/-->
+  и <!--=judgements[id=valuation.erp].price_high r0-->305<!--/--> ₽; строка обратного расчёта: ERP, при которой медиана
+  равна рынку, — <!--=reverse_dcf.rows[key=valuation.erp].solved p2n-->6,96<!--/--> (в процентах).
 
 ### A-V3b. Реальный рост терминала
 - **Ключи:** `valuation.terminal.real_growth` 0,015.
@@ -2323,12 +2323,12 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   стоимости капитала оно ничего не добавляет. **Срок после 2036 года живёт только здесь**; срок до 2036 года — в
   годе схода маржи (A-C4b); в долгосрочных уровнях срока нет — они уровень окна без скидки на будущее (раздел 17).
 - **Чем может ошибаться и что это стоит:** перевод срока в множитель — справочная формула, сам срок — суждение. Цена по
-  таблицам книги: точка — <!--=judgements[id=valuation.terminal.fade].price_low r0-->323<!--/--> ₽ при множителе 0,25
-  и <!--=judgements[id=valuation.terminal.fade].price_high r0-->342<!--/--> ₽ без угасания (множитель 1,0)
-  против <!--=headline.point r0-->329<!--/--> ₽ книги. Цена оси растёт вместе с положительной избыточной доходностью
+  таблицам книги: точка — <!--=judgements[id=valuation.terminal.fade].price_low r0-->320<!--/--> ₽ при множителе 0,25
+  и <!--=judgements[id=valuation.terminal.fade].price_high r0-->338<!--/--> ₽ без угасания (множитель 1,0)
+  против <!--=headline.point r0-->326<!--/--> ₽ книги. Цена оси растёт вместе с положительной избыточной доходностью
   терминала: ROE после фазы роста против стоимости капитала по слоям — раздел 0.2. Там, где доходность ниже стоимости
   капитала, ось ничего не меняет — угасание одностороннее; цена этого правила — справочный вариант «угасание с обеих
-  сторон»: <!--=reference_variants[id=fade_symmetric].d_point s2-->+5,82<!--/--> ₽ к точке книги (раздел 0.10; раздел 18, п. 32).
+  сторон»: <!--=reference_variants[id=fade_symmetric].d_point s2-->+6,40<!--/--> ₽ к точке книги (раздел 0.10; раздел 18, п. 32).
 
 ### A-V5. Дисконт вдоль кривой мира
 - **Ключи:** `worlds.<W>.zero_curve` (A-M2); своих ключей у дисконта нет.
@@ -2356,10 +2356,10 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   — 177,3 млн акций, на 44,5 млн (1,66 %) больше запаса, и этот разрыв закрывается либо выкупом (расход в прибыли и
   капитале), либо выпуском. Цена альтернатив — арифметика делителя: цена обратно пропорциональна числу акций, поэтому
   делитель с заработанной долей грантов (2 638,6 млн, −1,6 %) даёт цену на 1,7 % выше — это справочный вариант раздела
-  0.10: точка <!--=reference_variants[id=divisor_earned_grants].point r0-->335<!--/--> ₽, — а акции в обращении (−5,0 %) — на 5,2 % выше;
+  0.10: точка <!--=reference_variants[id=divisor_earned_grants].point r0-->331<!--/--> ₽, — а акции в обращении (−5,0 %) — на 5,2 % выше;
   по таблицам книги точка на концах оси
-  — <!--=judgements[id=valuation.share_count_adj].price_low r0-->347<!--/--> ₽ при −5 %
-  и <!--=judgements[id=valuation.share_count_adj].price_high r0-->323<!--/--> ₽ при +2 %. Ось −5…+2 % покрывает оба
+  — <!--=judgements[id=valuation.share_count_adj].price_low r0-->343<!--/--> ₽ при −5 %
+  и <!--=judgements[id=valuation.share_count_adj].price_high r0-->319<!--/--> ₽ при +2 %. Ось −5…+2 % покрывает оба
   направления; после закрытия сделки с «Точкой» число акций меняется фактами якоря (A-A5).
 
 ### A-V7. Дисконт за управление — по каналам снизу вверх
@@ -2384,8 +2384,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Чем может ошибаться и что это стоит:** запись из трёх сделок — малая выборка, и следующая сделка может быть
   другой; судьба начислений депозитарному блоку не раскрыта (если их спишут в пользу остальных акционеров, канал
   отрицателен — до −4,4 %). Цена по таблицам книги: точка при дисконте 10 %
-  — <!--=judgements[id=valuation.governance.discount].price_high r0-->297<!--/--> ₽
-  против <!--=headline.point r0-->329<!--/--> ₽ без дисконта. Ось односторонняя: при центре 0 среднее розыгрыша — 1,67 %
+  — <!--=judgements[id=valuation.governance.discount].price_high r0-->294<!--/--> ₽
+  против <!--=headline.point r0-->326<!--/--> ₽ без дисконта. Ось односторонняя: при центре 0 среднее розыгрыша — 1,67 %
   капитала модели, и ось сдвигает среднее прогонов
   на <!--=judgements[id=valuation.governance.discount].mean_shift s1-->−5,4<!--/--> ₽, не двигая точку. Сделка с «Точкой» до
   закрытия в дисконт не входит (A-A5).
@@ -2667,8 +2667,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 - **Обоснование:** ROE — операционная прибыль к капиталу акционеров МСФО: факт кварталов 26,7–33,3 %. Стоимость риска:
   годовые пути режимов 4,0–10,0 % упр. минус мост. Маржа кварталов 2024–2026 годов: 10,0–12,2 % упр. Расходы к доходам в
   базисе движка: цель 48,6 %, история 46,4–53,6 %. P/B клетки 0,4–2,5 — коридор этой панели: у банка с операционным ROE
-  27–29 % и ростом быстрее сектора лучшие клетки — мир N, «мягкая посадка» — стоят <!--=cells[world=N&regime=soft&scenario=strict].pb r2-->2,01<!--/-->–<!--=cells[world=N&regime=soft&scenario=schedule].pb r2-->2,13<!--/-->
-  капитала, худшие — мир M, «кризис» — <!--=cells[world=M&regime=crisis&scenario=strict].pb r2-->0,60<!--/-->–<!--=cells[world=M&regime=crisis&scenario=schedule].pb r2-->0,62<!--/-->; верх 2,0 панели-образца, откалиброванный на
+  27–29 % и ростом быстрее сектора лучшие клетки — мир N, «мягкая посадка» — стоят <!--=cells[world=N&regime=soft&scenario=strict].pb r2-->1,98<!--/-->–<!--=cells[world=N&regime=soft&scenario=schedule].pb r2-->2,10<!--/-->
+  капитала, худшие — мир M, «кризис» — <!--=cells[world=M&regime=crisis&scenario=strict].pb r2-->0,59<!--/-->–<!--=cells[world=M&regime=crisis&scenario=schedule].pb r2-->0,60<!--/-->; верх 2,0 панели-образца, откалиброванный на
   банке с доходностью капитала около 20 %, срабатывал бы на лучших клетках этой книги, верх 2,5 оставляет сетке запас.
   Низ 0,4 — как у панели-образца. Рыночный P/B на цене книги — 0,96.
 - **Чем может ошибаться:** кризисная клетка мира M может выйти за нижние границы законно — объяснение с массой; клетка
@@ -2734,8 +2734,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   кварталов не выше большей из маржи якоря и стационарной маржи мира плюс 0,3 п.п.; путь книги в 2026 году — 11,53 и
   11,48 % (A-C4b). Порог стоит на составе баланса якоря, а путь книги 2027–2029 годов ведёт маржу к уровню на составе
   клетки — вверх: у этой книги модальная клетка проходит у самого порога, а в шести клетках «мягкой посадки» и
-  «нормализации» гейт срабатывает (масса — <!--=checks[name=nim_path_joint].mass r3-->0,169<!--/-->), и это объяснённое свойство, а не ступень. Парные передачи соседних
-  миров в центре — <!--=derived.nii.T_pairs.N_H r3-->0,228<!--/--> (N → H) и <!--=derived.nii.T_pairs.H_M r3-->−0,005<!--/--> (H → M): они не равны цели A-N3, потому что мир H стоит выше прямой,
+  «нормализации» гейт срабатывает (масса — <!--=checks[name=nim_path_joint].mass r3-->0,078<!--/-->), и это объяснённое свойство, а не ступень. Парные передачи соседних
+  миров в центре — <!--=derived.nii.T_pairs.N_H r3-->0,236<!--/--> (N → H) и <!--=derived.nii.T_pairs.H_M r3-->−0,005<!--/--> (H → M): они не равны цели A-N3, потому что мир H стоит выше прямой,
   соединяющей миры N и M (наклон кривой, доля текущих счетов; «бугор», A-N3); на верхнем конце оси передачи пара N → H
   выходит за край коридора — 0,306 при 0,30 (на мирах 1.6 — 0,298; запись вывода `evidence/path/out/`): гейт судит центр
   книги, а не край оси, и коридор панели-образца (−0,05…0,25) для этой книги узок. Флаг прыжка прибыли: квартальная операционная прибыль выше того же квартала прошлого года больше
@@ -2754,11 +2754,11 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
   | Книга (опора) | Стоимость риска окна, % | Спред окна с лагом: минимум / медиана, п.п. | Пол, п.п. | Эффективный спред мира H, п.п. |
   |---|---|---|---|---|
-  | Кредитные карты (ключевая) | 9,77 | 14,94 / 15,54 | 9,5 | <!--=derived.nii.lt_spread.cards.H p2-->19,79<!--/--> |
-  | Кредиты наличными (ОФЗ 3 лет) | 7,98 | 8,74 / 11,16 | 7,5 | <!--=derived.nii.lt_spread.cash_loans.H p2-->11,99<!--/--> |
+  | Кредитные карты (ключевая) | 9,77 | 14,94 / 15,54 | 9,5 | <!--=derived.nii.lt_spread.cards.H p2-->19,81<!--/--> |
+  | Кредиты наличными (ОФЗ 3 лет) | 7,98 | 8,74 / 11,16 | 7,5 | <!--=derived.nii.lt_spread.cash_loans.H p2-->12,00<!--/--> |
   | Автокредиты (ОФЗ 3 лет) | 2,53 | 3,66 / 4,60 | 2,5 | <!--=derived.nii.lt_spread.auto.H p2-->4,22<!--/--> |
-  | Ипотека (ОФЗ 3 лет) | 0,53 | 1,72 / 3,31 | 0,5 | <!--=derived.nii.lt_spread.mortgage.H p2-->2,30<!--/--> |
-  | Кредиты МСБ (ОФЗ 1 года) | 15,61 | 23,87 / 25,68 | 15,5 | <!--=derived.nii.lt_spread.sme_loans.H p2-->25,76<!--/--> |
+  | Ипотека (ОФЗ 3 лет) | 0,53 | 1,72 / 3,31 | 0,5 | <!--=derived.nii.lt_spread.mortgage.H p2-->2,31<!--/--> |
+  | Кредиты МСБ (ОФЗ 1 года) | 15,61 | 23,87 / 25,68 | 15,5 | <!--=derived.nii.lt_spread.sme_loans.H p2-->25,77<!--/--> |
   | Корпоративные кредиты и лизинг (ключевая) | 1,22 | 0,00 / 0,83 | 0,0 | <!--=derived.nii.lt_spread.corp_loans.H p2-->1,05<!--/--> |
 
   У корпоративных кредитов история уже ниже стоимости риска (спред с лагом на якоре — ноль), поэтому пол — ноль. Спреды
@@ -2802,8 +2802,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   2025 год) и рост дивиденда на акцию более чем на 20 % (более 17,88 ₽ к 14,90 ₽). Цель ROE около 30 % эмитент считает к
   операционному капиталу — в гейт она не входит. Маржу, стоимость риска и расходы к доходам эмитент числом не называет:
   узлы несут пустое значение с причиной и начнут сравниваться, когда он их назовёт. Факт полугодия — 98,6 млрд ₽,
-  +31,7 %. Прибыль 2026 года в модальной клетке — <!--=central_cell.ni_sh[0] r1-->210,1<!--/--> млрд ₽, дивиденд за год
-  — <!--=central_cell.dps[0] r2-->19,50<!--/--> ₽; числа по режимам печатает сообщение гейта.
+  +31,7 %. Прибыль 2026 года в модальной клетке — <!--=central_cell.ni_sh[0] r1-->210,4<!--/--> млрд ₽, дивиденд за год
+  — <!--=central_cell.dps[0] r2-->19,51<!--/--> ₽; числа по режимам печатает сообщение гейта.
 - **Чем может ошибаться:** запас к порогу прибыли мал во всех режимах, кроме «мягкой посадки»: модальная клетка проходит
   порог с запасом меньше миллиарда рублей, а «нормализация» в мире M до него не дотягивает — отток средств клиентов
   стоит в 3-м квартале, и процентные активы второго полугодия меньше (A-G2). Поэтому масса гейта у этой книги — <!--=checks[name=guidance_gap].mass r2-->0,53<!--/-->:
@@ -2835,20 +2835,20 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   процентных активах — и включает узел уровней таблиц книги.
   **Стоимость средств клиентов к ключевой ставке** (`funds_cost_to_key`). В клетке «мир × модальный режим × модальный
   сценарий» каждого мира средняя стоимость средств клиентов к средней ключевой ставке за 2030–2036 годы не выше 0,706 —
-  наибольшего квартала окна; по счёту ядра — <!--=funds_cost_to_key.by_world.N.ratio r3-->0,531<!--/--> / <!--=funds_cost_to_key.by_world.H.ratio r3-->0,590<!--/--> / <!--=funds_cost_to_key.by_world.M.ratio r3-->0,687<!--/--> в мирах N / H / M. Гейт сторожит раскладку сжатия
+  наибольшего квартала окна; по счёту ядра — <!--=funds_cost_to_key.by_world.N.ratio r3-->0,536<!--/--> / <!--=funds_cost_to_key.by_world.H.ratio r3-->0,591<!--/--> / <!--=funds_cost_to_key.by_world.M.ratio r3-->0,684<!--/--> в мирах N / H / M. Гейт сторожит раскладку сжатия
   маржи со стороны средств клиентов; он же задаёт нижний конец оси доли сжатия (A-N8).
   **Знак объёмных эффектов** (`volume_sign`). При выключенном ограничении роста снимаются остановка кредита в кризисе и
   поправки роста режимов — кредита в клетках становится больше — и меряется изменение точки и цены каждого мира. Гейт
   срабатывает, если точка снижается больше допуска или цена мира M меняется хуже цены мира H. Ограничение роста
   выключено на обеих сторонах сравнения: иначе поправка спроса меряла бы правило капитала, а не знак объёмного эффекта.
-  По счёту ядра точка меняется на <!--=sign_test.d_point s2-->−9,69<!--/--> ₽ (<!--=sign_test.point r2-->301,30<!--/--> → <!--=sign_test.point_free r2-->291,60<!--/--> ₽), цены миров N / H / M — на <!--=sign_test.d_world.N s2-->+1,50<!--/--> / <!--=sign_test.d_world.H s2-->−2,12<!--/--> / <!--=sign_test.d_world.M s2-->−15,79<!--/--> ₽ при
+  По счёту ядра точка меняется на <!--=sign_test.d_point s2-->−10,29<!--/--> ₽ (<!--=sign_test.point r2-->295,37<!--/--> → <!--=sign_test.point_free r2-->285,08<!--/--> ₽), цены миров N / H / M — на <!--=sign_test.d_world.N s2-->+1,54<!--/--> / <!--=sign_test.d_world.H s2-->−1,69<!--/--> / <!--=sign_test.d_world.M s2-->−16,96<!--/--> ₽ при
   допуске <!--=sign_test.tol r2-->0,50<!--/--> ₽.
   **Знак стресса** (`stress_sign`) — на центральной книге с её правилом роста. Первая часть: разовый убыток кризиса
   увеличивается на 60 млрд ₽ (с 40 до 100), и стоимость ни одной клетки режима шока не должна вырасти больше допуска.
   Вторая часть: в каждой паре «мир × режим» — во всех режимах, включая режим шока, — у сценария капитала с более высоким
   требованием Н20.0 последнего года операционная прибыль последнего года не должна быть выше, чем у сценария с более
   низким. По счёту ядра масса нарушивших клеток под вероятностями точки — <!--=stress_sign.mass r3-->0,000<!--/-->, наибольшее превышение — <!--=stress_sign.max_excess r1-->0,0<!--/--> млрд ₽;
-  рубль убытка после налога снижает стоимость клетки на <!--=stress_sign.loss.transfer_min r2-->0,19<!--/-->–<!--=stress_sign.loss.transfer_max r2-->0,94<!--/--> ₽.
+  рубль убытка после налога снижает стоимость клетки на <!--=stress_sign.loss.transfer_min r2-->0,17<!--/-->–<!--=stress_sign.loss.transfer_max r2-->0,93<!--/--> ₽.
   **Почему гейты, а не запреты.** Условия знака нарушает одно свойство чисел книги — предельный кредит не окупает
   капитал под него (A-K13): тогда больший убыток, урезая рост, повышает оценку, более жёсткое требование — прибыль, а
   больший спрос на кредит снижает точку. У этой книги свойство есть в мирах H и M — сильнее всего в мире M, где
@@ -2928,14 +2928,14 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
    доступе к субординированному долгу. Стоимость её прироста — спред 6,66 п.п. к цене недостающего фондирования,
    оценённый по трём действующим инструментам в долларах США и перенесённый на рублёвый выпуск, — начисляется на внешнюю
    долю прироста, 46,2 %, как на якоре; ключа и оси у спреда и у внешней доли нет. Их цена — справочный вариант (раздел
-   0.10): без надбавки точка — <!--=reference_variants[id=no_instrument_cost].point r2-->335,04<!--/--> ₽ (<!--=reference_variants[id=no_instrument_cost].d_point s2-->+5,79<!--/--> ₽ к книге) — прямой эффект при корнях расходов книги; с корнями,
+   0.10): без надбавки точка — <!--=reference_variants[id=no_instrument_cost].point r2-->331,59<!--/--> ₽ (<!--=reference_variants[id=no_instrument_cost].d_point s2-->+5,85<!--/--> ₽ к книге) — прямой эффект при корнях расходов книги; с корнями,
    выведенными заново под ту же цель расходов к доходам, он меньше (A-K8b). Траектория одна для всех клеток и задана в
    рублях: долю якоря в активах под риском она держит только в модальной клетке — в мире N доля к концу сетки выше, в
    мире M ниже, — а стоимость прироста в «прочем» задана в ценах 2026 года и растёт с инфляцией своего мира. Ось пути
    задана в рублях (±37 млрд ₽): это ±0,7 п.п. активов под риском на якоре и заметно меньше к 2030 году; ось «постоянная
    доля на всём пути» сдвигом не выражается. Ось двигает путь инструментов в нормативе, а траектория их стоимости в
    «прочем» остаётся прежней: верхний конец оси получает капитал для роста без платы за него, нижний платит за
-   инструменты, которых нет; точка на её концах — <!--=judgements[id=capital.n20.t2].price_low r0-->326<!--/--> и <!--=judgements[id=capital.n20.t2].price_high r0-->331<!--/--> ₽. Право отзыва займов на 600 и 300 млн долларов (с
+   инструменты, которых нет; точка на её концах — <!--=judgements[id=capital.n20.t2].price_low r0-->323<!--/--> и <!--=judgements[id=capital.n20.t2].price_high r0-->328<!--/--> ₽. Право отзыва займов на 600 и 300 млн долларов (с
    20.12.2026 и с 15.09.2027) — события календаря; валютная переоценка внешних займов — центр ноль.
 7. **Нормативы якоря после перезаякоривания.** Форма 0409805 выходит через 6–10 недель после квартала. До неё нормативы
    нового якоря — оценка: норматив банка плюс разность с нормативом группы на последнюю общую дату (ошибка правила —
@@ -2960,31 +2960,31 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
    хвостов останавливает пол; окно в четыре отчёта его не снимает. Мера «отчёт без новостей» — нейтральное значение, а
    не ожидание (раздел 0.7).
 10. **Стоимость риска: уровень окна и миры.** Уровень окна (5,6 %) стоит в мире M; после фазы роста книга снимает с
-    миров N и H κ × разность реальных ставок — около 0,3 и 0,2 п.п.: слой «Свой макро-взгляд» печатает <!--=levels.rows.analytical.cor p2-->5,46<!--/--> % при <!--=levels.rows.macro_neutral.cor p2-->5,57<!--/--> %
+    миров N и H κ × разность реальных ставок — около 0,3 и 0,2 п.п.: слой «Свой макро-взгляд» печатает <!--=levels.rows.analytical.cor p2-->5,45<!--/--> % при <!--=levels.rows.macro_neutral.cor p2-->5,57<!--/--> %
     в слое «Рыночные ставки как есть» (раздел 0.3). На ближнем пути знак добавки идёт за разностью реальных ставок
     квартала: в 2027–2029 годах и в 2032 году она местами положительна (A-C2b). Реальная ставка самого окна
     (8,6–9,7 п.п.) выше стационарной ставки мира M (6,6 %): по той же κ уровень мира M мог бы быть ниже ещё на
     0,2–0,3 п.п. Оценки сквозь цикл с кризисом глубины 2014–2015 годов, наоборот, выше уровня книги на 0,2–0,4 п.п.
     (A-C0b). Обе поправки лежат внутри оси уровня и в центр не внесены. Цена переноса — справочный вариант «уровень окна
-    во всех мирах» (раздел 0.10): <!--=reference_variants[id=kappa_zero].d_point s2-->−5,02<!--/--> ₽ к точке книги.
+    во всех мирах» (раздел 0.10): <!--=reference_variants[id=kappa_zero].d_point s2-->−5,15<!--/--> ₽ к точке книги.
 11. **Числа, выведенные на ядре, уровни клеток и ближний путь маржи.** Доли сдвига и сжатия на кредитных книгах,
     траектория инструментов капитала и её стоимость, ближний сдвиг маржи, корни расходов и спред услуг выведены один раз
     и заморожены: в «цене правила», в справочных вариантах, в осях, в обратном расчёте и в сравнении версий они не
     пересчитываются. Суждения об уровнях названы для мира M — маржа на составе баланса якоря, расходы на слое «Рыночные
-    ставки как есть», — а клетки печатают свои уровни: модальная клетка — маржу <!--=levels.rows.modal_cell.nim p2-->12,40<!--/--> % и расходы к доходам <!--=levels.rows.modal_cell.cir p1-->45,1<!--/--> %,
-    смесь заголовка — <!--=levels.rows.point.nim p2-->12,05<!--/--> и <!--=levels.rows.point.cir p1-->46,6<!--/--> %, слой «Рыночные ставки как есть» — <!--=levels.rows.macro_neutral.nim p2-->12,05<!--/--> и <!--=levels.rows.macro_neutral.cir p1-->47,0<!--/--> % при окне фактов <!--=levels.window.nim.min p2-->10,02<!--/-->…<!--=levels.window.nim.max p2-->11,59<!--/--> %
+    ставки как есть», — а клетки печатают свои уровни: модальная клетка — маржу <!--=levels.rows.modal_cell.nim p2-->12,42<!--/--> % и расходы к доходам <!--=levels.rows.modal_cell.cir p1-->44,9<!--/--> %,
+    смесь заголовка — <!--=levels.rows.point.nim p2-->12,02<!--/--> и <!--=levels.rows.point.cir p1-->46,6<!--/--> %, слой «Рыночные ставки как есть» — <!--=levels.rows.macro_neutral.nim p2-->12,01<!--/--> и <!--=levels.rows.macro_neutral.cir p1-->47,0<!--/--> % при окне фактов <!--=levels.window.nim.min p2-->10,02<!--/-->…<!--=levels.window.nim.max p2-->11,59<!--/--> %
     и <!--=levels.window.cir.min p2-->46,00<!--/-->…<!--=levels.window.cir.max p2-->48,28<!--/--> % (раздел 0.3). Маржа всех строк выше лучшего квартала окна: доля кредитов в процентных активах
     — <!--=levels.rows.macro_neutral.loans_share p0-->75<!--/-->–<!--=levels.rows.modal_cell.loans_share p0-->78<!--/--> % против <!--=levels.window.loans_share.window p1-->63,6<!--/--> % в среднем за окно, и капитала под требование в клетках больше, чем на якоре. Это результат
     правил книги, а не наблюдение: потолка на эти эффекты нет, и гейтом маржа не сверяется. Цена места уровня —
-    справочный вариант «уровень окна — в модальной клетке мира H»: <!--=reference_variants[id=window_level_in_modal_cell].d_point s2-->−103,50<!--/--> ₽ к точке книги (раздел 0.10). На краях осей
+    справочный вариант «уровень окна — в модальной клетке мира H»: <!--=reference_variants[id=window_level_in_modal_cell].d_point s2-->−102,24<!--/--> ₽ к точке книги (раздел 0.10). На краях осей
     и в справочных вариантах уровни другие — корни не выводятся заново: модальная клетка этого варианта печатает уровни
     рядом с уровнями окна, но не ровно их. Терминал читает последний год сетки, а не среднюю 2030–2036 годов (уровни по
     годам — `results.json → levels`). **Ближний путь маржи — правило точки между двумя краями.** Единственная сверка
     механики книг с фактом — 3-й квартал 2026 года, и читается она с двух оснований: к портфелю оценка маржи квартала —
     11,56 %, к процентным активам — 11,97 % (A-C4b). Механика книг выше обеих оценок; разницу с путём книги, 0,62 п.п.,
     несёт ключ ближнего сдвига, и к 2030 году книга сводит его к нулю. Если сдвига нет вовсе и маржа идёт механикой
-    книг, точка — <!--=reference_variants[id=no_near_shift].point r2-->352,70<!--/--> ₽ (<!--=reference_variants[id=no_near_shift].d_point s2-->+23,45<!--/--> ₽ к книге); если расхождение не временное и остаётся навсегда, уровень после 2030
-    года завышен на те же 0,64 п.п., и точка — <!--=reference_variants[id=near_shift_stays].point r2-->263,36<!--/--> ₽ (<!--=reference_variants[id=near_shift_stays].d_point s2-->−65,89<!--/--> ₽), ниже цены книги (раздел 0.10). Ось «скорость схода»
+    книг, точка — <!--=reference_variants[id=no_near_shift].point r2-->347,72<!--/--> ₽ (<!--=reference_variants[id=no_near_shift].d_point s2-->+21,98<!--/--> ₽ к книге); если расхождение не временное и остаётся навсегда, уровень после 2030
+    года завышен на те же 0,64 п.п., и точка — <!--=reference_variants[id=near_shift_stays].point r2-->260,75<!--/--> ₽ (<!--=reference_variants[id=near_shift_stays].d_point s2-->−64,99<!--/--> ₽), ниже цены книги (раздел 0.10). Ось «скорость схода»
     этих краёв не накрывает. При переносе якоря ключ уровня маржи переписывается на состав баланса нового якоря при тех
     же спредах; пересмотр самого уровня — решение новой версии книги (A-N2).
 12. **Пол спредов и стоимость средств клиентов на краях осей.** Гейт пола спреда проверяет центральную книгу и углы осей
@@ -3038,8 +3038,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 26. **Навёрстывание урезанного роста — ноль, и оси у него нет.** Урезанный капиталом рост в книге 1.0 не возвращается:
     портфель остаётся ниже потенциального пути на достигнутую долю. Это свойство метода, а не оценка поведения: без
     памяти о разрыве перенос якоря «факт равен ожиданию» точен во всех клетках (A-K13). Цена свойства — справочный
-    вариант (раздел 0.10): при навёрстывании четверти разрыва с потенциальным путём в год точка — <!--=reference_variants[id=catch_up_quarter].point r2-->318,55<!--/--> ₽
-    против <!--=headline.point r2-->329,25<!--/--> ₽ книги (<!--=reference_variants[id=catch_up_quarter].d_point s2-->−10,70<!--/--> ₽). Знак цены складывается из миров: где кредит окупает капитал под него,
+    вариант (раздел 0.10): при навёрстывании четверти разрыва с потенциальным путём в год точка — <!--=reference_variants[id=catch_up_quarter].point r2-->314,71<!--/--> ₽
+    против <!--=headline.point r2-->325,74<!--/--> ₽ книги (<!--=reference_variants[id=catch_up_quarter].d_point s2-->−11,03<!--/--> ₽). Знак цены складывается из миров: где кредит окупает капитал под него,
     навёрстывание оценку повышает, где нет — снижает (п. 29). Числа, выведенные на ядре, при этом счёте не
     пересчитываются; медианы у варианта нет — в полосе навёрстывание не разыгрывается.
 27. **Потолок политики и уценка пакета.** Гейт потолка выплат сравнивает базовую выплату года с операционной прибылью
@@ -3055,16 +3055,16 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
     фондируется по цене недостающего фондирования, несёт стоимость риска и свою долю расходов и требует капитала под
     норматив. На числах книги такой кредит, весь оплаченный по цене фондирования, после фазы роста окупает капитал под
     него только в мире N; если считать, как считает свои сегменты эмитент, — в мирах N и H (A-K13). Тест знака
-    даёт <!--=sign_test.d_world.N s2-->+1,50<!--/-->, <!--=sign_test.d_world.H s2-->−2,12<!--/--> и <!--=sign_test.d_world.M s2-->−15,79<!--/--> ₽ на акцию по мирам N, H и M (A-X11). Условия «премия роста действует, пока кредит
+    даёт <!--=sign_test.d_world.N s2-->+1,54<!--/-->, <!--=sign_test.d_world.H s2-->−1,69<!--/--> и <!--=sign_test.d_world.M s2-->−16,96<!--/--> ₽ на акцию по мирам N, H и M (A-X11). Условия «премия роста действует, пока кредит
     окупает капитал» в книге нет: потенциальный рост задан спросом и премией без проверки доходности. Там, где кредит
     капитал не окупает, знаки обратны привычным — то, что урезает рост, оценку повышает, то, что его добавляет, снижает,
-    — и в точке, где мир M весит 0,60, ограничение роста капиталом оценку повышает: без него точка — <!--=rule_price.rows[key=unconstrained].point r0-->301<!--/--> ₽ против <!--=rule_price.rows[key=dividend_first].point r0-->329<!--/--> ₽
+    — и в точке, где мир M весит 0,60, ограничение роста капиталом оценку повышает: без него точка — <!--=rule_price.rows[key=unconstrained].point r0-->295<!--/--> ₽ против <!--=rule_price.rows[key=dividend_first].point r0-->326<!--/--> ₽
     книги (раздел 0.9). Оценка, иначе говоря, стоит и на том, что капитал не даёт расти там, где рост себя не окупает.
     Стартовый уровень доходности кредита отчётностью проверяется: сегмент розничного кредитования зарабатывает на свой
     капитал 34–36 % после налога, и арифметика книги на якоре даёт тот же порядок; её снижение после фазы роста следует
     из суждений о марже, цене недостающего фондирования, стоимости риска и гибкости расходов и из ступеней требования к
     капиталу и отчётностью не проверяется (A-K13). Рубль разового убытка кризиса после налога снижает стоимость клетки
-    не один к одному, а на <!--=stress_sign.loss.transfer_min r2-->0,19<!--/-->–<!--=stress_sign.loss.transfer_max r2-->0,94<!--/--> ₽ (гейт `stress_sign`): передача неполная там, где потерянный капитал урезает рост,
+    не один к одному, а на <!--=stress_sign.loss.transfer_min r2-->0,17<!--/-->–<!--=stress_sign.loss.transfer_max r2-->0,93<!--/--> ₽ (гейт `stress_sign`): передача неполная там, где потерянный капитал урезает рост,
     не окупавший капитал под него, и там, где он уменьшает избыток, который до выплаты зарабатывал меньше стоимости
     капитала. Малая цена осей стресса и капитала в точке поэтому не малый риск: в ней сходятся погашение внутри клетки и
     миры разного знака. Числа гейтов знака считаются на центральной книге; в прогонах полосы они не проверяются.
@@ -3074,32 +3074,32 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
     бизнеса. База связи — кредитный портфель: смесь баз (часть расходов — за кредитом, часть — за клиентской базой или
     средствами клиентов) формой книги 1.0 не выражается, её заменяет слабая связь и ось-связка. На концах оси корни
     расходов и спред услуг выведены заново, поэтому ось меряет гибкость при том же уровне расходов слоя «рыночные ставки
-    как есть»; уровень в отдельных клетках на концах оси другой. Цена — точка на концах оси: <!--=judgements[id=opex.volume_link+].price_low r0-->335<!--/--> и <!--=judgements[id=opex.volume_link+].price_high r0-->324<!--/--> ₽
-    против <!--=headline.point r0-->329<!--/--> ₽ книги.
+    как есть»; уровень в отдельных клетках на концах оси другой. Цена — точка на концах оси: <!--=judgements[id=opex.volume_link+].price_low r0-->330<!--/--> и <!--=judgements[id=opex.volume_link+].price_high r0-->321<!--/--> ₽
+    против <!--=headline.point r0-->326<!--/--> ₽ книги.
 31. **Средства клиентов растут без расходов, а цена недостающего фондирования взята по одному окну.** Расходов на рост
     средств клиентов связь с объёмом не начисляет, активов под риском они почти не требуют, а доля текущих счетов в
     приросте та же, что в остатке: лишний рубль привлечения в модели почти бесплатен. Недостающий рубль стоит ключевую
     ставку минус 0,28 п.п. в любом объёме: это цена срочных вкладов окна относительно ликвидных активов (A-G4). Премии
     за объём и срок у оптового фондирования нет, хотя его доля в модальной клетке растёт с 13,5 % на якоре до 23 %, а по
     сетке доходит до верхней трети коридора гейта (A-G2, A-X9). Если добирать придётся по облигационной ставке, точка
-    — <!--=reference_variants[id=wholesale_bond_rate].point r2-->321,38<!--/--> ₽ (<!--=reference_variants[id=wholesale_bond_rate].d_point s2-->−7,87<!--/--> ₽ к книге). Отсюда и цена премии роста средств клиентов: точка на концах её оси — <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->276<!--/--> и <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->381<!--/--> ₽, при
-    премии на уровне нужды баланса — <!--=reference_variants[id=funds_premium_need].point r0-->391<!--/--> ₽, на уровне фактов последних окон — <!--=reference_variants[id=funds_premium_facts].point r0-->293<!--/--> ₽ (раздел 0.10). Центр с 2027 года —
+    — <!--=reference_variants[id=wholesale_bond_rate].point r2-->317,98<!--/--> ₽ (<!--=reference_variants[id=wholesale_bond_rate].d_point s2-->−7,76<!--/--> ₽ к книге). Отсюда и цена премии роста средств клиентов: точка на концах её оси — <!--=judgements[id=volumes.funds_share_drift.*.*].price_low r0-->271<!--/--> и <!--=judgements[id=volumes.funds_share_drift.*.*].price_high r0-->379<!--/--> ₽, при
+    премии на уровне нужды баланса — <!--=reference_variants[id=funds_premium_need].point r0-->386<!--/--> ₽, на уровне фактов последних окон — <!--=reference_variants[id=funds_premium_facts].point r0-->289<!--/--> ₽ (раздел 0.10). Центр с 2027 года —
     ноль, между фактами и нуждой баланса (A-G2); равенство «кредиты равны средствам клиентов в 2030 году» — проверка, а
     не правило. Ключи 2026 года поставлены по факту августа, отток стоит в 3-м квартале: отчёт за 3-й квартал 2026 года
     покажет уровень средств клиентов, и при перезаякоривании ключи закрытого квартала заменит факт; премию 2027–2031
     годов это не проверит.
 32. **Угасание одностороннее.** Множитель угасания действует только на положительную избыточную доходность терминала:
     клетка, где доходность ниже стоимости капитала, остаётся такой навсегда — суждения о восстановлении доходности в
-    книге нет. На числах книги это мир M: ROE после фазы роста там <!--=layers.macro_neutral.roe_tc p1-->21,1<!--/--> % против стоимости
-    капитала <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, и приведённый остаточный доход терминала слоя «Рыночные ставки как есть» — <!--=layers.macro_neutral.pv_terminal r1-->−47,1<!--/--> млрд ₽
-    при <!--=layers.analytical.pv_terminal r1-->51,7<!--/--> млрд ₽ в слое «Свой макро-взгляд» и <!--=layers.market_implied.pv_terminal r1-->−6,9<!--/--> млрд ₽ в слое «Вменённые рынком». Цена правила — справочный
-    вариант (раздел 0.10): при угасании с обеих сторон точка — <!--=reference_variants[id=fade_symmetric].point r2-->335,07<!--/--> ₽ (<!--=reference_variants[id=fade_symmetric].d_point s2-->+5,82<!--/--> ₽ к книге).
+    книге нет. На числах книги это мир M: ROE после фазы роста там <!--=layers.macro_neutral.roe_tc p1-->21,0<!--/--> % против стоимости
+    капитала <!--=layers.macro_neutral.k_tc p1-->22,5<!--/--> %, и приведённый остаточный доход терминала слоя «Рыночные ставки как есть» — <!--=layers.macro_neutral.pv_terminal r1-->−52,6<!--/--> млрд ₽
+    при <!--=layers.analytical.pv_terminal r1-->48,0<!--/--> млрд ₽ в слое «Свой макро-взгляд» и <!--=layers.market_implied.pv_terminal r1-->−11,3<!--/--> млрд ₽ в слое «Вменённые рынком». Цена правила — справочный
+    вариант (раздел 0.10): при угасании с обеих сторон точка — <!--=reference_variants[id=fade_symmetric].point r2-->332,14<!--/--> ₽ (<!--=reference_variants[id=fade_symmetric].d_point s2-->+6,40<!--/--> ₽ к книге).
 33. **Ошибка медианы от выборки.** Заголовок — медиана <!--=headline.draws r0-->2 000<!--/--> прогонов латинского гиперкуба с одним зерном; зерно —
     дата книги. Ошибка выборки меньше шага печати: повтор полосы на двенадцати соседних зёрнах, сделанный при подготовке
     книги на близкой калибровке, давал стандартное отклонение медианы около 1 ₽ и краёв полосы 80 % около 2 ₽; на числах
     этой версии повтор не делался, и узла таблиц книги у него нет. Но медиана, стоящая у границы округления, со сменой
     зерна — то есть с новой датой книги — может перейти на соседний шаг печати без единой правки суждений: у этой книги
-    медиана <!--=headline.median r2-->313,45<!--/--> ₽ печатается как <!--=headline.printed_median r0-->315<!--/--> ₽ при шаге 5 ₽, и граница округления рядом.
+    медиана <!--=headline.median r2-->309,92<!--/--> ₽ печатается как <!--=headline.printed_median r0-->310<!--/--> ₽ при шаге 5 ₽, и граница округления рядом.
 34. **Отложено в следующие версии:** два контура с живой ценой Яндекса; стоимость риска по шести книгам; ключ доли
     прибыли в периметре банковской группы; ступень активов под риском квартальным ключом и взгляд глиссады на неё; ось
     инструментов капитала в доле активов под риском и вместе с их стоимостью, спред и внешняя доля — ключами книги;
@@ -3125,3 +3125,4 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 | Версия | Записана | Что |
 |---|---|---|
 | 1.0 | 08.10.2026 | первая книга Т-Технологий: якорь — 2-й квартал 2026 года (отчётность МСФО за 6 месяцев 2026 года; нормативы банковской группы по форме 0409805 на 01.07.2026), миры семейства 18.09.2026. Один контур на операционной прибыли; пакет Яндекса — строкой; делитель — размещённые акции; квартальные дивиденды с потолком политики; режимы розничного кредитного цикла на про-форме; уровни после фазы роста — от среднего уровня после Росбанка и стоят в мире окна, «Рыночный как есть»: стационарная маржа на составе баланса якоря 11,1 % (ключ книги — само суждение), стоимость риска 5,61 % с переносом в миры N и H через κ, расходы к доходам 47 % в слое; передача ставки +0,06 — середина свидетельств; ближний путь маржи между двумя названными краями; двенадцать книг ЧПД; за кредитным портфелем идёт около половины расходов (связь 0,5) и 0,6 услуг, ось-связка гибкости; средства клиентов — 2026 год по факту августа (отток — в 3-м квартале), с 2027 года вместе с сектором, ось-связка премии, недостающее фондирование — по цене срочных вкладов окна относительно ликвидных активов; сценарии капитала «по графику», «средняя группа», «жёсткий»; запас менеджмента 1,5 п.п. сверх глиссады; инструменты капитала растут вместе с активами под риском, внешняя доля их прироста стоит спред к оптовому фондированию; рост, ограниченный капиталом, с порядком «дивиденд по политике, рост — остаток», без навёрстывания; угасание избыточной доходности за 15 лет; дисконт за управление 0 по пяти каналам; 43 оси полосы; гейты уровней слоя против окна фактов, стоимости средств клиентов и знака; справочные варианты — цена правил и развилок; числа, выведенные на ядре, заморожены |
+| 1.1 | 29.10.2026 | миры ставок после заседания Банка России 23.10.2026: запись миров семейства 1.7 (прогноз 23.10, итоговые «Основные направления» 28.10 — мир H, окно кривой 23–28.10.2026; уровень кривой в терминале правилом), надстройка банков 1.7; по правилам книги — ключи спредов книг на опоре и пути мира H, фактический ключ оттока средств клиентов 3-го квартала 2026 года, путь пакета Яндекса; числа, выведенные на ядре, — заново; цена и дата книги, суждения и оси — прежние; заголовок медиана 313,45 → 309,93 ₽ (печать 315 → 310), точка 329,25 → 325,74 ₽; журнал — `V1.1-CHANGES.md` |

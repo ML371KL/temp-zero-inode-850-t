@@ -7,6 +7,7 @@ python -B data/assumptions/evidence/path/derive_on_engine.py                  # 
 python -B data/assumptions/evidence/path/derive_on_engine.py --steps bridge,level --no-write   # отдельные шаги
 python -B data/assumptions/evidence/path/marginal_loan.py                     # предельная доходность кредита → out/marginal_loan_out.*
 python -B data/assumptions/evidence/path/near_margin.py                       # два основания маржи квартала после якоря → out/near_margin_out.*
+python -B ops/tools/walk_book.py --start var/book-1.0.yaml --end data/assumptions/assumptions.yaml \n    --steps data/assumptions/evidence/path/inputs/walk_1.0_to_1.1.yaml   # прогулка версий 1.0 → 1.1 → out/walk_1.0_to_1.1.txt
 ```
 
 Часть ключей книги — не суждения, а корни правил: их значение следует из суждения и из решения передачи ставки либо из

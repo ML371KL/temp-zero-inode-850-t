@@ -30,6 +30,10 @@
    "src": "doc/WORLDS-RECIPE.md",
    "sha256": "a60c807c5926dbbe2a048b6e8ab6b10da95fda62393ffa81bdfbcf951a159873"
   },
+  "data/assumptions/evidence/worlds_bank/inputs/bank_overlay_draft.yaml": {
+   "src": "bank/sector_sheet.yaml",
+   "sha256": "914630e39308c87dcea63a4680997d35eb60e9a079008c5a89e17617002bada6"
+  },
   "data/assumptions/worlds_bank.json": {
    "src": "bank/worlds_bank.json",
    "sha256": "8611f015aeb6206f4e0c5a6471e2db310c471d11c29953f388edd9b56d39c54d"

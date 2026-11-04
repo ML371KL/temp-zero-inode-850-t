@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-"""Банковская надстройка миров: лист надстройки этапа 1 → data/assumptions/worlds_bank.json (формат — MODEL прил. B).
+"""Банковская надстройка миров: лист сектора семейства → data/assumptions/worlds_bank.json (формат — MODEL прил. B).
 
-Рост сектора у банков семейства один, поэтому файл обязан совпасть с надстройкой семейства бит в бит (с пересборки
-миров 1.7, 29.10.2026, — sha256 8611f015…; книга 1.0 — 6fb82a41…): лист этапа 1 несёт готовые пути по мирам (блок
-`sector.worlds`), скрипт их не пересчитывает, а проверяет и переписывает в формат ядра:
+Рост сектора у банков семейства один, поэтому файл обязан совпасть с надстройкой семейства своей версии миров бит в
+бит (хэш — `overlay_sha256` состояния `worlds_state.json`, которое пишет команда приёма миров; книга 1.0 — 6fb82a41…):
+лист несёт готовые пути по мирам (блок `sector.worlds`), скрипт их не пересчитывает, а проверяет и переписывает в
+формат ядра:
   * мир N — середины диапазонов базового сценария Банка России (блок `sector.cbr_ondkp_baseline`: организации, ИЖК,
     М2; с 1.7 — среднесрочный прогноз 23.10.2026 = табл. 3.2 итоговой ОНДКП 28.10.2026, до неё — табл. 3.2 проекта
     ОНДКП 30.09.2026), «прочая розница» 2026–2027 — середины прогноза ЦБ по балансам (`sector.cbr_bank_review_forecast`),
@@ -12,12 +13,16 @@
     ИПЦ мира за год по записи миров семейства; год якоря одинаков во всех мирах;
   * funds_growth.retail = funds_growth.corporate = М2 (раздельных рядов средств физлиц и бизнеса у ЦБ нет);
   * годы — от года якоря до последнего года прогноза ОНДКП (2026–2029); дальше ядро сводит рост объёмов к g_T мира
-    к volumes.lt_from (MODEL §4.3).
+    к volumes.lt_from (MODEL §4.3);
+  * дата и текст рецепта надстройки (`source.as_of`, `recipe`) — блок `meta.overlay` листа (лист без блока — 1.4).
 Премии роста Т к сектору в надстройку не входят — они ключи книги (`volumes.loan_share_drift`, `funds_share_drift`);
-их история (блоки `t_premium`, `funds` листа) — справка для текста книги.
+их история (блоки `t_premium`, `funds` листа этапа 1) — справка для текста книги (копии листа этапа 1 у листов
+capital и market).
 
-Вход — копия листа этапа 1 `inputs/bank_overlay_draft.yaml` (имена локальных папок заменены относительными путями,
-остальное — как в листе); первичка — ссылкой и sha256 в самом листе (meta.sources).
+Вход — `inputs/bank_overlay_draft.yaml`: копия листа сектора версии миров из общего источника
+(`versions/<v>/bank/sector_sheet.yaml`), её пишет команда приёма (`ops/tools/adopt_worlds.py`, шаг overlay); первичка —
+ссылкой и sha256 в самом листе (meta.sources). `--sync` — копия листа этапа 1 из папки передачи (только для книги без
+источника миров: команда приёма перепишет её листом семейства).
 Запуск из корня репозитория:
   python data/assumptions/evidence/worlds_bank/build_overlay.py            # пишет worlds_bank.json
   python data/assumptions/evidence/worlds_bank/build_overlay.py --check    # сверка с файлом (выход 1 — расхождение)
@@ -44,23 +49,25 @@ HANDOFF_DRAFT = ("stage1", "worlds", "bank_overlay_draft.yaml")   # относи
 
 WORLDS = ("N", "H", "M")
 GROUPS = (("credit_growth", ("corporate", "mortgage", "retail_other")), ("funds_growth", ("retail", "corporate")))
-AS_OF = "2026-10-23"                             # день заседания Банка России со среднесрочным прогнозом (база мира N)
 MORTGAGE_WEIGHT = 0.5806                         # доля ИЖК в задолженности физлиц на 01.08.2026 (dataservice ЦБ; лист этапа 1)
-FAMILY_SHA256 = "8611f015aeb6206f4e0c5a6471e2db310c471d11c29953f388edd9b56d39c54d"   # надстройка семейства 1.7 (канон миров 1.7)
 TOL = 6e-4                                       # сверка пути мира с пересчётом: округление середин до 0,01 п.п.
-
-RECIPE = (
-    "N — середины диапазонов базового сценария Банка России: среднесрочный прогноз 23.10.2026 (forecast_261023.pdf, "
-    "с. 1, sha256 0e007c6d…; те же числа — табл. 3.2 итоговой ОНДКП 2027–2029 от 28.10.2026, PDF-с. 73), кроме "
-    "«прочей розницы» 2026–2027 — прогноз ЦБ по балансам («Банковский сектор. II кв. 2026», PDF-с. 20 / печ. 19, "
-    "sha256 ed4826f8…) и 2028–2029 — [Р] (население − w·ИЖК)/(1 − w), w = 0,5806 (доля ИЖК в задолженности ФЛ на "
-    "01.08.2026, dataservice ЦБ). H и M — реальный рост базы при инфляции своего мира: g_W = (1 + g_N)·(1 + π_W)/(1 "
-    "+ π_N) − 1, π — средний ИПЦ мира за год по записи миров семейства 1.7 (worlds_source.json, sha256 1e905cb7…); "
-    "2026 — одинаково во всех мирах. credit_growth.corporate — «организации», mortgage — ИЖК, retail_other — «прочая "
-    "розница»; funds_growth.retail = funds_growth.corporate = М2 (раздельных рядов нет); nominal_gdp_growth — "
-    "справочно. Середины диапазонов → доли. Годы 2026–2029; после 2029 ядро сводит рост объёмов к g_T мира к "
-    "volumes.lt_from (MODEL §4.3). Сборщик — data/assumptions/evidence/worlds_bank/build_overlay.py; вход — черновик "
-    "надстройки (evidence/worlds_bank/inputs/bank_overlay_draft.yaml)."
+STATE = BOOK_DIR / "worlds_state.json"           # пишет команда приёма миров (ops/tools/adopt_worlds.py)
+# Дата и текст рецепта надстройки едут с листом сектора семейства (meta.overlay); хэш надстройки семейства — состояние
+# версии миров книги. Лист без блока и книга без состояния — надстройка семейства 1.4 (книга 1.0):
+AS_OF_1_4 = "2026-09-30"                         # титул ОНДКП: «Проект от 30 сентября 2026 года»
+FAMILY_SHA256_1_4 = "6fb82a41c4aa558c1f9a11323c7602ea0feb82e09d7430e85d4ea696ed03037a"
+RECIPE_1_4 = (
+    "N — середины диапазонов базового сценария ОНДКП 2027–2029 (табл. 3.2, PDF-с. 73 / печ. 71), кроме «прочей "
+    "розницы» 2026–2027 — прогноз ЦБ по балансам («Банковский сектор. II кв. 2026», PDF-с. 20 / печ. 19, sha256 "
+    "ed4826f8…) и 2028–2029 — [Р] (население − w·ИЖК)/(1 − w), w = 0,5806 (доля ИЖК в задолженности ФЛ на "
+    "01.08.2026, dataservice ЦБ). H и M — реальный рост базы при инфляции своего мира: g_W = (1 + g_N)·(1 + π_W)/"
+    "(1 + π_N) − 1, π — средний ИПЦ мира за год по записи миров семейства (worlds_source.json, sha256 7296567d…); "
+    "2026 — одинаково во всех мирах. credit_growth.corporate — «организации», mortgage — ИЖК, retail_other — "
+    "«прочая розница»; funds_growth.retail = funds_growth.corporate = М2 (раздельных рядов нет); "
+    "nominal_gdp_growth — справочно. Середины диапазонов → доли. Годы 2026–2029; после 2029 ядро сводит рост "
+    "объёмов к g_T мира к volumes.lt_from (MODEL §4.3). Сборщик — "
+    "data/assumptions/evidence/worlds_bank/build_overlay.py; вход — черновик надстройки этапа 1 "
+    "(evidence/worlds_bank/inputs/bank_overlay_draft.yaml)."
 )
 
 # Имена локальных папок листа этапа 1 → относительные пути (публичный репозиторий). Имён папок здесь нет — только
@@ -73,6 +80,17 @@ _REPLACE = (
     (re.compile(_START + _NAME + "/(data/assumptions/)"), r"\1"),
     (re.compile(_START + "(?:" + _NAME + "/)*" + _NAME + "-handoff/(primary/)"), r"\1"),
 )
+
+
+def family_sha256() -> str:
+    """Хэш надстройки семейства версии миров книги: из состояния, которое пишет команда приёма (индекс источника
+    миров); без состояния — надстройка 1.4."""
+    if STATE.exists():
+        return json.loads(STATE.read_text(encoding="utf-8"))["overlay_sha256"]
+    return FAMILY_SHA256_1_4
+
+
+FAMILY_SHA256 = family_sha256()
 
 
 def sanitize(text: str) -> str:
@@ -144,6 +162,7 @@ def build_overlay(draft: dict, record_bytes: bytes) -> dict:
     if bad:
         raise ValueError("лист надстройки не проходит самопроверку:\n  " + "\n  ".join(bad))
     src = draft["meta"]["sources"]["ondkp"]
+    overlay = draft["meta"].get("overlay") or {}     # дата и текст рецепта надстройки — с листом сектора семейства
     worlds = {}
     for w in WORLDS:
         blk = draft["sector"]["worlds"][w]
@@ -156,8 +175,9 @@ def build_overlay(draft: dict, record_bytes: bytes) -> dict:
         worlds[w] = out
     return {
         "schema": "worlds_bank-v1",
-        "source": {"doc": src["file"], "url": src["url"], "sha256": src["sha256"], "as_of": AS_OF},
-        "recipe": RECIPE,
+        "source": {"doc": src["file"], "url": src["url"], "sha256": src["sha256"],
+                   "as_of": str(overlay.get("as_of", AS_OF_1_4))},
+        "recipe": overlay.get("recipe", RECIPE_1_4),
         "worlds": worlds,
     }
 

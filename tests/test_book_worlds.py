@@ -158,5 +158,9 @@ def test_the_overlay_draft_copy_is_the_stage1_draft():
     if not root:
         pytest.skip("нет BANK_HANDOFF_DIR")
     mod = S.load_module(OVERLAY_SCRIPT, "book_build_overlay_archive")
-    src = Path(root, *mod.HANDOFF_DRAFT).read_text(encoding="utf-8")
-    assert mod.sanitize(src) == (S.EVIDENCE / "worlds_bank" / "inputs" / "bank_overlay_draft.yaml").read_text(encoding="utf-8")
+    src = yaml.safe_load(mod.sanitize(Path(root, *mod.HANDOFF_DRAFT).read_text(encoding="utf-8")))
+    # копия — лист сектора семейства из общего источника миров (её пишет команда приёма); лист этапа 1 Т несёт тот же
+    # сектор и ту же запись миров (прочие блоки листа этапа 1 — справка премий Т, их копии — у листов capital и market)
+    copy = yaml.safe_load((S.EVIDENCE / "worlds_bank" / "inputs" / "bank_overlay_draft.yaml").read_text(encoding="utf-8"))
+    assert src["sector"] == copy["sector"]
+    assert src["meta"]["worlds_record"] == copy["meta"]["worlds_record"] and src["meta"]["sources"] == copy["meta"]["sources"]

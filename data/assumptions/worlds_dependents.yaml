@@ -14,7 +14,7 @@ print_step: 5.0                          # шаг печати медианы н
 stop: {median_print_steps: 2}            # сдвиг медианы больше двух шагов печати — красный флаг
 workers_env: [BANK_WORKERS]
 workers: 2                               # общая машина: тяжёлые прогоны — два процесса
-git_identity: {name: ML371KL, email: "304002195+ML371KL@users.noreply.github.com"}
+# автор коммитов --branch — из git config (почты в каталоге книги нет: tests/test_book_texts.py, гигиена)
 record: data/assumptions/worlds_source.json
 overlay: data/assumptions/worlds_bank.json
 template: data/assumptions/assumptions_template.yaml
@@ -36,8 +36,9 @@ steps:
       - {src: doc/WORLDS-RECIPE.md, dst: data/assumptions/WORLDS-RECIPE.md, verify: result, subst: {"<<book_gen>>": "{book_gen}"}}
   - id: overlay
     kind: install
-    title: "надстройка банков {version}: worlds_bank.json"
+    title: "надстройка банков {version}: лист сектора семейства и worlds_bank.json"
     files:
+      - {src: bank/sector_sheet.yaml, dst: data/assumptions/evidence/worlds_bank/inputs/bank_overlay_draft.yaml, verify: result, keep_head: true}
       - {src: bank/worlds_bank.json, dst: data/assumptions/worlds_bank.json}
   - id: state
     kind: state

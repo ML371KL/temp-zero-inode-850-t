@@ -54,7 +54,7 @@ def test_the_template_names_the_record_of_the_state(manifest):
 
 
 def test_every_reader_of_the_worlds_is_in_the_manifest(manifest):
-    files = subprocess.run(["git", "-C", str(ROOT), "ls-files", "*.py"], capture_output=True, text=True,
+    files = subprocess.run(["git", "ls-files", "*.py"], cwd=ROOT, capture_output=True, text=True,
                            encoding="utf-8").stdout.split()
     readers = [f for f in files if not f.startswith("tests/")
                and READS_WORLDS.search((ROOT / f).read_text(encoding="utf-8", errors="ignore"))]

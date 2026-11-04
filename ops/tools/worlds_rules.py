@@ -20,7 +20,8 @@
   derived        числа, выведенные на ядре (`evidence/path/out/derive_out.json`): ключи, концы осей, коридор доли
                  оптового фондирования, окно фактов, справочные варианты от вывода, числа вывода в комментариях и пометки
                  «ВЫВЕДЕНО НА ЯДРЕ <дата> (книга <версия>)» (дата и версия — `derive_start.json`);
-  gate_masses    ожидаемые массы объяснений сработавших гейтов — массы таблиц книги (`results.json`).
+Массы и числа объяснений гейтов — не правило, а шаблон `gate_explanations.tpl` и выход `ops/tools/gate_numbers.py`
+(шаг `gate-texts` команды).
 """
 from __future__ import annotations
 
@@ -376,15 +377,3 @@ def derived(ctx) -> list[dict]:
     m = one(text, r"\(за полугодие это ([−-]?\d+,\d) и ([−-]?\d+,\d) п\.п\. к сектору")
     replace.append(sub_groups(m, [ru(half["retail"], 1), ru(half["corporate"], 1)]))
     return [{"file": TEMPLATE, "values": values, "replace": replace}]
-
-
-# ----------------------------------------------------------------------------------------------- гейты
-def gate_masses(ctx) -> list[dict]:
-    """Ожидаемая масса объяснения гейта = масса сработавшего гейта в таблицах книги (запись с коридором массы —
-    суждение о дрейфе, её правило не трогает). Тексты объяснений — суждение (числа сетки печатает лист гейтов)."""
-    res = json_file(ctx, RESULTS)
-    fired = {c["name"]: c["mass"] for c in res["checks"] if c.get("fired") and c.get("kind") == "gate"}
-    notes = ctx.yaml(GATES) or {}
-    values = {(name, "expected_mass"): float(fired[name]) for name, e in notes.items()
-              if "expected_mass" in e and name in fired}
-    return [{"file": GATES, "values": values}]

@@ -694,8 +694,8 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
   23.10.2026; прогноз Банка России 23.10.2026, итоговые «Основные направления» 28.10.2026 — мир H, макроопрос
   14.10.2026). Имена миров — подписи книги (`worlds.<W>.name`): N — «Нормализация ставок», H — «Высокие ставки
   надолго», M — «Рыночный как есть»; имя мира N отличается от имени режима «нормализация». Ключевая ставка
-  долгосрочно: N 8,0 %, H 10,5 %, M 17,3 %; инфляция 4,0 / 5,5 / 10,1 %; рост зарплат 6,3 / 7,5 / 11,6 %; ключевая во
-  2-м полугодии 2026 года 14,05 / 14,05 / 14,0 %, в 2027 году 12,9 / 15,0 / 15,7 % (мир H — мир повышения ставки);
+  долгосрочно: N <!--~rec:rows[*world=N]@last.key_avg r1-->8,0<!--~--> %, H <!--~rec:rows[*world=H]@last.key_avg r1-->10,5<!--~--> %, M <!--~rec:rows[*world=M]@last.key_avg r1-->17,3<!--~--> %; инфляция <!--~rec:lt_inflation.N r1-->4,0<!--~--> / <!--~rec:lt_inflation.H r1-->5,5<!--~--> / <!--~rec:lt_inflation.M r1-->10,1<!--~--> %; рост зарплат <!--~rec:rows[*world=N]@last.nominal_wage_yoy r1-->6,3<!--~--> / <!--~rec:rows[*world=H]@last.nominal_wage_yoy r1-->7,5<!--~--> / <!--~rec:rows[*world=M]@last.nominal_wage_yoy r1-->11,6<!--~--> %; ключевая во
+  2-м полугодии 2026 года <!--~rec:rows[world=N&period=2026H2].key_avg r2t-->14,05<!--~--> / <!--~rec:rows[world=H&period=2026H2].key_avg r2t-->14,05<!--~--> / <!--~rec:rows[world=M&period=2026H2].key_avg r2t-->14,0<!--~--> %, в 2027 году <!--~rec:rows[*world=N&period^=2027].key_avg@mean r1-->12,9<!--~--> / <!--~rec:rows[*world=H&period^=2027].key_avg@mean r1-->15,0<!--~--> / <!--~rec:rows[*world=M&period^=2027].key_avg@mean r1-->15,7<!--~--> % (мир H — мир повышения ставки);
   инфляция и зарплаты 2-го полугодия 2026 года — по факту опубликованных месяцев. Книга 1.0 стояла на записи
   book-1.6 (кривая 18.09.2026): долгосрочно M 17,0 %, инфляция M 9,8 %, ключевая 2027 года 12,25 / 14,0 / 15,15 %.
   Квартал читает значение своего полугодия (М§0.4).
@@ -715,28 +715,28 @@ sha256 и новость с датой, `evidence/market/inputs/`); сверка
 
 ### A-M2. Бескупонная кривая мира и долгосрочная инфляция
 - **Ключи:** `worlds.<W>.zero_curve.{1, 3, 5, 10, LT}`, `worlds.<W>.lt_inflation`.
-- **Значение:** узлы 1 / 3 / 5 / 10 лет: N 13,36 / 12,03 / 11,00 / 10,04 %, H 14,40 / 15,02 / 14,53 / 13,68 %,
-  M 14,06 / 15,51 / 16,09 / 16,49 %; долгосрочный узел 8,9 / 12,6 / 16,7 % — с записи 1.7 правилом для всех миров
+- **Значение:** узлы 1 / 3 / 5 / 10 лет: N <!--~rec:fair_zero_curve_today.N.1 r2-->13,36<!--~--> / <!--~rec:fair_zero_curve_today.N.3 r2-->12,03<!--~--> / <!--~rec:fair_zero_curve_today.N.5 r2-->11,00<!--~--> / <!--~rec:fair_zero_curve_today.N.10 r2-->10,04<!--~--> %, H <!--~rec:fair_zero_curve_today.H.1 r2-->14,40<!--~--> / <!--~rec:fair_zero_curve_today.H.3 r2-->15,02<!--~--> / <!--~rec:fair_zero_curve_today.H.5 r2-->14,53<!--~--> / <!--~rec:fair_zero_curve_today.H.10 r2-->13,68<!--~--> %,
+  M <!--~rec:fair_zero_curve_today.M.1 r2-->14,06<!--~--> / <!--~rec:fair_zero_curve_today.M.3 r2-->15,51<!--~--> / <!--~rec:fair_zero_curve_today.M.5 r2-->16,09<!--~--> / <!--~rec:fair_zero_curve_today.M.10 r2-->16,49<!--~--> %; долгосрочный узел <!--~rec:curve_lt.N r1-->8,9<!--~--> / <!--~rec:curve_lt.H r1-->12,6<!--~--> / <!--~rec:curve_lt.M r1-->16,7<!--~--> % — с записи 1.7 правилом для всех миров
   (ОФЗ 10 лет последнего периода мира, 0,1; блок `curve_lt` записи; в книге 1.0 N и H — суждение записи 9,0 / 12,7);
-  долгосрочная инфляция 4,0 / 5,5 / 10,1 %.
+  долгосрочная инфляция <!--~rec:lt_inflation.N r1-->4,0<!--~--> / <!--~rec:lt_inflation.H r1-->5,5<!--~--> / <!--~rec:lt_inflation.M r1-->10,1<!--~--> %.
 - **Ось:** через ось «Инфляция мира M»; кривая — не ось (A-V5).
 - **Класс:** B.
-- **Обоснование:** дисконт мира — вдоль своей кривой плюс β_E × ERP (М§0.5). Долгосрочная стоимость капитала:
-  8,9 + 1,04 × 5,57 = 14,7 % в мире N, 18,4 % в мире H, 22,5 % в мире M. Рост терминала — долгосрочная инфляция мира
-  и реальный рост 1,5 %: 5,6 / 7,1 / 11,8 %.
+- **Обоснование:** дисконт мира — вдоль своей кривой плюс β_E × ERP (М§0.5). Долгосрочная стоимость
+  капитала: <!--~rec:curve_lt.N r1-->8,9<!--~--> + <!--~book:valuation.beta_e r2-->1,04<!--~--> × <!--~book:valuation.erp p2-->5,57<!--~--> = <!--~res:cells[*world=N].k_t@first p1-->14,7<!--~--> % в мире N, <!--~res:cells[*world=H].k_t@first p1-->18,4<!--~--> % в мире H, <!--~res:cells[*world=M].k_t@first p1-->22,5<!--~--> % в мире M. Рост терминала — долгосрочная инфляция мира
+  и реальный рост 1,5 %: <!--~res:cells[*world=N].g_t@first p1-->5,6<!--~--> / <!--~res:cells[*world=H].g_t@first p1-->7,1<!--~--> / <!--~res:cells[*world=M].g_t@first p1-->11,8<!--~--> %.
 - **Чем может ошибаться:** уровни N и H — суждение записи; мир M следует за рыночной инфляцией, и новая кривая меняет
-  его целиком. Разница стоимости капитала миров (7,8 п.п. между N и M) почти целиком становится разницей оценки: при
-  передаче ставки +0,06 (A-N3) маржа возвращает 0,56 п.п. из 9,3 пункта ставки. Это и есть ширина оси ставок (раздел
+  его целиком. Разница стоимости капитала миров (<!--~res:cells[*world=M].k_t@first - res:cells[*world=N].k_t@first p1-->7,8<!--~--> п.п. между N и M) почти целиком становится разницей оценки: при
+  передаче ставки <!--~book:nii.transmission.target s2-->+0,06<!--~--> (A-N3) маржа возвращает <!--~book:nii.transmission.target * ( rec:rows[*world=M]@last.key_avg - rec:rows[*world=N]@last.key_avg ) r2-->0,56<!--~--> п.п. из <!--~rec:rows[*world=M]@last.key_avg - rec:rows[*world=N]@last.key_avg r1-->9,3<!--~--> пункта ставки. Это и есть ширина оси ставок (раздел
   0.1).
 
 ### A-M3. Банковская надстройка миров
 - **Ключи:** `worlds_bank.<W>.credit_growth.{corporate, mortgage, retail_other}`,
   `worlds_bank.<W>.funds_growth.{retail, corporate}`, `worlds_bank.<W>.nominal_gdp_growth`;
   `worlds.overlay.{file, sha256, fields}`.
-- **Значение** (рост сектора, 2026 / 2027 / 2028 / 2029): мир N — кредиты бизнесу 10,5 / 8,5 / 10,5 / 10,5 %, ипотека
-  7,5 / 7,5 / 12,5 / 12,5 %, прочая розница 6,0 / 5,5 / 7,7 / 7,7 %, средства клиентов 11,5 / 7,5 / 9,5 / 9,5 %; мир H —
-  10,5 / 10,2 / 13,4 / 13,2; 7,5 / 9,2 / 15,4 / 15,3; 6,0 / 7,2 / 10,5 / 10,4; 11,5 / 9,2 / 12,3 / 12,2 %; мир M к 2029 году —
-  16,9 / 19,0 / 14,0 / 15,9 %. Книга 1.0 (надстройка 30.09.2026): N 9,0 / 9,5 / 10,5 / 10,5; 8,0 / 9,5 / 12,5 / 12,5;
+- **Значение** (рост сектора, 2026 / 2027 / 2028 / 2029): мир N — кредиты бизнесу <!--~bank:worlds.N.credit_growth.corporate.2026 p1-->10,5<!--~--> / <!--~bank:worlds.N.credit_growth.corporate.2027 p1-->8,5<!--~--> / <!--~bank:worlds.N.credit_growth.corporate.2028 p1-->10,5<!--~--> / <!--~bank:worlds.N.credit_growth.corporate.2029 p1-->10,5<!--~--> %,
+  ипотека <!--~bank:worlds.N.credit_growth.mortgage.2026 p1-->7,5<!--~--> / <!--~bank:worlds.N.credit_growth.mortgage.2027 p1-->7,5<!--~--> / <!--~bank:worlds.N.credit_growth.mortgage.2028 p1-->12,5<!--~--> / <!--~bank:worlds.N.credit_growth.mortgage.2029 p1-->12,5<!--~--> %, прочая розница <!--~bank:worlds.N.credit_growth.retail_other.2026 p1-->6,0<!--~--> / <!--~bank:worlds.N.credit_growth.retail_other.2027 p1-->5,5<!--~--> / <!--~bank:worlds.N.credit_growth.retail_other.2028 p1-->7,7<!--~--> / <!--~bank:worlds.N.credit_growth.retail_other.2029 p1-->7,7<!--~--> %, средства клиентов <!--~bank:worlds.N.funds_growth.retail.2026 p1-->11,5<!--~--> / <!--~bank:worlds.N.funds_growth.retail.2027 p1-->7,5<!--~--> / <!--~bank:worlds.N.funds_growth.retail.2028 p1-->9,5<!--~--> / <!--~bank:worlds.N.funds_growth.retail.2029 p1-->9,5<!--~--> %; мир
+  H — <!--~bank:worlds.H.credit_growth.corporate.2026 p1-->10,5<!--~--> / <!--~bank:worlds.H.credit_growth.corporate.2027 p1-->10,2<!--~--> / <!--~bank:worlds.H.credit_growth.corporate.2028 p1-->13,4<!--~--> / <!--~bank:worlds.H.credit_growth.corporate.2029 p1-->13,2<!--~-->; <!--~bank:worlds.H.credit_growth.mortgage.2026 p1-->7,5<!--~--> / <!--~bank:worlds.H.credit_growth.mortgage.2027 p1-->9,2<!--~--> / <!--~bank:worlds.H.credit_growth.mortgage.2028 p1-->15,4<!--~--> / <!--~bank:worlds.H.credit_growth.mortgage.2029 p1-->15,3<!--~-->; <!--~bank:worlds.H.credit_growth.retail_other.2026 p1-->6,0<!--~--> / <!--~bank:worlds.H.credit_growth.retail_other.2027 p1-->7,2<!--~--> / <!--~bank:worlds.H.credit_growth.retail_other.2028 p1-->10,5<!--~--> / <!--~bank:worlds.H.credit_growth.retail_other.2029 p1-->10,4<!--~-->; <!--~bank:worlds.H.funds_growth.retail.2026 p1-->11,5<!--~--> / <!--~bank:worlds.H.funds_growth.retail.2027 p1-->9,2<!--~--> / <!--~bank:worlds.H.funds_growth.retail.2028 p1-->12,3<!--~--> / <!--~bank:worlds.H.funds_growth.retail.2029 p1-->12,2<!--~--> %; мир M к 2029
+  году — <!--~bank:worlds.M.credit_growth.corporate.2029 p1-->16,9<!--~--> / <!--~bank:worlds.M.credit_growth.mortgage.2029 p1-->19,0<!--~--> / <!--~bank:worlds.M.credit_growth.retail_other.2029 p1-->14,0<!--~--> / <!--~bank:worlds.M.funds_growth.retail.2029 p1-->15,9<!--~--> %. Книга 1.0 (надстройка 30.09.2026): N 9,0 / 9,5 / 10,5 / 10,5; 8,0 / 9,5 / 12,5 / 12,5;
   6,0 / 5,5 / 7,7 / 7,7; 9,5 / 8,5 / 9,5 / 9,5 %. Полная таблица — `evidence/worlds_bank/README.md`.
 - **Ось:** вне полосы; премию Т к сектору несут оси A-G1 и A-G2.
 - **Класс:** A (мир N — таблицы Банка России) / B (миры H и M — пересчёт по инфляции мира; прочая розница 2028–2029

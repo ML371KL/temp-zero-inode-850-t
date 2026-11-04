@@ -1,0 +1,268 @@
+{
+ "book_version": "1.1",
+ "gates": {
+  "nim_path_joint": [
+   "H/soft/mid",
+   "H/soft/strict",
+   "N/soft/mid",
+   "N/soft/strict"
+  ],
+  "guidance_gap": [
+   "H/crisis/mid",
+   "H/crisis/schedule",
+   "H/crisis/strict",
+   "H/downturn/mid",
+   "H/downturn/schedule",
+   "H/downturn/strict",
+   "M/crisis/mid",
+   "M/crisis/schedule",
+   "M/crisis/strict",
+   "M/downturn/mid",
+   "M/downturn/schedule",
+   "M/downturn/strict",
+   "M/norm/mid",
+   "M/norm/schedule",
+   "M/norm/strict",
+   "N/crisis/mid",
+   "N/crisis/schedule",
+   "N/crisis/strict",
+   "N/downturn/mid",
+   "N/downturn/schedule",
+   "N/downturn/strict"
+  ],
+  "step_dividend": [
+   "H/downturn/mid",
+   "H/downturn/schedule",
+   "H/downturn/strict",
+   "M/downturn/mid",
+   "M/downturn/schedule",
+   "M/downturn/strict",
+   "N/downturn/mid",
+   "N/downturn/schedule",
+   "N/downturn/strict"
+  ],
+  "payout_cap": [
+   "H/downturn/mid",
+   "H/downturn/schedule",
+   "H/downturn/strict",
+   "M/downturn/mid",
+   "M/downturn/schedule",
+   "M/downturn/strict",
+   "N/downturn/mid",
+   "N/downturn/schedule",
+   "N/downturn/strict"
+  ],
+  "volume_sign": []
+ },
+ "guidance_gap": {
+  "year": 2026,
+  "band": {
+   "op_np_growth": [
+    0.2,
+    null
+   ],
+   "dps_growth": [
+    0.2,
+    null
+   ]
+  },
+  "base_ni": 174.432987,
+  "threshold": 209.3195844,
+  "profit_fail": [
+   "H/crisis/mid",
+   "H/crisis/schedule",
+   "H/crisis/strict",
+   "H/downturn/mid",
+   "H/downturn/schedule",
+   "H/downturn/strict",
+   "M/crisis/mid",
+   "M/crisis/schedule",
+   "M/crisis/strict",
+   "M/downturn/mid",
+   "M/downturn/schedule",
+   "M/downturn/strict",
+   "M/norm/mid",
+   "M/norm/schedule",
+   "M/norm/strict",
+   "N/crisis/mid",
+   "N/crisis/schedule",
+   "N/crisis/strict",
+   "N/downturn/mid",
+   "N/downturn/schedule",
+   "N/downturn/strict"
+  ],
+  "dps_fail": [
+   "H/crisis/mid",
+   "H/crisis/schedule",
+   "H/crisis/strict",
+   "M/crisis/mid",
+   "M/crisis/schedule",
+   "M/crisis/strict",
+   "N/crisis/mid",
+   "N/crisis/schedule",
+   "N/crisis/strict"
+  ],
+  "pass": [
+   "H/norm/mid",
+   "H/norm/schedule",
+   "H/norm/strict",
+   "H/soft/mid",
+   "H/soft/schedule",
+   "H/soft/strict",
+   "M/soft/mid",
+   "M/soft/schedule",
+   "M/soft/strict",
+   "N/norm/mid",
+   "N/norm/schedule",
+   "N/norm/strict",
+   "N/soft/mid",
+   "N/soft/schedule",
+   "N/soft/strict"
+  ],
+  "profit_fail_mass": 0.53,
+  "dps_fail_mass": 0.15,
+  "pass_mass": 0.47000000000000003,
+  "stress": {
+   "cells": [
+    "H/crisis/mid",
+    "H/crisis/schedule",
+    "H/crisis/strict",
+    "H/downturn/mid",
+    "H/downturn/schedule",
+    "H/downturn/strict",
+    "M/crisis/mid",
+    "M/crisis/schedule",
+    "M/crisis/strict",
+    "M/downturn/mid",
+    "M/downturn/schedule",
+    "M/downturn/strict",
+    "N/crisis/mid",
+    "N/crisis/schedule",
+    "N/crisis/strict",
+    "N/downturn/mid",
+    "N/downturn/schedule",
+    "N/downturn/strict"
+   ],
+   "mass": 0.45,
+   "growth": [
+    0.15570170332550992,
+    0.16319933790469432
+   ],
+   "short": [
+    6.419249412861859,
+    7.727084207943477
+   ]
+  },
+  "m_norm": {
+   "cells": [
+    "M/norm/mid",
+    "M/norm/schedule",
+    "M/norm/strict"
+   ],
+   "mass": 0.08000000000000002,
+   "growth": [
+    0.19886487268275932,
+    0.19886487268275932
+   ],
+   "short": [
+    0.1980036485715857,
+    0.1980036485715857
+   ]
+  },
+  "nh_norm": {
+   "growth": [
+    0.2020258345593906,
+    0.20636562841911354
+   ]
+  },
+  "dps_fail_growth": [
+   -0.03941903273169789,
+   -0.03866340699590087
+  ],
+  "pass_growth": [
+   0.2020258345593906,
+   0.23226540272776508
+  ],
+  "pass_dps": [
+   0.3077438822133294,
+   0.32032018554910024
+  ],
+  "downturn_dps": [
+   0.288390517721302,
+   0.2912728135258469
+  ]
+ },
+ "nim_path_joint": {
+  "cells": [
+   "H/soft/mid",
+   "H/soft/strict",
+   "N/soft/mid",
+   "N/soft/strict"
+  ],
+  "caps": [
+   0.119739
+  ],
+  "tolerance": 0.003,
+  "max": 0.12164823392628792,
+  "max_quarter": "2028Q2",
+  "max_cell": "H/soft/strict",
+  "quarters": [
+   "2027Q3",
+   "2027Q4",
+   "2028Q1",
+   "2028Q2"
+  ],
+  "central": "H/norm/mid",
+  "central_at_max_quarter": 0.11957402151880311
+ },
+ "downturn": {
+  "cells": [
+   "H/downturn/mid",
+   "H/downturn/schedule",
+   "H/downturn/strict",
+   "M/downturn/mid",
+   "M/downturn/schedule",
+   "M/downturn/strict",
+   "N/downturn/mid",
+   "N/downturn/schedule",
+   "N/downturn/strict"
+  ],
+  "mass": 0.3,
+  "under_policy": {
+   "N": [
+    0.0011743534188846105,
+    0.0065271491124695435
+   ],
+   "H": [
+    0.019459999714366627,
+    0.02020162784159485
+   ],
+   "M": [
+    0.0384767083822235,
+    0.04038970314155421
+   ]
+  },
+  "profit_drop": [
+   0.32653549516906477,
+   0.37177502186269595
+  ],
+  "ni": {
+   "2026": [
+    201.59250019205652,
+    202.90033498713814
+   ],
+   "2027": [
+    126.64544402579916,
+    136.64617363214387
+   ]
+  },
+  "payout": [
+   0.3037012232932798,
+   0.3085646462141962
+  ],
+  "over_cap": [
+   0.0037012232932798206,
+   0.008564646214196225
+  ]
+ }
+}

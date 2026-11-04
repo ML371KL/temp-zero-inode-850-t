@@ -31,7 +31,10 @@
             «ИТОГ: …» идут в отчёт шага, «ФЛАГ: …» — в красные флаги;
   quick     команда быстрых чисел → JSON (`out`): точка, медиана, печать, низ, верх, миры — до и после приёма;
   gates     сработавшие гейты из JSON таблиц (`file`, `path`; список строк или записей с полем `flag`) — до и после;
-  journal   записи журналов по шаблону с числами отчёта (`{n.median_after}`, `{book.version}` …).
+  journal   записи журналов по шаблону с числами отчёта (`{n.median_after}`, `{book.version}` …); `after` — строка-якорь
+            (с подстановками), запись встаёт строкой после неё.
+У любого шага `on_change: true` — шаг только при смене версии миров (журналы, документы версии): приём той же версии
+его пропускает.
 Команды модели видят версию в окружении: WORLDS_VERSION, WORLDS_FROM_VERSION (приём той же версии — неподвижная точка).
 
 Режимы:
@@ -512,9 +515,10 @@ class Run:
             block = expand(j["text"], {**self.ctx, **self.summary_ctx()})
             if block.strip() in text:
                 continue
-            anchor = j.get("after")
-            if anchor and anchor in text:
-                i = text.index(anchor) + len(anchor)
+            anchor = expand(j["after"], {**self.ctx, **self.summary_ctx()}) if j.get("after") else None
+            if anchor and anchor in text:              # запись — строкой после строки, где стоит якорь
+                i = text.find("\n", text.index(anchor) + len(anchor))
+                i = len(text) if i < 0 else i
                 text = text[:i] + "\n" + block.rstrip("\n") + text[i:]
             else:
                 text = text.rstrip("\n") + "\n\n" + block.rstrip("\n") + "\n"
@@ -539,7 +543,11 @@ class Run:
             if not started and s["id"] == self.a.from_step:
                 started = True
             if started and s["id"] not in (self.a.skip or []):
-                out.append(s)
+                if s.get("on_change") and self.from_v == self.v:     # шаг только при смене версии: журналы, прогулка
+                    self.report["steps"].append({"id": s["id"], "kind": s["kind"], "status": "skipped",
+                                                 "reason": "та же версия миров (неподвижная точка)", "seconds": 0})
+                else:
+                    out.append(s)
             if self.a.until_step and s["id"] == self.a.until_step:
                 break
         return out
@@ -769,7 +777,7 @@ def check(manifest: dict, source: Source | None, tree: Path = ROOT, say: Callabl
             continue
         tol = float(s.get("tol", 0.0))
         for target in call_rule(tree, s, rc):
-            doc = yaml.safe_load((tree / target["file"]).read_text(encoding="utf-8"))
+            doc = yaml.safe_load((tree / target["file"]).read_text(encoding="utf-8")) if target.get("values") else None
             for k, want in (target.get("values") or {}).items():
                 have = get(doc, _path(k))
                 if not same(have, want, tol):

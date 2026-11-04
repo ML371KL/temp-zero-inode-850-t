@@ -65,15 +65,160 @@ steps:
       worlds.source.sha256: "{record.sha256}"
     replace: {"{from.origin}": "{origin}"}   # подписи источника суждений на витрине: «[Ф: … — magnit-850oa book-1.x]»
 
-  # ---------------------------------------------------------------- сборка
+  - id: version
+    kind: rule
+    title: "номер версии книги: младший разряд + 1 к версии, выпущенной на другой записи миров"
+    module: ops/tools/worlds_rules.py
+    function: book_version
+
+  # ---------------------------------------------------------------- числа по правилам книги (до вывода на ядре)
+  - id: paths
+    kind: run
+    title: "квартальные пути миров {version} → малые входы листов nii, pnl, regimes"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "paths"]
+    check: ["{python}", "-B", "ops/tools/worlds_steps.py", "paths", "--check"]
+  - id: spreads
+    kind: rule
+    title: "ключи спредов книг ЧПД: A-N1n (2026) → правило листа калибровки (2028–LT) → середина 2027 → LT оптового"
+    module: ops/tools/worlds_rules.py
+    function: spreads
+  - id: funds-q3
+    kind: rule
+    title: "фактический ключ премии средств клиентов 1-го прогнозного квартала от роста М2 надстройки (A-G2)"
+    module: ops/tools/worlds_rules.py
+    function: funds_q3
+  - id: capital-sheet
+    kind: run
+    title: "лист capital: калибровка и проба правила роста на секторе надстройки"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/capital/capital_calib.py"]
+  - id: pnl-sheet
+    kind: run
+    title: "лист pnl: шаги 1–5 (путь пакета Яндекса на мире H)"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/pnl/run_all.py"]
+  - id: noncore
+    kind: rule
+    title: "путь пакета Яндекса (A-O2) — траектория листа pnl"
+    module: ops/tools/worlds_rules.py
+    function: noncore
+
+  # ---------------------------------------------------------------- вывод на ядре
   - id: build
     kind: run
     title: "машинная книга из шаблона, записи и надстройки"
     cmd: ["{python}", "-B", "data/assumptions/build_assumptions.py"]
+  - id: derive
+    kind: run
+    title: "вывод на ядре: два запуска (у той же версии миров — повтор с записанного старта)"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "derive"]
+    timeout: 5400
+  - id: derived
+    kind: rule
+    title: "числа, выведенные на ядре: ключи, концы осей, коридор, окно фактов, справочные варианты, пометки"
+    module: ops/tools/worlds_rules.py
+    function: derived
+  - id: build-2
+    kind: run
+    title: "машинная книга на выведенных числах"
+    cmd: ["{python}", "-B", "data/assumptions/build_assumptions.py"]
+
+  # ---------------------------------------------------------------- листы сверки
+  - id: nii-check
+    kind: run
+    title: "лист nii: книги, ключи спредов, цена недостающего фондирования"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/nii/nii_book.py"]
+  - id: pnl-check
+    kind: run
+    title: "лист pnl: сверка с книгой"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/pnl/pnl_book.py"]
+  - id: capital-check
+    kind: run
+    title: "лист capital: сверка с книгой и записью вывода"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/capital/capital_book.py"]
+  - id: regimes-check
+    kind: run
+    title: "лист regimes: пути CoR, κ"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/regimes/regimes_book.py"]
+  - id: market-check
+    kind: run
+    title: "лист market: дивиденды и премии"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/market/dividends_book.py"]
+  - id: marginal
+    kind: run
+    title: "лист path: рубль кредита на капитал по мирам"
+    cmd: ["{python}", "-B", "data/assumptions/evidence/path/marginal_loan.py"]
   - id: refresh-check
     kind: run
     title: "запись, книга и ближние ключи спредов согласованы"
     cmd: ["{python}", "-B", "ops/tools/refresh_worlds.py", "--check"]
+
+  # ---------------------------------------------------------------- таблицы, эталоны, тексты
+  - id: tables
+    kind: run
+    title: "таблицы книги (2 000 прогонов; та же книга — без пересчёта)"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "tables"]
+    timeout: 10800
+  - id: gate-masses
+    kind: rule
+    title: "ожидаемые массы объяснений сработавших гейтов — массы таблиц"
+    module: ops/tools/worlds_rules.py
+    function: gate_masses
+  - id: control
+    kind: run
+    title: "контрольная модель (вне допуска — стоп)"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "control"]
+    timeout: 3600
+  - id: numbers
+    kind: run
+    title: "числа документов (метки render_numbers)"
+    cmd: ["{python}", "-B", "ops/tools/render_numbers.py"]
+    check: ["{python}", "-B", "ops/tools/render_numbers.py", "--check"]
+  - id: walk
+    kind: run
+    title: "прогулка версий от прошлой выпущенной книги (файл шагов — из блока walk манифеста)"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "walk"]
+    timeout: 3600
+  - id: changes
+    kind: run
+    on_change: true
+    title: "журнал версии книги V<версия>-CHANGES.md: ключи «было → стало» и прогулка"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "changes"]
+  - id: journal
+    kind: journal
+    on_change: true
+    title: "строка версий README книги и запись CHANGELOG"
+    entries:
+      - file: data/assumptions/README.md
+        after: "| {book.version_before} | "
+        text: "| {book.version} | {today_ru} | {labels.walk_step}: миры семейства {version} приняты командой `ops/tools/adopt_worlds.py` (запись, надстройка банков, числа по правилам книги и выведенные на ядре — заново); цена и дата книги, суждения и оси — прежние; быстрые числа команды (500 прогонов): медиана {n.median_before} → {n.median_after} ₽ (печать {n.print_before} → {n.print_after}), точка {n.point_before} → {n.point_after} ₽; журнал — `V{book.version}-CHANGES.md` |"
+      - file: docs/CHANGELOG.md
+        after: "в её репозитории (`ML371KL/temp-zero-inode-850-sber`, файл `docs/CHANGELOG.md`)."
+        text: "\n## {today_ru} — книга {book.version}: {labels.walk_step}\n\n- **Книга** `data/assumptions/` — версия {book.version} (журнал `V{book.version}-CHANGES.md`): миры семейства {version} приняты командой `ops/tools/adopt_worlds.py --version {version}` (отчёт `var/adopt/{version}/report.json`); цена и дата книги, суждения и оси — прежние. Быстрые числа команды (500 прогонов): медиана {n.median_before} → {n.median_after} ₽, точка {n.point_before} → {n.point_after} ₽. Код ядра (`model/`) не менялся."
+  - id: quick
+    kind: quick
+    title: "быстрые числа книги (500 прогонов, зерно книги)"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "quick", "--out", "var/adopt/quick.json"]
+    out: var/adopt/quick.json
+    timeout: 1800
+  - id: gates
+    kind: gates
+    title: "сработавшие гейты таблиц книги"
+    file: data/assumptions/results.json
+    path: checks
+
+# Прогулка версий (ops/tools/worlds_steps.py walk): шаги — по одной причине сдвига; подстановки: {label} — подпись шага
+# миров индекса (labels.walk_step), {short} — короткое имя версии миров, {book}/{prev} — книга и прошлая выпущенная
+# книга, {cbr_decision_ru}, {first_quarter_ru}. Новое правило, которое двигает отдельную группу ключей, — новый шаг здесь.
+walk:
+  file: data/assumptions/evidence/path/inputs/walk_{prev}_to_{book}.yaml
+  out: data/assumptions/evidence/path/out/walk_{prev}_to_{book}.txt
+  head: "# Прогулка книги Т {prev} → {book} (миры ставок после заседания Банка России {cbr_decision_ru}): шаги ops/tools/walk_book.py, по одной причине сдвига (V{book}-CHANGES.md)."
+  steps:
+    - {name: "{label}: запись миров {short} — пути N/H/M, кривые, уровень кривой в терминале правилом, дата кривых", from_end: [worlds.N, worlds.H, worlds.M, worlds.source, meta.curve_as_of]}
+    - {name: "{label}: ключи спредов книг на опоре и пути мира H {short} (A-N1n; с 2028 года — правило листа калибровки)", from_end: [nii.books]}
+    - {name: "{label}: банковская надстройка {short} и фактический ключ премии средств {first_quarter_ru}", from_end: [worlds_bank, worlds.overlay, volumes.funds_share_drift]}
+    - {name: "{label}: путь пакета Яндекса на мире H {short} (A-O2)", from_end: [noncore.result_real]}
+    - {name: "{label}: числа, выведенные на ядре, концы осей и справочные варианты", from_end: [nii.phi_split, regimes.near_nim_shift, capital.n20.t2, other.misc_net_real, fees.growth_vs_wages, opex.real_growth, valuation.uncertainty.axes, valuation.reference_variants]}
+    - {name: "Версия книги {book}", from_end: [meta.version]}
 
 # Листы и инструменты, которые читают запись миров, надстройку или их копии (сторож тестов сверяет список с деревом).
 # feeds — ключи шаблона из их выхода; пусто — печать или проверка.
@@ -83,12 +228,13 @@ readers:
   data/assumptions/evidence/worlds_bank/build_overlay.py: {feeds: [worlds_bank.json], step: overlay-check}
   data/assumptions/evidence/evlib.py: {feeds: [], step: ""}                  # чтение записи листами сверки
   data/assumptions/evidence/extract_inputs.py: {feeds: [], step: ""}         # малые входы из папки передачи (архив)
-  data/assumptions/evidence/nii/nii_book.py: {feeds: [], step: ""}           # сверка ключей спредов
-  data/assumptions/evidence/pnl/s1_op_basis.py: {feeds: [noncore.result_real], step: ""}
-  data/assumptions/evidence/pnl/s3_volume_cir.py: {feeds: [], step: ""}
-  data/assumptions/evidence/capital/p5_growth_trial.py: {feeds: [], step: ""}
-  data/assumptions/evidence/market/dividends_book.py: {feeds: [], step: ""}  # только справка премий листа этапа 1
+  data/assumptions/evidence/nii/nii_book.py: {feeds: [], step: nii-check}    # сверка ключей спредов
+  data/assumptions/evidence/pnl/s1_op_basis.py: {feeds: [noncore.result_real], step: pnl-sheet}
+  data/assumptions/evidence/pnl/s3_volume_cir.py: {feeds: [], step: pnl-sheet}   # LT_INFL миров — константа листа этапа 1
+  data/assumptions/evidence/capital/p5_growth_trial.py: {feeds: [], step: capital-sheet}   # сектор — копия листа этапа 1; G_T — константа
+  data/assumptions/evidence/market/dividends_book.py: {feeds: [], step: market-check}  # только справка премий листа этапа 1
   ops/tools/refresh_worlds.py: {feeds: [], step: refresh-check}
   ops/tools/adopt_worlds.py: {feeds: [], step: ""}
-  ops/tools/worlds_rules.py: {feeds: [], step: ""}
+  ops/tools/worlds_rules.py: {feeds: ["nii.books.*.spread", "volumes.funds_share_drift.*.<первый квартал>", "noncore.result_real", "выведенные на ядре"], step: spreads}
+  ops/tools/worlds_steps.py: {feeds: ["evidence/*/inputs/stage1/worlds/world_paths_quarterly.csv"], step: paths}
   model/payload.py: {feeds: [], step: ""}                  # печать происхождения записи на витрине (читает книгу)

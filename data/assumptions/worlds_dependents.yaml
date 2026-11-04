@@ -172,6 +172,10 @@ steps:
     title: "числа документов (метки render_numbers)"
     cmd: ["{python}", "-B", "ops/tools/render_numbers.py"]
     check: ["{python}", "-B", "ops/tools/render_numbers.py", "--check"]
+  - id: calendar
+    kind: run
+    title: "календарь отказов сборки: дата отказа по мирам в MANUAL §10.9 (нет — флаг)"
+    cmd: ["{python}", "-B", "ops/tools/worlds_steps.py", "calendar"]
   - id: walk
     kind: run
     title: "прогулка версий от прошлой выпущенной книги (файл шагов — из блока walk манифеста)"

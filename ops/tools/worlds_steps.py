@@ -23,6 +23,9 @@
   python -B ops/tools/worlds_steps.py changes
       журнал версии книги `data/assumptions/V<версия>-CHANGES.md`: ключи шаблона «было → стало» против прошлой
       выпущенной книги и строки прогулки (проза разделов — человеку);
+  python -B ops/tools/worlds_steps.py calendar
+      дата отказа сборки по мирам (заседание Банка России после даты кривой + срок книги) — есть ли она в календаре
+      MANUAL §10.9 (нет — ФЛАГ: строку правит человек);
   python -B ops/tools/worlds_steps.py quick --out ФАЙЛ [--draws 500]
       быстрые числа книги дерева (формат model-kit: point, median, low, high, print, worlds, runs, seed).
 
@@ -317,6 +320,32 @@ def cmd_changes(a) -> int:
     return 0
 
 
+def cmd_calendar(a) -> int:
+    """Календарь ближайших отказов сборки (MANUAL §10.9): дата отказа по мирам — первое заседание Банка России с
+    прогнозом после даты кривой книги + срок `worlds_after_cbr` + 1 день (как `tests/test_ops_docs.py`). Дата есть в
+    таблице календаря — ИТОГ; нет — ФЛАГ (строку и абзац правит человек: текст строки — проза)."""
+    book = yaml.safe_load((BOOK / "assumptions.yaml").read_text(encoding="utf-8"))
+    days = book["checks"]["manual_overdue_days"]
+    curve = dt.date.fromisoformat(str(book["worlds"]["source"]["curve_date"]))
+    events = json.loads((ROOT / "data" / "facts" / "calendar.json").read_text(encoding="utf-8"))["events"]
+
+    def start(e: dict) -> dt.date:
+        return dt.date.fromisoformat(str(e["latest"] if e.get("estimated") is True else e["date"]))
+    meetings = sorted(start(e) for e in events if e.get("kind") == "cbr_forecast" and start(e) > curve)
+    if not meetings:
+        say("ФЛАГ: в календаре фактов нет заседания Банка России с прогнозом после даты кривой миров")
+        return 0
+    day = (meetings[0] + dt.timedelta(days=int(days["worlds_after_cbr"]) + 1)).strftime("%d.%m.%Y")
+    text = (ROOT / "docs" / "MANUAL.md").read_text(encoding="utf-8")
+    block = text.split("**Календарь ближайших отказов сборки**", 1)[1].split("**Проверка на любую дату**", 1)[0]
+    if f"| {day} | миры" in block:
+        say(f"ИТОГ: календарь отказов сборки: миры — {day} (заседание {meetings[0].strftime('%d.%m.%Y')}), строка на месте")
+    else:
+        say(f"ФЛАГ: календарь отказов сборки MANUAL §10.9 и строка DECISIONS: первый день отказа по мирам — {day} "
+            f"(заседание {meetings[0].strftime('%d.%m.%Y')}, кривая {curve.strftime('%d.%m.%Y')}) — строки нет, поправить")
+    return 0
+
+
 # ----------------------------------------------------------------------------------------------- быстрые числа
 def cmd_quick(a) -> int:
     sys.path.insert(0, str(ROOT))
@@ -352,6 +381,7 @@ def main(argv=None) -> int:
     sub.add_parser("control")
     sub.add_parser("walk")
     sub.add_parser("changes")
+    sub.add_parser("calendar")
     p = sub.add_parser("quick")
     p.add_argument("--out", required=True)
     p.add_argument("--draws", type=int, default=500)

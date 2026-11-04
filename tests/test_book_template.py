@@ -22,7 +22,10 @@ except ImportError:                      # прогон без pytest.ini (pytho
 pytestmark = pytest.mark.tact
 
 MARKS = ("  #{{WORLDS}}", "#{{WORLDS_BANK}}", "#{{OVERLAY_SHA256}}")
-VERSION = "1.1"                                     # книга 1.1 (29.10.2026): миры ставок 1.7
+# номер версии ставит команда приёма миров (младший разряд + 1, ops/tools/worlds_rules.py:book_version): тест сверяет его
+# вид и согласие машинной книги с шаблоном, а не литерал версии
+VERSION = str(S.template()["meta"]["version"])
+assert re.fullmatch(r"\d+\.\d+", VERSION), VERSION
 RESULTS = S.BOOK_DIR / "results.json"
 # Оси, которые из полосы не выводятся никогда (MODEL §10): односторонние рисковые — по путям ключей
 NEVER_OFF_BAND = ("tax.statutory", "tax.one_off.prob", "regimes.crisis.one_off_loss.amount")

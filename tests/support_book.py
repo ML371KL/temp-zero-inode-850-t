@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import importlib.util
+import json
 import os
 import re
 import shutil
@@ -20,20 +21,16 @@ EVIDENCE = BOOK_DIR / "evidence"
 FACTS_DIR = ROOT / "data" / "facts"
 MODEL_MD = ROOT / "docs" / "MODEL.md"
 
-# Запись миров семейства (850oa, книга 1.7; окно кривой 23–28.10.2026, после заседания Банка России 23.10.2026; в книге
-# Т 1.0 — книга 1.6, кривая 18.09.2026, sha256 7296567d…): хранимые байты — побайтово с CRLF
-# (.gitattributes: worlds_source.* -text). Рецепт — обезличенные копии, как у «Ленты» (решение ведущего B4): тексты и код
-# без тикера и адреса выпуска книги-источника и без её сумм; функционально те же (`worlds_recipe.py --check`
-# воспроизводит запись). Хэши рецепта — LF-нормализованных байтов (репозиторий хранит текст в LF).
-RECORD_SHA256 = "1e905cb77c1d3a81cc89d6b80769171a60c0169d103340d3e7314bd8030d6f00"
-RECORD_CSV_SHA256 = "5fc8e86b97b9647e54dc7ef61cd34043aae6a4b8f5b492048abe6dd8957e87b0"
-RECIPE_LF_SHA256 = {                  # 1.7: worlds_recipe.py — байт в байт семейная копия канона (port/, sha256 3b786f7b…);
-                                      # .yaml — она же со своей строкой 1; .md — документ книги-источника 1.7 со своими местами
-                                      # (шапка .md оговаривает: раздел о сборщике описывает сборщик книги-источника)
-    "worlds_inputs.yaml": "1a172c8fb3b62046e82e58646bec65904f565ddb18bfa6f96d0aa1f60aacf530",
-    "worlds_recipe.py": "3b786f7b39356a9592fce4f460e45f4a65ae397b730aa1702af3680cca3b56a4",
-    "WORLDS-RECIPE.md": "a60c807c5926dbbe2a048b6e8ab6b10da95fda62393ffa81bdfbcf951a159873",
-}
+# Запись миров семейства: какую версию несёт книга и хэши её файлов пишет команда приёма миров
+# (ops/tools/adopt_worlds.py) в data/assumptions/worlds_state.json — эталон команды, а не литерал теста: числа и хэши,
+# зависящие от миров, тесты читают оттуда. Запись — побайтово с CRLF (.gitattributes: worlds_source.* -text). Рецепт —
+# обезличенные копии, как у «Ленты» (решение ведущего B4): без тикера и адреса выпуска книги-источника и без её сумм;
+# функционально те же (`worlds_recipe.py --check` воспроизводит запись). Хэши рецепта — LF-нормализованных байтов.
+WORLDS_STATE = json.loads((BOOK_DIR / "worlds_state.json").read_text(encoding="utf-8"))
+RECORD_SHA256 = WORLDS_STATE["record_sha256"]
+RECORD_CSV_SHA256 = WORLDS_STATE["record_csv_sha256"]
+RECIPE_LF_SHA256 = {name: WORLDS_STATE["files"][f"data/assumptions/{name}"]["sha256"]
+                    for name in ("worlds_inputs.yaml", "worlds_recipe.py", "WORLDS-RECIPE.md")}
 # Чего в копиях рецепта быть не должно (публичный репозиторий): тикер и адрес выпуска книги-источника, её суммы в ₽
 RECIPE_FORBIDDEN = ("MGNT", "Магнит", "pages.dev", "tzi-850oa")
 # Строки входов рецепта, где ₽ — не суммы книги-источника, а первичка семейства: зарплаты Росстата (wage_actual, 1.7)

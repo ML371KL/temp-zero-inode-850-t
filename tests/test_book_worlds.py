@@ -87,9 +87,12 @@ def test_world_blocks_are_the_record_over_100(book, record):
         assert blk["lt_inflation"] == round(record["lt_inflation"][w] / 100, 5)
     recipe = S.load_module(S.BOOK_DIR / "worlds_recipe.py", "book_worlds_recipe")
     assert book["worlds"]["M"]["zero_curve"]["LT"] == round(recipe.curve_lt_rule(record)["M"] / 100, 5)
-    # с записи 1.7 уровень кривой в терминале всех миров — блок curve_lt записи (правило рецепта; входы curve_lt_source: rule)
-    assert {w: book["worlds"][w]["zero_curve"]["LT"] for w in book["worlds"]["ids"]} == \
-        {w: round(record["curve_lt"][w] / 100, 5) for w in book["worlds"]["ids"]} == {"N": 0.089, "H": 0.126, "M": 0.167}
+    lt = {w: book["worlds"][w]["zero_curve"]["LT"] for w in book["worlds"]["ids"]}
+    if "curve_lt" in record:  # с записи 1.7 уровень кривой в терминале всех миров — блок curve_lt записи (правило рецепта)
+        assert lt == {w: round(record["curve_lt"][w] / 100, 5) for w in book["worlds"]["ids"]}
+    else:                     # запись без блока: N и H — таблица сборки семейства, M — правило рецепта (выше)
+        table = S.load_module(S.BOOK_DIR / "build_assumptions.py", "book_worlds_builder").WORLD_TABLE
+        assert (lt["N"], lt["H"]) == (table["N"]["curve_lt"], table["H"]["curve_lt"])
 
 
 def test_world_weights_and_their_axis_stay_inside_the_record_ranges(book, record):

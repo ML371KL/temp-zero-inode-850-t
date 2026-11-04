@@ -40,7 +40,8 @@
    «книга от …»); вместе с ней меняются `meta.valuation_date`, `meta.market_price` и зерно полосы. День записи
    версии — столбец «Записана» журнала ниже. При перезаякоривании — `meta.facts_date`, `anchor_period`,
    `first_period` вместе с фактами `data/facts/`; кризисные ключи сдвигаются с якорем.
-2. **Миры и надстройка.** Миры пересобираются только вместе с книгой-источником семейства: новая запись
+2. **Миры и надстройка** — одной командой `python -B ops/tools/adopt_worlds.py --version <v>` по манифесту
+   `worlds_dependents.yaml` (всё ниже она делает сама; руками — тексты гейтов и проза). Миры пересобираются только вместе с книгой-источником семейства: новая запись
    `worlds_source.json` (+ `.csv`) — побайтово, рецепт `worlds_recipe.py --check` обязан её воспроизводить; в шаблоне —
    `worlds.source.{sha256, record_asof, curve_date}` и `meta.curve_as_of` (= дата снимка записи). Надстройка —
    `python -B data/assumptions/evidence/worlds_bank/build_overlay.py` (после правки листа — `--sync` из

@@ -151,8 +151,8 @@ def cmd_derive(a) -> int:
         for part in dotted.split("."):
             node = node[part]
         before[dotted] = node
-    prev = (start or {}).get("book_version", "?")
     ver, today = str(book["meta"]["version"]), dt.date.today()
+    prev = (start or {}).get("book_version") or (previous_book(ver) if released() else "?")
     new_start = {
         "note": (f"старт повторного вывода книги {ver} (миры {v}, {today.strftime('%d.%m.%Y')}): поле before — числа книги "
                  f"до вывода (выведенные на ядре числа книги {prev}); поле keys — записанные числа первого запуска (печать — "

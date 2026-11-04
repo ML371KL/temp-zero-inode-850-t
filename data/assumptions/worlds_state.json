@@ -8,7 +8,7 @@
  "record_asof": "2026-10-28",
  "curve_date": "2026-10-28",
  "overlay_sha256": "8611f015aeb6206f4e0c5a6471e2db310c471d11c29953f388edd9b56d39c54d",
- "source_commit": "7e36023a41ff",
+ "source_commit": "0b9f86c86ec4",
  "files": {
   "data/assumptions/worlds_source.json": {
    "src": "record/worlds_source.json",
@@ -32,7 +32,7 @@
   },
   "data/assumptions/evidence/worlds_bank/inputs/bank_overlay_draft.yaml": {
    "src": "bank/sector_sheet.yaml",
-   "sha256": "914630e39308c87dcea63a4680997d35eb60e9a079008c5a89e17617002bada6"
+   "sha256": "44bdca3ee7c48d8543cc673fab1aaf2cbdae1bd025c83086609becd974fb5c83"
   },
   "data/assumptions/worlds_bank.json": {
    "src": "bank/worlds_bank.json",
